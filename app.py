@@ -73,18 +73,14 @@ preds = (model or {}).get("predictions", {})
 # Sidebar: Model and Key Selection
 with st.sidebar:
     st.markdown("### ⚙️ Engine Configuration")
-    llm_choice = st.selectbox(
-        "Frontier AI Provider",
-        ["Meta Muse (Active)", "Llama Student (Baseten)"],
-        index=0
-    )
+    st.markdown("**Frontier AI Provider:** Meta Muse (Active)")
 
     user_meta_key = st.text_input(
         "Meta Model API Key",
         value=config.META_API_KEY,
         type="password",
         placeholder="metamodel_...",
-        help="Key from the Meta Model API for live Muse memo synthesis and call parsing"
+        help="Key from the Meta Model API for live concall parsing"
     )
     if user_meta_key:
         os.environ["META_MODEL_API_KEY"] = user_meta_key
@@ -92,7 +88,7 @@ with st.sidebar:
     elif config.META_API_KEY:
         st.success("🟢 Muse Active (.env)")
     else:
-        st.warning("⚠️ Enter Meta Model API Key to enable live concall parsing & memos")
+        st.warning("⚠️ Enter Meta Model API Key to enable live concall parsing")
 
     st.markdown("---")
     st.markdown("**Predictive Architecture:**")
@@ -375,27 +371,6 @@ with tab_co:
             layout(fig, h=190, yaxis_range=[0, 100], showlegend=False)
             st.markdown("**Point-in-Time Score Trajectory** (strictly knowable on call day)")
             st.plotly_chart(fig, width='stretch')
-
-    memo_model = config.FRONTIER_MODEL
-    if st.button(f"🧠 Synthesize Credibility Memo with {memo_model}", key=f"memo_{t}"):
-        from saydo import memo
-        with st.spinner(f"Reading concall ledger with {memo_model}…"):
-            m = memo.credibility_memo(t, resolved, c, model=memo_model)
-        if m:
-            st.markdown(f"### {m.get('headline', '')}\n**Verdict: {m.get('verdict', '')}**")
-            cols = st.columns(3)
-            for col, key, title in zip(cols, ("red_flags", "patterns", "credit_where_due"),
-                                       ("🚩 Red flags", "🔁 Patterns", "✅ Credit where due")):
-                col.markdown(f"**{title}**")
-                for s in m.get(key, []):
-                    col.markdown(f"- {s}")
-            if m.get("watch_next_call"):
-                st.markdown("**👀 Check on the next call**")
-                for s in m["watch_next_call"]:
-                    st.markdown(f"- {s}")
-            st.caption("Every claim cites verified promise IDs; ungrounded statements are automatically pruned.")
-        else:
-            st.warning("Memo generation failed or API key missing.")
 
     st.markdown("#### The Ledger: What They Said → What Happened")
     f1, f2 = st.columns([2, 3])
