@@ -1,0 +1,13 @@
+{
+ "labelled": 45,
+ "exact_agreement": 0.956,
+ "kept_vs_not_agreement": 0.978,
+ "per_model_outcome": {
+  "ABANDONED": "5/5",
+  "REVISED_DOWN": "7/8",
+  "GHOSTED": "7/8",
+  "DELIVERED": "8/8",
+  "LATE": "8/8",
+  "MISSED": "8/8"
+ }
+}

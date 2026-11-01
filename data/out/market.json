@@ -1,0 +1,1141 @@
+{
+ "cross_section": {
+  "events": 135,
+  "companies": 32,
+  "hold_days": 90,
+  "mean_ic": 0.003,
+  "ic_by_quarter": [
+   {
+    "bucket": "2025Q4",
+    "n": 16,
+    "ic": -0.106
+   },
+   {
+    "bucket": "2026Q1",
+    "n": 22,
+    "ic": 0.041
+   },
+   {
+    "bucket": "2026Q2",
+    "n": 25,
+    "ic": 0.008
+   },
+   {
+    "bucket": "2026Q3",
+    "n": 26,
+    "ic": -0.186
+   },
+   {
+    "bucket": "2026Q4",
+    "n": 30,
+    "ic": 0.228
+   },
+   {
+    "bucket": "2027Q1",
+    "n": 12,
+    "ic": 0.035
+   }
+  ],
+  "top_tercile_excess": -0.42,
+  "bottom_tercile_excess": -1.45,
+  "spread_pct": 1.03,
+  "spread_ci90_pct": [
+   -6.98,
+   9.48
+  ],
+  "rows": [
+   {
+    "ticker": "ADVAIT",
+    "date": "2026-02-12",
+    "bucket": "2026Q3",
+    "score": 31.1,
+    "n": 7,
+    "excess": 0.08014123558792914
+   },
+   {
+    "ticker": "ADVAIT",
+    "date": "2026-06-01",
+    "bucket": "2026Q4",
+    "score": 33.5,
+    "n": 9,
+    "excess": -0.054453135967996835
+   },
+   {
+    "ticker": "AHLUCONT",
+    "date": "2025-06-02",
+    "bucket": "2025Q4",
+    "score": 65.8,
+    "n": 9,
+    "excess": -0.11455442125634235
+   },
+   {
+    "ticker": "AHLUCONT",
+    "date": "2025-08-18",
+    "bucket": "2026Q1",
+    "score": 58.9,
+    "n": 13,
+    "excess": -0.12382462593016573
+   },
+   {
+    "ticker": "AHLUCONT",
+    "date": "2025-11-17",
+    "bucket": "2026Q2",
+    "score": 45.7,
+    "n": 25,
+    "excess": 0.1507524575600735
+   },
+   {
+    "ticker": "AHLUCONT",
+    "date": "2026-02-16",
+    "bucket": "2026Q3",
+    "score": 45.6,
+    "n": 40,
+    "excess": -0.13372111442122442
+   },
+   {
+    "ticker": "AMARAJABAT",
+    "date": "2025-05-26",
+    "bucket": "2025Q4",
+    "score": 71.3,
+    "n": 4,
+    "excess": -0.1352093092440908
+   },
+   {
+    "ticker": "AMARAJABAT",
+    "date": "2025-08-12",
+    "bucket": "2026Q1",
+    "score": 74.1,
+    "n": 6,
+    "excess": -0.028863221936907935
+   },
+   {
+    "ticker": "AMARAJABAT",
+    "date": "2025-11-03",
+    "bucket": "2026Q2",
+    "score": 65.7,
+    "n": 15,
+    "excess": 0.0064851759003836384
+   },
+   {
+    "ticker": "AMARAJABAT",
+    "date": "2026-02-06",
+    "bucket": "2026Q3",
+    "score": 59.4,
+    "n": 21,
+    "excess": -0.05392048576167964
+   },
+   {
+    "ticker": "AMARAJABAT",
+    "date": "2026-05-21",
+    "bucket": "2026Q4",
+    "score": 51.7,
+    "n": 27,
+    "excess": -0.02333701566142543
+   },
+   {
+    "ticker": "ASALCBR",
+    "date": "2025-04-28",
+    "bucket": "2025Q4",
+    "score": 78.6,
+    "n": 3,
+    "excess": -0.30735426430279994
+   },
+   {
+    "ticker": "ASALCBR",
+    "date": "2025-08-11",
+    "bucket": "2026Q1",
+    "score": 54.5,
+    "n": 12,
+    "excess": 0.0640428789408628
+   },
+   {
+    "ticker": "ASALCBR",
+    "date": "2025-11-11",
+    "bucket": "2026Q2",
+    "score": 49.2,
+    "n": 29,
+    "excess": -0.13827314742961397
+   },
+   {
+    "ticker": "ASALCBR",
+    "date": "2026-02-05",
+    "bucket": "2026Q3",
+    "score": 45.5,
+    "n": 34,
+    "excess": -0.026165529600366125
+   },
+   {
+    "ticker": "ASALCBR",
+    "date": "2026-05-20",
+    "bucket": "2026Q4",
+    "score": 46.5,
+    "n": 42,
+    "excess": -0.25006271278843506
+   },
+   {
+    "ticker": "ASALCBR",
+    "date": "2026-07-27",
+    "bucket": "2027Q1",
+    "score": 45.8,
+    "n": 56,
+    "excess": -0.24295072001861134
+   },
+   {
+    "ticker": "COFORGE",
+    "date": "2025-10-24",
+    "bucket": "2026Q2",
+    "score": 76.9,
+    "n": 4,
+    "excess": 0.11365729073599054
+   },
+   {
+    "ticker": "COFORGE",
+    "date": "2025-12-26",
+    "bucket": "2026Q2",
+    "score": 74.2,
+    "n": 4,
+    "excess": -0.11997949611015957
+   },
+   {
+    "ticker": "COFORGE",
+    "date": "2026-01-23",
+    "bucket": "2026Q3",
+    "score": 64.6,
+    "n": 6,
+    "excess": -0.3421076293492157
+   },
+   {
+    "ticker": "COFORGE",
+    "date": "2026-05-05",
+    "bucket": "2026Q4",
+    "score": 77.8,
+    "n": 19,
+    "excess": 0.283936076391723
+   },
+   {
+    "ticker": "COFORGE",
+    "date": "2026-07-28",
+    "bucket": "2027Q1",
+    "score": 77.8,
+    "n": 30,
+    "excess": 0.38079636538598766
+   },
+   {
+    "ticker": "CYIENTDLM",
+    "date": "2025-04-22",
+    "bucket": "2025Q4",
+    "score": 65.2,
+    "n": 3,
+    "excess": -0.14786057981519968
+   },
+   {
+    "ticker": "CYIENTDLM",
+    "date": "2025-07-22",
+    "bucket": "2026Q1",
+    "score": 66.9,
+    "n": 3,
+    "excess": -0.17963814677197198
+   },
+   {
+    "ticker": "CYIENTDLM",
+    "date": "2025-10-14",
+    "bucket": "2026Q2",
+    "score": 64.4,
+    "n": 6,
+    "excess": -0.021124071400117586
+   },
+   {
+    "ticker": "CYIENTDLM",
+    "date": "2026-01-20",
+    "bucket": "2026Q3",
+    "score": 74.8,
+    "n": 13,
+    "excess": -0.12860028575873497
+   },
+   {
+    "ticker": "CYIENTDLM",
+    "date": "2026-04-21",
+    "bucket": "2026Q4",
+    "score": 68.9,
+    "n": 28,
+    "excess": 0.5670397577599153
+   },
+   {
+    "ticker": "CYIENTDLM",
+    "date": "2026-07-21",
+    "bucket": "2027Q1",
+    "score": 61.7,
+    "n": 40,
+    "excess": 0.5864904696477172
+   },
+   {
+    "ticker": "DEEPAKNTR",
+    "date": "2025-05-29",
+    "bucket": "2025Q4",
+    "score": 79.0,
+    "n": 3,
+    "excess": -0.17858290927059012
+   },
+   {
+    "ticker": "DEEPAKNTR",
+    "date": "2025-08-14",
+    "bucket": "2026Q1",
+    "score": 72.3,
+    "n": 4,
+    "excess": -0.11555523973228198
+   },
+   {
+    "ticker": "DEEPAKNTR",
+    "date": "2025-11-14",
+    "bucket": "2026Q2",
+    "score": 56.9,
+    "n": 13,
+    "excess": 0.07597081308472559
+   },
+   {
+    "ticker": "DEEPAKNTR",
+    "date": "2026-02-13",
+    "bucket": "2026Q3",
+    "score": 59.7,
+    "n": 24,
+    "excess": 0.09535418270186442
+   },
+   {
+    "ticker": "DEEPAKNTR",
+    "date": "2026-05-18",
+    "bucket": "2026Q4",
+    "score": 51.3,
+    "n": 36,
+    "excess": -0.21889730657914333
+   },
+   {
+    "ticker": "DIXON",
+    "date": "2025-01-20",
+    "bucket": "2025Q3",
+    "score": 83.7,
+    "n": 8,
+    "excess": -0.0012622380536354005
+   },
+   {
+    "ticker": "DIXON",
+    "date": "2025-05-20",
+    "bucket": "2025Q4",
+    "score": 77.5,
+    "n": 17,
+    "excess": -0.08105788854647827
+   },
+   {
+    "ticker": "DIXON",
+    "date": "2025-07-22",
+    "bucket": "2026Q1",
+    "score": 75.8,
+    "n": 20,
+    "excess": -0.060448075679498156
+   },
+   {
+    "ticker": "DIXON",
+    "date": "2025-10-17",
+    "bucket": "2026Q2",
+    "score": 63.9,
+    "n": 37,
+    "excess": -0.22447373191926379
+   },
+   {
+    "ticker": "DIXON",
+    "date": "2026-01-29",
+    "bucket": "2026Q3",
+    "score": 64.9,
+    "n": 48,
+    "excess": 0.004996297776568959
+   },
+   {
+    "ticker": "DIXON",
+    "date": "2026-05-12",
+    "bucket": "2026Q4",
+    "score": 57.1,
+    "n": 76,
+    "excess": 0.21232178787252626
+   },
+   {
+    "ticker": "ECORECO",
+    "date": "2024-05-15",
+    "bucket": "2024Q4",
+    "score": 70.7,
+    "n": 7,
+    "excess": 0.057128803719996846
+   },
+   {
+    "ticker": "ECORECO",
+    "date": "2024-08-16",
+    "bucket": "2025Q1",
+    "score": 49.1,
+    "n": 13,
+    "excess": -0.064817496672877
+   },
+   {
+    "ticker": "EIEL",
+    "date": "2025-08-12",
+    "bucket": "2026Q1",
+    "score": 81.7,
+    "n": 7,
+    "excess": -0.14596101858130173
+   },
+   {
+    "ticker": "EIEL",
+    "date": "2025-11-05",
+    "bucket": "2026Q2",
+    "score": 68.0,
+    "n": 15,
+    "excess": -0.09133669341208728
+   },
+   {
+    "ticker": "EIEL",
+    "date": "2026-02-10",
+    "bucket": "2026Q3",
+    "score": 64.9,
+    "n": 17,
+    "excess": 0.11947568913832282
+   },
+   {
+    "ticker": "EIEL",
+    "date": "2026-05-29",
+    "bucket": "2026Q4",
+    "score": 54.9,
+    "n": 32,
+    "excess": -0.0896296543886631
+   },
+   {
+    "ticker": "EMMVEE",
+    "date": "2026-04-24",
+    "bucket": "2026Q4",
+    "score": 74.1,
+    "n": 4,
+    "excess": 0.1407211544189983
+   },
+   {
+    "ticker": "EMMVEE",
+    "date": "2026-07-13",
+    "bucket": "2027Q1",
+    "score": 70.0,
+    "n": 6,
+    "excess": -0.08591262138074296
+   },
+   {
+    "ticker": "IONEXCHANG",
+    "date": "2025-05-30",
+    "bucket": "2025Q4",
+    "score": 60.0,
+    "n": 10,
+    "excess": -0.29330731180104935
+   },
+   {
+    "ticker": "IONEXCHANG",
+    "date": "2025-08-01",
+    "bucket": "2026Q1",
+    "score": 60.4,
+    "n": 10,
+    "excess": -0.2204988401177721
+   },
+   {
+    "ticker": "IONEXCHANG",
+    "date": "2025-11-07",
+    "bucket": "2026Q2",
+    "score": 62.6,
+    "n": 18,
+    "excess": 0.12748882415854432
+   },
+   {
+    "ticker": "IONEXCHANG",
+    "date": "2026-02-02",
+    "bucket": "2026Q3",
+    "score": 58.0,
+    "n": 20,
+    "excess": 0.07284872136900274
+   },
+   {
+    "ticker": "IONEXCHANG",
+    "date": "2026-05-29",
+    "bucket": "2026Q4",
+    "score": 54.1,
+    "n": 40,
+    "excess": -0.11128784416112836
+   },
+   {
+    "ticker": "KAYNES",
+    "date": "2025-07-31",
+    "bucket": "2026Q1",
+    "score": 66.5,
+    "n": 5,
+    "excess": -0.04401464847797876
+   },
+   {
+    "ticker": "KAYNES",
+    "date": "2025-11-05",
+    "bucket": "2026Q2",
+    "score": 77.2,
+    "n": 14,
+    "excess": -0.27067816414429524
+   },
+   {
+    "ticker": "KAYNES",
+    "date": "2025-12-08",
+    "bucket": "2026Q2",
+    "score": 76.9,
+    "n": 15,
+    "excess": 0.023006195309177913
+   },
+   {
+    "ticker": "KAYNES",
+    "date": "2026-02-06",
+    "bucket": "2026Q3",
+    "score": 67.9,
+    "n": 19,
+    "excess": 0.13718603187850842
+   },
+   {
+    "ticker": "KAYNES",
+    "date": "2026-05-14",
+    "bucket": "2026Q4",
+    "score": 53.4,
+    "n": 41,
+    "excess": -0.04262506187059076
+   },
+   {
+    "ticker": "KPITTECH",
+    "date": "2025-07-30",
+    "bucket": "2026Q1",
+    "score": 79.1,
+    "n": 8,
+    "excess": -0.12012965079138051
+   },
+   {
+    "ticker": "KPITTECH",
+    "date": "2025-11-10",
+    "bucket": "2026Q2",
+    "score": 76.7,
+    "n": 13,
+    "excess": -0.03563633372976063
+   },
+   {
+    "ticker": "KPITTECH",
+    "date": "2026-01-30",
+    "bucket": "2026Q3",
+    "score": 68.6,
+    "n": 18,
+    "excess": -0.29503570674261553
+   },
+   {
+    "ticker": "KPITTECH",
+    "date": "2026-05-07",
+    "bucket": "2026Q4",
+    "score": 68.2,
+    "n": 25,
+    "excess": -0.2425134383964791
+   },
+   {
+    "ticker": "KPITTECH",
+    "date": "2026-07-29",
+    "bucket": "2027Q1",
+    "score": 58.9,
+    "n": 31,
+    "excess": 0.023840609059282786
+   },
+   {
+    "ticker": "MAPMYINDIA",
+    "date": "2025-05-07",
+    "bucket": "2025Q4",
+    "score": 83.9,
+    "n": 5,
+    "excess": -0.21975711497245923
+   },
+   {
+    "ticker": "MAPMYINDIA",
+    "date": "2025-08-04",
+    "bucket": "2026Q1",
+    "score": 76.4,
+    "n": 8,
+    "excess": -0.06129172108735148
+   },
+   {
+    "ticker": "MAPMYINDIA",
+    "date": "2025-11-04",
+    "bucket": "2026Q2",
+    "score": 68.7,
+    "n": 12,
+    "excess": -0.11518152060403311
+   },
+   {
+    "ticker": "MAPMYINDIA",
+    "date": "2026-02-11",
+    "bucket": "2026Q3",
+    "score": 65.5,
+    "n": 13,
+    "excess": -0.305210454234268
+   },
+   {
+    "ticker": "MAPMYINDIA",
+    "date": "2026-05-14",
+    "bucket": "2026Q4",
+    "score": 63.0,
+    "n": 14,
+    "excess": -0.18536302657347567
+   },
+   {
+    "ticker": "NETWEB",
+    "date": "2025-05-05",
+    "bucket": "2025Q4",
+    "score": 82.8,
+    "n": 5,
+    "excess": 0.3296644277043437
+   },
+   {
+    "ticker": "NETWEB",
+    "date": "2025-08-01",
+    "bucket": "2026Q1",
+    "score": 82.9,
+    "n": 7,
+    "excess": 0.7947854323898166
+   },
+   {
+    "ticker": "NETWEB",
+    "date": "2025-11-03",
+    "bucket": "2026Q2",
+    "score": 75.9,
+    "n": 9,
+    "excess": 0.0020832495953815033
+   },
+   {
+    "ticker": "NETWEB",
+    "date": "2026-01-19",
+    "bucket": "2026Q3",
+    "score": 73.8,
+    "n": 11,
+    "excess": 0.13800428776137177
+   },
+   {
+    "ticker": "NETWEB",
+    "date": "2026-05-04",
+    "bucket": "2026Q4",
+    "score": 64.5,
+    "n": 16,
+    "excess": -0.040933544692826895
+   },
+   {
+    "ticker": "NETWEB",
+    "date": "2026-07-29",
+    "bucket": "2027Q1",
+    "score": 68.5,
+    "n": 21,
+    "excess": 0.09211659228835936
+   },
+   {
+    "ticker": "NYKAA",
+    "date": "2026-05-21",
+    "bucket": "2026Q4",
+    "score": 67.4,
+    "n": 4,
+    "excess": 0.06239738399329409
+   },
+   {
+    "ticker": "PAYTM",
+    "date": "2026-05-07",
+    "bucket": "2026Q4",
+    "score": 56.7,
+    "n": 6,
+    "excess": 0.1079919629530174
+   },
+   {
+    "ticker": "PAYTM",
+    "date": "2026-07-21",
+    "bucket": "2027Q1",
+    "score": 51.7,
+    "n": 9,
+    "excess": 0.2922042127020635
+   },
+   {
+    "ticker": "PERSISTENT",
+    "date": "2025-04-24",
+    "bucket": "2025Q4",
+    "score": 75.3,
+    "n": 3,
+    "excess": -0.1811860761450798
+   },
+   {
+    "ticker": "PERSISTENT",
+    "date": "2025-07-23",
+    "bucket": "2026Q1",
+    "score": 75.9,
+    "n": 3,
+    "excess": 0.01087296384047684
+   },
+   {
+    "ticker": "PERSISTENT",
+    "date": "2026-01-20",
+    "bucket": "2026Q3",
+    "score": 70.9,
+    "n": 3,
+    "excess": -0.14729939812910067
+   },
+   {
+    "ticker": "PERSISTENT",
+    "date": "2026-04-21",
+    "bucket": "2026Q4",
+    "score": 75.5,
+    "n": 6,
+    "excess": -0.17685234756430235
+   },
+   {
+    "ticker": "PERSISTENT",
+    "date": "2026-06-28",
+    "bucket": "2026Q4",
+    "score": 71.0,
+    "n": 7,
+    "excess": 0.059158277325785824
+   },
+   {
+    "ticker": "POLICYBZR",
+    "date": "2025-07-14",
+    "bucket": "2026Q1",
+    "score": 77.0,
+    "n": 3,
+    "excess": -0.15101779035499266
+   },
+   {
+    "ticker": "POLICYBZR",
+    "date": "2025-10-07",
+    "bucket": "2026Q2",
+    "score": 64.0,
+    "n": 5,
+    "excess": 0.10644721282918675
+   },
+   {
+    "ticker": "POLICYBZR",
+    "date": "2026-01-27",
+    "bucket": "2026Q3",
+    "score": 60.2,
+    "n": 7,
+    "excess": -0.0388787375142469
+   },
+   {
+    "ticker": "POLICYBZR",
+    "date": "2026-04-27",
+    "bucket": "2026Q4",
+    "score": 62.6,
+    "n": 8,
+    "excess": -0.23329018050128564
+   },
+   {
+    "ticker": "POLYCAB",
+    "date": "2026-01-16",
+    "bucket": "2026Q3",
+    "score": 73.0,
+    "n": 3,
+    "excess": 0.1521630758108128
+   },
+   {
+    "ticker": "POLYCAB",
+    "date": "2026-05-06",
+    "bucket": "2026Q4",
+    "score": 74.3,
+    "n": 4,
+    "excess": -0.09584062392642578
+   },
+   {
+    "ticker": "POLYCAB",
+    "date": "2026-07-16",
+    "bucket": "2027Q1",
+    "score": 73.5,
+    "n": 4,
+    "excess": -0.04128314530845645
+   },
+   {
+    "ticker": "PRESTIGE",
+    "date": "2025-01-31",
+    "bucket": "2025Q3",
+    "score": 50.6,
+    "n": 7,
+    "excess": 0.03199870286981883
+   },
+   {
+    "ticker": "PRESTIGE",
+    "date": "2025-05-30",
+    "bucket": "2025Q4",
+    "score": 45.6,
+    "n": 12,
+    "excess": 0.00441722965538055
+   },
+   {
+    "ticker": "PRESTIGE",
+    "date": "2025-11-13",
+    "bucket": "2026Q2",
+    "score": 44.3,
+    "n": 17,
+    "excess": 0.0035438643292665106
+   },
+   {
+    "ticker": "PRESTIGE",
+    "date": "2026-01-30",
+    "bucket": "2026Q3",
+    "score": 38.5,
+    "n": 33,
+    "excess": -0.11815713162859301
+   },
+   {
+    "ticker": "PRESTIGE",
+    "date": "2026-05-22",
+    "bucket": "2026Q4",
+    "score": 40.3,
+    "n": 45,
+    "excess": 0.0305539502484371
+   },
+   {
+    "ticker": "PRESTIGE",
+    "date": "2026-07-30",
+    "bucket": "2027Q1",
+    "score": 41.9,
+    "n": 56,
+    "excess": 0.012940945601410195
+   },
+   {
+    "ticker": "RAINBOW",
+    "date": "2025-05-26",
+    "bucket": "2025Q4",
+    "score": 68.8,
+    "n": 4,
+    "excess": 0.06603554487925921
+   },
+   {
+    "ticker": "RAINBOW",
+    "date": "2025-07-28",
+    "bucket": "2026Q1",
+    "score": 64.0,
+    "n": 5,
+    "excess": -0.2151643859174598
+   },
+   {
+    "ticker": "RAINBOW",
+    "date": "2025-11-14",
+    "bucket": "2026Q2",
+    "score": 59.8,
+    "n": 10,
+    "excess": 0.01710908385289317
+   },
+   {
+    "ticker": "RAINBOW",
+    "date": "2026-01-29",
+    "bucket": "2026Q3",
+    "score": 57.5,
+    "n": 16,
+    "excess": -0.016592758023013188
+   },
+   {
+    "ticker": "RAINBOW",
+    "date": "2026-05-25",
+    "bucket": "2026Q4",
+    "score": 65.7,
+    "n": 26,
+    "excess": -0.08171351070697083
+   },
+   {
+    "ticker": "SAMHI",
+    "date": "2025-08-14",
+    "bucket": "2026Q1",
+    "score": 73.9,
+    "n": 3,
+    "excess": -0.16472797907709824
+   },
+   {
+    "ticker": "SAMHI",
+    "date": "2025-10-29",
+    "bucket": "2026Q2",
+    "score": 78.9,
+    "n": 10,
+    "excess": 0.03983769858180239
+   },
+   {
+    "ticker": "SAMHI",
+    "date": "2026-01-29",
+    "bucket": "2026Q3",
+    "score": 79.5,
+    "n": 17,
+    "excess": -0.18404445841098505
+   },
+   {
+    "ticker": "SAMHI",
+    "date": "2026-05-22",
+    "bucket": "2026Q4",
+    "score": 75.1,
+    "n": 32,
+    "excess": -0.08092864014339729
+   },
+   {
+    "ticker": "SJS",
+    "date": "2025-07-30",
+    "bucket": "2026Q1",
+    "score": 70.3,
+    "n": 7,
+    "excess": 0.20704572363255358
+   },
+   {
+    "ticker": "SJS",
+    "date": "2025-11-04",
+    "bucket": "2026Q2",
+    "score": 70.1,
+    "n": 10,
+    "excess": 0.202657784624614
+   },
+   {
+    "ticker": "SJS",
+    "date": "2026-01-29",
+    "bucket": "2026Q3",
+    "score": 67.6,
+    "n": 13,
+    "excess": 0.07822428152860761
+   },
+   {
+    "ticker": "SJS",
+    "date": "2026-05-06",
+    "bucket": "2026Q4",
+    "score": 57.0,
+    "n": 25,
+    "excess": 0.08999448541373112
+   },
+   {
+    "ticker": "SONACOMS",
+    "date": "2025-08-04",
+    "bucket": "2026Q1",
+    "score": 58.4,
+    "n": 5,
+    "excess": -0.015830687744010752
+   },
+   {
+    "ticker": "SONACOMS",
+    "date": "2026-01-23",
+    "bucket": "2026Q3",
+    "score": 54.4,
+    "n": 8,
+    "excess": 0.19301477585778015
+   },
+   {
+    "ticker": "SONACOMS",
+    "date": "2026-04-30",
+    "bucket": "2026Q4",
+    "score": 52.5,
+    "n": 10,
+    "excess": 0.11271721036759888
+   },
+   {
+    "ticker": "SONACOMS",
+    "date": "2026-07-23",
+    "bucket": "2027Q1",
+    "score": 49.0,
+    "n": 11,
+    "excess": 0.15590846536025638
+   },
+   {
+    "ticker": "STALLION",
+    "date": "2026-05-15",
+    "bucket": "2026Q4",
+    "score": 59.8,
+    "n": 10,
+    "excess": 0.46872395621675333
+   },
+   {
+    "ticker": "SYRMA",
+    "date": "2025-05-14",
+    "bucket": "2025Q4",
+    "score": 55.3,
+    "n": 12,
+    "excess": 0.2548437731660686
+   },
+   {
+    "ticker": "SYRMA",
+    "date": "2025-07-24",
+    "bucket": "2026Q1",
+    "score": 48.4,
+    "n": 20,
+    "excess": -0.029426493641690366
+   },
+   {
+    "ticker": "SYRMA",
+    "date": "2025-11-11",
+    "bucket": "2026Q2",
+    "score": 44.4,
+    "n": 28,
+    "excess": 0.2195697876155945
+   },
+   {
+    "ticker": "SYRMA",
+    "date": "2026-01-30",
+    "bucket": "2026Q3",
+    "score": 50.5,
+    "n": 35,
+    "excess": 0.18895145642896657
+   },
+   {
+    "ticker": "SYRMA",
+    "date": "2026-05-12",
+    "bucket": "2026Q4",
+    "score": 62.3,
+    "n": 61,
+    "excess": 0.1928773245315873
+   },
+   {
+    "ticker": "SYRMA",
+    "date": "2026-07-30",
+    "bucket": "2027Q1",
+    "score": 65.5,
+    "n": 80,
+    "excess": 0.30286081675381177
+   },
+   {
+    "ticker": "TATATECH",
+    "date": "2025-10-17",
+    "bucket": "2026Q2",
+    "score": 76.8,
+    "n": 5,
+    "excess": 0.08239533205436511
+   },
+   {
+    "ticker": "TATATECH",
+    "date": "2026-01-16",
+    "bucket": "2026Q3",
+    "score": 76.3,
+    "n": 6,
+    "excess": -0.09104311007015431
+   },
+   {
+    "ticker": "TATATECH",
+    "date": "2026-05-04",
+    "bucket": "2026Q4",
+    "score": 81.0,
+    "n": 10,
+    "excess": 0.13215488003819292
+   },
+   {
+    "ticker": "TATATECH",
+    "date": "2026-07-17",
+    "bucket": "2027Q1",
+    "score": 79.1,
+    "n": 12,
+    "excess": -0.013841917964979245
+   },
+   {
+    "ticker": "UTKARSHBNK",
+    "date": "2025-04-01",
+    "bucket": "2025Q4",
+    "score": 69.6,
+    "n": 10,
+    "excess": -0.05561531902741634
+   },
+   {
+    "ticker": "UTKARSHBNK",
+    "date": "2025-08-04",
+    "bucket": "2026Q1",
+    "score": 54.7,
+    "n": 17,
+    "excess": -0.0011173462272807688
+   },
+   {
+    "ticker": "UTKARSHBNK",
+    "date": "2025-11-14",
+    "bucket": "2026Q2",
+    "score": 47.4,
+    "n": 27,
+    "excess": -0.03576209551092674
+   },
+   {
+    "ticker": "UTKARSHBNK",
+    "date": "2026-02-02",
+    "bucket": "2026Q3",
+    "score": 50.6,
+    "n": 38,
+    "excess": -0.0012046925917000156
+   },
+   {
+    "ticker": "UTKARSHBNK",
+    "date": "2026-05-11",
+    "bucket": "2026Q4",
+    "score": 47.5,
+    "n": 46,
+    "excess": -0.1867390972359926
+   },
+   {
+    "ticker": "VPRPL",
+    "date": "2025-05-30",
+    "bucket": "2025Q4",
+    "score": 50.9,
+    "n": 10,
+    "excess": -0.31169889698644954
+   },
+   {
+    "ticker": "VPRPL",
+    "date": "2025-08-14",
+    "bucket": "2026Q1",
+    "score": 48.5,
+    "n": 12,
+    "excess": -0.4466762041704815
+   },
+   {
+    "ticker": "VPRPL",
+    "date": "2025-11-17",
+    "bucket": "2026Q2",
+    "score": 38.7,
+    "n": 16,
+    "excess": -0.3484446470613023
+   },
+   {
+    "ticker": "YATHARTH",
+    "date": "2025-05-27",
+    "bucket": "2025Q4",
+    "score": 64.5,
+    "n": 4,
+    "excess": 0.2712504912651953
+   },
+   {
+    "ticker": "YATHARTH",
+    "date": "2025-08-06",
+    "bucket": "2026Q1",
+    "score": 63.5,
+    "n": 7,
+    "excess": 0.006056695580647878
+   },
+   {
+    "ticker": "YATHARTH",
+    "date": "2025-11-14",
+    "bucket": "2026Q2",
+    "score": 59.9,
+    "n": 21,
+    "excess": -0.004883856281086063
+   },
+   {
+    "ticker": "YATHARTH",
+    "date": "2026-02-01",
+    "bucket": "2026Q3",
+    "score": 64.5,
+    "n": 29,
+    "excess": 0.2848740212620452
+   },
+   {
+    "ticker": "YATHARTH",
+    "date": "2026-05-26",
+    "bucket": "2026Q4",
+    "score": 63.9,
+    "n": 44,
+    "excess": -0.14613779335340646
+   }
+  ]
+ },
+ "event_study": {
+  "days": 60,
+  "kept_events": 154,
+  "broken_events": 139,
+  "kept_excess_pct": 1.19,
+  "broken_excess_pct": -1.03,
+  "diff_pct": 2.22,
+  "diff_ci90_pct": [
+   -0.89,
+   5.39
+  ]
+ }
+}

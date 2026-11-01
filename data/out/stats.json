@@ -1,0 +1,26 @@
+{
+ "companies": 35,
+ "calls": 249,
+ "promises": 3599,
+ "unverifiable_dropped": 84,
+ "evidence_records": 10263,
+ "evidence_with_status": 6095,
+ "outcomes": {
+  "PENDING": 1499,
+  "UNDATED": 979,
+  "ABANDONED": 5,
+  "REVISED_DOWN": 210,
+  "GHOSTED": 95,
+  "MISSED": 193,
+  "PARTIAL": 14,
+  "DELIVERED": 483,
+  "LATE": 121
+ },
+ "scored": 1121,
+ "built": "2026-11-01 13:28",
+ "today": "2026-11-01",
+ "models": {
+  "extract": "gemini-3.8-flash",
+  "judge": "gemini-3.8-flash"
+ }
+}

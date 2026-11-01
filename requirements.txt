@@ -1,0 +1,10 @@
+openai>=1.40
+requests
+beautifulsoup4
+numpy
+pandas
+streamlit>=1.35
+plotly>=5.20
+# deploy (optional)
+modal
+truss

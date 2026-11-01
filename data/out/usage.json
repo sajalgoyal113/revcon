@@ -1,0 +1,30 @@
+{
+ "extract": {
+  "calls": 776,
+  "cached": 0,
+  "prompt_tokens": 3944903,
+  "completion_tokens": 2458140,
+  "reasoning_tokens": 1815677
+ },
+ "forecast": {
+  "calls": 162,
+  "cached": 0,
+  "prompt_tokens": 343411,
+  "completion_tokens": 320040,
+  "reasoning_tokens": 179174
+ },
+ "judge": {
+  "calls": 802,
+  "cached": 29,
+  "prompt_tokens": 9179010,
+  "completion_tokens": 2577834,
+  "reasoning_tokens": 1650207
+ },
+ "total": {
+  "calls": 1740,
+  "cached": 29,
+  "prompt_tokens": 13467324,
+  "completion_tokens": 5356014,
+  "reasoning_tokens": 3645058
+ }
+}
