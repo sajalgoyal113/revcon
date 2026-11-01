@@ -75,24 +75,24 @@ with st.sidebar:
     st.markdown("### ⚙️ Engine Configuration")
     llm_choice = st.selectbox(
         "Frontier AI Provider",
-        ["Google Gemini 3.8 (Active)", "OpenAI", "Meta Muse (Legacy)"],
+        ["Meta Muse (Active)", "OpenAI", "Llama Student (Baseten)"],
         index=0
     )
-    
-    user_gemini_key = st.text_input(
-        "Google Gemini API Key",
-        value=config.GEMINI_API_KEY,
+
+    user_meta_key = st.text_input(
+        "Meta Model API Key",
+        value=config.META_API_KEY,
         type="password",
-        placeholder="AIzaSy...",
-        help="Key from aistudio.google.com for live Gemini 3.8 memo synthesis and call parsing"
+        placeholder="metamodel_...",
+        help="Key from the Meta Model API for live Muse memo synthesis and call parsing"
     )
-    if user_gemini_key:
-        os.environ["GEMINI_API_KEY"] = user_gemini_key
-        st.success("🟢 Gemini 3.8 Active")
-    elif config.GEMINI_API_KEY:
-        st.success("🟢 Gemini 3.8 Active (.env)")
+    if user_meta_key:
+        os.environ["META_MODEL_API_KEY"] = user_meta_key
+        st.success("🟢 Muse Active")
+    elif config.META_API_KEY:
+        st.success("🟢 Muse Active (.env)")
     else:
-        st.warning("⚠️ Enter Gemini API Key to enable live concall parsing & memos")
+        st.warning("⚠️ Enter Meta Model API Key to enable live concall parsing & memos")
 
     st.markdown("---")
     st.markdown("**Predictive Architecture:**")
@@ -106,7 +106,7 @@ with st.sidebar:
 st.markdown("## 🎯 Concall  ·  *Management Guidance Accuracy & Delivery Predictor*")
 st.caption(f"{stats['companies']} Indian listed companies · {stats['calls']} earnings calls · "
            f"Predictive Model: **Ensemble Stacking (HistGB + Calibrated Logistic)** · "
-           f"Frontier Reasoning: **Google Gemini 3.8 (Flash & Pro)** · as of {stats['today']}")
+           f"Frontier Reasoning: **Meta Muse (Spark & Wonder)** · as of {stats['today']}")
 
 tab_pred, tab_board, tab_co, tab_live, tab_val = st.tabs([
     "🔮 Guidance Predictor", "🏆 Leaderboard", "🔎 Company Ledger", "🎙️ Live Call", "🧪 Model Validation"
@@ -376,7 +376,7 @@ with tab_co:
             st.markdown("**Point-in-Time Score Trajectory** (strictly knowable on call day)")
             st.plotly_chart(fig, width='stretch')
 
-    memo_model = "gemini-3.8-pro" if config.GEMINI_API_KEY else config.FRONTIER_MODEL
+    memo_model = config.FRONTIER_MODEL
     if st.button(f"🧠 Synthesize Credibility Memo with {memo_model}", key=f"memo_{t}"):
         from saydo import memo
         with st.spinner(f"Reading concall ledger with {memo_model}…"):

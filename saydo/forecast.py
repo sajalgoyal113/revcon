@@ -1,4 +1,4 @@
-"""Gemini 3.8 / Frontier LLM as a forecaster: P(this promise will be kept in full and on time),
+"""Meta Muse as a forecaster: P(this promise will be kept in full and on time),
 judged from the promise itself at the moment it was made (language, ambition, conditions, horizon,
 and trailing financial trajectory).
 

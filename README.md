@@ -6,7 +6,7 @@ Every earnings conference call is packed with management guidance: revenue growt
 
 **Concall keeps score and predicts future guidance holding accuracy.**
 
-It tracks every guidance commitment an Indian listed company has made across ~250 earnings calls, follows each commitment forward in time against actual reported quarterly/annual financial results and subsequent calls, and uses **frontier models (Google Gemini 3.8 & Meta Muse)** alongside an **Ensemble Stacking Machine Learning Engine (Bayesian MAP Logistic Regression + Pure-NumPy HistGBDT)** to predict:
+It tracks every guidance commitment an Indian listed company has made across ~250 earnings calls, follows each commitment forward in time against actual reported quarterly/annual financial results and subsequent calls, and uses **Meta's frontier models (Muse Spark & Muse Wonder)** alongside an **Ensemble Stacking Machine Learning Engine (Bayesian MAP Logistic Regression + Pure-NumPy HistGBDT)** to predict:
 1. **$P(\text{Guidance Held})$**: Probability that future management guidance will be delivered in full and on time.
 2. **Credibility-Adjusted Guidance**: The realistic expectation calibrated for management's historical optimism bias or sandbagging ratio (e.g. Guided 30% $\rightarrow$ Credibility-Adjusted 27.4%).
 3. **Guidance Risk Diagnostics**: Ambition gap penalties, ghosting risk, timeline slippage, and category-specific track record scores.
@@ -20,7 +20,7 @@ All headline numbers are in **[RESULTS.md](RESULTS.md)**, generated deterministi
 ```
  Concall Transcripts (~250 calls, 35 companies)        Screener Actuals (Quarterly + Annual P&L, Balance Sheets)
         │                                                              │
-  ① SAY  Frontier Models (Gemini 3.8 Flash / Muse) ──► Verbatim-Quote Verifier (hallucinations dropped)
+  ① SAY  Meta Muse (Spark) ──► Verbatim-Quote Verifier (hallucinations dropped)
         │   {category, value range, period, firmness, speaker, section, conditions, delta/bps basis}
         ▼
   ② DO   Financial Guidance ─────────────► Resolved against reported results (deterministic code, supporting
@@ -42,16 +42,16 @@ All headline numbers are in **[RESULTS.md](RESULTS.md)**, generated deterministi
              Ensemble Stacking Model (Bayesian MAP Logistic Regression + Pure-NumPy HistGBDT)
              evaluated via Leave-One-Company-Out (LOCO) and Walk-Forward temporal splits.
         ▼
-  ⑥ MEMO  Gemini 3.8 Pro / Muse Wonder synthesizes an institutional credibility memo with verified citations.
+  ⑥ MEMO  Muse Wonder synthesizes an institutional credibility memo with verified citations.
 ```
 
 ## Frontier Models Used
 
 | Model | Role | Provider |
 |---|---|---|
-| **`gemini-3.8-flash`** | Guidance extraction (SAY), later-call evidence verification (DO), and audio transcription | Google DeepMind |
-| **`gemini-3.8-pro`** | Forensic credibility memo synthesis & deep contextual guidance reasoning | Google DeepMind |
-| **`muse-spark-1.3` / `muse-wonder-1.0`** | Hackathon baseline & comparative evaluation | Meta Model API |
+| **`muse-spark-1.3`** | Guidance extraction (SAY), later-call evidence verification (DO), and zero-shot forecasting | Meta Model API |
+| **`muse-wonder-1.0`** | Forensic credibility memo synthesis & deep contextual guidance reasoning | Meta Model API |
+| **`muse-voice-transcribe-1.0`** | Earnings-call audio transcription | Meta Model API |
 | **Ensemble Model (Bayesian MAP Logistic + Pure-NumPy HistGBDT)** | Portable, zero-sklearn-dependency probability estimation combining category track records, concall context & ambition gap | Pure NumPy |
 
 ---
@@ -83,7 +83,7 @@ On 1,121 resolved management guidance promises across 35 companies (43.1% base f
 # 1. Enter the Concall directory
 cd concall_algorithm_package
 
-# 2. Add your GEMINI_API_KEY (or META_MODEL_API_KEY) in .env (only needed for live LLM extraction)
+# 2. Add your META_MODEL_API_KEY in .env (only needed for live LLM extraction)
 cp .env.example .env
 
 # 3. Run unit tests & standalone benchmark evaluation (deterministic, zero network overhead)

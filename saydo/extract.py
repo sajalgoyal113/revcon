@@ -1,4 +1,4 @@
-"""SAY: extract every forward-looking management commitment from a call, with Meta Muse / Gemini.
+"""SAY: extract every forward-looking management commitment from a call, with Meta Muse.
 
 Anti-hallucination: every promise must carry a verbatim quote that is verified against the
 transcript text; unverifiable promises are dropped and counted (reported in the README).

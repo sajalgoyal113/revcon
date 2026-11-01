@@ -6,7 +6,16 @@ from datetime import date
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from saydo import financials, history, periods, predict, resolve, score, transcripts  # noqa: E402
+from saydo import config, financials, history, llm, periods, predict, resolve, score, transcripts  # noqa: E402
+
+
+def test_meta_only_provider():
+    assert config.LLM_PROVIDER == "meta"
+    assert not hasattr(config, "GEMINI_API_KEY")
+    assert not hasattr(llm, "is_gemini_model")
+    assert not hasattr(llm, "_call_gemini")
+    assert config.EXTRACT_MODEL == "muse-spark-1.3"
+    assert config.FRONTIER_MODEL == "muse-wonder-1.0"
 
 
 def test_fiscal_calendar():

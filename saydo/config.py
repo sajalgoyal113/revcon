@@ -23,17 +23,10 @@ def _load_dotenv():
 
 _load_dotenv()
 
-# Provider configuration: "gemini", "meta", or "openai"
-LLM_PROVIDER = os.environ.get("CONCALL_LLM_PROVIDER", "gemini").lower()
+# Provider configuration: "meta" (Meta Model API) or "openai"
+LLM_PROVIDER = os.environ.get("CONCALL_LLM_PROVIDER", "meta").lower()
 
-# Google Gemini API (Gemini 3.8 frontier models)
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY", "")
-GEMINI_EXTRACT_MODEL = os.environ.get("GEMINI_EXTRACT_MODEL", "gemini-3.8-flash")
-GEMINI_JUDGE_MODEL = os.environ.get("GEMINI_JUDGE_MODEL", "gemini-3.8-flash")
-GEMINI_FRONTIER_MODEL = os.environ.get("GEMINI_FRONTIER_MODEL", "gemini-3.8-pro")
-GEMINI_TRANSCRIBE_MODEL = os.environ.get("GEMINI_TRANSCRIBE_MODEL", "gemini-3.8-flash")
-
-# Meta Model API (fallback or when explicitly requested)
+# Meta Model API (Muse Spark, Muse Wonder, Muse Voice)
 META_API_KEY = os.environ.get("META_MODEL_API_KEY", "")
 META_BASE_URL = os.environ.get("META_BASE_URL", "https://api.meta.ai/v1")
 
@@ -42,16 +35,10 @@ OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 OPENAI_BASE_URL = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1")
 
 # Active model names depending on provider
-if LLM_PROVIDER == "gemini":
-    EXTRACT_MODEL = GEMINI_EXTRACT_MODEL
-    JUDGE_MODEL = GEMINI_JUDGE_MODEL
-    FRONTIER_MODEL = GEMINI_FRONTIER_MODEL
-    TRANSCRIBE_MODEL = GEMINI_TRANSCRIBE_MODEL
-else:
-    EXTRACT_MODEL = os.environ.get("SAYDO_EXTRACT_MODEL", "muse-spark-1.3")
-    JUDGE_MODEL = os.environ.get("SAYDO_JUDGE_MODEL", "muse-spark-1.3")
-    FRONTIER_MODEL = os.environ.get("SAYDO_FRONTIER_MODEL", "muse-wonder-1.0")
-    TRANSCRIBE_MODEL = os.environ.get("SAYDO_TRANSCRIBE_MODEL", "muse-voice-transcribe-1.0")
+EXTRACT_MODEL = os.environ.get("SAYDO_EXTRACT_MODEL", "muse-spark-1.3")
+JUDGE_MODEL = os.environ.get("SAYDO_JUDGE_MODEL", "muse-spark-1.3")
+FRONTIER_MODEL = os.environ.get("SAYDO_FRONTIER_MODEL", "muse-wonder-1.0")
+TRANSCRIBE_MODEL = os.environ.get("SAYDO_TRANSCRIBE_MODEL", "muse-voice-transcribe-1.0")
 
 # Optional: fine-tuned Llama student served on Baseten
 STUDENT_URL = os.environ.get("SAYDO_STUDENT_URL", "")

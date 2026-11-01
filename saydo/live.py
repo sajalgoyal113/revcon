@@ -1,4 +1,4 @@
-"""Live mode: a NEW call (text, or audio via muse-voice-transcribe / Gemini) -> scored promises.
+"""Live mode: a NEW call (text, or audio via muse-voice-transcribe) -> scored promises.
 
 For each new promise: P(kept) from the predictor, plus a credibility-adjusted number for
 revenue guidance (guided x the company's historical delivery ratio, shrunk to the universe).
