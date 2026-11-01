@@ -15,35 +15,80 @@ import streamlit as st
 
 from saydo import config, history, predict
 
-st.set_page_config(page_title="Concall · Guidance Accuracy Predictor", page_icon="🎯", layout="wide")
+st.set_page_config(page_title="Concall · Guidance Accuracy Predictor", page_icon="🎯", layout="wide",
+                   initial_sidebar_state="expanded")
 
-# ---- design tokens (reference palette, light) ----
-SURF, INK, INK2, MUTED, GRID, AXIS = "#fcfcfb", "#0b0b0b", "#52514e", "#898781", "#e1e0d9", "#c3c2b7"
-BLUE = "#1a73e8"
-TEAL = "#0d9488"
-STATUS = {"DELIVERED": "#0ca30c", "PARTIAL": "#fab219", "LATE": "#fab219", "REVISED_DOWN": "#ec835a",
-          "MISSED": "#d03b3b", "ABANDONED": "#d03b3b", "GHOSTED": "#d03b3b", "PENDING": "#c3c2b7", "UNDATED": "#c3c2b7"}
+# ---- design tokens (dark premium system) ----
+SURF, INK, INK2, MUTED, GRID, AXIS = "#06080d", "#f8fafc", "#cbd5e1", "#94a3b8", "rgba(255,255,255,0.08)", "#334155"
+BLUE = "#818cf8"
+TEAL = "#00d2ff"
+EMERALD = "#00f5a0"
+AMBER = "#ffb703"
+ROSE = "#ff4d6d"
+STATUS = {"DELIVERED": "#10b981", "PARTIAL": "#f59e0b", "LATE": "#f59e0b", "REVISED_DOWN": "#fb923c",
+          "MISSED": "#f43f5e", "ABANDONED": "#f43f5e", "GHOSTED": "#f43f5e", "PENDING": "#475569", "UNDATED": "#475569"}
 ICON = {"DELIVERED": "✅", "PARTIAL": "◐", "LATE": "⏱", "REVISED_DOWN": "↘", "MISSED": "✖",
         "ABANDONED": "✖", "GHOSTED": "👻", "PENDING": "…", "UNDATED": "∅"}
 ORDER = ["DELIVERED", "PARTIAL", "LATE", "REVISED_DOWN", "MISSED", "ABANDONED", "GHOSTED"]
-FONT = dict(family="system-ui, -apple-system, Segoe UI, sans-serif", color=INK2, size=13)
+FONT = dict(family="'Plus Jakarta Sans', system-ui, sans-serif", color=INK2, size=13)
 
-st.markdown("""<style>
+st.markdown("""<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+--bg-main:#06080d;--bg-surface:rgba(14,19,31,.72);--border-subtle:rgba(255,255,255,.08);
+--accent-primary:#6366f1;--accent-cyan:#00d2ff;--accent-emerald:#00f5a0;--accent-amber:#ffb703;--accent-rose:#ff4d6d;
+--text-primary:#f8fafc;--text-secondary:#94a3b8;--text-tertiary:#64748b;
+--font-main:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,sans-serif;--font-mono:'JetBrains Mono',monospace}
+.stApp{background-color:var(--bg-main)!important;
+background-image:radial-gradient(circle at 50% 0%,rgba(99,102,241,.14) 0%,transparent 55%),radial-gradient(circle at 85% 20%,rgba(0,210,255,.07) 0%,transparent 45%),radial-gradient(circle at 15% 40%,rgba(0,245,160,.06) 0%,transparent 45%)!important;
+font-family:var(--font-main)!important;color:var(--text-primary)!important}
+#MainMenu{visibility:hidden}footer{visibility:hidden}header{visibility:hidden}
 .block-container{padding-top:1.4rem;max-width:1320px}
-.kpi{background:#fcfcfb;border:1px solid rgba(11,11,11,.10);border-radius:10px;padding:14px 16px}
-.kpi .v{font-size:26px;font-weight:650;color:#0b0b0b;line-height:1.1}
-.kpi .l{font-size:12px;color:#52514e;margin-top:4px}
-.say{border-left:3px solid #1a73e8;padding:8px 12px;background:#f4f7fc;border-radius:4px;color:#0b0b0b;margin-bottom:6px}
-.do{border-left:3px solid #898781;padding:8px 12px;background:#f7f7f5;border-radius:4px;color:#0b0b0b}
-.tag{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11.5px;font-weight:600;color:#fff}
-.pred-card{background:#ffffff;border:1px solid #d2e3fc;border-radius:10px;padding:18px 20px;margin-bottom:12px}
-.risk-box{background:#fef7f6;border-left:3px solid #d93025;padding:8px 12px;border-radius:4px;margin-top:6px;font-size:13px}
+section[data-testid="stSidebar"]{background:rgba(10,14,24,.9)!important;border-right:1px solid var(--border-subtle)}
+section[data-testid="stSidebar"] *{font-family:var(--font-main)}
+.hero{text-align:center;padding:40px 16px 18px;max-width:860px;margin:0 auto}
+.hero-badge{display:inline-flex;align-items:center;justify-content:center;width:60px;height:60px;border-radius:18px;
+background:linear-gradient(135deg,#6366f1 0%,#00d2ff 100%);box-shadow:0 0 32px rgba(99,102,241,.45);font-size:29px;margin-bottom:16px}
+.hero-title{font-size:3rem;font-weight:800;letter-spacing:-.04em;line-height:1.1;margin:0;
+background:linear-gradient(135deg,#fff 40%,#94a3b8 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero-sub{font-size:1.05rem;color:#94a3b8;font-weight:500;margin-top:10px;line-height:1.5}
+.hero-meta{font-size:.82rem;color:#64748b;margin-top:10px;font-family:var(--font-mono)}
+.kpi{background:rgba(255,255,255,.025);border:1px solid var(--border-subtle);border-radius:14px;padding:16px 18px;transition:all .2s ease}
+.kpi:hover{background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.14);transform:translateY(-2px)}
+.kpi .v{font-family:var(--font-mono);font-size:1.7rem;font-weight:700;letter-spacing:-.03em;color:#fff;margin:0;line-height:1.15}
+.kpi .l{font-size:.76rem;font-weight:600;color:var(--text-tertiary);letter-spacing:.06em;text-transform:uppercase;margin-top:6px}
+.say{border-left:3px solid #6366f1;padding:10px 14px;background:rgba(99,102,241,.09);border-radius:6px;color:#e2e8f0;margin-bottom:6px}
+.do{border-left:3px solid #475569;padding:10px 14px;background:rgba(255,255,255,.03);border-radius:6px;color:#cbd5e1}
+.tag{display:inline-block;padding:2px 8px;border-radius:9999px;font-size:11.5px;font-weight:700;color:#fff}
+.pred-card{background:var(--bg-surface);border:1px solid var(--border-subtle);border-radius:16px;padding:18px 20px;margin-bottom:12px}
+.risk-box{background:rgba(255,77,109,.08);border-left:3px solid #ff4d6d;padding:10px 14px;border-radius:6px;margin-top:6px;font-size:13px;color:#fecdd3}
+.stTextInput>div>div>input,.stNumberInput input,.stTextArea textarea{background:rgba(14,20,32,.8)!important;
+border:1px solid rgba(255,255,255,.12)!important;border-radius:12px!important;color:#fff!important;font-family:var(--font-main)!important}
+.stTextInput>div>div>input:focus,.stNumberInput input:focus,.stTextArea textarea:focus{border-color:var(--accent-primary)!important;
+box-shadow:0 0 0 2px rgba(99,102,241,.25)!important}
+.stButton>button{background:rgba(255,255,255,.04)!important;border:1px solid var(--border-subtle)!important;border-radius:10px!important;
+color:var(--text-primary)!important;font-weight:600!important;transition:all .2s ease!important}
+.stButton>button:hover{background:rgba(99,102,241,.25)!important;border-color:var(--accent-primary)!important;color:#fff!important}
+.stButton>button[kind="primary"]{background:linear-gradient(135deg,#6366f1 0%,#00d2ff 100%)!important;border:none!important;color:#fff!important}
+.stTabs [data-baseweb="tab-list"]{gap:8px;background:rgba(14,20,32,.5);padding:6px;border-radius:14px;border:1px solid var(--border-subtle)}
+.stTabs [data-baseweb="tab"]{border-radius:10px;color:var(--text-secondary);font-weight:600;padding:9px 18px;border:none!important}
+.stTabs [aria-selected="true"]{background:rgba(99,102,241,.22)!important;color:#fff!important;border:1px solid rgba(99,102,241,.4)!important}
+div[data-baseweb="select"]>div{background:rgba(14,20,32,.85)!important;border:1px solid rgba(255,255,255,.12)!important;border-radius:12px!important;color:#fff!important}
+div[data-baseweb="select"] *{color:#fff!important;font-family:var(--font-main)!important}
+div[data-baseweb="popover"] ul{background:#0b0f19!important;border:1px solid rgba(255,255,255,.15)!important;border-radius:12px!important}
+div[data-baseweb="popover"] li{color:#e2e8f0!important}
+div[data-baseweb="popover"] li:hover{background:rgba(99,102,241,.25)!important;color:#fff!important}
+details{border:1px solid var(--border-subtle)!important;border-radius:12px!important;background:rgba(255,255,255,.02)!important}
+code{font-family:var(--font-mono)!important;color:#a5b4fc!important}
+.stAlert{border-radius:12px!important}
 </style>""", unsafe_allow_html=True)
 
 
 def layout(fig, h=420, **kw):
-    fig.update_layout(height=h, plot_bgcolor=SURF, paper_bgcolor=SURF, font=FONT,
-                      margin=dict(l=10, r=20, t=30, b=10), hoverlabel=dict(bgcolor="white", font_color=INK),
+    fig.update_layout(height=h, plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)", font=FONT,
+                      margin=dict(l=10, r=20, t=30, b=10), hoverlabel=dict(bgcolor="#0e1420", font_color="#f8fafc"),
                       **kw)
     fig.update_xaxes(gridcolor=GRID, linecolor=AXIS, zeroline=False, tickfont=dict(color=MUTED))
     fig.update_yaxes(gridcolor=GRID, linecolor=AXIS, zeroline=False, tickfont=dict(color=MUTED))
@@ -99,10 +144,13 @@ with st.sidebar:
 
 
 # Header
-st.markdown("## 🎯 Concall  ·  *Management Guidance Accuracy & Delivery Predictor*")
-st.caption(f"{stats['companies']} Indian listed companies · {stats['calls']} earnings calls · "
-           f"Predictive Model: **Ensemble Stacking (HistGB + Calibrated Logistic)** · "
-           f"Frontier Reasoning: **Meta Muse (Spark & Wonder)** · as of {stats['today']}")
+st.markdown(f"""<div class="hero">
+<div class="hero-badge">🎯</div>
+<div class="hero-title">Concall</div>
+<div class="hero-sub">Management Guidance Accuracy &amp; Delivery Predictor.<br>
+Keeping score on every promise — and predicting which future guidance will hold.</div>
+<div class="hero-meta">{stats['companies']} COMPANIES · {stats['calls']} EARNINGS CALLS · ENSEMBLE HISTGB + LOGISTIC · MUSE SPARK &amp; WONDER · {stats['today']}</div>
+</div>""", unsafe_allow_html=True)
 
 tab_pred, tab_board, tab_co, tab_live, tab_val = st.tabs([
     "🔮 Guidance Predictor", "🏆 Leaderboard", "🔎 Company Ledger", "🎙️ Live Call", "🧪 Model Validation"
@@ -223,16 +271,16 @@ with tab_pred:
             y_vals = [pt["p_kept"] * 100 for pt in sim_data["points"]]
 
             fig_h = go.Figure()
-            fig_h.add_hline(y=50, line=dict(color="#d93025", dash="dot", width=1.5),
-                            annotation_text="50% Hurdle Threshold", annotation_font_color="#d93025")
-            fig_h.add_hline(y=65, line=dict(color="#188038", dash="dot", width=1.5),
-                            annotation_text="65% High Confidence", annotation_font_color="#188038")
+            fig_h.add_hline(y=50, line=dict(color=ROSE, dash="dot", width=1.5),
+                            annotation_text="50% Hurdle Threshold", annotation_font_color=ROSE)
+            fig_h.add_hline(y=65, line=dict(color=EMERALD, dash="dot", width=1.5),
+                            annotation_text="65% High Confidence", annotation_font_color=EMERALD)
 
             fig_h.add_trace(go.Scatter(
                 x=x_vals, y=y_vals, mode="lines+markers",
                 name="P(Delivery)",
-                line=dict(color="#1a73e8", width=3),
-                marker=dict(size=8, color="#1a73e8"),
+                line=dict(color=TEAL, width=3),
+                marker=dict(size=8, color=TEAL),
                 hovertemplate="Guided: %{x:g}" + unit_lbl + "<br>P(Delivery): %{y:.1f}%<extra></extra>"
             ))
 
@@ -382,7 +430,7 @@ with tab_co:
         r = p["resolution"]
         o = r["outcome"]
         pk = preds.get(p["id"])
-        head = (f'<span class="tag" style="background:{STATUS[o]};color:{"#0b0b0b" if o in ("PARTIAL", "LATE", "PENDING", "UNDATED") else "#fff"}">'
+        head = (f'<span class="tag" style="background:{STATUS[o]};color:{"#0b0b0b" if o in ("PARTIAL", "LATE") else "#fff"}">'
                 f'{ICON[o]} {o.replace("_", " ")}</span>  **{p["summary"]}**  ·  '
                 f'{p["category"].replace("_", " ")} · by {p.get("period") or "no date"} · {p.get("strength")}'
                 + (f" · model P(kept) at time: **{pk:.0%}**" if pk is not None else ""))
@@ -468,7 +516,7 @@ with tab_val:
         coefs = model["coefficients"]
         coefs = [kv for kv in coefs if kv[0] != "bias"][:10][::-1]
         fig = go.Figure(go.Bar(x=[v for _, v in coefs], y=[n.replace("_", " ") for n, _ in coefs], orientation="h",
-                               marker=dict(color=[BLUE if v > 0 else "#e34948" for _, v in coefs],
+                               marker=dict(color=[TEAL if v > 0 else ROSE for _, v in coefs],
                                            line=dict(color=SURF, width=2)),
                                hovertemplate="%{y}: %{x:+.2f}<extra></extra>"))
         layout(fig, h=340, xaxis_title="← Lowers P(Kept)   ·   Raises P(Kept) →", showlegend=False)
@@ -482,7 +530,7 @@ with tab_val:
     if cs.get("spread_pct") is not None:
         fig = go.Figure(go.Bar(x=["Bottom Third Credibility", "Top Third Credibility"],
                                y=[cs["bottom_tercile_excess"], cs["top_tercile_excess"]],
-                               marker=dict(color=BLUE, line=dict(color=SURF, width=2)),
+                               marker=dict(color=[MUTED, EMERALD], line=dict(color=SURF, width=2)),
                                text=[f'{cs["bottom_tercile_excess"]:+.1f}%', f'{cs["top_tercile_excess"]:+.1f}%'],
                                textposition="outside", hovertemplate="%{x}: %{y:+.1f}%<extra></extra>"))
         layout(fig, h=300, yaxis_title=f"{cs['hold_days']}-Day Excess Return After Call", showlegend=False)
