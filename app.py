@@ -75,7 +75,7 @@ with st.sidebar:
     st.markdown("### ⚙️ Engine Configuration")
     llm_choice = st.selectbox(
         "Frontier AI Provider",
-        ["Meta Muse (Active)", "OpenAI", "Llama Student (Baseten)"],
+        ["Meta Muse (Active)", "Llama Student (Baseten)"],
         index=0
     )
 

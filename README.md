@@ -13,6 +13,8 @@ It tracks every guidance commitment an Indian listed company has made across ~25
 
 All headline numbers are in **[RESULTS.md](RESULTS.md)**, generated deterministically from pipeline outputs (`python -m saydo.report`).
 
+*Provenance note: the current 3,599-promise corpus was extracted and judged with `gemini-3.8-flash` (recorded in `data/out/stats.json`). The code stack is now Meta-only (`muse-spark-1.3` / `muse-wonder-1.0`); the next full corpus rebuild runs on Muse.*
+
 ---
 
 ## How It Works
