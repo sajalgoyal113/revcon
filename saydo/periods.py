@@ -172,6 +172,16 @@ def infer_period_from_text(text, call_date):
     if not text:
         return None
     t = str(text)
+
+    # Financial year ranges like '25-'26, 2025-26, FY25-26 -> mapped to FY26
+    m_fy_range = re.search(r"\b(?:financial\s+year|fiscal\s+year|fy)?\s*'?(\d{2})[-–/]'?(\d{2})\b", t, re.I)
+    if m_fy_range:
+        y2 = int(m_fy_range.group(2)) + 2000
+        lbl = f"FY{y2 % 100:02d}"
+        per = parse_period(lbl, call_date)
+        if per:
+            return lbl
+
     # Explicit QxFYxx / HxFYxx / FYxx in text
     for pat in (
         r"\b(Q[1-4]\s*(?:FY|CY)?\s*'?\d{2,4})\b",
@@ -183,7 +193,8 @@ def infer_period_from_text(text, call_date):
         if m:
             lbl = re.sub(r"\s+", "", m.group(1))
             per = parse_period(lbl, call_date)
-            if per and per["end"] >= call_date:
+            # Allow period end within 90 days before call date (e.g. Q4 results discussed on May call)
+            if per and per["end"] >= (call_date - timedelta(days=90)):
                 return lbl
 
     # Relative expressions anchored to call_date

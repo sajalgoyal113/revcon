@@ -12,7 +12,7 @@ Every earnings conference call is packed with management guidance: revenue growt
 
 **Concall keeps score and predicts future guidance holding accuracy.**
 
-It tracks every guidance commitment an Indian listed company has made across ~430 earnings calls, follows each commitment forward in time against actual reported quarterly/annual financial results and subsequent calls, and uses **Meta's frontier models (Muse Spark & Muse Wonder)** alongside an **Ensemble Stacking Machine Learning Engine (Bayesian MAP Logistic Regression + Pure-NumPy HistGBDT)** to predict:
+It tracks every guidance commitment an Indian listed company has made across 577 earnings calls, follows each commitment forward in time against actual reported quarterly/annual financial results and subsequent calls, and uses **Meta's frontier models (Muse Spark & Muse Wonder)** alongside an **Ensemble Stacking Machine Learning Engine (Bayesian MAP Logistic Regression + Pure-NumPy HistGBDT)** to predict:
 1. **$P(\text{Guidance Held})$**: Probability that future management guidance will be delivered in full and on time.
 2. **Credibility-Adjusted Guidance**: The realistic expectation calibrated for management's historical optimism bias or sandbagging ratio (e.g. Guided 30% $\rightarrow$ Credibility-Adjusted 27.4%).
 3. **Guidance Risk Diagnostics**: Ambition gap penalties, ghosting risk, timeline slippage, and category-specific track record scores.
@@ -26,7 +26,7 @@ All headline numbers are in **[RESULTS.md](RESULTS.md)**, generated deterministi
 ## How It Works
 
 ```
- Concall Transcripts (~430 calls, 100 companies)        Screener Actuals (Quarterly + Annual P&L, Balance Sheets)
+ Concall Transcripts (577 calls, 100 companies)         Screener Actuals (Quarterly + Annual P&L, Balance Sheets)
         │                                                              │
   ① SAY  Meta Muse (Spark) ──► Verbatim-Quote Verifier (hallucinations dropped)
         │   {category, value range, period, firmness, speaker, section, conditions, delta/bps basis}

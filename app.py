@@ -921,7 +921,19 @@ with tab_board:
     kpi(k[4], f"{stats['unverifiable_dropped']:,}", "Hallucinations Blocked", sub="Dropped by quote verifier", glow="indigo")
     st.write("")
 
-    rows = [c for c in scores["companies"] if c["n"] >= 3]
+    f_c1, f_c2 = st.columns([3, 2])
+    with f_c1:
+        st.markdown(f"#### 📊 Say-Do Credibility Distribution across {len(scores['companies'])} Companies")
+    with f_c2:
+        cutoff_val = st.selectbox(
+            "Filter Confidence Hurdle",
+            options=[0, 1, 3],
+            index=0,
+            format_func=lambda x: f"Show All Universe ({len(scores['companies'])} companies)" if x == 0 else f"≥{x} Resolved Promises ({sum(1 for c in scores['companies'] if c['n'] >= x)} companies)",
+            key="leaderboard_cutoff"
+        )
+
+    rows = [c for c in scores["companies"] if c["n"] >= cutoff_val]
     rows.sort(key=lambda c: c["score"])
     fig = go.Figure()
     fig.add_trace(go.Scatter(
@@ -936,10 +948,11 @@ with tab_board:
                       "%{customdata[1]} resolved of %{customdata[4]} promises<extra></extra>"))
     fig.add_vline(x=scores["base_rate"], line=dict(color=MUTED, dash="dot", width=1.5),
                   annotation_text=f"universe {scores['base_rate']:.0f}", annotation_font_color=MUTED)
-    layout(fig, h=max(420, 22 * len(rows)), showlegend=False,
+    layout(fig, h=max(450, 19 * len(rows)), showlegend=False,
            xaxis_title="Say-Do score (dot) with 80% credible interval", xaxis_range=[0, 100])
     c1, c2 = st.columns([3, 2], gap="medium")
-    c1.markdown("**Management Credibility Ranking** · companies with ≥3 resolved promises")
+    chart_title = f"**Management Credibility Ranking** · showing all {len(rows)} companies" if cutoff_val == 0 else f"**Management Credibility Ranking** · {len(rows)} companies with ≥{cutoff_val} resolved promises"
+    c1.markdown(chart_title)
     c1.plotly_chart(fig, width='stretch')
     with c2:
         st.markdown('<div class="card-title" style="font-size:1.05rem;margin-bottom:10px;">Methodology & Guardrails</div>', unsafe_allow_html=True)

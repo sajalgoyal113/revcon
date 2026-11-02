@@ -254,14 +254,20 @@ def featurize(p, ctx):
 
 
 def _ctx(p, per_call, acts, forecasts, hist):
+    fc = (forecasts or {}).get(p.get("id"))
+    muse_p = (fc.get("p") or fc.get("p_delivered")) if isinstance(fc, dict) else fc
     return {"hist": hist, "promises_in_call": per_call.get(p.get("call_id", ""), 1),
-            "actuals": acts.get(p["ticker"]), "muse_p": (forecasts or {}).get(p.get("id"))}
+            "actuals": acts.get(p["ticker"]), "muse_p": muse_p}
 
 
 def _logit(p):
     if p is None:
         return 0.0
-    p = min(0.97, max(0.03, p))
+    if isinstance(p, dict):
+        p = p.get("p") or p.get("p_delivered")
+        if p is None:
+            return 0.0
+    p = min(0.97, max(0.03, float(p)))
     return math.log(p / (1 - p)) - math.log(0.43 / 0.57)   # centred on the empirical base rate
 
 
