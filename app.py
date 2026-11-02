@@ -921,58 +921,148 @@ with tab_board:
     kpi(k[4], f"{stats['unverifiable_dropped']:,}", "Hallucinations Blocked", sub="Dropped by quote verifier", glow="indigo")
     st.write("")
 
-    f_c1, f_c2 = st.columns([3, 2])
-    with f_c1:
-        st.markdown(f"#### 📊 Say-Do Credibility Distribution across {len(scores['companies'])} Companies")
-    with f_c2:
-        cutoff_val = st.selectbox(
-            "Filter Confidence Hurdle",
-            options=[0, 1, 3],
-            index=0,
-            format_func=lambda x: f"Show All Universe ({len(scores['companies'])} companies)" if x == 0 else f"≥{x} Resolved Promises ({sum(1 for c in scores['companies'] if c['n'] >= x)} companies)",
-            key="leaderboard_cutoff"
-        )
+    from collections import Counter
+    g_counts = Counter(c["grade"] for c in scores["companies"])
+    st.markdown(f"""
+    <div style="display:flex;gap:12px;margin:8px 0 20px 0;flex-wrap:wrap;">
+      <div style="flex:1;min-width:140px;background:rgba(16,185,129,0.08);border:1px solid rgba(16,185,129,0.25);border-radius:10px;padding:10px 14px;">
+        <div style="font-size:11px;color:#94a3b8;font-weight:600;">GRADE A · OUTSTANDING</div>
+        <div style="font-size:22px;font-weight:800;color:#10b981;font-family:'Outfit',sans-serif;">{g_counts.get('A', 0)} <span style="font-size:12px;color:#94a3b8;font-weight:400;">companies</span></div>
+      </div>
+      <div style="flex:1;min-width:140px;background:rgba(56,189,248,0.08);border:1px solid rgba(56,189,248,0.25);border-radius:10px;padding:10px 14px;">
+        <div style="font-size:11px;color:#94a3b8;font-weight:600;">GRADE B · DISCIPLINED</div>
+        <div style="font-size:22px;font-weight:800;color:#38bdf8;font-family:'Outfit',sans-serif;">{g_counts.get('B', 0)} <span style="font-size:12px;color:#94a3b8;font-weight:400;">companies</span></div>
+      </div>
+      <div style="flex:1;min-width:140px;background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.25);border-radius:10px;padding:10px 14px;">
+        <div style="font-size:11px;color:#94a3b8;font-weight:600;">GRADE C · VOLATILE</div>
+        <div style="font-size:22px;font-weight:800;color:#f59e0b;font-family:'Outfit',sans-serif;">{g_counts.get('C', 0)} <span style="font-size:12px;color:#94a3b8;font-weight:400;">companies</span></div>
+      </div>
+      <div style="flex:1;min-width:140px;background:rgba(244,63,94,0.08);border:1px solid rgba(244,63,94,0.25);border-radius:10px;padding:10px 14px;">
+        <div style="font-size:11px;color:#94a3b8;font-weight:600;">GRADE D & F · CAUTION</div>
+        <div style="font-size:22px;font-weight:800;color:#f43f5e;font-family:'Outfit',sans-serif;">{g_counts.get('D', 0) + g_counts.get('F', 0)} <span style="font-size:12px;color:#94a3b8;font-weight:400;">companies</span></div>
+      </div>
+    </div>
+    """, unsafe_allow_html=True)
 
-    rows = [c for c in scores["companies"] if c["n"] >= cutoff_val]
-    rows.sort(key=lambda c: c["score"])
-    fig = go.Figure()
-    fig.add_trace(go.Scatter(
-        x=[c["score"] for c in rows], y=[c["ticker"] for c in rows], mode="markers",
-        marker=dict(size=11, color=BLUE, line=dict(color=SURF, width=2)),
-        error_x=dict(type="data", symmetric=False, color="#86b6ef", thickness=2, width=0,
-                     array=[c["ci80"][1] - c["score"] for c in rows],
-                     arrayminus=[c["score"] - c["ci80"][0] for c in rows]),
-        customdata=[[c["grade"], c["n"], c["ci80"][0], c["ci80"][1], c["promises_made"]] for c in rows],
-        hovertemplate="<b>%{y}</b>  grade %{customdata[0]}<br>Say-Do %{x:.0f} "
-                      "(80%% CI %{customdata[2]:.0f}–%{customdata[3]:.0f})<br>"
-                      "%{customdata[1]} resolved of %{customdata[4]} promises<extra></extra>"))
-    fig.add_vline(x=scores["base_rate"], line=dict(color=MUTED, dash="dot", width=1.5),
-                  annotation_text=f"universe {scores['base_rate']:.0f}", annotation_font_color=MUTED)
-    layout(fig, h=max(450, 19 * len(rows)), showlegend=False,
-           xaxis_title="Say-Do score (dot) with 80% credible interval", xaxis_range=[0, 100])
-    c1, c2 = st.columns([3, 2], gap="medium")
-    chart_title = f"**Management Credibility Ranking** · showing all {len(rows)} companies" if cutoff_val == 0 else f"**Management Credibility Ranking** · {len(rows)} companies with ≥{cutoff_val} resolved promises"
-    c1.markdown(chart_title)
-    c1.plotly_chart(fig, width='stretch')
-    with c2:
-        st.markdown('<div class="card-title" style="font-size:1.05rem;margin-bottom:10px;">Methodology & Guardrails</div>', unsafe_allow_html=True)
+    # Balanced 2-Panel Charts: Top 15 Credibility Leaders vs Bottom 15 Caution
+    scored_cos = [c for c in scores["companies"] if c["n"] >= 2]
+    scored_cos.sort(key=lambda c: c["score"])
+
+    top_cos = scored_cos[-15:] if len(scored_cos) >= 15 else scored_cos
+    bottom_cos = scored_cos[:15] if len(scored_cos) >= 15 else scored_cos
+
+    c_left, c_right = st.columns(2, gap="large")
+
+    with c_left:
+        st.markdown("#### 🏆 Top 15 Credibility Leaders")
+        st.caption("Highest Say-Do scores & consistent execution on guidance")
+        fig_top = go.Figure()
+        fig_top.add_trace(go.Scatter(
+            x=[c["score"] for c in top_cos], y=[c["ticker"] for c in top_cos], mode="markers",
+            marker=dict(size=10, color="#10b981", line=dict(color=SURF, width=2)),
+            error_x=dict(type="data", symmetric=False, color="#34d399", thickness=2, width=0,
+                         array=[c["ci80"][1] - c["score"] for c in top_cos],
+                         arrayminus=[c["score"] - c["ci80"][0] for c in top_cos]),
+            customdata=[[c["grade"], c["n"], c["ci80"][0], c["ci80"][1], c["promises_made"]] for c in top_cos],
+            hovertemplate="<b>%{y}</b> Grade %{customdata[0]}<br>Say-Do: %{x:.1f} (80% CI: %{customdata[2]:.0f}–%{customdata[3]:.0f})<br>%{customdata[1]} resolved of %{customdata[4]} commitments<extra></extra>"
+        ))
+        fig_top.add_vline(x=scores["base_rate"], line=dict(color=MUTED, dash="dot", width=1.5),
+                          annotation_text=f"universe {scores['base_rate']:.0f}", annotation_font_color=MUTED)
+        layout(fig_top, h=420, showlegend=False, xaxis_title="Say-Do Score (80% Credible Interval)", xaxis_range=[50, 100])
+        st.plotly_chart(fig_top, width='stretch')
+
+    with c_right:
+        st.markdown("#### ⚠️ Bottom 15 Caution & Over-Promisers")
+        st.caption("Lowest Say-Do scores, frequent revisions, or high ghost rates")
+        fig_bot = go.Figure()
+        fig_bot.add_trace(go.Scatter(
+            x=[c["score"] for c in bottom_cos], y=[c["ticker"] for c in bottom_cos], mode="markers",
+            marker=dict(size=10, color="#f43f5e", line=dict(color=SURF, width=2)),
+            error_x=dict(type="data", symmetric=False, color="#fb7185", thickness=2, width=0,
+                         array=[c["ci80"][1] - c["score"] for c in bottom_cos],
+                         arrayminus=[c["score"] - c["ci80"][0] for c in bottom_cos]),
+            customdata=[[c["grade"], c["n"], c["ci80"][0], c["ci80"][1], c["promises_made"]] for c in bottom_cos],
+            hovertemplate="<b>%{y}</b> Grade %{customdata[0]}<br>Say-Do: %{x:.1f} (80% CI: %{customdata[2]:.0f}–%{customdata[3]:.0f})<br>%{customdata[1]} resolved of %{customdata[4]} commitments<extra></extra>"
+        ))
+        fig_bot.add_vline(x=scores["base_rate"], line=dict(color=MUTED, dash="dot", width=1.5),
+                          annotation_text=f"universe {scores['base_rate']:.0f}", annotation_font_color=MUTED)
+        layout(fig_bot, h=420, showlegend=False, xaxis_title="Say-Do Score (80% Credible Interval)", xaxis_range=[0, 100])
+        st.plotly_chart(fig_bot, width='stretch')
+
+    st.markdown("---")
+
+    # Full-width 100-company master ledger table
+    st.markdown("### 📋 100-Company Management Credibility Master Ledger")
+    st.caption("Search, filter, and inspect detailed credibility records across all 100 companies.")
+
+    flt_col1, flt_col2, flt_col3 = st.columns([3, 2, 2])
+    with flt_col1:
+        search_query = st.text_input("🔍 Search Companies", placeholder="Type ticker (e.g. INFY, TCS, DIXON, TATATECH, CIPLA)...", key="search_query").strip().upper()
+    with flt_col2:
+        grade_opt = st.selectbox("Filter Grade", ["All Grades", "Grade A (80+)", "Grade B (65-79)", "Grade C (50-64)", "Grade D & F (<50)"], key="grade_opt")
+    with flt_col3:
+        record_opt = st.selectbox("Resolved Track Record", ["All Companies (100)", "≥1 Resolved", "≥3 Resolved"], key="record_opt")
+
+    # Filter logic
+    display_rows = list(scores["companies"])
+    display_rows.sort(key=lambda c: -c["score"])
+
+    if search_query:
+        display_rows = [c for c in display_rows if search_query in c["ticker"]]
+
+    if grade_opt == "Grade A (80+)":
+        display_rows = [c for c in display_rows if c["grade"] == "A"]
+    elif grade_opt == "Grade B (65-79)":
+        display_rows = [c for c in display_rows if c["grade"] == "B"]
+    elif grade_opt == "Grade C (50-64)":
+        display_rows = [c for c in display_rows if c["grade"] == "C"]
+    elif grade_opt == "Grade D & F (<50)":
+        display_rows = [c for c in display_rows if c["grade"] in ("D", "F")]
+
+    if record_opt == "≥1 Resolved":
+        display_rows = [c for c in display_rows if c["n"] >= 1]
+    elif record_opt == "≥3 Resolved":
+        display_rows = [c for c in display_rows if c["n"] >= 3]
+
+    tbl_data = []
+    for rank, c in enumerate(display_rows, 1):
+        tbl_data.append({
+            "Rank": f"#{rank}",
+            "Ticker": c["ticker"],
+            "Say-Do Score": f"{c['score']:.1f}",
+            "Grade": c["grade"],
+            "80% CI": f"{c['ci80'][0]:.0f} – {c['ci80'][1]:.0f}",
+            "Resolved": c["n"],
+            "Promises Made": c["promises_made"],
+            "Ghost Rate": f"{(c['ghost_rate'] or 0) * 100:.0f}%" if c.get("ghost_rate") is not None else "0%",
+            "Delayed/Cut": c["goalpost_moves"],
+            "Revenue Factor": f"{c['revenue_delivery_ratio']:.2f}×" if c.get("revenue_delivery_ratio") else "–",
+        })
+
+    st.dataframe(
+        pd.DataFrame(tbl_data),
+        hide_index=True,
+        width='stretch',
+        height=450,
+        column_config={
+            "Rank": st.column_config.TextColumn(width="small"),
+            "Ticker": st.column_config.TextColumn(width="medium"),
+            "Grade": st.column_config.TextColumn(width="small"),
+            "Say-Do Score": st.column_config.TextColumn(width="medium"),
+            "Resolved": st.column_config.NumberColumn(width="small"),
+        }
+    )
+
+    st.write("")
+    with st.expander("ℹ️ Methodology, Guardrails & Metric Explanations"):
         st.markdown("""
-        <div style="background:#0d121f;border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:16px;font-size:12.5px;line-height:1.6;color:#cbd5e1;">
-          <div style="margin-bottom:8px;"><strong>1 · SAY (Extraction)</strong>: Frontier models parse earnings transcripts to extract exact forward commitments with verbatim quote citations.</div>
-          <div style="margin-bottom:8px;"><strong>2 · DO (Resolution)</strong>: Financial guidance is resolved against audited reported numbers; operational goals against later calls.</div>
-          <div style="margin-bottom:8px;"><strong>3 · PREDICT (Machine Learning)</strong>: Pure-NumPy HistGBDT + Bayesian MAP Logistic Regression stack forecasts forward holding accuracy.</div>
+        <div style="font-size:13px;line-height:1.7;color:#cbd5e1;">
+          <div style="margin-bottom:8px;"><strong>1 · SAY (Extraction)</strong>: Frontier models (Meta Muse) parse full earnings conference call transcripts with strict verbatim-quote verification, rejecting hallucinations.</div>
+          <div style="margin-bottom:8px;"><strong>2 · DO (Resolution)</strong>: Financial guidance is resolved against audited reported numbers (YoY, QoQ, absolute levels, and bps margin deltas); operational goals are tracked across subsequent calls.</div>
+          <div style="margin-bottom:8px;"><strong>3 · PREDICT (Machine Learning)</strong>: Pure-NumPy HistGBDT + Bayesian MAP Logistic Regression stack forecasts forward holding accuracy with zero look-ahead bias.</div>
           <div><strong>4 · 👻 GHOSTED (Red Flag)</strong>: Targets missed and never mentioned again — the quiet warning markets overlook.</div>
         </div>
         """, unsafe_allow_html=True)
-        st.write("")
-        tbl = pd.DataFrame([{"Ticker": c["ticker"], "Score": c["score"], "Grade": c["grade"],
-                             "Resolved": c["n"], "Ghost %": (c["ghost_rate"] or 0) * 100,
-                             "Delayed/cut": c["goalpost_moves"],
-                             "Rev. delivered/guided": c["revenue_delivery_ratio"]}
-                            for c in scores["companies"]])
-        st.dataframe(tbl, hide_index=True, width='stretch', height=340,
-                     column_config={"Ghost %": st.column_config.NumberColumn(format="%.0f%%"),
-                                    "Rev. delivered/guided": st.column_config.NumberColumn(format="%.2f×")})
 
 
 # =============================================================== Company Ledger Tab
