@@ -1,0 +1,3502 @@
+{
+  "TATATECH": {
+    "ticker": "TATATECH",
+    "deck_label": "TATATECH Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "TATATECH:2025-01-21#0",
+        "call_label": "Q3FY25 call (21 Jan 2025)",
+        "verbal_claim": "Scale BMW partnership team to more than 1,000 people by end of calendar 2025",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Scale BMW partnership team to more than 1,000 people by end of calendar 2025)."
+      },
+      {
+        "promise_id": "TATATECH:2025-01-21#1",
+        "call_label": "Q3FY25 call (21 Jan 2025)",
+        "verbal_claim": "Aerospace business growth momentum to continue into Q4FY25 and FY26",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Aerospace business growth momentum to continue into Q4FY25 and FY26)."
+      },
+      {
+        "promise_id": "TATATECH:2025-01-21#2",
+        "call_label": "Q3FY25 call (21 Jan 2025)",
+        "verbal_claim": "BMW JV deferred income fair value gain will continue to be recorded in other income on a quarterly basis for the foreseeable future",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (BMW JV deferred income fair value gain will continue to be recorded in other income on a quarterly basis for the foreseeable future)."
+      },
+      {
+        "promise_id": "TATATECH:2025-01-21#3",
+        "call_label": "Q3FY25 call (21 Jan 2025)",
+        "verbal_claim": "Maintain medium-term margin aspiration of 20% plus",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      }
+    ]
+  },
+  "SAMHI": {
+    "ticker": "SAMHI",
+    "deck_label": "SAMHI Hotels FY25-FY26 Investor Presentation & Renovation Pipeline Deck",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "SAMHI:2025-04-24#0",
+        "call_label": "Q4FY25 call (24 Apr 2025)",
+        "verbal_claim": "Reduce debt by about Rs. 580 crores on closing of GIC transaction",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.06,
+        "visual_finding": "SAM 3.1 region `bar_chart_trajectory` on Slide 9 confirms RevPAR growth (+13-15% YoY) and W Hyderabad / Sheraton room addition milestones match management's verbal concall schedule."
+      },
+      {
+        "promise_id": "SAMHI:2025-04-24#1",
+        "call_label": "Q4FY25 call (24 Apr 2025)",
+        "verbal_claim": "Bring net debt to EBITDA to less than 3.5x at closing",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Bring net debt to EBITDA to less than 3.5x at closing)."
+      },
+      {
+        "promise_id": "SAMHI:2025-04-24#2",
+        "call_label": "Q4FY25 call (24 Apr 2025)",
+        "verbal_claim": "Bring leverage down to less than 3.0x in the next 12 months without compromising growth",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Bring leverage down to less than 3.0x in the next 12 months without compromising growth)."
+      },
+      {
+        "promise_id": "SAMHI:2025-04-24#3",
+        "call_label": "Q4FY25 call (24 Apr 2025)",
+        "verbal_claim": "Invest Rs. 149 crores over the next two years to part-fund Westin & Tribute Portfolio Bangalore Whitefield capex",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Invest Rs. 149 crores over the next two years to part-fund Westin & Tribute Portfolio Bangalore Whitefield capex)."
+      }
+    ]
+  },
+  "EMMVEE": {
+    "ticker": "EMMVEE",
+    "deck_label": "EMMVEE Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "EMMVEE:2025-11-27#0",
+        "call_label": "Q2FY26 call (27 Nov 2025)",
+        "verbal_claim": "Second 2.5 GW module line to come online by FY26",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Second 2.5 GW module line to come online by FY26)."
+      },
+      {
+        "promise_id": "EMMVEE:2025-11-27#1",
+        "call_label": "Q2FY26 call (27 Nov 2025)",
+        "verbal_claim": "Maintain EBITDA margins broadly around current ~35% band as volumes ramp",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Maintain EBITDA margins broadly around current ~35% band as volumes ramp)."
+      },
+      {
+        "promise_id": "EMMVEE:2025-11-27#2",
+        "call_label": "Q2FY26 call (27 Nov 2025)",
+        "verbal_claim": "Repay almost Rs 45 crore of long-term debt in next two quarters",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Repay almost Rs 45 crore of long-term debt in next two quarters)."
+      },
+      {
+        "promise_id": "EMMVEE:2025-11-27#3",
+        "call_label": "Q2FY26 call (27 Nov 2025)",
+        "verbal_claim": "Reduce long-term debt to around Rs 50-55 crore by end-March 2026",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Reduce long-term debt to around Rs 50-55 crore by end-March 2026)."
+      }
+    ]
+  },
+  "SYRMA": {
+    "ticker": "SYRMA",
+    "deck_label": "SYRMA Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "SYRMA:2025-05-14#0",
+        "call_label": "Q4FY25 call (14 May 2025)",
+        "verbal_claim": "Grow overall business 30%-35% with consumer mix retained at about 30%",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "SYRMA:2025-05-14#1",
+        "call_label": "Q4FY25 call (14 May 2025)",
+        "verbal_claim": "Guide 8% EBITDA margin for FY26",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Guide 8% EBITDA margin for FY26)."
+      },
+      {
+        "promise_id": "SYRMA:2025-05-14#2",
+        "call_label": "Q4FY25 call (14 May 2025)",
+        "verbal_claim": "Reduce Consumer business mix to 30% on annualized basis in FY26",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "SYRMA:2025-05-14#3",
+        "call_label": "Q4FY25 call (14 May 2025)",
+        "verbal_claim": "Cross INR1,000 crores export revenue in FY26 after delay from FY25",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (based on the guidance inputs received from our customers) that temper the headline concall target."
+      }
+    ]
+  },
+  "COFORGE": {
+    "ticker": "COFORGE",
+    "deck_label": "COFORGE Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "COFORGE:2025-07-24#0",
+        "call_label": "Q1FY26 call (24 Jul 2025)",
+        "verbal_claim": "Deliver 14% reported EBIT margin in FY26",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Deliver 14% reported EBIT margin in FY26)."
+      },
+      {
+        "promise_id": "COFORGE:2025-07-24#1",
+        "call_label": "Q1FY26 call (24 Jul 2025)",
+        "verbal_claim": "Close at least 20 large deals in FY26",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Close at least 20 large deals in FY26)."
+      },
+      {
+        "promise_id": "COFORGE:2025-07-24#2",
+        "call_label": "Q1FY26 call (24 Jul 2025)",
+        "verbal_claim": "Complete NCLT merger approval/integration by December 2025-January 2026",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (subject to regulators, plus or minus a month or two) that temper the headline concall target."
+      },
+      {
+        "promise_id": "COFORGE:2025-07-24#3",
+        "call_label": "Q1FY26 call (24 Jul 2025)",
+        "verbal_claim": "Merger effective date will be April 1 2026",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Merger effective date will be April 1 2026)."
+      }
+    ]
+  },
+  "RAINBOW": {
+    "ticker": "RAINBOW",
+    "deck_label": "RAINBOW Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "RAINBOW:2024-10-28#0",
+        "call_label": "Q2FY25 call (28 Oct 2024)",
+        "verbal_claim": "Open Butterfly Essentials stores in most existing facilities in first phase",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Open Butterfly Essentials stores in most existing facilities in first phase)."
+      },
+      {
+        "promise_id": "RAINBOW:2024-10-28#1",
+        "call_label": "Q2FY25 call (28 Oct 2024)",
+        "verbal_claim": "Launch 8,000-sq-ft child development center in Banjara Hills Hyderabad on 14 November",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Launch 8,000-sq-ft child development center in Banjara Hills Hyderabad on 14 November)."
+      },
+      {
+        "promise_id": "RAINBOW:2024-10-28#2",
+        "call_label": "Q2FY25 call (28 Oct 2024)",
+        "verbal_claim": "Commence operations of 100-bed Rajahmundry regional hub hospital by March 2025",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "RAINBOW:2024-10-28#3",
+        "call_label": "Q2FY25 call (28 Oct 2024)",
+        "verbal_claim": "Commission 60-bed Hennur Bengaluru spoke hospital by end of H1 FY26",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      }
+    ]
+  },
+  "NYKAA": {
+    "ticker": "NYKAA",
+    "deck_label": "NYKAA Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "NYKAA:2025-05-30#0",
+        "call_label": "Q4FY25 call (30 May 2025)",
+        "verbal_claim": "Expand Nykaa Now rapid delivery to several other metros in the coming months",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Expand Nykaa Now rapid delivery to several other metros in the coming months)."
+      },
+      {
+        "promise_id": "NYKAA:2025-05-30#1",
+        "call_label": "Q4FY25 call (30 May 2025)",
+        "verbal_claim": "Achieve physical destination store representation in top 100 cities",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Achieve physical destination store representation in top 100 cities)."
+      },
+      {
+        "promise_id": "NYKAA:2025-05-30#2",
+        "call_label": "Q4FY25 call (30 May 2025)",
+        "verbal_claim": "Sustain 200 bps structural profitability improvement in fashion even as scale returns",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Sustain 200 bps structural profitability improvement in fashion even as scale returns)."
+      },
+      {
+        "promise_id": "NYKAA:2025-05-30#3",
+        "call_label": "Q4FY25 call (30 May 2025)",
+        "verbal_claim": "Fashion business EBITDA to improve successively going forward",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Fashion business EBITDA to improve successively going forward)."
+      }
+    ]
+  },
+  "YATHARTH": {
+    "ticker": "YATHARTH",
+    "deck_label": "YATHARTH Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "YATHARTH:2024-11-08#0",
+        "call_label": "Q2FY25 call (08 Nov 2024)",
+        "verbal_claim": "Spend additional Rs 60-70 crore to upgrade Delhi Model Town hospital infra and equipment",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Spend additional Rs 60-70 crore to upgrade Delhi Model Town hospital infra and equipment)."
+      },
+      {
+        "promise_id": "YATHARTH:2024-11-08#1",
+        "call_label": "Q2FY25 call (08 Nov 2024)",
+        "verbal_claim": "Invest additional Rs 100 crore to equip new Faridabad hospital",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Invest additional Rs 100 crore to equip new Faridabad hospital)."
+      },
+      {
+        "promise_id": "YATHARTH:2024-11-08#2",
+        "call_label": "Q2FY25 call (08 Nov 2024)",
+        "verbal_claim": "Operationalize both Delhi Model Town and new Faridabad hospitals from first day of new financial year",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "YATHARTH:2024-11-08#3",
+        "call_label": "Q2FY25 call (08 Nov 2024)",
+        "verbal_claim": "Achieve ARPOB of around Rs 40,000 in Delhi Model Town hospital",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      }
+    ]
+  },
+  "MAPMYINDIA": {
+    "ticker": "MAPMYINDIA",
+    "deck_label": "MAPMYINDIA Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "MAPMYINDIA:2025-05-07#0",
+        "call_label": "Q4FY25 call (07 May 2025)",
+        "verbal_claim": "Cross INR1,000 crores company revenue by FY28",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Cross INR1,000 crores company revenue by FY28)."
+      },
+      {
+        "promise_id": "MAPMYINDIA:2025-05-07#1",
+        "call_label": "Q4FY25 call (07 May 2025)",
+        "verbal_claim": "International JV share of loss will start declining towards end of FY26",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "MAPMYINDIA:2025-05-07#2",
+        "call_label": "Q4FY25 call (07 May 2025)",
+        "verbal_claim": "International JV PT TerraLink to start turning around by FY26 as revenues come in",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (as their revenues start coming in on their somewhat fixed cost base) that temper the headline concall target."
+      },
+      {
+        "promise_id": "MAPMYINDIA:2025-05-07#3",
+        "call_label": "Q4FY25 call (07 May 2025)",
+        "verbal_claim": "Maintain/deliver EBITDA margin in 35% to 40% range",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Maintain/deliver EBITDA margin in 35% to 40% range)."
+      }
+    ]
+  },
+  "PERSISTENT": {
+    "ticker": "PERSISTENT",
+    "deck_label": "PERSISTENT Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "PERSISTENT:2025-01-22#0",
+        "call_label": "Q3FY25 call (22 Jan 2025)",
+        "verbal_claim": "Maintain full-year FY25 effective tax rate between 23% and 23.5%",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Maintain full-year FY25 effective tax rate between 23% and 23.5%)."
+      },
+      {
+        "promise_id": "PERSISTENT:2025-01-22#1",
+        "call_label": "Q3FY25 call (22 Jan 2025)",
+        "verbal_claim": "Achieve $2 billion in annual revenue by end of FY27",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Achieve $2 billion in annual revenue by end of FY27)."
+      },
+      {
+        "promise_id": "PERSISTENT:2025-01-22#2",
+        "call_label": "Q3FY25 call (22 Jan 2025)",
+        "verbal_claim": "Achieve $5 billion in revenue by FY31",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Achieve $5 billion in revenue by FY31)."
+      },
+      {
+        "promise_id": "PERSISTENT:2025-01-22#3",
+        "call_label": "Q3FY25 call (22 Jan 2025)",
+        "verbal_claim": "Reiterated medium-term aspiration to improve margin by 200-300 bps",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Reiterated medium-term aspiration to improve margin by 200-300 bps)."
+      }
+    ]
+  },
+  "NETWEB": {
+    "ticker": "NETWEB",
+    "deck_label": "NETWEB Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "NETWEB:2025-01-20#0",
+        "call_label": "Q3FY25 call (20 Jan 2025)",
+        "verbal_claim": "Maintain ~14% EBITDA margin for the full year FY25",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Maintain ~14% EBITDA margin for the full year FY25)."
+      },
+      {
+        "promise_id": "NETWEB:2025-01-20#1",
+        "call_label": "Q3FY25 call (20 Jan 2025)",
+        "verbal_claim": "Medium-term average revenue growth of 30-35%",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Medium-term average revenue growth of 30-35%)."
+      },
+      {
+        "promise_id": "NETWEB:2025-01-20#2",
+        "call_label": "Q3FY25 call (20 Jan 2025)",
+        "verbal_claim": "Exports to be around 10-11% of total revenue for the next 1 year",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "NETWEB:2025-01-20#3",
+        "call_label": "Q3FY25 call (20 Jan 2025)",
+        "verbal_claim": "EBITDA margin will be around 14%",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      }
+    ]
+  },
+  "IXIGO": {
+    "ticker": "IXIGO",
+    "deck_label": "IXIGO Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "IXIGO:2025-07-16#0",
+        "call_label": "Q1FY26 call (16 Jul 2025)",
+        "verbal_claim": "Comfortable maintaining bus contribution margin around Q1FY26 level while high growth continues",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (if we continue growing like we are) that temper the headline concall target."
+      },
+      {
+        "promise_id": "IXIGO:2025-07-16#1",
+        "call_label": "Q1FY26 call (16 Jul 2025)",
+        "verbal_claim": "Bus growth will not stay at 81% in every quarter",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Bus growth will not stay at 81% in every quarter)."
+      },
+      {
+        "promise_id": "IXIGO:2026-01-22#0",
+        "call_label": "Q3FY26 call (22 Jan 2026)",
+        "verbal_claim": "Keep buses contribution margin in the 40s, at most 1-2pp below current level, and not fall into the 30s",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Keep buses contribution margin in the 40s, at most 1-2pp below current level, and not fall into the 30s)."
+      },
+      {
+        "promise_id": "IXIGO:2025-05-14#0",
+        "call_label": "Q4FY25 call (14 May 2025)",
+        "verbal_claim": "ESOP cost to remain around Rs 20 crore going forward",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (ESOP cost to remain around Rs 20 crore going forward)."
+      }
+    ]
+  },
+  "SJS": {
+    "ticker": "SJS",
+    "deck_label": "SJS Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "SJS:2025-01-31#0",
+        "call_label": "Q3FY25 call (31 Jan 2025)",
+        "verbal_claim": "Spend around INR 100 crores on chrome plating and painting capacity expansion in Pune",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Spend around INR 100 crores on chrome plating and painting capacity expansion in Pune)."
+      },
+      {
+        "promise_id": "SJS:2025-01-31#1",
+        "call_label": "Q3FY25 call (31 Jan 2025)",
+        "verbal_claim": "Increase exports to 14% to 15% of consolidated sales by FY28",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Increase exports to 14% to 15% of consolidated sales by FY28)."
+      },
+      {
+        "promise_id": "SJS:2025-01-31#2",
+        "call_label": "Q3FY25 call (31 Jan 2025)",
+        "verbal_claim": "Cover glass manufacturing facility in Hosur to be ready by September-October 2025",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "SJS:2025-01-31#3",
+        "call_label": "Q3FY25 call (31 Jan 2025)",
+        "verbal_claim": "Start supplies of dishwasher overlays to Whirlpool North America plant by next quarter",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      }
+    ]
+  },
+  "POLICYBZR": {
+    "ticker": "POLICYBZR",
+    "deck_label": "POLICYBZR Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "POLICYBZR:2025-04-30#0",
+        "call_label": "Q4FY25 call (30 Apr 2025)",
+        "verbal_claim": "UAE insurance business will stay profitable and never go back into loss",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (UAE insurance business will stay profitable and never go back into loss)."
+      },
+      {
+        "promise_id": "POLICYBZR:2025-04-30#1",
+        "call_label": "Q4FY25 call (30 Apr 2025)",
+        "verbal_claim": "Plan for long-term revenue CAGR of 30%",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Plan for long-term revenue CAGR of 30%)."
+      },
+      {
+        "promise_id": "POLICYBZR:2025-04-30#2",
+        "call_label": "Q4FY25 call (30 Apr 2025)",
+        "verbal_claim": "Grow at 2-3x industry growth rates",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Grow at 2-3x industry growth rates)."
+      },
+      {
+        "promise_id": "POLICYBZR:2025-04-30#3",
+        "call_label": "Q4FY25 call (30 Apr 2025)",
+        "verbal_claim": "Ex-savings business to stay in 35-40% growth corridor in FY26",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Ex-savings business to stay in 35-40% growth corridor in FY26)."
+      }
+    ]
+  },
+  "DIVISLAB": {
+    "ticker": "DIVISLAB",
+    "deck_label": "DIVISLAB Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "DIVISLAB:2025-11-07#0",
+        "call_label": "Q2FY26 call (07 Nov 2025)",
+        "verbal_claim": "A few custom synthesis projects in development/validation to move to commercial manufacturing within 1-2 years",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (A few custom synthesis projects in development/validation to move to commercial manufacturing within 1-2 years)."
+      },
+      {
+        "promise_id": "DIVISLAB:2025-11-07#1",
+        "call_label": "Q2FY26 call (07 Nov 2025)",
+        "verbal_claim": "Constant currency revenue growth for rest of FY26 to be around 10.79% YoY",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Constant currency revenue growth for rest of FY26 to be around 10.79% YoY)."
+      },
+      {
+        "promise_id": "DIVISLAB:2025-11-07#2",
+        "call_label": "Q2FY26 call (07 Nov 2025)",
+        "verbal_claim": "Three active CS projects in validation/construction to yield commercial benefit in next 1-2 years",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (if all regulatory approvals and qualifications take place on time) that temper the headline concall target."
+      },
+      {
+        "promise_id": "DIVISLAB:2025-11-07#3",
+        "call_label": "Q2FY26 call (07 Nov 2025)",
+        "verbal_claim": "Will not pursue generic peptides, will stay focused on custom synthesis peptide projects",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Will not pursue generic peptides, will stay focused on custom synthesis peptide projects)."
+      }
+    ]
+  },
+  "POLYCAB": {
+    "ticker": "POLYCAB",
+    "deck_label": "POLYCAB Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "POLYCAB:2025-05-07#0",
+        "call_label": "Q4FY25 call (07 May 2025)",
+        "verbal_claim": "Spend Rs 60-80 billion capex over the next five years under Project Spring",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Spend Rs 60-80 billion capex over the next five years under Project Spring)."
+      },
+      {
+        "promise_id": "POLYCAB:2025-05-07#1",
+        "call_label": "Q4FY25 call (07 May 2025)",
+        "verbal_claim": "Reach 30% dividend payout ratio by FY30",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Reach 30% dividend payout ratio by FY30)."
+      },
+      {
+        "promise_id": "POLYCAB:2025-05-07#2",
+        "call_label": "Q4FY25 call (07 May 2025)",
+        "verbal_claim": "Grow FMEG at 1.5x-2x industry growth by FY30",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Grow FMEG at 1.5x-2x industry growth by FY30)."
+      },
+      {
+        "promise_id": "POLYCAB:2025-05-07#3",
+        "call_label": "Q4FY25 call (07 May 2025)",
+        "verbal_claim": "Sustain EPC annual operating margin in high single digit over medium to long term",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      }
+    ]
+  },
+  "KPITTECH": {
+    "ticker": "KPITTECH",
+    "deck_label": "KPITTECH Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "KPITTECH:2024-10-23#0",
+        "call_label": "Q2FY25 call (23 Oct 2024)",
+        "verbal_claim": "Reiterated FY25 constant currency revenue growth guidance of 18-22% YoY but expects revenue on lower side of range",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (postponement of large opportunities and higher offshoring / cost reduction for clients) that temper the headline concall target."
+      },
+      {
+        "promise_id": "KPITTECH:2024-10-23#1",
+        "call_label": "Q2FY25 call (23 Oct 2024)",
+        "verbal_claim": "FY25 EBITDA margin expected 0.2-0.3pp higher than earlier 20.5%+ guidance, i.e. 20.7-20.8%",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (FY25 EBITDA margin expected 0.2-0.3pp higher than earlier 20.5%+ guidance, i.e. 20.7-20.8%)."
+      },
+      {
+        "promise_id": "KPITTECH:2024-10-23#2",
+        "call_label": "Q2FY25 call (23 Oct 2024)",
+        "verbal_claim": "FY25 revenue will be at the lower end of the previously guided growth range",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (offshoring and other things) that temper the headline concall target."
+      },
+      {
+        "promise_id": "KPITTECH:2024-10-23#3",
+        "call_label": "Q2FY25 call (23 Oct 2024)",
+        "verbal_claim": "FY25 profitability/EBITDA margin will be higher than the guided 20.5%",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (FY25 profitability/EBITDA margin will be higher than the guided 20.5%)."
+      }
+    ]
+  },
+  "CLEANMAX": {
+    "ticker": "CLEANMAX",
+    "deck_label": "CLEANMAX Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "CLEANMAX:2026-03-18#0",
+        "call_label": "Q3FY26 call (18 Mar 2026)",
+        "verbal_claim": "Add about 1.5 GW of RE power sales capacity in FY27",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Add about 1.5 GW of RE power sales capacity in FY27)."
+      },
+      {
+        "promise_id": "CLEANMAX:2026-03-18#1",
+        "call_label": "Q3FY26 call (18 Mar 2026)",
+        "verbal_claim": "Build 400 MW or more in Osaka Gas JV over three years",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Build 400 MW or more in Osaka Gas JV over three years)."
+      },
+      {
+        "promise_id": "CLEANMAX:2026-03-18#2",
+        "call_label": "Q3FY26 call (18 Mar 2026)",
+        "verbal_claim": "RE Power Sales EBITDA margin to rise to 85-86% in 2 to 3 years",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "CLEANMAX:2026-03-18#3",
+        "call_label": "Q3FY26 call (18 Mar 2026)",
+        "verbal_claim": "Build and commission upwards of 1.5 GW in FY27",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Build and commission upwards of 1.5 GW in FY27)."
+      }
+    ]
+  },
+  "CYIENTDLM": {
+    "ticker": "CYIENTDLM",
+    "deck_label": "CYIENTDLM Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "CYIENTDLM:2025-01-21#0",
+        "call_label": "Q3FY25 call (21 Jan 2025)",
+        "verbal_claim": "Use up about Rs 190 crore of IPO proceeds by end of FY25",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Use up about Rs 190 crore of IPO proceeds by end of FY25)."
+      },
+      {
+        "promise_id": "CYIENTDLM:2025-01-21#1",
+        "call_label": "Q3FY25 call (21 Jan 2025)",
+        "verbal_claim": "Altek EBITDA margin to get to at least about 10%",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Altek EBITDA margin to get to at least about 10%)."
+      },
+      {
+        "promise_id": "CYIENTDLM:2025-01-21#2",
+        "call_label": "Q3FY25 call (21 Jan 2025)",
+        "verbal_claim": "Deliver ~30% revenue CAGR over mid-to-long term with year-to-year variability",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (variability year-to-year with potential lag as programs transfer out and other businesses ramp; not a firm 30% year-on-year guide) that temper the headline concall target."
+      },
+      {
+        "promise_id": "CYIENTDLM:2025-01-21#3",
+        "call_label": "Q3FY25 call (21 Jan 2025)",
+        "verbal_claim": "Margins will improve substantially in Q4 and beyond",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Margins will improve substantially in Q4 and beyond)."
+      }
+    ]
+  },
+  "ECORECO": {
+    "ticker": "ECORECO",
+    "deck_label": "ECORECO Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "ECORECO:2023-10-17#0",
+        "call_label": "Q2FY24 call (17 Oct 2023)",
+        "verbal_claim": "Achieve revenue growth far higher than 27% CAGR by March 2024",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Achieve revenue growth far higher than 27% CAGR by March 2024)."
+      },
+      {
+        "promise_id": "ECORECO:2023-10-17#1",
+        "call_label": "Q2FY24 call (17 Oct 2023)",
+        "verbal_claim": "Achieve revenue growth far higher than 27% CAGR in March 2025 driven by EPR business",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Achieve revenue growth far higher than 27% CAGR in March 2025 driven by EPR business)."
+      },
+      {
+        "promise_id": "ECORECO:2023-10-17#2",
+        "call_label": "Q2FY24 call (17 Oct 2023)",
+        "verbal_claim": "Maintain operating margins at more than 30% with upside from EPR fees",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Maintain operating margins at more than 30% with upside from EPR fees)."
+      },
+      {
+        "promise_id": "ECORECO:2023-10-17#3",
+        "call_label": "Q2FY24 call (17 Oct 2023)",
+        "verbal_claim": "Maintain Rs.7 Crores quarterly revenue as new base with no decline going forward",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Maintain Rs.7 Crores quarterly revenue as new base with no decline going forward)."
+      }
+    ]
+  },
+  "IONEXCHANG": {
+    "ticker": "IONEXCHANG",
+    "deck_label": "IONEXCHANG Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "IONEXCHANG:2024-11-15#0",
+        "call_label": "Q2FY25 call (15 Nov 2024)",
+        "verbal_claim": "Roha plant expansion to commence commercial production in Q1FY26",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "IONEXCHANG:2024-11-15#1",
+        "call_label": "Q2FY25 call (15 Nov 2024)",
+        "verbal_claim": "Achieve full capacity utilization of new Roha plant within 3-4 years",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Achieve full capacity utilization of new Roha plant within 3-4 years)."
+      },
+      {
+        "promise_id": "IONEXCHANG:2024-11-15#2",
+        "call_label": "Q2FY25 call (15 Nov 2024)",
+        "verbal_claim": "Expect 15-20% full-year revenue growth in FY25",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Expect 15-20% full-year revenue growth in FY25)."
+      },
+      {
+        "promise_id": "IONEXCHANG:2024-11-15#3",
+        "call_label": "Q2FY25 call (15 Nov 2024)",
+        "verbal_claim": "Multiply company top line and bottom line several times over in the next 5-7 years",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Multiply company top line and bottom line several times over in the next 5-7 years)."
+      }
+    ]
+  },
+  "DIXON": {
+    "ticker": "DIXON",
+    "deck_label": "DIXON Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "DIXON:2024-10-24#0",
+        "call_label": "Q2FY25 call (24 Oct 2024)",
+        "verbal_claim": "Start new 1.5 lakh sq ft Noida facility in Q3FY25 with 400K smartphones per month capacity",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Start new 1.5 lakh sq ft Noida facility in Q3FY25 with 400K smartphones per month capacity)."
+      },
+      {
+        "promise_id": "DIXON:2024-10-24#1",
+        "call_label": "Q2FY25 call (24 Oct 2024)",
+        "verbal_claim": "Start production for large global brand through Compal by end November 2024",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Start production for large global brand through Compal by end November 2024)."
+      },
+      {
+        "promise_id": "DIXON:2024-10-24#2",
+        "call_label": "Q2FY25 call (24 Oct 2024)",
+        "verbal_claim": "Start display manufacturing with HKC by end Q1FY26 or beginning Q2FY26",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "DIXON:2024-10-24#3",
+        "call_label": "Q2FY25 call (24 Oct 2024)",
+        "verbal_claim": "Roll out Amazon Fire TV NG for Web OS solution in Q4FY25",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      }
+    ]
+  },
+  "DEEPAKNTR": {
+    "ticker": "DEEPAKNTR",
+    "deck_label": "DEEPAKNTR Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "DEEPAKNTR:2025-11-14#0",
+        "call_label": "Q2FY26 call (14 Nov 2025)",
+        "verbal_claim": "Upstream integration assets to be fully operational in Q4 FY26",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "DEEPAKNTR:2025-11-14#1",
+        "call_label": "Q2FY26 call (14 Nov 2025)",
+        "verbal_claim": "Nitric Acid and MIBK/MIBC plants to be commissioned soon with pre-commissioning starting soon",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Nitric Acid and MIBK/MIBC plants to be commissioned soon with pre-commissioning starting soon)."
+      },
+      {
+        "promise_id": "DEEPAKNTR:2025-11-14#2",
+        "call_label": "Q2FY26 call (14 Nov 2025)",
+        "verbal_claim": "Agrochemical intermediate shipments to resume in Nov-Dec 2025",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Agrochemical intermediate shipments to resume in Nov-Dec 2025)."
+      },
+      {
+        "promise_id": "DEEPAKNTR:2025-11-14#3",
+        "call_label": "Q2FY26 call (14 Nov 2025)",
+        "verbal_claim": "Ammonia consumption capacity to double or more from Q4FY26 with storage for 15 days of consumption",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Ammonia consumption capacity to double or more from Q4FY26 with storage for 15 days of consumption)."
+      }
+    ]
+  },
+  "STALLION": {
+    "ticker": "STALLION",
+    "deck_label": "STALLION Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "STALLION:2025-05-15#0",
+        "call_label": "Q4FY25 call (15 May 2025)",
+        "verbal_claim": "Deliver 30% to 35% CAGR over the next three years",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Deliver 30% to 35% CAGR over the next three years)."
+      },
+      {
+        "promise_id": "STALLION:2025-05-15#1",
+        "call_label": "Q4FY25 call (15 May 2025)",
+        "verbal_claim": "Complete Mambattu and specialty gas facilities by 30th October",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "STALLION:2025-05-15#2",
+        "call_label": "Q4FY25 call (15 May 2025)",
+        "verbal_claim": "Company expects 30% YoY revenue growth",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Company expects 30% YoY revenue growth)."
+      },
+      {
+        "promise_id": "STALLION:2025-05-15#3",
+        "call_label": "Q4FY25 call (15 May 2025)",
+        "verbal_claim": "New semiconductor products facility to add at least INR 100 crores of revenue",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (New semiconductor products facility to add at least INR 100 crores of revenue)."
+      }
+    ]
+  },
+  "AMARAJABAT": {
+    "ticker": "AMARAJABAT",
+    "deck_label": "AMARAJABAT Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "AMARAJABAT:2025-08-12#0",
+        "call_label": "Q1FY26 call (12 Aug 2025)",
+        "verbal_claim": "Spend INR1,200-1,300 crores as total capex in FY26",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Spend INR1,200-1,300 crores as total capex in FY26)."
+      },
+      {
+        "promise_id": "AMARAJABAT:2025-08-12#1",
+        "call_label": "Q1FY26 call (12 Aug 2025)",
+        "verbal_claim": "Spend INR800-900 crores on New Energy projects in FY26",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "AMARAJABAT:2025-08-12#2",
+        "call_label": "Q1FY26 call (12 Aug 2025)",
+        "verbal_claim": "Infuse another INR1,200 crores into Advanced Cell Technologies subsidiary to complete lab, CQP and 1 GWh gigafactory",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Infuse another INR1,200 crores into Advanced Cell Technologies subsidiary to complete lab, CQP and 1 GWh gigafactory)."
+      },
+      {
+        "promise_id": "AMARAJABAT:2025-08-12#3",
+        "call_label": "Q1FY26 call (12 Aug 2025)",
+        "verbal_claim": "First lithium-cell gigafactory to have initial capacity of 1 GWh NMC 21700 cells",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (First lithium-cell gigafactory to have initial capacity of 1 GWh NMC 21700 cells)."
+      }
+    ]
+  },
+  "SONACOMS": {
+    "ticker": "SONACOMS",
+    "deck_label": "SONACOMS Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "SONACOMS:2024-10-23#0",
+        "call_label": "Q2FY25 call (23 Oct 2024)",
+        "verbal_claim": "RED railway acquisition to be EPS accretive from the first year after closing",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (After closing of RED acquisition) that temper the headline concall target."
+      },
+      {
+        "promise_id": "SONACOMS:2024-10-23#1",
+        "call_label": "Q2FY25 call (23 Oct 2024)",
+        "verbal_claim": "RoE and RoCE to improve as QIP cash is deployed into growth initiatives",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (as we deploy and invest the cash to various growth initiatives of the company) that temper the headline concall target."
+      },
+      {
+        "promise_id": "SONACOMS:2024-10-23#2",
+        "call_label": "Q2FY25 call (23 Oct 2024)",
+        "verbal_claim": "Remaining 29 EV programs to start production during FY25 or FY26",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "SONACOMS:2024-10-23#3",
+        "call_label": "Q2FY25 call (23 Oct 2024)",
+        "verbal_claim": "Most order-book programs will start production by FY27",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Most order-book programs will start production by FY27)."
+      }
+    ]
+  },
+  "AHLUCONT": {
+    "ticker": "AHLUCONT",
+    "deck_label": "AHLUCONT Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "AHLUCONT:2024-11-18#0",
+        "call_label": "Q2FY25 call (18 Nov 2024)",
+        "verbal_claim": "FY25 topline growth of about 15% yoy",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "AHLUCONT:2024-11-18#1",
+        "call_label": "Q2FY25 call (18 Nov 2024)",
+        "verbal_claim": "FY25 EBITDA margin of around 9%",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (FY25 EBITDA margin of around 9%)."
+      },
+      {
+        "promise_id": "AHLUCONT:2024-11-18#2",
+        "call_label": "Q2FY25 call (18 Nov 2024)",
+        "verbal_claim": "Cross double-digit margin in FY26",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Cross double-digit margin in FY26)."
+      },
+      {
+        "promise_id": "AHLUCONT:2024-11-18#3",
+        "call_label": "Q2FY25 call (18 Nov 2024)",
+        "verbal_claim": "FY26 revenue growth of 15-20% targeting 20%",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      }
+    ]
+  },
+  "KAYNES": {
+    "ticker": "KAYNES",
+    "deck_label": "KAYNES Q1-Q3 FY26 Investor Presentation & OSAT/HDI Capex Deck",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "KAYNES:2025-01-28#0",
+        "call_label": "Q3FY25 call (28 Jan 2025)",
+        "verbal_claim": "Annual operating revenue growth for FY25 to exceed 55% YoY",
+        "slide_region": "guidance_table",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.11,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` on Slide 14 discloses that FY26 consolidated revenue target of Rs 4,500+ Cr assumes timely OSAT government capital subsidy disbursement and Q4 smart-meter dispatch clustering\u2014caveats downplayed verbally."
+      },
+      {
+        "promise_id": "KAYNES:2025-01-28#1",
+        "call_label": "Q3FY25 call (28 Jan 2025)",
+        "verbal_claim": "OSAT and HDI PCB factories to start yielding revenue in Q4 FY26",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "KAYNES:2025-01-28#2",
+        "call_label": "Q3FY25 call (28 Jan 2025)",
+        "verbal_claim": "Full-year FY25 EBITDA margin to exceed 15%",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Full-year FY25 EBITDA margin to exceed 15%)."
+      },
+      {
+        "promise_id": "KAYNES:2025-01-28#3",
+        "call_label": "Q3FY25 call (28 Jan 2025)",
+        "verbal_claim": "EMS capex of INR200-300 crores per annum for FY26 and FY27",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      }
+    ]
+  },
+  "ASALCBR": {
+    "ticker": "ASALCBR",
+    "deck_label": "ASALCBR Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "ASALCBR:2025-08-11#0",
+        "call_label": "Q1FY26 call (11 Aug 2025)",
+        "verbal_claim": "Spend about Rs 100 crore capex in FY26 for maturation project and upgrades",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "ASALCBR:2025-08-11#1",
+        "call_label": "Q1FY26 call (11 Aug 2025)",
+        "verbal_claim": "New malt plant to be fully operational soon",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (New malt plant to be fully operational soon)."
+      },
+      {
+        "promise_id": "ASALCBR:2025-08-11#2",
+        "call_label": "Q1FY26 call (11 Aug 2025)",
+        "verbal_claim": "Launch Culture RTD brand in Madhya Pradesh within a month",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (registration happening) that temper the headline concall target."
+      },
+      {
+        "promise_id": "ASALCBR:2025-08-11#3",
+        "call_label": "Q1FY26 call (11 Aug 2025)",
+        "verbal_claim": "Launch tequila in next two to three months",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      }
+    ]
+  },
+  "UTKARSHBNK": {
+    "ticker": "UTKARSHBNK",
+    "deck_label": "UTKARSHBNK Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "UTKARSHBNK:2024-11-11#0",
+        "call_label": "Q2FY25 call (11 Nov 2024)",
+        "verbal_claim": "JLG disbursement to normalize from Q4FY25 and full-year FY25 JLG portfolio to remain flat vs FY24",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "UTKARSHBNK:2024-11-11#1",
+        "call_label": "Q2FY25 call (11 Nov 2024)",
+        "verbal_claim": "Non-micro banking portfolio to grow around 45% to 50% yoy in FY25",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Non-micro banking portfolio to grow around 45% to 50% yoy in FY25)."
+      },
+      {
+        "promise_id": "UTKARSHBNK:2024-11-11#2",
+        "call_label": "Q2FY25 call (11 Nov 2024)",
+        "verbal_claim": "JLG loan portfolio to grow around 14% to 15% yoy in FY26",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "UTKARSHBNK:2024-11-11#3",
+        "call_label": "Q2FY25 call (11 Nov 2024)",
+        "verbal_claim": "Stress/delinquency to peak by end Q3FY25 with reversal starting Q4FY25",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      }
+    ]
+  },
+  "PAYTM": {
+    "ticker": "PAYTM",
+    "deck_label": "PAYTM Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "PAYTM:2025-01-20#0",
+        "call_label": "Q3FY25 call (20 Jan 2025)",
+        "verbal_claim": "Increase share of device merchants with outstanding loan to 10-15% within 2-3 years",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Increase share of device merchants with outstanding loan to 10-15% within 2-3 years)."
+      },
+      {
+        "promise_id": "PAYTM:2025-01-20#1",
+        "call_label": "Q3FY25 call (20 Jan 2025)",
+        "verbal_claim": "Reduce number of overseas subsidiaries within 3 to 6 months",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Reduce number of overseas subsidiaries within 3 to 6 months)."
+      },
+      {
+        "promise_id": "PAYTM:2025-01-20#2",
+        "call_label": "Q3FY25 call (20 Jan 2025)",
+        "verbal_claim": "Invest up to Rs 20 crore in each new international market",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Invest up to Rs 20 crore in each new international market)."
+      },
+      {
+        "promise_id": "PAYTM:2025-01-20#3",
+        "call_label": "Q3FY25 call (20 Jan 2025)",
+        "verbal_claim": "FY26 capex will stay below FY24 levels",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (FY26 capex will stay below FY24 levels)."
+      }
+    ]
+  },
+  "PRESTIGE": {
+    "ticker": "PRESTIGE",
+    "deck_label": "PRESTIGE Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "PRESTIGE:2025-01-31#0",
+        "call_label": "Q3FY25 call (31 Jan 2025)",
+        "verbal_claim": "Achieve office exit rental income of around Rs 700+ crore by March 2025",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Achieve office exit rental income of around Rs 700+ crore by March 2025)."
+      },
+      {
+        "promise_id": "PRESTIGE:2025-01-31#1",
+        "call_label": "Q3FY25 call (31 Jan 2025)",
+        "verbal_claim": "Handover maiden Mumbai residential projects Siesta, City Mulund and Jasdan Classic in coming months",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Handover maiden Mumbai residential projects Siesta, City Mulund and Jasdan Classic in coming months)."
+      },
+      {
+        "promise_id": "PRESTIGE:2025-01-31#2",
+        "call_label": "Q3FY25 call (31 Jan 2025)",
+        "verbal_claim": "Complete BKC rehab construction in the next few quarters",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "PRESTIGE:2025-01-31#3",
+        "call_label": "Q3FY25 call (31 Jan 2025)",
+        "verbal_claim": "Launch Rs 30,000 crore of inventory across 5 projects in Q4FY25",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Launch Rs 30,000 crore of inventory across 5 projects in Q4FY25)."
+      }
+    ]
+  },
+  "EIEL": {
+    "ticker": "EIEL",
+    "deck_label": "EIEL Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "EIEL:2025-02-07#0",
+        "call_label": "Q3FY25 call (07 Feb 2025)",
+        "verbal_claim": "Maintain EBITDA margin around 24% to 25% year-on-year",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "EIEL:2025-02-07#1",
+        "call_label": "Q3FY25 call (07 Feb 2025)",
+        "verbal_claim": "Appoint Chief Operating Officer for renewable energy subsidiary in coming week or two",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Appoint Chief Operating Officer for renewable energy subsidiary in coming week or two)."
+      },
+      {
+        "promise_id": "EIEL:2025-02-07#2",
+        "call_label": "Q3FY25 call (07 Feb 2025)",
+        "verbal_claim": "Cross INR1,000 crores topline in FY25",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Cross INR1,000 crores topline in FY25)."
+      },
+      {
+        "promise_id": "EIEL:2025-02-07#3",
+        "call_label": "Q3FY25 call (07 Feb 2025)",
+        "verbal_claim": "Maintain ~25% EBITDA margins for the next 2-3 years",
+        "slide_region": "guidance_table",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `guidance_table` quantitatively aligns with management's verbal commitment (Maintain ~25% EBITDA margins for the next 2-3 years)."
+      }
+    ]
+  },
+  "ADVAIT": {
+    "ticker": "ADVAIT",
+    "deck_label": "ADVAIT Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "ADVAIT:2025-11-14#0",
+        "call_label": "Q2FY26 call (14 Nov 2025)",
+        "verbal_claim": "New ERS manufacturing facility to be ready by next month",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (New ERS manufacturing facility to be ready by next month)."
+      },
+      {
+        "promise_id": "ADVAIT:2025-11-14#1",
+        "call_label": "Q2FY26 call (14 Nov 2025)",
+        "verbal_claim": "All new manufacturing and expansion of existing units at Gangad integrated facility to be ready by July 2026",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (All new manufacturing and expansion of existing units at Gangad integrated facility to be ready by July 2026)."
+      },
+      {
+        "promise_id": "ADVAIT:2025-11-14#2",
+        "call_label": "Q2FY26 call (14 Nov 2025)",
+        "verbal_claim": "Deliver 1 MW green hydrogen project in Bharuch in Q3FY26",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Deliver 1 MW green hydrogen project in Bharuch in Q3FY26)."
+      },
+      {
+        "promise_id": "ADVAIT:2025-11-14#3",
+        "call_label": "Q2FY26 call (14 Nov 2025)",
+        "verbal_claim": "Maintain overall revenue growth rate of about 50-60%",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      }
+    ]
+  },
+  "VPRPL": {
+    "ticker": "VPRPL",
+    "deck_label": "VPRPL Investor Presentation Deck & Capex Visual Audit",
+    "segmentation": {
+      "model": "sam-3.1",
+      "mode": "sam3_layout_pipeline",
+      "image_size": [
+        1280,
+        720
+      ],
+      "regions": [
+        {
+          "region_id": "sam3_r1",
+          "prompt_label": "guidance_table",
+          "bbox": [
+            64,
+            115,
+            563,
+            345
+          ],
+          "confidence": 0.962,
+          "area_pct": 21.1
+        },
+        {
+          "region_id": "sam3_r2",
+          "prompt_label": "bar_chart_trajectory",
+          "bbox": [
+            665,
+            115,
+            550,
+            345
+          ],
+          "confidence": 0.948,
+          "area_pct": 20.6
+        },
+        {
+          "region_id": "sam3_r3",
+          "prompt_label": "project_timeline_milestones",
+          "bbox": [
+            64,
+            475,
+            1152,
+            129
+          ],
+          "confidence": 0.931,
+          "area_pct": 16.2
+        },
+        {
+          "region_id": "sam3_r4",
+          "prompt_label": "footnote_caveat",
+          "bbox": [
+            64,
+            619,
+            1152,
+            64
+          ],
+          "confidence": 0.974,
+          "area_pct": 8.1
+        }
+      ]
+    },
+    "cross_checks": [
+      {
+        "promise_id": "VPRPL:2024-06-03#0",
+        "call_label": "Q4FY24 call (03 Jun 2024)",
+        "verbal_claim": "Maintain order book to turnover ratio around 3 times",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Maintain order book to turnover ratio around 3 times)."
+      },
+      {
+        "promise_id": "VPRPL:2024-06-03#1",
+        "call_label": "Q4FY24 call (03 Jun 2024)",
+        "verbal_claim": "Sustain EBITDA margin around 13% to 14% in FY25 and going forward",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "VPRPL:2024-06-03#2",
+        "call_label": "Q4FY24 call (03 Jun 2024)",
+        "verbal_claim": "Maintain historic revenue growth of 15% to 20% in FY25",
+        "slide_region": "footnote_caveat",
+        "alignment_status": "FOOTNOTE_HEDGED",
+        "credibility_delta": -0.08,
+        "visual_finding": "SAM 3.1 region `footnote_caveat` reveals conditional dependencies (phased ramp-up / approval lag) that temper the headline concall target."
+      },
+      {
+        "promise_id": "VPRPL:2024-06-03#3",
+        "call_label": "Q4FY24 call (03 Jun 2024)",
+        "verbal_claim": "Maintain order book up to 3x of turnover in FY25",
+        "slide_region": "project_timeline_milestones",
+        "alignment_status": "CONSISTENT",
+        "credibility_delta": 0.04,
+        "visual_finding": "SAM 3.1 region `project_timeline_milestones` quantitatively aligns with management's verbal commitment (Maintain order book up to 3x of turnover in FY25)."
+      }
+    ]
+  }
+}

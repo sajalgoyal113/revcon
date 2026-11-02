@@ -1,0 +1,1000 @@
+{
+  "TATATECH": {
+    "ticker": "TATATECH",
+    "headline": "TATATECH consistently delivers on operational and financial commitments (Say-Do 76/100, Grade B).",
+    "verdict": "Reliable",
+    "patterns": [
+      "Delivered 12 verified commitments, anchored by expansion execution (Scale BMW partnership team to more than 1,000 people by end of calendar 2025) [TATATECH:2025-01-21#0].",
+      "Logged 2 missed, abandoned, or ghosted targets (Achieve at least double-digit revenue growth in FY26 -> MISSED) [TATATECH:2025-07-14#2]."
+    ],
+    "red_flags": [
+      "Q1FY26 call (14 Jul 2025): \"Achieve at least double-digit revenue growth in FY26\" resolved as MISSED (guided 10 vs actual 6.5) [TATATECH:2025-07-14#2].",
+      "Q1FY26 call (14 Jul 2025): \"Preserve full-year margin in FY26 to be assessed at Q4 exit\" resolved as GHOSTED (deadline 2026-03-31 passed; not mentioned on 2 later calls) [TATATECH:2025-07-14#5]."
+    ],
+    "credit_where_due": [
+      "Q3FY25 call (21 Jan 2025): \"Scale BMW partnership team to more than 1,000 people by end of calendar 2025\" -> DELIVERED (confirmed on Q2FY26 call (17 Oct 2025)) [TATATECH:2025-01-21#0].",
+      "Q3FY25 call (21 Jan 2025): \"Aerospace business growth momentum to continue into Q4FY25 and FY26\" -> DELIVERED (confirmed on Q4FY25 call (25 Apr 2025)) [TATATECH:2025-01-21#1].",
+      "Q2FY26 call (17 Oct 2025): \"ES-TEC acquisition to close in Q3FY26\" -> DELIVERED (confirmed on Q3FY26 call (16 Jan 2026)) [TATATECH:2025-10-17#0].",
+      "Q1FY26 call (14 Jul 2025): \"Sequential revenue recovery in Q2FY26\" -> DELIVERED (confirmed on Q2FY26 call (17 Oct 2025)) [TATATECH:2025-07-14#0]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Build order book and momentum entering FY27 to enable double-digit revenue growth in FY27\" (target horizon: FY27, category: revenue_growth) [TATATECH:2025-10-17#1].",
+      "Monitor \"Debtor days to return to H1FY26 level over the next 2 quarters\" (target horizon: Q4FY26-Q1FY27, category: other) [TATATECH:2026-01-16#5].",
+      "Monitor \"Deliver sequential margin improvement in Q2FY27 while absorbing wage hike costs\" (target horizon: Q2FY27, category: ebitda_margin) [TATATECH:2026-07-17#1].",
+      "Monitor \"H2FY27 growth will be much greater than H1FY27 with acceleration through quarters\" (target horizon: H2FY27, category: revenue_growth) [TATATECH:2026-07-17#2].",
+      "Monitor \"Continue quarter-over-quarter margin expansion while accelerating growth\" (target horizon: Q2FY27, category: ebitda_margin) [TATATECH:2026-07-17#3]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "SAMHI": {
+    "ticker": "SAMHI",
+    "headline": "SAMHI executes well on core operational milestones with occasional timeline shifts (Say-Do 74/100, Grade B).",
+    "verdict": "Mostly reliable",
+    "patterns": [
+      "Delivered 24 verified commitments, anchored by debt execution (Bring leverage down to less than 3.0x in the next 12 months without compromising growth) [SAMHI:2025-04-24#2].",
+      "Exhibits 9 delayed or partially met commitments where timelines or targets shifted (Start construction of new building for proposed Westin towards end of calendar 2025) [SAMHI:2025-04-24#14].",
+      "Logged 3 missed, abandoned, or ghosted targets (Pune hotel to be fully renovated and rebranded to Courtyard by Marriott by May 2026 -> MISSED) [SAMHI:2025-05-30#8]."
+    ],
+    "red_flags": [
+      "Q4FY25 call (30 May 2025): \"Pune hotel to be fully renovated and rebranded to Courtyard by Marriott by May 2026\" resolved as MISSED (missed per Q4FY26 call (22 May 2026)) [SAMHI:2025-05-30#8].",
+      "Q3FY26 call (29 Jan 2026): \"Strong recovery in margins starting February in Q4FY26 driven by revenue growth\" resolved as MISSED (missed per Q4FY26 call (22 May 2026)) [SAMHI:2026-01-29#6].",
+      "Q3FY26 call (29 Jan 2026): \"Maintain double-digit RevPAR growth in Q4FY26 despite high base\" resolved as MISSED (missed per Q4FY26 call (22 May 2026)) [SAMHI:2026-01-29#9].",
+      "Q4FY25 call (24 Apr 2025): \"Start construction of new building for proposed Westin towards end of calendar 2025\" resolved as LATE (confirmed on Q4FY26 call (22 May 2026) after delay) [SAMHI:2025-04-24#14]."
+    ],
+    "credit_where_due": [
+      "Q4FY25 call (24 Apr 2025): \"Bring leverage down to less than 3.0x in the next 12 months without compromising growth\" -> DELIVERED (confirmed on Q2FY26 call (29 Oct 2025)) [SAMHI:2025-04-24#2].",
+      "Q4FY25 call (24 Apr 2025): \"Conclude at least one midscale asset recycling in the next six to eight months\" -> DELIVERED (confirmed on Q1FY26 call (14 Aug 2025)) [SAMHI:2025-04-24#11].",
+      "Q4FY25 call (24 Apr 2025): \"Take net debt to EBITDA below 3x in the next 12 months\" -> DELIVERED (confirmed on Q2FY26 call (29 Oct 2025)) [SAMHI:2025-04-24#12].",
+      "Q4FY25 call (24 Apr 2025): \"Call EGM in third week of May for transaction approval\" -> DELIVERED (confirmed on Q4FY25 call (30 May 2025)) [SAMHI:2025-04-24#17]."
+    ],
+    "watch_next_call": [
+      "Monitor \"15% to 20% EBITDA CAGR over next three to four years\" (target horizon: FY26-FY29, category: ebitda_growth) [SAMHI:2025-04-24#6].",
+      "Monitor \"Existing 142-room Whitefield hotel to go under renovation in FY27\" (target horizon: FY27, category: other) [SAMHI:2025-04-24#13].",
+      "Monitor \"W Hyderabad, new Sheraton rooms and Holiday Inn Express to go live in FY26 or FY27\" (target horizon: FY26-FY27, category: commissioning) [SAMHI:2025-04-24#15].",
+      "Monitor \"170-room Hi-tech City Hyderabad hotel to open in H2FY27\" (target horizon: H2FY27, category: expansion) [SAMHI:2025-05-30#1].",
+      "Monitor \"ESOP cost to reduce to INR10 crores in FY26 and stabilize\" (target horizon: FY26, category: cost_saving) [SAMHI:2025-05-30#3]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "EMMVEE": {
+    "ticker": "EMMVEE",
+    "headline": "EMMVEE executes well on core operational milestones with occasional timeline shifts (Say-Do 70/100, Grade B).",
+    "verdict": "Mostly reliable",
+    "patterns": [
+      "Delivered 6 verified commitments, anchored by commissioning execution (Second 2.5 GW module line to come online by FY26) [EMMVEE:2025-11-27#0].",
+      "Logged 1 missed, abandoned, or ghosted targets (Transition cell production from M10 to G12R by end of Q1FY27 -> MISSED) [EMMVEE:2026-04-24#6]."
+    ],
+    "red_flags": [
+      "Q4FY26 call (24 Apr 2026): \"Transition cell production from M10 to G12R by end of Q1FY27\" resolved as MISSED (missed per Q1FY27 call (13 Jul 2026)) [EMMVEE:2026-04-24#6]."
+    ],
+    "credit_where_due": [
+      "Q2FY26 call (27 Nov 2025): \"Second 2.5 GW module line to come online by FY26\" -> DELIVERED (confirmed on Q3FY26 call (16 Jan 2026)) [EMMVEE:2025-11-27#0].",
+      "Q2FY26 call (27 Nov 2025): \"Repay almost Rs 45 crore of long-term debt in next two quarters\" -> DELIVERED (confirmed on Q4FY26 call (24 Apr 2026)) [EMMVEE:2025-11-27#2].",
+      "Q2FY26 call (27 Nov 2025): \"Reduce long-term debt to around Rs 50-55 crore by end-March 2026\" -> DELIVERED (confirmed on Q4FY26 call (24 Apr 2026)) [EMMVEE:2025-11-27#3].",
+      "Q2FY26 call (27 Nov 2025): \"Increase solar cell utilization to about 85-90% by end of FY26\" -> DELIVERED (confirmed on Q4FY26 call (24 Apr 2026)) [EMMVEE:2025-11-27#6]."
+    ],
+    "watch_next_call": [
+      "Monitor \"6 GW greenfield cell expansion to be fully operational and ramped up by March/April 2027\" (target horizon: 2027-03, category: commissioning) [EMMVEE:2025-11-27#7].",
+      "Monitor \"Maintain currently achieved margin levels going forward with backward integration from FY27 onwards\" (target horizon: FY27, category: ebitda_margin) [EMMVEE:2025-11-27#8].",
+      "Monitor \"Full capitalization of the expansion plan will be seen only in April 2027\" (target horizon: 2027-04, category: commissioning) [EMMVEE:2025-11-27#9].",
+      "Monitor \"Commission 6 GW module line by December 2026\" (target horizon: 2026-12, category: commissioning) [EMMVEE:2026-07-13#1].",
+      "Monitor \"Commission ingot and wafer facility by mid calendar year 2028\" (target horizon: 2028-06, category: commissioning) [EMMVEE:2026-07-13#5]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "SYRMA": {
+    "ticker": "SYRMA",
+    "headline": "SYRMA executes well on core operational milestones with occasional timeline shifts (Say-Do 67/100, Grade C).",
+    "verdict": "Mostly reliable",
+    "patterns": [
+      "Delivered 53 verified commitments, anchored by ebitda margin execution (Guide 8% EBITDA margin for FY26) [SYRMA:2025-05-14#1].",
+      "Exhibits 7 delayed or partially met commitments where timelines or targets shifted (Complete merger within 3-6 months after January 2025) [SYRMA:2025-01-29#5].",
+      "Logged 20 missed, abandoned, or ghosted targets (Reduce Consumer business mix to 30% on annualized basis in FY26 -> MISSED) [SYRMA:2025-05-14#2]."
+    ],
+    "red_flags": [
+      "Q4FY25 call (14 May 2025): \"Reduce Consumer business mix to 30% on annualized basis in FY26\" resolved as MISSED (missed per Q4FY26 call (12 May 2026)) [SYRMA:2025-05-14#2].",
+      "Q3FY25 call (29 Jan 2025): \"Keep net working capital below 60 days on sustainable basis\" resolved as MISSED (missed per Q4FY25 call (14 May 2025)) [SYRMA:2025-01-29#4].",
+      "Q3FY25 call (29 Jan 2025): \"Achieve ~Rs 6,000 crore turnover for coming year with guided EBITDA margins intact\" resolved as MISSED (guided 6000 vs actual 4819.0) [SYRMA:2025-01-29#9].",
+      "Q3FY25 call (29 Jan 2025): \"Achieve ~6x asset turn this year with increase in scale\" resolved as MISSED (missed per Q4FY25 call (14 May 2025)) [SYRMA:2025-01-29#11]."
+    ],
+    "credit_where_due": [
+      "Q4FY25 call (14 May 2025): \"Guide 8% EBITDA margin for FY26\" -> DELIVERED (guided 8 vs actual 11.3) [SYRMA:2025-05-14#1].",
+      "Q4FY25 call (14 May 2025): \"Cross INR1,000 crores export revenue in FY26 after delay from FY25\" -> DELIVERED (confirmed on Q4FY26 call (12 May 2026)) [SYRMA:2025-05-14#3].",
+      "Q4FY25 call (14 May 2025): \"20-25 new customers added to go on stream in FY26 and FY27\" -> DELIVERED (confirmed on Q4FY26 call (12 May 2026)) [SYRMA:2025-05-14#4].",
+      "Q4FY25 call (14 May 2025): \"Bring net working capital days down to below 65 days in FY26\" -> DELIVERED (confirmed on Q4FY26 call (12 May 2026)) [SYRMA:2025-05-14#5]."
+    ],
+    "watch_next_call": [
+      "Monitor \"RFID business to be 8% to 10% of total revenue in FY26\" (target horizon: FY26, category: other) [SYRMA:2025-05-14#11].",
+      "Monitor \"New automotive and industrial clients to yield under 200 crore revenue in FY26\" (target horizon: FY26, category: customer_win) [SYRMA:2025-01-29#3].",
+      "Monitor \"Construct new production facility in Pune campus for FY27-FY28 requirements\" (target horizon: FY27-FY28, category: expansion) [SYRMA:2025-01-29#17].",
+      "Monitor \"Bring Bangalore plant on stream end of calendar 2025 to early calendar 2026\" (target horizon: 2025-12, category: commissioning) [SYRMA:2025-07-24#3].",
+      "Monitor \"Spend $91 million Phase-1 capex for PCB plant over next 3-4 years\" (target horizon: FY26-FY29, category: capex) [SYRMA:2025-07-24#6]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "COFORGE": {
+    "ticker": "COFORGE",
+    "headline": "COFORGE executes well on core operational milestones with occasional timeline shifts (Say-Do 66/100, Grade C).",
+    "verdict": "Mostly reliable",
+    "patterns": [
+      "Delivered 23 verified commitments, anchored by ebitda margin execution (Deliver 14% reported EBIT margin in FY26) [COFORGE:2025-07-24#0].",
+      "Exhibits 8 delayed or partially met commitments where timelines or targets shifted (Complete NCLT merger approval/integration by December 2025-January 2026) [COFORGE:2025-07-24#2].",
+      "Logged 8 missed, abandoned, or ghosted targets (Sabre deal revenue to grow sequentially in Q2FY26 -> GHOSTED) [COFORGE:2025-07-24#4]."
+    ],
+    "red_flags": [
+      "Q1FY26 call (24 Jul 2025): \"Sabre deal revenue to grow sequentially in Q2FY26\" resolved as GHOSTED (deadline 2025-09-30 passed; not mentioned on 5 later calls) [COFORGE:2025-07-24#4].",
+      "Q1FY26 call (24 Jul 2025): \"FY26 capex to taper down to original 2-3% levels\" resolved as GHOSTED (deadline 2026-03-31 passed; not mentioned on 2 later calls) [COFORGE:2025-07-24#7].",
+      "Q1FY26 call (24 Jul 2025): \"H2FY26 revenue to be much stronger than H1FY26 as Q1 and Q2 large deals convert to revenue\" resolved as GHOSTED (deadline 2026-03-31 passed; not mentioned on 2 later calls) [COFORGE:2025-07-24#13].",
+      "Q2FY26 call (24 Oct 2025): \"Reach almost $100 million healthcare book of business by end of FY26\" resolved as GHOSTED (deadline 2026-03-31 passed; not mentioned on 2 later calls) [COFORGE:2025-10-24#3]."
+    ],
+    "credit_where_due": [
+      "Q1FY26 call (24 Jul 2025): \"Deliver 14% reported EBIT margin in FY26\" -> DELIVERED (guided 14 vs actual 17.9) [COFORGE:2025-07-24#0].",
+      "Q1FY26 call (24 Jul 2025): \"Close at least 20 large deals in FY26\" -> DELIVERED (confirmed on Q4FY26 call (05 May 2026)) [COFORGE:2025-07-24#1].",
+      "Q1FY26 call (24 Jul 2025): \"Merger effective date will be April 1 2026\" -> DELIVERED (confirmed on Q4FY26 call (05 May 2026)) [COFORGE:2025-07-24#3].",
+      "Q1FY26 call (24 Jul 2025): \"Sabre deal resource loading/headcount to stabilize from Q3FY26 onwards\" -> DELIVERED (confirmed on Q2FY26 call (24 Oct 2025)) [COFORGE:2025-07-24#5]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Reported EBITDA margin to hit 18% by FY27 from 16.6%\" (target horizon: FY27, category: ebitda_margin) [COFORGE:2025-05-05#3].",
+      "Monitor \"$2 billion revenue guidance for FY27\" (target horizon: FY27, category: revenue_target) [COFORGE:2025-05-05#4].",
+      "Monitor \"AI-led product engineering to be $1.25 billion plus business in FY2027\" (target horizon: FY27, category: revenue_target) [COFORGE:2025-12-26#2].",
+      "Monitor \"Utilization will sharply increase in Q4FY26\" (target horizon: Q4FY26, category: other) [COFORGE:2026-01-23#2].",
+      "Monitor \"No dilution of EPS in FY27 for combined business even after $550Mn term loan\" (target horizon: FY27, category: other) [COFORGE:2026-01-23#4]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "RAINBOW": {
+    "ticker": "RAINBOW",
+    "headline": "RAINBOW executes well on core operational milestones with occasional timeline shifts (Say-Do 66/100, Grade C).",
+    "verdict": "Mostly reliable",
+    "patterns": [
+      "Delivered 16 verified commitments, anchored by expansion execution (Launch 8,000-sq-ft child development center in Banjara Hills Hyderabad on 14 November) [RAINBOW:2024-10-28#1].",
+      "Exhibits 15 delayed or partially met commitments where timelines or targets shifted (Commence operations of 100-bed Rajahmundry regional hub hospital by March 2025) [RAINBOW:2024-10-28#2].",
+      "Logged 1 missed, abandoned, or ghosted targets (Close FY25 international business at around INR 34 crores -> MISSED) [RAINBOW:2025-02-10#9]."
+    ],
+    "red_flags": [
+      "Q3FY25 call (10 Feb 2025): \"Close FY25 international business at around INR 34 crores\" resolved as MISSED (missed per Q4FY25 call (26 May 2025)) [RAINBOW:2025-02-10#9].",
+      "Q2FY25 call (28 Oct 2024): \"Commence operations of 100-bed Rajahmundry regional hub hospital by March 2025\" resolved as LATE (confirmed on Q2FY26 call (14 Nov 2025) after delay) [RAINBOW:2024-10-28#2].",
+      "Q2FY25 call (28 Oct 2024): \"Commission 60-bed Hennur Bengaluru spoke hospital by end of H1 FY26\" resolved as REVISED_DOWN (delayed on Q3FY26 call (29 Jan 2026), never confirmed) [RAINBOW:2024-10-28#3].",
+      "Q2FY25 call (28 Oct 2024): \"Commission 100-bed Rajahmundry hospital by March 2025\" resolved as LATE (confirmed on Q2FY26 call (14 Nov 2025) after delay) [RAINBOW:2024-10-28#8]."
+    ],
+    "credit_where_due": [
+      "Q2FY25 call (28 Oct 2024): \"Launch 8,000-sq-ft child development center in Banjara Hills Hyderabad on 14 November\" -> DELIVERED (confirmed on Q3FY25 call (10 Feb 2025)) [RAINBOW:2024-10-28#1].",
+      "Q2FY25 call (28 Oct 2024): \"Commence operations of 90-bed Electronic City Bangalore spoke hospital by Q3 FY26\" -> DELIVERED (confirmed on Q3FY26 call (29 Jan 2026)) [RAINBOW:2024-10-28#5].",
+      "Q2FY25 call (28 Oct 2024): \"Add total 380 beds in next 24 months\" -> DELIVERED (confirmed on Q4FY26 call (25 May 2026)) [RAINBOW:2024-10-28#10].",
+      "Q4FY25 call (26 May 2025): \"Add ~250 beds to network in Bangalore and Rajahmundry in FY26\" -> DELIVERED (confirmed on Q4FY26 call (25 May 2026)) [RAINBOW:2025-05-26#4]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Complete 130-bed Coimbatore regional hub hospital in 24 months\" (target horizon: 2026-10, category: expansion) [RAINBOW:2024-10-28#4].",
+      "Monitor \"Establish another hub in Hyderabad in next five years\" (target horizon: FY25-FY30, category: expansion) [RAINBOW:2024-10-28#11].",
+      "Monitor \"Maintain about 12% to 15% EBITDA margin at Madhukar over the next one to two years\" (target horizon: FY26-FY27, category: ebitda_margin) [RAINBOW:2024-10-28#12].",
+      "Monitor \"Reiterated INR ~650 crore capex plan over next 3 years with no change\" (target horizon: FY26-FY28, category: capex) [RAINBOW:2025-05-26#9].",
+      "Monitor \"FY26 EBITDA margin to be broadly similar to FY25 margin\" (target horizon: FY26, category: ebitda_margin) [RAINBOW:2025-05-26#12]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "NYKAA": {
+    "ticker": "NYKAA",
+    "headline": "NYKAA executes well on core operational milestones with occasional timeline shifts (Say-Do 65/100, Grade C).",
+    "verdict": "Mostly reliable",
+    "patterns": [
+      "Delivered 3 verified commitments, anchored by ebitda margin execution (Fashion business to reach EBITDA margin breakeven next year (FY26)) [NYKAA:2025-02-10#1].",
+      "Exhibits 1 delayed or partially met commitments where timelines or targets shifted (Kay Beauty to launch globally in the UK with Space NK within the next couple of weeks) [NYKAA:2025-08-12#0]."
+    ],
+    "red_flags": [
+      "Q1FY26 call (12 Aug 2025): \"Kay Beauty to launch globally in the UK with Space NK within the next couple of weeks\" resolved as LATE (confirmed on Q3FY26 call (05 Feb 2026) after delay) [NYKAA:2025-08-12#0]."
+    ],
+    "credit_where_due": [
+      "Q3FY25 call (10 Feb 2025): \"Fashion business to reach EBITDA margin breakeven next year (FY26)\" -> DELIVERED (confirmed on Q4FY26 call (21 May 2026)) [NYKAA:2025-02-10#1].",
+      "Q1FY26 call (12 Aug 2025): \"Fashion business to reach EBITDA breakeven during FY26\" -> DELIVERED (confirmed on Q4FY26 call (21 May 2026)) [NYKAA:2025-08-12#3].",
+      "Q2FY26 call (07 Nov 2025): \"H&M to debut on Nykaa Fashion within days\" -> DELIVERED (confirmed on Q3FY26 call (05 Feb 2026)) [NYKAA:2025-11-07#1]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Open 50 to 70 brick-and-mortar doors in FY27\" (target horizon: FY27, category: expansion) [NYKAA:2026-05-21#0].",
+      "Monitor \"Reach about 500 total stores per long-term retail expansion plan\" (target horizon: FY28, category: expansion) [NYKAA:2026-05-21#1].",
+      "Monitor \"Expand Nykaa Now quick-delivery to over 25 cities by end of FY27\" (target horizon: FY27, category: expansion) [NYKAA:2026-08-04#0].",
+      "Monitor \"GST impact to normalize from Q3 onwards with NSV growth converging to GMV growth\" (target horizon: Q3FY27, category: other) [NYKAA:2026-08-04#1].",
+      "Monitor \"Reach 35% plus CAGR guidance by FY30\" (target horizon: FY30, category: revenue_growth) [NYKAA:2026-08-04#2]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "YATHARTH": {
+    "ticker": "YATHARTH",
+    "headline": "YATHARTH executes well on core operational milestones with occasional timeline shifts (Say-Do 65/100, Grade C).",
+    "verdict": "Mostly reliable",
+    "patterns": [
+      "Delivered 31 verified commitments, anchored by commissioning execution (Operationalize both Delhi Model Town and new Faridabad hospitals from first day of new financial year) [YATHARTH:2024-11-08#2].",
+      "Exhibits 14 delayed or partially met commitments where timelines or targets shifted (Reduce government business share by close to 8% for FY25 vs last year) [YATHARTH:2024-11-08#12].",
+      "Logged 9 missed, abandoned, or ghosted targets (Maintenance capex for mature hospitals to be not more than Rs 15 crore for FY25 -> GHOSTED) [YATHARTH:2024-11-08#16]."
+    ],
+    "red_flags": [
+      "Q2FY25 call (08 Nov 2024): \"Maintenance capex for mature hospitals to be not more than Rs 15 crore for FY25\" resolved as GHOSTED (deadline 2025-03-31 passed; not mentioned on 5 later calls) [YATHARTH:2024-11-08#16].",
+      "Q2FY25 call (08 Nov 2024): \"FY25 revenue to be very close to Rs 1000 crore with good growth in Q3FY25 and Q4FY25\" resolved as MISSED (guided 1000 vs actual 886.0) [YATHARTH:2024-11-08#20].",
+      "Q3FY25 call (28 Jan 2025): \"Census beds to be ~90% of 400-bed Faridabad and 300-bed Delhi hospitals\" resolved as MISSED (missed per Q2FY26 call (14 Nov 2025)) [YATHARTH:2025-01-28#13].",
+      "Q3FY25 call (28 Jan 2025): \"Close FY25 with receivable days close to 110 days\" resolved as MISSED (missed per Q4FY25 call (27 May 2025)) [YATHARTH:2025-01-28#16]."
+    ],
+    "credit_where_due": [
+      "Q2FY25 call (08 Nov 2024): \"Operationalize both Delhi Model Town and new Faridabad hospitals from first day of new financial year\" -> DELIVERED (confirmed on Q4FY25 call (27 May 2025)) [YATHARTH:2024-11-08#2].",
+      "Q2FY25 call (08 Nov 2024): \"Sustain consolidated EBITDA margins in FY26 despite drag from two new 700-bed hospitals via ramp-up in Noida Extension and Greater Noida\" -> DELIVERED (confirmed on Q4FY26 call (26 May 2026)) [YATHARTH:2024-11-08#17].",
+      "Q2FY25 call (08 Nov 2024): \"Operationalize Delhi and Faridabad acquired hospitals from new fiscal FY26 with fresh empanelments taking a few months\" -> DELIVERED (confirmed on Q1FY26 call (06 Aug 2025)) [YATHARTH:2024-11-08#19].",
+      "Q3FY25 call (28 Jan 2025): \"Break even Greater Faridabad Hospital close to nine months into FY26\" -> DELIVERED (confirmed on Q4FY25 call (27 May 2025)) [YATHARTH:2025-01-28#2]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Add 200 beds at Greater Noida and 250 beds at Noida Extension (450 beds total) in two to three years\" (target horizon: FY27-FY28, category: capacity) [YATHARTH:2024-11-08#4].",
+      "Monitor \"Sustain company EBITDA margin at 25.5%-26% going forward\" (target horizon: FY26-FY28, category: ebitda_margin) [YATHARTH:2024-11-08#9].",
+      "Monitor \"Reduce government business share to 25% in next 2.5-3 years\" (target horizon: FY27-FY28, category: other) [YATHARTH:2024-11-08#13].",
+      "Monitor \"Revenue YoY growth in FY25-26 to surpass prior growth and be much higher\" (target horizon: FY25-FY28, category: revenue_growth) [YATHARTH:2024-11-08#14].",
+      "Monitor \"Gurugram Sector 40 super-speciality hospital to become operational by April 2027\" (target horizon: 2027-04, category: expansion) [YATHARTH:2026-05-26#0]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "MAPMYINDIA": {
+    "ticker": "MAPMYINDIA",
+    "headline": "MAPMYINDIA executes well on core operational milestones with occasional timeline shifts (Say-Do 64/100, Grade C).",
+    "verdict": "Mostly reliable",
+    "patterns": [
+      "Delivered 10 verified commitments, anchored by cost saving execution (Calibrate/reduce Mappls App associated costs from Q4FY25 onwards) [MAPMYINDIA:2025-01-23#0].",
+      "Exhibits 5 delayed or partially met commitments where timelines or targets shifted (International JV share of loss will start declining towards end of FY26) [MAPMYINDIA:2025-05-07#1].",
+      "Logged 2 missed, abandoned, or ghosted targets (100% of Hyundai and Kia models to have MapmyIndia maps built in from Q4FY25 -> GHOSTED) [MAPMYINDIA:2025-01-23#7]."
+    ],
+    "red_flags": [
+      "Q3FY25 call (23 Jan 2025): \"100% of Hyundai and Kia models to have MapmyIndia maps built in from Q4FY25\" resolved as GHOSTED (deadline 2025-03-31 passed; not mentioned on 5 later calls) [MAPMYINDIA:2025-01-23#7].",
+      "Q3FY25 call (23 Jan 2025): \"Government business share of total revenue to be 10-20% in FY25\" resolved as GHOSTED (deadline 2025-03-31 passed; not mentioned on 5 later calls) [MAPMYINDIA:2025-01-23#11].",
+      "Q4FY25 call (07 May 2025): \"International JV share of loss will start declining towards end of FY26\" resolved as LATE (confirmed on Q1FY27 call (04 Aug 2026) after delay) [MAPMYINDIA:2025-05-07#1].",
+      "Q4FY25 call (07 May 2025): \"International JV PT TerraLink to start turning around by FY26 as revenues come in\" resolved as REVISED_DOWN (delayed on Q3FY26 call (11 Feb 2026), never confirmed) [MAPMYINDIA:2025-05-07#2]."
+    ],
+    "credit_where_due": [
+      "Q3FY25 call (23 Jan 2025): \"Calibrate/reduce Mappls App associated costs from Q4FY25 onwards\" -> DELIVERED (confirmed on Q4FY25 call (07 May 2025)) [MAPMYINDIA:2025-01-23#0].",
+      "Q3FY25 call (23 Jan 2025): \"Delayed expected IoT-led business will materialize in FY26\" -> DELIVERED (confirmed on Q2FY26 call (04 Nov 2025)) [MAPMYINDIA:2025-01-23#1].",
+      "Q3FY25 call (23 Jan 2025): \"Open order book at end-FY25 will exceed FY24 level\" -> DELIVERED (confirmed on Q4FY25 call (07 May 2025)) [MAPMYINDIA:2025-01-23#3].",
+      "Q3FY25 call (23 Jan 2025): \"Full-year FY25 EBITDA margin to remain close to 9M FY25 level of 38%\" -> DELIVERED (guided 38 vs actual 38.0) [MAPMYINDIA:2025-01-23#4]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Convert INR1,500 crores open order book into revenue in 3 to 4 years\" (target horizon: FY26-FY29, category: order_book) [MAPMYINDIA:2025-05-07#4].",
+      "Monitor \"Generate another INR500 crores revenue (to reach INR1,000 crores) in the next 3 years\" (target horizon: FY26-FY28, category: revenue_target) [MAPMYINDIA:2025-05-07#6].",
+      "Monitor \"Committed to ~25% revenue growth trajectory going ahead to FY28\" (target horizon: FY25-FY28, category: revenue_growth) [MAPMYINDIA:2025-01-23#6].",
+      "Monitor \"JV to have maps for 8-10 countries ready in Q4FY25\" (target horizon: Q4FY25, category: expansion) [MAPMYINDIA:2025-01-23#9].",
+      "Monitor \"Qualcomm partnership revenue impact in automotive OEMs to be seen after at least 1 year\" (target horizon: FY26, category: customer_win) [MAPMYINDIA:2025-01-23#13]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "PERSISTENT": {
+    "ticker": "PERSISTENT",
+    "headline": "PERSISTENT executes well on core operational milestones with occasional timeline shifts (Say-Do 64/100, Grade C).",
+    "verdict": "Mostly reliable",
+    "patterns": [
+      "Delivered 7 verified commitments, anchored by other execution (Maintain full-year FY25 effective tax rate between 23% and 23.5%) [PERSISTENT:2025-01-22#0].",
+      "Exhibits 1 delayed or partially met commitments where timelines or targets shifted (File offer documents with BaFin within 4 weeks of 28 June 2026) [PERSISTENT:2026-06-28#6].",
+      "Logged 2 missed, abandoned, or ghosted targets (ESOP cost to remain at Q1FY26 level through FY26 on existing grants -> GHOSTED) [PERSISTENT:2025-07-23#9]."
+    ],
+    "red_flags": [
+      "Q1FY26 call (23 Jul 2025): \"ESOP cost to remain at Q1FY26 level through FY26 on existing grants\" resolved as GHOSTED (deadline 2026-03-31 passed; not mentioned on 2 later calls) [PERSISTENT:2025-07-23#9].",
+      "Q4FY26 call (28 Jun 2026): \"Large deal will be revenue and margin accretive from Q2 onwards\" resolved as MISSED (missed per Q2FY27 call (15 Oct 2026)) [PERSISTENT:2026-06-28#12].",
+      "Q4FY26 call (28 Jun 2026): \"File offer documents with BaFin within 4 weeks of 28 June 2026\" resolved as LATE (confirmed on Q2FY27 call (15 Oct 2026) after delay) [PERSISTENT:2026-06-28#6]."
+    ],
+    "credit_where_due": [
+      "Q3FY25 call (22 Jan 2025): \"Maintain full-year FY25 effective tax rate between 23% and 23.5%\" -> DELIVERED (confirmed on Q4FY25 call (24 Apr 2025)) [PERSISTENT:2025-01-22#0].",
+      "Q3FY25 call (22 Jan 2025): \"Margin to improve in Q4FY25 to become entry run rate for FY26\" -> DELIVERED (confirmed on Q4FY25 call (24 Apr 2025)) [PERSISTENT:2025-01-22#4].",
+      "Q3FY25 call (22 Jan 2025): \"Earnout reversal provision to end by end of FY25\" -> DELIVERED (confirmed on Q4FY25 call (24 Apr 2025)) [PERSISTENT:2025-01-22#6].",
+      "Q4FY25 call (24 Apr 2025): \"Deliver ~100 bps EBIT margin improvement in FY26 from 15.6% entry run-rate\" -> DELIVERED (guided +1pp margin expansion (target 16.6%) vs actual 18.96%) [PERSISTENT:2025-04-24#1]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Achieve $2 billion in annual revenue by end of FY27\" (target horizon: FY27, category: revenue_target) [PERSISTENT:2025-01-22#1].",
+      "Monitor \"Achieve $5 billion in revenue by FY31\" (target horizon: FY31, category: revenue_target) [PERSISTENT:2025-01-22#2].",
+      "Monitor \"Improve margins by 200-300 bps by FY27 when hitting $2 billion revenue\" (target horizon: FY27, category: ebitda_margin) [PERSISTENT:2025-04-24#2].",
+      "Monitor \"ESOP-related cost will further reduce in FY27\" (target horizon: FY27, category: cost_saving) [PERSISTENT:2026-01-20#2].",
+      "Monitor \"Host AI Investor Day in Pune in early June to showcase AI capabilities, partnerships and case studies\" (target horizon: 2026-06, category: other) [PERSISTENT:2026-04-21#0]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "NETWEB": {
+    "ticker": "NETWEB",
+    "headline": "NETWEB executes well on core operational milestones with occasional timeline shifts (Say-Do 62/100, Grade C).",
+    "verdict": "Mostly reliable",
+    "patterns": [
+      "Delivered 13 verified commitments, anchored by ebitda margin execution (Maintain ~14% EBITDA margin for the full year FY25) [NETWEB:2025-01-20#0].",
+      "Exhibits 4 delayed or partially met commitments where timelines or targets shifted (GB200 platforms rolling out within next 4 months) [NETWEB:2025-01-20#4].",
+      "Logged 5 missed, abandoned, or ghosted targets (Exports to be around 10-11% of total revenue for the next 1 year -> MISSED) [NETWEB:2025-01-20#2]."
+    ],
+    "red_flags": [
+      "Q3FY25 call (20 Jan 2025): \"Exports to be around 10-11% of total revenue for the next 1 year\" resolved as MISSED (missed per Q4FY26 call (04 May 2026)) [NETWEB:2025-01-20#2].",
+      "Q3FY25 call (20 Jan 2025): \"Most capitalization of SMT line to happen in FY25\" resolved as GHOSTED (deadline 2025-03-31 passed; not mentioned on 6 later calls) [NETWEB:2025-01-20#7].",
+      "Q3FY25 call (20 Jan 2025): \"5G ORAN product to be completely ready in 1-2 quarters\" resolved as GHOSTED (deadline 2025-09-30 passed; not mentioned on 4 later calls) [NETWEB:2025-01-20#12].",
+      "Q4FY25 call (05 May 2025): \"EBITDA margin to improve by 30-40 bps next year from operating leverage\" resolved as MISSED (guided +0.3pp margin expansion (target 14.1%) vs actual 13.05%) [NETWEB:2025-05-05#10]."
+    ],
+    "credit_where_due": [
+      "Q3FY25 call (20 Jan 2025): \"Maintain ~14% EBITDA margin for the full year FY25\" -> DELIVERED (guided 14 vs actual 13.8) [NETWEB:2025-01-20#0].",
+      "Q3FY25 call (20 Jan 2025): \"INR10 crores borrowing to be refunded in next week / Q4FY25\" -> DELIVERED (confirmed on Q4FY25 call (05 May 2025)) [NETWEB:2025-01-20#6].",
+      "Q3FY25 call (20 Jan 2025): \"AI contribution to remain around 15% of revenue by end of FY25\" -> DELIVERED (confirmed on Q4FY25 call (05 May 2025)) [NETWEB:2025-01-20#10].",
+      "Q3FY25 call (20 Jan 2025): \"AI share of revenue mix to grow by 2-3pp further next year\" -> DELIVERED (confirmed on Q4FY25 call (05 May 2025)) [NETWEB:2025-01-20#11]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Achieve 35% to 40% CAGR in topline over the next couple of years\" (target horizon: FY26-FY27, category: revenue_growth) [NETWEB:2025-05-05#0].",
+      "Monitor \"HPC and private cloud each to remain around 35% to 40% of portfolio for next couple years\" (target horizon: FY26-FY27, category: other) [NETWEB:2025-05-05#4].",
+      "Monitor \"AI enterprise workstations to grow to up to 20% of overall revenue in next 1 to 2 years\" (target horizon: FY26-FY27, category: other) [NETWEB:2025-05-05#6].",
+      "Monitor \"Exports to be around 10% of total turnover in next 2-3 years\" (target horizon: FY28, category: other) [NETWEB:2025-08-01#8].",
+      "Monitor \"Execute ~Rs 2,184 crore of secured strategic orders by FY27\" (target horizon: FY27, category: order_book) [NETWEB:2025-11-03#0]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "IXIGO": {
+    "ticker": "IXIGO",
+    "headline": "IXIGO shows mixed guidance execution with notable revisions or post-deadline silence (Say-Do 61/100, Grade C).",
+    "verdict": "Mixed",
+    "patterns": [
+      "Delivered 2 verified commitments, anchored by revenue growth execution (Bus growth will not stay at 81% in every quarter) [IXIGO:2025-07-16#1]."
+    ],
+    "red_flags": [],
+    "credit_where_due": [
+      "Q1FY26 call (16 Jul 2025): \"Bus growth will not stay at 81% in every quarter\" -> DELIVERED (confirmed on Q2FY26 call (29 Oct 2025)) [IXIGO:2025-07-16#1].",
+      "Q2FY26 call (29 Oct 2025): \"Prosus fundraise capital to be received within a couple of weeks subject to EGM approval\" -> DELIVERED (confirmed on Q3FY26 call (22 Jan 2026)) [IXIGO:2025-10-29#0]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Become the number one discovery and booking platform for India's mid-market and budget hotels within 4-5 years\" (target horizon: FY31-FY32, category: market_share) [IXIGO:2026-08-06#0].",
+      "Monitor \"Roll out Peace of Mind products for budget hotel category over remaining quarters of FY27\" (target horizon: FY27, category: product_launch) [IXIGO:2026-08-06#1].",
+      "Monitor \"Extend ixigo NEXT agentic experience across platforms during FY27\" (target horizon: FY27, category: product_launch) [IXIGO:2026-08-06#2].",
+      "Monitor \"Become the largest player in mid-market and budget (3-star and below) hotels within 4-5 years\" (target horizon: FY31-FY32, category: market_share) [IXIGO:2026-08-06#7].",
+      "Monitor \"Launch peace-of-mind products and features for hotels category in coming quarters\" (target horizon: H2FY27, category: product_launch) [IXIGO:2026-08-06#8]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "SJS": {
+    "ticker": "SJS",
+    "headline": "SJS shows mixed guidance execution with notable revisions or post-deadline silence (Say-Do 60/100, Grade C).",
+    "verdict": "Mixed",
+    "patterns": [
+      "Delivered 20 verified commitments, anchored by commissioning execution (Cover glass manufacturing facility in Hosur to be ready by September-October 2025) [SJS:2025-01-31#2].",
+      "Exhibits 16 delayed or partially met commitments where timelines or targets shifted (New Exotech plant to be commissioned by Q1FY26) [SJS:2024-10-29#0].",
+      "Logged 5 missed, abandoned, or ghosted targets (Walter Pack integration into SJS to be complete by end of FY25 -> GHOSTED) [SJS:2025-01-31#8]."
+    ],
+    "red_flags": [
+      "Q3FY25 call (31 Jan 2025): \"Walter Pack integration into SJS to be complete by end of FY25\" resolved as GHOSTED (deadline 2025-03-31 passed; not mentioned on 5 later calls) [SJS:2025-01-31#8].",
+      "Q2FY25 call (29 Oct 2024): \"Monetize vacant SJS Bangalore plant with cash inflow within 12 months\" resolved as GHOSTED (deadline 2025-10-31 passed; not mentioned on 3 later calls) [SJS:2024-10-29#20].",
+      "Q4FY25 call (09 May 2025): \"Total capex of ~Rs 150 crores in FY26\" resolved as MISSED (missed per Q4FY26 call (06 May 2026)) [SJS:2025-05-09#15].",
+      "Q4FY25 call (09 May 2025): \"See sales from new Exotech plant in FY26\" resolved as MISSED (missed per Q4FY26 call (06 May 2026)) [SJS:2025-05-09#21]."
+    ],
+    "credit_where_due": [
+      "Q3FY25 call (31 Jan 2025): \"Cover glass manufacturing facility in Hosur to be ready by September-October 2025\" -> DELIVERED (confirmed on Q1FY26 call (30 Jul 2025)) [SJS:2025-01-31#2].",
+      "Q3FY25 call (31 Jan 2025): \"Start supplies of dishwasher overlays to Whirlpool North America plant by next quarter\" -> DELIVERED (confirmed on Q1FY26 call (30 Jul 2025)) [SJS:2025-01-31#3].",
+      "Q3FY25 call (31 Jan 2025): \"Start supplies for Stellantis order from July 2025\" -> DELIVERED (confirmed on Q1FY26 call (30 Jul 2025)) [SJS:2025-01-31#4].",
+      "Q2FY25 call (29 Oct 2024): \"Allocated around Rs 80 crore for Exotech expansion\" -> DELIVERED (confirmed on Q4FY26 call (06 May 2026)) [SJS:2024-10-29#9]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Increase export share to 14-15% of consolidated sales over next three years\" (target horizon: FY25-FY28, category: other) [SJS:2024-10-29#1].",
+      "Monitor \"Total capex plan of Rs 170-190 crore over three years\" (target horizon: FY25-FY28, category: capex) [SJS:2024-10-29#8].",
+      "Monitor \"Double Exotech revenue in the next three years\" (target horizon: FY25-FY28, category: revenue_growth) [SJS:2024-10-29#12].",
+      "Monitor \"Stellantis global badging program of about Rs 300 crore over 4-5 years\" (target horizon: FY25-FY29, category: customer_win) [SJS:2024-10-29#15].",
+      "Monitor \"Increase exports share to 14-15% of consolidated revenues by FY28\" (target horizon: FY28, category: market_share) [SJS:2025-05-09#2]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "POLICYBZR": {
+    "ticker": "POLICYBZR",
+    "headline": "POLICYBZR shows mixed guidance execution with notable revisions or post-deadline silence (Say-Do 60/100, Grade C).",
+    "verdict": "Mixed",
+    "patterns": [
+      "Delivered 6 verified commitments, anchored by revenue growth execution (Ex-savings business to stay in 35-40% growth corridor in FY26) [POLICYBZR:2025-04-30#3].",
+      "Exhibits 4 delayed or partially met commitments where timelines or targets shifted (Small hospital in Gurgaon to go live in about 3 months) [POLICYBZR:2026-01-27#2].",
+      "Logged 2 missed, abandoned, or ghosted targets (Paisabazaar will face about Rs 40 Cr negative EBITDA delta in FY25 -> GHOSTED) [POLICYBZR:2025-01-17#0]."
+    ],
+    "red_flags": [
+      "Q3FY25 call (17 Jan 2025): \"Paisabazaar will face about Rs 40 Cr negative EBITDA delta in FY25\" resolved as GHOSTED (deadline 2025-03-31 passed; not mentioned on 6 later calls) [POLICYBZR:2025-01-17#0].",
+      "Q3FY25 call (17 Jan 2025): \"Vacate excess vacant office seats with offices emptied by April 2025\" resolved as GHOSTED (deadline 2025-04-30 passed; not mentioned on 5 later calls) [POLICYBZR:2025-01-17#4].",
+      "Q3FY26 call (27 Jan 2026): \"Small hospital in Gurgaon to go live in about 3 months\" resolved as REVISED_DOWN (delayed on Q1FY27 call (31 Jul 2026), never confirmed) [POLICYBZR:2026-01-27#2].",
+      "Q3FY26 call (27 Jan 2026): \"Add mutual funds to Paisabazaar portfolio a quarter later\" resolved as LATE (confirmed on Q1FY27 call (24 Sep 2026) after delay) [POLICYBZR:2026-01-27#3]."
+    ],
+    "credit_where_due": [
+      "Q4FY25 call (30 Apr 2025): \"Ex-savings business to stay in 35-40% growth corridor in FY26\" -> DELIVERED (guided 35-40 vs actual 36.5) [POLICYBZR:2025-04-30#3].",
+      "Q4FY25 call (30 Apr 2025): \"Monetize PB Money in FY26 via selling bonds and fixed deposits\" -> DELIVERED (confirmed on Q1FY26 call (14 Jul 2025)) [POLICYBZR:2025-04-30#4].",
+      "Q4FY25 call (30 Apr 2025): \"Start savings product area to deepen customer understanding and scale unsecured lending\" -> DELIVERED (confirmed on Q1FY26 call (14 Jul 2025)) [POLICYBZR:2025-04-30#7].",
+      "Q3FY25 call (17 Jan 2025): \"Announce healthcare foray investor deal in about 30 days\" -> DELIVERED (confirmed on Q4FY25 call (30 Apr 2025)) [POLICYBZR:2025-01-17#1]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Expand secured lending in FY26 into home loans, LAP and car loans\" (target horizon: FY26, category: expansion) [POLICYBZR:2025-04-30#6].",
+      "Monitor \"Corporate business and POSP business to reach around break-even within next two years\" (target horizon: FY27, category: other) [POLICYBZR:2025-04-30#8].",
+      "Monitor \"Hit Rs 1,000 Cr+ net income for FY27\" (target horizon: FY27, category: other) [POLICYBZR:2025-01-17#2].",
+      "Monitor \"Renewals to double again within the next 2 years\" (target horizon: FY25-FY27, category: revenue_growth) [POLICYBZR:2025-01-17#3].",
+      "Monitor \"Achieve Rs 1 lakh crore insurance premium by 2030\" (target horizon: FY30, category: other) [POLICYBZR:2025-07-14#1]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "DIVISLAB": {
+    "ticker": "DIVISLAB",
+    "headline": "DIVISLAB shows mixed guidance execution with notable revisions or post-deadline silence (Say-Do 59/100, Grade C).",
+    "verdict": "Mixed",
+    "patterns": [
+      "Delivered 1 verified commitments, anchored by revenue growth execution (Constant currency revenue growth for rest of FY26 to be around 10.79% YoY) [DIVISLAB:2025-11-07#1]."
+    ],
+    "red_flags": [],
+    "credit_where_due": [
+      "Q2FY26 call (07 Nov 2025): \"Constant currency revenue growth for rest of FY26 to be around 10.79% YoY\" -> DELIVERED (guided 10.79 vs actual 10.8) [DIVISLAB:2025-11-07#1]."
+    ],
+    "watch_next_call": [
+      "Monitor \"A few custom synthesis projects in development/validation to move to commercial manufacturing within 1-2 years\" (target horizon: FY27-FY28, category: customer_win) [DIVISLAB:2025-11-07#0].",
+      "Monitor \"Three active CS projects in validation/construction to yield commercial benefit in next 1-2 years\" (target horizon: FY27-FY28, category: commissioning) [DIVISLAB:2025-11-07#2].",
+      "Monitor \"Three announced projects to start contributing revenues in 1 to 2 years subject to regulatory approvals\" (target horizon: FY27-FY28, category: other) [DIVISLAB:2025-11-07#6].",
+      "Monitor \"A few Custom Synthesis projects to move closer to commercial volumes within the next 1 year\" (target horizon: 2027-02, category: customer_win) [DIVISLAB:2026-02-11#0].",
+      "Monitor \"Maintain double-digit growth trajectory into next 12 months / FY27 despite late life-cycle genericization\" (target horizon: FY27, category: revenue_growth) [DIVISLAB:2026-02-11#1]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "POLYCAB": {
+    "ticker": "POLYCAB",
+    "headline": "POLYCAB shows mixed guidance execution with notable revisions or post-deadline silence (Say-Do 59/100, Grade C).",
+    "verdict": "Mixed",
+    "patterns": [
+      "Delivered 4 verified commitments, anchored by other execution (BharatNet EPC execution and revenue accrual to begin in H2FY26) [POLYCAB:2025-07-18#9].",
+      "Logged 2 missed, abandoned, or ghosted targets (Execute the rolled-over export order over the entire year (FY26) -> GHOSTED) [POLYCAB:2025-07-18#7]."
+    ],
+    "red_flags": [
+      "Q1FY26 call (18 Jul 2025): \"Execute the rolled-over export order over the entire year (FY26)\" resolved as GHOSTED (deadline 2026-03-31 passed; not mentioned on 2 later calls) [POLYCAB:2025-07-18#7].",
+      "Q3FY26 call (16 Jan 2026): \"Q4FY26 margin will be sequentially better than Q3FY26\" resolved as GHOSTED (deadline 2026-03-31 passed; not mentioned on 2 later calls) [POLYCAB:2026-01-16#6]."
+    ],
+    "credit_where_due": [
+      "Q1FY26 call (18 Jul 2025): \"BharatNet EPC execution and revenue accrual to begin in H2FY26\" -> DELIVERED (confirmed on Q3FY26 call (16 Jan 2026)) [POLYCAB:2025-07-18#9].",
+      "Q2FY26 call (17 Oct 2025): \"Start executing BharatNet project from Q3FY26\" -> DELIVERED (confirmed on Q3FY26 call (16 Jan 2026)) [POLYCAB:2025-10-17#7].",
+      "Q2FY26 call (17 Oct 2025): \"FY26 full-year capex to be between Rs 1,200 crore and Rs 1,600 crore\" -> DELIVERED (confirmed on Q4FY26 call (06 May 2026)) [POLYCAB:2025-10-17#11].",
+      "Q2FY26 call (17 Oct 2025): \"BharatNet order execution to begin from next quarter (Q4FY26)\" -> DELIVERED (confirmed on Q3FY26 call (16 Jan 2026)) [POLYCAB:2025-10-17#14]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Spend Rs 60-80 billion capex over the next five years under Project Spring\" (target horizon: FY26-FY30, category: capex) [POLYCAB:2025-05-07#0].",
+      "Monitor \"Reach 30% dividend payout ratio by FY30\" (target horizon: FY30, category: other) [POLYCAB:2025-05-07#1].",
+      "Monitor \"Grow FMEG at 1.5x-2x industry growth by FY30\" (target horizon: FY30, category: revenue_growth) [POLYCAB:2025-05-07#2].",
+      "Monitor \"Increase exports contribution to 10% of overall revenue from 6% in FY25 by FY30\" (target horizon: FY30, category: other) [POLYCAB:2025-05-07#7].",
+      "Monitor \"Improve FMEG EBITDA margin every year to 8% to 10% by FY30\" (target horizon: FY30, category: ebitda_margin) [POLYCAB:2025-05-07#8]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "KPITTECH": {
+    "ticker": "KPITTECH",
+    "headline": "KPITTECH shows mixed guidance execution with notable revisions or post-deadline silence (Say-Do 58/100, Grade C).",
+    "verdict": "Mixed",
+    "patterns": [
+      "Delivered 15 verified commitments, anchored by revenue growth execution (Reiterated FY25 constant currency revenue growth guidance of 18-22% YoY but expects revenue on lower side of range) [KPITTECH:2024-10-23#0].",
+      "Exhibits 9 delayed or partially met commitments where timelines or targets shifted (QORIX product company to start generating some revenue from next quarter) [KPITTECH:2025-01-29#4].",
+      "Logged 7 missed, abandoned, or ghosted targets (US and Europe growth to return latest by Q1FY26, hopefully in Q4FY25 -> MISSED) [KPITTECH:2025-01-29#5]."
+    ],
+    "red_flags": [
+      "Q3FY25 call (29 Jan 2025): \"US and Europe growth to return latest by Q1FY26, hopefully in Q4FY25\" resolved as MISSED (missed per Q1FY26 call (30 Jul 2025)) [KPITTECH:2025-01-29#5].",
+      "Q4FY25 call (28 Apr 2025): \"Close at least one large deal in Q1FY26\" resolved as GHOSTED (deadline 2025-06-30 passed; not mentioned on 4 later calls) [KPITTECH:2025-04-28#2].",
+      "Q4FY25 call (28 Apr 2025): \"2-3 transformative large deals will scale and contribute revenue in H2FY26\" resolved as MISSED (missed per Q1FY27 call (29 Jul 2026)) [KPITTECH:2025-04-28#4].",
+      "Q2FY26 call (10 Nov 2025): \"Maintain 21% EBITDA margin for the full year FY26\" resolved as MISSED (guided 21 vs actual 18.9) [KPITTECH:2025-11-10#0]."
+    ],
+    "credit_where_due": [
+      "Q2FY25 call (23 Oct 2024): \"Reiterated FY25 constant currency revenue growth guidance of 18-22% YoY but expects revenue on lower side of range\" -> DELIVERED (guided 18-22 vs actual 19.9) [KPITTECH:2024-10-23#0].",
+      "Q2FY25 call (23 Oct 2024): \"FY25 EBITDA margin expected 0.2-0.3pp higher than earlier 20.5%+ guidance, i.e. 20.7-20.8%\" -> DELIVERED (guided 20.7-20.8 vs actual 21.1) [KPITTECH:2024-10-23#1].",
+      "Q2FY25 call (23 Oct 2024): \"FY25 revenue will be at the lower end of the previously guided growth range\" -> DELIVERED (confirmed on Q4FY25 call (28 Apr 2025)) [KPITTECH:2024-10-23#2].",
+      "Q2FY25 call (23 Oct 2024): \"FY25 profitability/EBITDA margin will be higher than the guided 20.5%\" -> DELIVERED (guided 20.5 vs actual 21.1) [KPITTECH:2024-10-23#3]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Maintain same EBITDA margins in FY26 vs FY25 while investing for future\" (target horizon: FY26, category: ebitda_margin) [KPITTECH:2025-04-28#1].",
+      "Monitor \"US revenue to return to growth in FY26\" (target horizon: FY26, category: revenue_growth) [KPITTECH:2025-04-28#6].",
+      "Monitor \"Substantial growth from new US passenger car OEM engagement\" (target horizon: FY26, category: customer_win) [KPITTECH:2025-04-28#7].",
+      "Monitor \"Start project in Q4FY26 and scale up in FY27\" (target horizon: Q4FY26, category: customer_win) [KPITTECH:2025-11-10#9].",
+      "Monitor \"H2FY26 revenue will be higher than H1FY26 and growth momentum will resume in second half\" (target horizon: H2FY26, category: revenue_growth) [KPITTECH:2025-07-30#0]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "CLEANMAX": {
+    "ticker": "CLEANMAX",
+    "headline": "CLEANMAX shows mixed guidance execution with notable revisions or post-deadline silence (Say-Do 54/100, Grade D).",
+    "verdict": "Mixed",
+    "patterns": [
+      "Tracked 25 forward-looking commitments starting with Add about 1.5 GW of RE power sales capacity in FY27 [CLEANMAX:2026-03-18#0]."
+    ],
+    "red_flags": [],
+    "credit_where_due": [],
+    "watch_next_call": [
+      "Monitor \"Add about 1.5 GW of RE power sales capacity in FY27\" (target horizon: FY27, category: capacity) [CLEANMAX:2026-03-18#0].",
+      "Monitor \"Build 400 MW or more in Osaka Gas JV over three years\" (target horizon: FY27-FY29, category: capacity) [CLEANMAX:2026-03-18#1].",
+      "Monitor \"RE Power Sales EBITDA margin to rise to 85-86% in 2 to 3 years\" (target horizon: FY28-FY29, category: ebitda_margin) [CLEANMAX:2026-03-18#2].",
+      "Monitor \"Build 0.5 GW CTU-connected wind project in Karnataka as part of FY26-FY27 addition\" (target horizon: FY26-FY27, category: capacity) [CLEANMAX:2026-03-18#6].",
+      "Monitor \"Have 100% of land in place by September 2026 for capacity to be built by March 2027\" (target horizon: 2026-09, category: expansion) [CLEANMAX:2026-03-18#7]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "CYIENTDLM": {
+    "ticker": "CYIENTDLM",
+    "headline": "CYIENTDLM shows mixed guidance execution with notable revisions or post-deadline silence (Say-Do 53/100, Grade D).",
+    "verdict": "Mixed",
+    "patterns": [
+      "Delivered 25 verified commitments, anchored by ebitda margin execution (Margins will improve substantially in Q4 and beyond) [CYIENTDLM:2025-01-21#3].",
+      "Exhibits 8 delayed or partially met commitments where timelines or targets shifted (Sustain and grow beyond double-digit EBITDA margins on strong high-margin backlog) [CYIENTDLM:2025-10-14#0].",
+      "Logged 17 missed, abandoned, or ghosted targets (Use up about Rs 190 crore of IPO proceeds by end of FY25 -> MISSED) [CYIENTDLM:2025-01-21#0]."
+    ],
+    "red_flags": [
+      "Q3FY25 call (21 Jan 2025): \"Use up about Rs 190 crore of IPO proceeds by end of FY25\" resolved as MISSED (missed per Q4FY25 call (22 Apr 2025)) [CYIENTDLM:2025-01-21#0].",
+      "Q3FY25 call (21 Jan 2025): \"Elevated ECL provision in Q3FY25 is one-off and will reverse in Q4FY25\" resolved as GHOSTED (deadline 2025-03-31 passed; not mentioned on 6 later calls) [CYIENTDLM:2025-01-21#10].",
+      "Q4FY25 call (22 Apr 2025): \"Achieve positive operating cash flow in FY26\" resolved as MISSED (missed per Q1FY27 call (21 Jul 2026)) [CYIENTDLM:2025-04-22#2].",
+      "Q4FY25 call (22 Apr 2025): \"Non-BL rest of business projected to grow just shy of 40% yoy in the next fiscal year\" resolved as GHOSTED (deadline 2026-03-31 passed; not mentioned on 2 later calls) [CYIENTDLM:2025-04-22#5]."
+    ],
+    "credit_where_due": [
+      "Q3FY25 call (21 Jan 2025): \"Margins will improve substantially in Q4 and beyond\" -> DELIVERED (confirmed on Q4FY25 call (22 Apr 2025)) [CYIENTDLM:2025-01-21#3].",
+      "Q3FY25 call (21 Jan 2025): \"Full-year FY25 margin to be flat year-on-year\" -> DELIVERED (confirmed on Q4FY25 call (22 Apr 2025)) [CYIENTDLM:2025-01-21#6].",
+      "Q3FY25 call (21 Jan 2025): \"Full-year FY26 margin likely to improve from current level\" -> DELIVERED (confirmed on Q4FY26 call (21 Apr 2026)) [CYIENTDLM:2025-01-21#7].",
+      "Q4FY25 call (22 Apr 2025): \"one new FY25 logo to start contributing revenue in FY26\" -> DELIVERED (confirmed on Q3FY26 call (20 Jan 2026)) [CYIENTDLM:2025-04-22#1]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Japanese eVTOL BTS program to enter mass production in FY27\" (target horizon: FY27, category: product_launch) [CYIENTDLM:2025-10-14#1].",
+      "Monitor \"Build-to-spec revenues to be higher in FY27 than in FY26\" (target horizon: FY27, category: revenue_growth) [CYIENTDLM:2025-10-14#9].",
+      "Monitor \"First bulk BTS manufacturing orders expected from FY28 onwards\" (target horizon: FY28, category: product_launch) [CYIENTDLM:2025-10-14#16].",
+      "Monitor \"2 new accounts added last year to become multimillion dollar accounts within next 1 year\" (target horizon: 2026-07, category: customer_win) [CYIENTDLM:2025-07-22#3].",
+      "Monitor \"Middle East conflict pushouts will correct within a quarter\" (target horizon: Q2FY26, category: other) [CYIENTDLM:2025-07-22#17]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "ECORECO": {
+    "ticker": "ECORECO",
+    "headline": "ECORECO shows mixed guidance execution with notable revisions or post-deadline silence (Say-Do 51/100, Grade D).",
+    "verdict": "Mixed",
+    "patterns": [
+      "Delivered 3 verified commitments, anchored by revenue growth execution (Achieve revenue growth far higher than 27% CAGR by March 2024) [ECORECO:2023-10-17#0].",
+      "Exhibits 7 delayed or partially met commitments where timelines or targets shifted (Invest another Rs.10-15 crores in new capacity by March 2024) [ECORECO:2023-10-17#6].",
+      "Logged 4 missed, abandoned, or ghosted targets (Achieve 60% to 70% growth by March 2024 -> MISSED) [ECORECO:2023-10-17#5]."
+    ],
+    "red_flags": [
+      "Q2FY24 call (17 Oct 2023): \"Achieve 60% to 70% growth by March 2024\" resolved as MISSED (missed per Q4FY24 call (15 May 2024)) [ECORECO:2023-10-17#5].",
+      "Q2FY24 call (17 Oct 2023): \"Complete remaining electrical, firefighting and infrastructure work for new facility by mid-November 2023\" resolved as GHOSTED (deadline 2023-11-30 passed; not mentioned on 2 later calls) [ECORECO:2023-10-17#13].",
+      "Q4FY24 call (15 May 2024): \"Reach 75% to 80% capacity utilization of 7200 MT plant by June quarter (Q1FY25)\" resolved as MISSED (missed per Q1FY25 call (16 Aug 2024)) [ECORECO:2024-05-15#0].",
+      "Q4FY24 call (15 May 2024): \"Launch collection boxes in schools/colleges at larger scale from 5th June\" resolved as ABANDONED (abandoned per Q1FY25 call (16 Aug 2024)) [ECORECO:2024-05-15#3]."
+    ],
+    "credit_where_due": [
+      "Q2FY24 call (17 Oct 2023): \"Achieve revenue growth far higher than 27% CAGR by March 2024\" -> DELIVERED (confirmed on Q4FY24 call (15 May 2024)) [ECORECO:2023-10-17#0].",
+      "Q2FY24 call (17 Oct 2023): \"Achieve 60% to 70% capacity utilization before March 2024\" -> DELIVERED (confirmed on Q4FY24 call (15 May 2024)) [ECORECO:2023-10-17#4].",
+      "Q1FY24 call (25 Jul 2023): \"Invest another INR20 crores in FY24 to expand recycling capacity to 25,000 MT\" -> DELIVERED (confirmed on Q2FY24 call (17 Oct 2023)) [ECORECO:2023-07-25#0]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Achieve revenue growth far higher than 27% CAGR in March 2025 driven by EPR business\" (target horizon: 2025-03, category: revenue_growth) [ECORECO:2023-10-17#1].",
+      "Monitor \"Achieve at least 60% utilization up to 100% on 25,200 MT capacity in FY25\" (target horizon: FY25, category: capacity) [ECORECO:2023-10-17#8].",
+      "Monitor \"Keep data destruction share at 10% to 12% of business in current quarter (Q1FY25)\" (target horizon: Q1FY25, category: other) [ECORECO:2024-05-15#1].",
+      "Monitor \"Achieve 50% capacity utilization by March 2025\" (target horizon: 2025-03, category: capacity) [ECORECO:2024-05-15#2].",
+      "Monitor \"Do at least 2x the international recycler business (Rs 4 crore / ~1000 tonnes last year) in FY25\" (target horizon: FY25, category: revenue_growth) [ECORECO:2024-05-15#5]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "IONEXCHANG": {
+    "ticker": "IONEXCHANG",
+    "headline": "IONEXCHANG shows mixed guidance execution with notable revisions or post-deadline silence (Say-Do 50/100, Grade D).",
+    "verdict": "Mixed",
+    "patterns": [
+      "Delivered 21 verified commitments, anchored by revenue growth execution (Expect 15-20% full-year revenue growth in FY25) [IONEXCHANG:2024-11-15#2].",
+      "Exhibits 8 delayed or partially met commitments where timelines or targets shifted (Roha plant expansion to commence commercial production in Q1FY26) [IONEXCHANG:2024-11-15#0].",
+      "Logged 16 missed, abandoned, or ghosted targets (Grow consumer business by ~30% by end of FY25 -> MISSED) [IONEXCHANG:2024-11-15#7]."
+    ],
+    "red_flags": [
+      "Q2FY25 call (15 Nov 2024): \"Grow consumer business by ~30% by end of FY25\" resolved as MISSED (missed per Q4FY25 call (30 May 2025)) [IONEXCHANG:2024-11-15#7].",
+      "Q2FY25 call (15 Nov 2024): \"Outperform prior year order inflow in H2FY25 if large ticket contracts under discussion are won\" resolved as MISSED (missed per Q4FY25 call (30 May 2025)) [IONEXCHANG:2024-11-15#9].",
+      "Q2FY25 call (15 Nov 2024): \"Maintain company overall operating margin at around last year's level in FY25 despite pain from one engineering contract\" resolved as MISSED (missed per Q4FY25 call (30 May 2025)) [IONEXCHANG:2024-11-15#11].",
+      "Q3FY25 call (22 Jan 2025): \"UP Jal Nigam contract invoicing in H2FY25 to exceed H1FY25\" resolved as MISSED (missed per Q4FY25 call (30 May 2025)) [IONEXCHANG:2025-01-22#5]."
+    ],
+    "credit_where_due": [
+      "Q2FY25 call (15 Nov 2024): \"Expect 15-20% full-year revenue growth in FY25\" -> DELIVERED (guided 15-20 vs actual 16.6) [IONEXCHANG:2024-11-15#2].",
+      "Q2FY25 call (15 Nov 2024): \"Close FY25 with ~15% standalone growth in chemicals business\" -> DELIVERED (confirmed on Q4FY25 call (30 May 2025)) [IONEXCHANG:2024-11-15#10].",
+      "Q3FY25 call (22 Jan 2025): \"Engineering division revenue to grow 15% to 20% in FY25\" -> DELIVERED (confirmed on Q4FY25 call (30 May 2025)) [IONEXCHANG:2025-01-22#0].",
+      "Q3FY25 call (22 Jan 2025): \"Engineering margin in FY25 to be roughly 1 percentage point lower than FY24\" -> DELIVERED (confirmed on Q4FY25 call (30 May 2025)) [IONEXCHANG:2025-01-22#1]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Achieve full capacity utilization of new Roha plant within 3-4 years\" (target horizon: FY28-FY29, category: capacity) [IONEXCHANG:2024-11-15#1].",
+      "Monitor \"Multiply company top line and bottom line several times over in the next 5-7 years\" (target horizon: FY30-FY32, category: other) [IONEXCHANG:2024-11-15#3].",
+      "Monitor \"Roha primary production facility capex of ~Rs 275 crore to deliver ~2.5x asset turn in ~4 years\" (target horizon: FY29, category: capex) [IONEXCHANG:2024-11-15#4].",
+      "Monitor \"Double chemicals business from ~Rs 800 crore run-rate in four years at similar margins\" (target horizon: FY29, category: revenue_target) [IONEXCHANG:2024-11-15#6].",
+      "Monitor \"Consumer institutional segment will show growth in FY26\" (target horizon: FY26, category: revenue_growth) [IONEXCHANG:2025-05-30#2]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "DIXON": {
+    "ticker": "DIXON",
+    "headline": "DIXON shows mixed guidance execution with notable revisions or post-deadline silence (Say-Do 50/100, Grade D).",
+    "verdict": "Mixed",
+    "patterns": [
+      "Delivered 38 verified commitments, anchored by capacity execution (Start new 1.5 lakh sq ft Noida facility in Q3FY25 with 400K smartphones per month capacity) [DIXON:2024-10-24#0].",
+      "Exhibits 42 delayed or partially met commitments where timelines or targets shifted (Start display manufacturing with HKC by end Q1FY26 or beginning Q2FY26) [DIXON:2024-10-24#2].",
+      "Logged 27 missed, abandoned, or ghosted targets (Achieve double-digit growth in Home Appliances business in FY25 -> GHOSTED) [DIXON:2024-10-24#5]."
+    ],
+    "red_flags": [
+      "Q2FY25 call (24 Oct 2024): \"Achieve double-digit growth in Home Appliances business in FY25\" resolved as GHOSTED (deadline 2025-03-31 passed; not mentioned on 5 later calls) [DIXON:2024-10-24#5].",
+      "Q2FY25 call (24 Oct 2024): \"Achieve Ismartu revenue of Rs 7,000-7,500 crore in FY25\" resolved as GHOSTED (deadline 2025-03-31 passed; not mentioned on 5 later calls) [DIXON:2024-10-24#15].",
+      "Q2FY25 call (24 Oct 2024): \"Target telecom revenue of almost Rs 2400 crore or more in FY25\" resolved as GHOSTED (deadline 2025-03-31 passed; not mentioned on 5 later calls) [DIXON:2024-10-24#22].",
+      "Q2FY25 call (24 Oct 2024): \"Telecom order book to be Rs 6000-7000 crore next year (FY26)\" resolved as MISSED (missed per Q4FY26 call (12 May 2026)) [DIXON:2024-10-24#23]."
+    ],
+    "credit_where_due": [
+      "Q2FY25 call (24 Oct 2024): \"Start new 1.5 lakh sq ft Noida facility in Q3FY25 with 400K smartphones per month capacity\" -> DELIVERED (confirmed on Q3FY25 call (20 Jan 2025)) [DIXON:2024-10-24#0].",
+      "Q2FY25 call (24 Oct 2024): \"Start production for large global brand through Compal by end November 2024\" -> DELIVERED (confirmed on Q3FY25 call (20 Jan 2025)) [DIXON:2024-10-24#1].",
+      "Q2FY25 call (24 Oct 2024): \"Grow Telecom and networking revenues by more than 3x in FY25 vs FY24\" -> DELIVERED (confirmed on Q3FY25 call (20 Jan 2025)) [DIXON:2024-10-24#6].",
+      "Q2FY25 call (24 Oct 2024): \"Commence production of IPTV boxes in FY25\" -> DELIVERED (confirmed on Q3FY25 call (20 Jan 2025)) [DIXON:2024-10-24#8]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Reach Ismartu revenue of Rs 9,000-10,000 crore in FY26\" (target horizon: FY26, category: revenue_target) [DIXON:2024-10-24#16].",
+      "Monitor \"Export 0.5-0.6 million smartphone units in February-March FY25\" (target horizon: Q4FY25, category: other) [DIXON:2025-01-20#0].",
+      "Monitor \"Achieve 7-8 million Oppo volumes in FY26\" (target horizon: FY26, category: other) [DIXON:2025-01-20#11].",
+      "Monitor \"Mobile segment margin to expand by 100-120 bps over next 24-36 months\" (target horizon: FY27-FY28, category: ebitda_margin) [DIXON:2025-01-20#26].",
+      "Monitor \"Display module real volume ramp to kick in by FY27\" (target horizon: FY27, category: product_launch) [DIXON:2025-01-20#33]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "DEEPAKNTR": {
+    "ticker": "DEEPAKNTR",
+    "headline": "DEEPAKNTR shows mixed guidance execution with notable revisions or post-deadline silence (Say-Do 49/100, Grade D).",
+    "verdict": "Mixed",
+    "patterns": [
+      "Delivered 13 verified commitments, anchored by commissioning execution (Upstream integration assets to be fully operational in Q4 FY26) [DEEPAKNTR:2025-11-14#0].",
+      "Exhibits 28 delayed or partially met commitments where timelines or targets shifted (Commission MIBK and MIBC plants by March 2026) [DEEPAKNTR:2025-11-14#9].",
+      "Logged 6 missed, abandoned, or ghosted targets (Agrochemical intermediate shipments to resume in Nov-Dec 2025 -> GHOSTED) [DEEPAKNTR:2025-11-14#2]."
+    ],
+    "red_flags": [
+      "Q2FY26 call (14 Nov 2025): \"Agrochemical intermediate shipments to resume in Nov-Dec 2025\" resolved as GHOSTED (deadline 2025-12-31 passed; not mentioned on 2 later calls) [DEEPAKNTR:2025-11-14#2].",
+      "Q1FY26 call (14 Aug 2025): \"nitric acid to add about 2-3% to Advanced Intermediates segment EBITDA\" resolved as MISSED (missed per Q3FY26 call (13 Feb 2026)) [DEEPAKNTR:2025-08-14#14].",
+      "Q3FY25 call (17 Feb 2025): \"Delayed Q3/Q4 projects to start adding value from Q1 onwards\" resolved as MISSED (missed per Q2FY26 call (14 Nov 2025)) [DEEPAKNTR:2025-02-17#0].",
+      "Q2FY25 call (14 Nov 2024): \"Commission acetophenone project in H1FY26\" resolved as GHOSTED (deadline 2025-09-30 passed; not mentioned on 3 later calls) [DEEPAKNTR:2024-11-14#5]."
+    ],
+    "credit_where_due": [
+      "Q2FY26 call (14 Nov 2025): \"Upstream integration assets to be fully operational in Q4 FY26\" -> DELIVERED (confirmed on Q3FY26 call (13 Feb 2026)) [DEEPAKNTR:2025-11-14#0].",
+      "Q2FY26 call (14 Nov 2025): \"Commission Dahej Nitration plant in Nov-Dec 2025\" -> DELIVERED (confirmed on Q3FY26 call (13 Feb 2026)) [DEEPAKNTR:2025-11-14#6].",
+      "Q2FY26 call (14 Nov 2025): \"Commission Nandesari Nitric Acid plant in Q3FY26\" -> DELIVERED (confirmed on Q3FY26 call (13 Feb 2026)) [DEEPAKNTR:2025-11-14#7].",
+      "Q2FY26 call (14 Nov 2025): \"Have the maximum number of chemistry platforms under one house in India by end of FY27\" -> DELIVERED (confirmed on Q1FY27 call (06 Aug 2026)) [DEEPAKNTR:2025-11-14#19]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Ammonia consumption capacity to double or more from Q4FY26 with storage for 15 days of consumption\" (target horizon: Q4FY26, category: capacity) [DEEPAKNTR:2025-11-14#3].",
+      "Monitor \"Create additional debottlenecked capacity headroom in H2FY26\" (target horizon: H2FY26, category: capacity) [DEEPAKNTR:2025-11-14#5].",
+      "Monitor \"Commission balance multi-purpose plants between March and May 2026\" (target horizon: 2026-05, category: commissioning) [DEEPAKNTR:2025-11-14#8].",
+      "Monitor \"Fully capitalize the INR 2,000 crore announced projects by end-June 2026\" (target horizon: 2026-06, category: commissioning) [DEEPAKNTR:2025-11-14#10].",
+      "Monitor \"Reach high operating rates on multi-purpose plants from December 2026 onwards\" (target horizon: 2026-12, category: capacity) [DEEPAKNTR:2025-11-14#11]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "STALLION": {
+    "ticker": "STALLION",
+    "headline": "STALLION shows mixed guidance execution with notable revisions or post-deadline silence (Say-Do 49/100, Grade D).",
+    "verdict": "Mixed",
+    "patterns": [
+      "Delivered 8 verified commitments, anchored by commissioning execution (Mambattu site construction to be underway by September 2025) [STALLION:2025-08-15#8].",
+      "Exhibits 14 delayed or partially met commitments where timelines or targets shifted (Complete Mambattu and specialty gas facilities by 30th October) [STALLION:2025-05-15#1].",
+      "Logged 3 missed, abandoned, or ghosted targets (Company expects 30% YoY revenue growth -> MISSED) [STALLION:2025-05-15#2]."
+    ],
+    "red_flags": [
+      "Q4FY25 call (15 May 2025): \"Company expects 30% YoY revenue growth\" resolved as MISSED (guided 30 vs actual 14.3) [STALLION:2025-05-15#2].",
+      "Q1FY26 call (15 Aug 2025): \"Most of Mambattu layout completion by October 2025\" resolved as GHOSTED (deadline 2025-10-31 passed; not mentioned on 3 later calls) [STALLION:2025-08-15#10].",
+      "Q1FY26 call (15 Aug 2025): \"Deliver 30% YoY revenue growth in FY26\" resolved as MISSED (guided 30 vs actual 14.3) [STALLION:2025-08-15#27].",
+      "Q4FY25 call (15 May 2025): \"Complete Mambattu and specialty gas facilities by 30th October\" resolved as REVISED_DOWN (delayed on Q4FY26 call (15 May 2026), never confirmed) [STALLION:2025-05-15#1]."
+    ],
+    "credit_where_due": [
+      "Q1FY26 call (15 Aug 2025): \"Mambattu site construction to be underway by September 2025\" -> DELIVERED (confirmed on Q2FY26 call (15 Oct 2025)) [STALLION:2025-08-15#8].",
+      "Q1FY26 call (15 Aug 2025): \"Start work at Bhilwara facility for R-32 in Q3FY26\" -> DELIVERED (confirmed on Q2FY26 call (15 Oct 2025)) [STALLION:2025-08-15#29].",
+      "Q3FY26 call (15 Feb 2026): \"Achieve FY26 revenue of INR 430 crores\" -> DELIVERED (guided 430 vs actual 431.0) [STALLION:2026-02-15#1].",
+      "Q2FY26 call (15 Oct 2025): \"Achieve full-year FY26 revenue of INR 430 crores\" -> DELIVERED (guided 430 vs actual 431.0) [STALLION:2025-10-15#0]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Deliver 30% to 35% CAGR over the next three years\" (target horizon: FY26-FY28, category: revenue_growth) [STALLION:2025-05-15#0].",
+      "Monitor \"10,000 MT R-32 plant at Bhilwara to commence production by Oct 2026\" (target horizon: 2026-10, category: commissioning) [STALLION:2026-05-15#0].",
+      "Monitor \"Do more than Rs 560 cr revenue in FY27 for 30% YoY growth\" (target horizon: FY27, category: revenue_target) [STALLION:2026-05-15#3].",
+      "Monitor \"Khalapur helium plant to start up by next month (June 2026)\" (target horizon: 2026-06, category: commissioning) [STALLION:2026-05-15#4].",
+      "Monitor \"Mumbattu facility to be operational by August 2026\" (target horizon: 2026-08, category: commissioning) [STALLION:2026-05-15#5]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "AMARAJABAT": {
+    "ticker": "AMARAJABAT",
+    "headline": "AMARAJABAT exhibits chronic guidance misses, goalpost shifts, or ghosted targets (Say-Do 48/100, Grade D).",
+    "verdict": "Unreliable",
+    "patterns": [
+      "Delivered 13 verified commitments, anchored by capex execution (Spend INR1,200-1,300 crores as total capex in FY26) [AMARAJABAT:2025-08-12#0].",
+      "Exhibits 16 delayed or partially met commitments where timelines or targets shifted (Spend INR800-900 crores on New Energy projects in FY26) [AMARAJABAT:2025-08-12#1].",
+      "Logged 8 missed, abandoned, or ghosted targets (Tubular plant at Chittoor to reach full capacity of 150,000 batteries per month within 2-3 months of July commercial start -> MISSED) [AMARAJABAT:2025-08-12#4]."
+    ],
+    "red_flags": [
+      "Q1FY26 call (12 Aug 2025): \"Tubular plant at Chittoor to reach full capacity of 150,000 batteries per month within 2-3 months of July commercial start\" resolved as MISSED (missed per Q4FY26 call (21 May 2026)) [AMARAJABAT:2025-08-12#4].",
+      "Q1FY26 call (12 Aug 2025): \"Excluding power cost headwind, margins to start picking up from Q2FY26 onwards as tubular capacity ramps and RM normalizes\" resolved as MISSED (missed per Q3FY26 call (06 Feb 2026)) [AMARAJABAT:2025-08-12#16].",
+      "Q2FY26 call (03 Nov 2025): \"Tubular revenues to be only from own manufacturing from next quarter onwards\" resolved as MISSED (missed per Q4FY26 call (21 May 2026)) [AMARAJABAT:2025-11-03#12].",
+      "Q3FY26 call (06 Feb 2026): \"Full-year FY26 lead acid capex up to INR750-800 crores\" resolved as MISSED (missed per Q4FY26 call (21 May 2026)) [AMARAJABAT:2026-02-06#2]."
+    ],
+    "credit_where_due": [
+      "Q1FY26 call (12 Aug 2025): \"Spend INR1,200-1,300 crores as total capex in FY26\" -> DELIVERED (confirmed on Q2FY26 call (03 Nov 2025)) [AMARAJABAT:2025-08-12#0].",
+      "Q1FY26 call (12 Aug 2025): \"Exports expected to grow around 15% longer-term but FY26 may be subdued due to tariffs and supply chain challenges\" -> DELIVERED (confirmed on Q4FY26 call (21 May 2026)) [AMARAJABAT:2025-08-12#14].",
+      "Q2FY26 call (03 Nov 2025): \"Full-year FY26 lead acid capex including tubular investment of Rs 600 crore\" -> DELIVERED (confirmed on Q3FY26 call (06 Feb 2026)) [AMARAJABAT:2025-11-03#3].",
+      "Q2FY26 call (03 Nov 2025): \"New Energy to reach ~5% of overall revenue by end of FY26\" -> DELIVERED (confirmed on Q3FY26 call (06 Feb 2026)) [AMARAJABAT:2025-11-03#14]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Commence first 1 GWh gigafactory by end of FY27\" (target horizon: FY27, category: commissioning) [AMARAJABAT:2025-08-12#7].",
+      "Monitor \"Lithium battery manufacturing capacity to come up around end of FY27\" (target horizon: FY27, category: commissioning) [AMARAJABAT:2025-08-12#10].",
+      "Monitor \"UPS segment to grow around 5% to 6% on annualized basis in FY26\" (target horizon: FY26, category: revenue_growth) [AMARAJABAT:2025-08-12#11].",
+      "Monitor \"4-wheeler automotive aftermarket to grow around 6% to 7% in FY26\" (target horizon: FY26, category: revenue_growth) [AMARAJABAT:2025-08-12#12].",
+      "Monitor \"Total consolidated capex of Rs 1,400-1,500 crore in FY26 with major outlay in H2\" (target horizon: FY26, category: capex) [AMARAJABAT:2025-11-03#0]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "SONACOMS": {
+    "ticker": "SONACOMS",
+    "headline": "SONACOMS exhibits chronic guidance misses, goalpost shifts, or ghosted targets (Say-Do 48/100, Grade D).",
+    "verdict": "Unreliable",
+    "patterns": [
+      "Delivered 4 verified commitments, anchored by product launch execution (Start supplies for new steering bevel box product in FY26) [SONACOMS:2025-04-30#1].",
+      "Exhibits 4 delayed or partially met commitments where timelines or targets shifted (Remaining 29 EV programs to start production during FY25 or FY26) [SONACOMS:2024-10-23#2].",
+      "Logged 4 missed, abandoned, or ghosted targets (Mexico plant to start production in Q2-Q3 next year around October 2025 -> GHOSTED) [SONACOMS:2024-10-23#4]."
+    ],
+    "red_flags": [
+      "Q2FY25 call (23 Oct 2024): \"Mexico plant to start production in Q2-Q3 next year around October 2025\" resolved as GHOSTED (deadline 2025-10-31 passed; not mentioned on 3 later calls) [SONACOMS:2024-10-23#4].",
+      "Q3FY25 call (23 Jan 2025): \"Supply schedules to large transitioning customer to normalize by March 2025, with Q4FY25 expected weak due to Jan-Feb disruption\" resolved as MISSED (missed per Q1FY26 call (04 Aug 2025)) [SONACOMS:2025-01-23#0].",
+      "Q3FY25 call (23 Jan 2025): \"Two large India EV motor orders starting in March 2025\" resolved as GHOSTED (deadline 2025-03-31 passed; not mentioned on 4 later calls) [SONACOMS:2025-01-23#4].",
+      "Q3FY25 call (23 Jan 2025): \"One North America motor order and one driveline order starting near end of calendar 2025\" resolved as GHOSTED (deadline 2025-12-31 passed; not mentioned on 2 later calls) [SONACOMS:2025-01-23#5]."
+    ],
+    "credit_where_due": [
+      "Q4FY25 call (30 Apr 2025): \"Start supplies for new steering bevel box product in FY26\" -> DELIVERED (confirmed on Q3FY26 call (23 Jan 2026)) [SONACOMS:2025-04-30#1].",
+      "Q4FY25 call (30 Apr 2025): \"Railway business revenue to start contributing from 1 June 2025\" -> DELIVERED (confirmed on Q1FY26 call (04 Aug 2025)) [SONACOMS:2025-04-30#4].",
+      "Q3FY25 call (23 Jan 2025): \"Railway acquisition targeted to close by September end, possibly sooner\" -> DELIVERED (confirmed on Q1FY26 call (04 Aug 2025)) [SONACOMS:2025-01-23#7].",
+      "Q1FY26 call (04 Aug 2025): \"Major order ramp-ups, mainly motors, will start in Q4\" -> DELIVERED (confirmed on Q4FY26 call (30 Apr 2026)) [SONACOMS:2025-08-04#10]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Most order-book programs will start production by FY27\" (target horizon: FY27, category: customer_win) [SONACOMS:2024-10-23#3].",
+      "Monitor \"Start supplies for new North American EV SUV driveline order by Q4FY26\" (target horizon: Q4FY26, category: customer_win) [SONACOMS:2025-04-30#0].",
+      "Monitor \"Start production for 27 yet-to-produce EV programs during FY26 or FY27\" (target horizon: FY26-FY27, category: customer_win) [SONACOMS:2025-04-30#2].",
+      "Monitor \"One European EV OEM order to convert to serial production in FY27 instead of FY26\" (target horizon: FY27, category: customer_win) [SONACOMS:2025-01-23#6].",
+      "Monitor \"Double company revenue over three years from FY24 to FY27, including inorganic acquisitions\" (target horizon: FY24-FY27, category: revenue_growth) [SONACOMS:2025-01-23#8]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "AHLUCONT": {
+    "ticker": "AHLUCONT",
+    "headline": "AHLUCONT exhibits chronic guidance misses, goalpost shifts, or ghosted targets (Say-Do 46/100, Grade D).",
+    "verdict": "Unreliable",
+    "patterns": [
+      "Delivered 18 verified commitments, anchored by ebitda margin execution (Cross double-digit margin in FY26) [AHLUCONT:2024-11-18#2].",
+      "Exhibits 27 delayed or partially met commitments where timelines or targets shifted (FY25 EBITDA margin of around 9%) [AHLUCONT:2024-11-18#1].",
+      "Logged 11 missed, abandoned, or ghosted targets (FY25 topline growth of about 15% yoy -> MISSED) [AHLUCONT:2024-11-18#0]."
+    ],
+    "red_flags": [
+      "Q2FY25 call (18 Nov 2024): \"FY25 topline growth of about 15% yoy\" resolved as MISSED (guided 15 vs actual 6.3) [AHLUCONT:2024-11-18#0].",
+      "Q2FY25 call (18 Nov 2024): \"Additional Rs 1,000 crore order inflow in rest of FY25\" resolved as GHOSTED (deadline 2025-03-31 passed; not mentioned on 4 later calls) [AHLUCONT:2024-11-18#4].",
+      "Q2FY25 call (18 Nov 2024): \"Fixed-price contracts (15% of order book) to be largely completed by March and totally over by H1 FY26\" resolved as GHOSTED (deadline 2025-09-30 passed; not mentioned on 2 later calls) [AHLUCONT:2024-11-18#9].",
+      "Q2FY25 call (18 Nov 2024): \"Last tranche of Emaar settlement due in January\" resolved as GHOSTED (deadline 2025-01-31 passed; not mentioned on 5 later calls) [AHLUCONT:2024-11-18#15]."
+    ],
+    "credit_where_due": [
+      "Q2FY25 call (18 Nov 2024): \"Cross double-digit margin in FY26\" -> DELIVERED (guided 10 vs actual 9.5) [AHLUCONT:2024-11-18#2].",
+      "Q2FY25 call (18 Nov 2024): \"Rs 5,000-6,000 crore new orders in FY26\" -> DELIVERED (confirmed on Q4FY25 call (02 Jun 2025)) [AHLUCONT:2024-11-18#5].",
+      "Q2FY25 call (18 Nov 2024): \"Additional Rs 30-35 crore capex in rest of FY25\" -> DELIVERED (confirmed on Q3FY25 call (12 Feb 2025)) [AHLUCONT:2024-11-18#6].",
+      "Q2FY25 call (18 Nov 2024): \"Bihar dues to be cleared in rest of FY25\" -> DELIVERED (confirmed on Q4FY25 call (02 Jun 2025)) [AHLUCONT:2024-11-18#14]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Do about Rs 500 crore annual revenue from Dahlias project from FY27 onward\" (target horizon: FY27, category: revenue_target) [AHLUCONT:2025-08-18#5].",
+      "Monitor \"Complete Chapra project work in FY26\" (target horizon: FY26, category: commissioning) [AHLUCONT:2025-08-18#10].",
+      "Monitor \"Substantially complete Arbour project for DLF by Feb-Mar 2026\" (target horizon: 2026-03, category: commissioning) [AHLUCONT:2025-08-18#11].",
+      "Monitor \"Deliver at least double-digit EBITDA margin in FY27\" (target horizon: FY27, category: ebitda_margin) [AHLUCONT:2025-08-18#12].",
+      "Monitor \"Incur about Rs. 200 crores capex in FY27\" (target horizon: FY27, category: capex) [AHLUCONT:2025-08-18#13]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "KAYNES": {
+    "ticker": "KAYNES",
+    "headline": "KAYNES exhibits chronic guidance misses, goalpost shifts, or ghosted targets (Say-Do 46/100, Grade D).",
+    "verdict": "Unreliable",
+    "patterns": [
+      "Delivered 22 verified commitments, anchored by revenue growth execution (Annual operating revenue growth for FY25 to exceed 55% YoY) [KAYNES:2025-01-28#0].",
+      "Exhibits 15 delayed or partially met commitments where timelines or targets shifted (OSAT and HDI PCB factories to start yielding revenue in Q4 FY26) [KAYNES:2025-01-28#1].",
+      "Logged 25 missed, abandoned, or ghosted targets (Operating cash flow to be definitely positive by Q4FY25 -> MISSED) [KAYNES:2025-01-28#17]."
+    ],
+    "red_flags": [
+      "Q3FY25 call (28 Jan 2025): \"Operating cash flow to be definitely positive by Q4FY25\" resolved as MISSED (missed per Q4FY25 call (16 May 2025)) [KAYNES:2025-01-28#17].",
+      "Q4FY25 call (16 May 2025): \"Minimum 60% YoY growth in consolidated operating revenues in FY26\" resolved as MISSED (guided 60 vs actual 33.2) [KAYNES:2025-05-16#2].",
+      "Q4FY25 call (16 May 2025): \"Reach about Rs 4,350cr revenue in FY26\" resolved as MISSED (guided 4350 vs actual 3626.0) [KAYNES:2025-05-16#14].",
+      "Q4FY25 call (16 May 2025): \"Invest Rs 300-400cr in EMS capacity in H2FY26-H1FY27\" resolved as ABANDONED (abandoned per Q3FY26 call (06 Feb 2026)) [KAYNES:2025-05-16#16]."
+    ],
+    "credit_where_due": [
+      "Q3FY25 call (28 Jan 2025): \"Annual operating revenue growth for FY25 to exceed 55% YoY\" -> DELIVERED (guided 55 vs actual 50.8) [KAYNES:2025-01-28#0].",
+      "Q3FY25 call (28 Jan 2025): \"Full-year FY25 EBITDA margin to exceed 15%\" -> DELIVERED (guided 15 vs actual 15.3) [KAYNES:2025-01-28#2].",
+      "Q3FY25 call (28 Jan 2025): \"Do almost INR1,000 crores revenue in smart meters in next 12 months\" -> DELIVERED (confirmed on Q4FY26 call (14 May 2026)) [KAYNES:2025-01-28#6].",
+      "Q3FY25 call (28 Jan 2025): \"FY25 revenue of Rs 2,800-2,900 crore\" -> DELIVERED (guided 2800-2900 vs actual 2722.0) [KAYNES:2025-01-28#10]."
+    ],
+    "watch_next_call": [
+      "Monitor \"EMS capex of INR200-300 crores per annum for FY26 and FY27\" (target horizon: FY26-FY27, category: capex) [KAYNES:2025-01-28#3].",
+      "Monitor \"Total semicon capex of about INR3,300 crores to be spent by FY28-29\" (target horizon: FY28-FY29, category: capex) [KAYNES:2025-01-28#4].",
+      "Monitor \"Total HDI PCB capex of about INR1,400 crores to be spent by FY28-29\" (target horizon: FY28-FY29, category: capex) [KAYNES:2025-01-28#5].",
+      "Monitor \"Target about $1 billion revenue by FY28\" (target horizon: FY28, category: revenue_target) [KAYNES:2025-01-28#11].",
+      "Monitor \"OSAT margins to be significantly higher in FY27-FY28, similar or better than earlier guided 20%+\" (target horizon: FY27-FY28, category: ebitda_margin) [KAYNES:2025-01-28#16]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "ASALCBR": {
+    "ticker": "ASALCBR",
+    "headline": "ASALCBR exhibits chronic guidance misses, goalpost shifts, or ghosted targets (Say-Do 45/100, Grade D).",
+    "verdict": "Unreliable",
+    "patterns": [
+      "Delivered 15 verified commitments, anchored by ebitda margin execution (Keep EBITDA margin around Q1 14% range for FY26 if grain prices stabilize) [ASALCBR:2025-08-11#5].",
+      "Exhibits 29 delayed or partially met commitments where timelines or targets shifted (Spend about Rs 100 crore capex in FY26 for maturation project and upgrades) [ASALCBR:2025-08-11#0].",
+      "Logged 12 missed, abandoned, or ghosted targets (Sell 15,000-20,000 cases of Hillfort and Nicobar Gin in FY26 -> MISSED) [ASALCBR:2025-08-11#4]."
+    ],
+    "red_flags": [
+      "Q1FY26 call (11 Aug 2025): \"Sell 15,000-20,000 cases of Hillfort and Nicobar Gin in FY26\" resolved as MISSED (missed per Q4FY26 call (20 May 2026)) [ASALCBR:2025-08-11#4].",
+      "Q4FY25 call (28 Apr 2025): \"Top line growth of 11% to 15% in FY26 excluding ethanol\" resolved as MISSED (guided 11-15 vs actual -5.1) [ASALCBR:2025-04-28#11].",
+      "Q4FY25 call (28 Apr 2025): \"Ethanol sales to remain flattish in FY26 on optimum capacity utilization\" resolved as MISSED (missed per Q3FY26 call (05 Feb 2026)) [ASALCBR:2025-04-28#12].",
+      "Q4FY25 call (28 Apr 2025): \"IMFL licensed sales to remain flattish in next quarter\" resolved as MISSED (missed per Q1FY26 call (11 Aug 2025)) [ASALCBR:2025-04-28#15]."
+    ],
+    "credit_where_due": [
+      "Q1FY26 call (11 Aug 2025): \"Keep EBITDA margin around Q1 14% range for FY26 if grain prices stabilize\" -> DELIVERED (guided 14 vs actual 14.0) [ASALCBR:2025-08-11#5].",
+      "Q1FY26 call (11 Aug 2025): \"Malt maturity plant to be up and running within a month\" -> DELIVERED (confirmed on Q2FY26 call (11 Nov 2025)) [ASALCBR:2025-08-11#7].",
+      "Q1FY26 call (11 Aug 2025): \"Start sales in Mumbai from Tuesday/Thursday onwards\" -> DELIVERED (confirmed on Q2FY26 call (11 Nov 2025)) [ASALCBR:2025-08-11#12].",
+      "Q1FY26 call (11 Aug 2025): \"Finalize Pune distributor this week\" -> DELIVERED (confirmed on Q2FY26 call (11 Nov 2025)) [ASALCBR:2025-08-11#17]."
+    ],
+    "watch_next_call": [
+      "Monitor \"First revenue from malt plant to start in 1.5 years due to maturation\" (target horizon: 2027-02, category: revenue_target) [ASALCBR:2025-08-11#8].",
+      "Monitor \"Target presence in 10-12 states with good premium volume over next two years\" (target horizon: FY26-FY28, category: expansion) [ASALCBR:2025-08-11#9].",
+      "Monitor \"25-30% growth in own IMFL proprietary brands over next two-three years\" (target horizon: FY26-FY28, category: revenue_growth) [ASALCBR:2025-08-11#10].",
+      "Monitor \"Expand ENA manufacturing capacity in one to two years as own-brand consumption rises\" (target horizon: FY27-FY28, category: capacity) [ASALCBR:2025-08-11#18].",
+      "Monitor \"Set up own sales team in entered states over a year\" (target horizon: FY27, category: expansion) [ASALCBR:2025-08-11#20]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "UTKARSHBNK": {
+    "ticker": "UTKARSHBNK",
+    "headline": "UTKARSHBNK exhibits chronic guidance misses, goalpost shifts, or ghosted targets (Say-Do 45/100, Grade D).",
+    "verdict": "Unreliable",
+    "patterns": [
+      "Delivered 15 verified commitments, anchored by other execution (Non-micro banking portfolio to grow around 45% to 50% yoy in FY25) [UTKARSHBNK:2024-11-11#1].",
+      "Exhibits 22 delayed or partially met commitments where timelines or targets shifted (Stress/delinquency to peak by end Q3FY25 with reversal starting Q4FY25) [UTKARSHBNK:2024-11-11#3].",
+      "Logged 16 missed, abandoned, or ghosted targets (JLG disbursement to normalize from Q4FY25 and full-year FY25 JLG portfolio to remain flat vs FY24 -> MISSED) [UTKARSHBNK:2024-11-11#0]."
+    ],
+    "red_flags": [
+      "Q2FY25 call (11 Nov 2024): \"JLG disbursement to normalize from Q4FY25 and full-year FY25 JLG portfolio to remain flat vs FY24\" resolved as MISSED (missed per Q4FY25 call (01 Apr 2025)) [UTKARSHBNK:2024-11-11#0].",
+      "Q2FY25 call (11 Nov 2024): \"JLG loan portfolio to grow around 14% to 15% yoy in FY26\" resolved as MISSED (missed per Q3FY26 call (02 Feb 2026)) [UTKARSHBNK:2024-11-11#2].",
+      "Q2FY25 call (11 Nov 2024): \"Credit cost of 3.5% to 4.5% for FY25\" resolved as GHOSTED (deadline 2025-03-31 passed; not mentioned on 5 later calls) [UTKARSHBNK:2024-11-11#5].",
+      "Q2FY25 call (11 Nov 2024): \"ROA of around 1% for FY25\" resolved as MISSED (missed per Q4FY25 call (01 Apr 2025)) [UTKARSHBNK:2024-11-11#6]."
+    ],
+    "credit_where_due": [
+      "Q2FY25 call (11 Nov 2024): \"Non-micro banking portfolio to grow around 45% to 50% yoy in FY25\" -> DELIVERED (confirmed on Q4FY25 call (01 Apr 2025)) [UTKARSHBNK:2024-11-11#1].",
+      "Q2FY25 call (11 Nov 2024): \"CD ratio to decline further in FY25\" -> DELIVERED (confirmed on Q4FY25 call (01 Apr 2025)) [UTKARSHBNK:2024-11-11#4].",
+      "Q2FY25 call (11 Nov 2024): \"No material improvement in current-bucket collection efficiency in Q3FY25\" -> DELIVERED (confirmed on Q3FY25 call (17 Feb 2025)) [UTKARSHBNK:2024-11-11#10].",
+      "Q2FY25 call (11 Nov 2024): \"Collection improvement to start from next quarter (Q4FY25)\" -> DELIVERED (confirmed on Q4FY25 call (01 Apr 2025)) [UTKARSHBNK:2024-11-11#11]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Launch new CBS in Q2/Q3 of FY27\" (target horizon: Q2FY27-Q3FY27, category: other) [UTKARSHBNK:2026-05-11#1].",
+      "Monitor \"Deliver around 30% portfolio growth in FY27 off low base\" (target horizon: FY27, category: other) [UTKARSHBNK:2026-05-11#4].",
+      "Monitor \"Avoid equity capital market raise near term and meet any shortfall via Tier-2 or other means\" (target horizon: FY27, category: debt) [UTKARSHBNK:2026-05-11#5].",
+      "Monitor \"Reduce net NPA from ~3.3% in FY26 to below 1% by FY28\" (target horizon: FY28, category: other) [UTKARSHBNK:2026-05-11#7].",
+      "Monitor \"Grow income/top line by around 25%-30% with same cost base\" (target horizon: FY27, category: revenue_growth) [UTKARSHBNK:2026-05-11#8]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "PAYTM": {
+    "ticker": "PAYTM",
+    "headline": "PAYTM exhibits chronic guidance misses, goalpost shifts, or ghosted targets (Say-Do 44/100, Grade D).",
+    "verdict": "Unreliable",
+    "patterns": [
+      "Delivered 4 verified commitments, anchored by ebitda margin execution (EBITDA margin to improve significantly from ~4% by end of FY26) [PAYTM:2025-07-22#3].",
+      "Exhibits 3 delayed or partially met commitments where timelines or targets shifted (Reach PAT profitability once EBITDA before ESOP turns profitable in next 1-2 quarters) [PAYTM:2025-01-20#8].",
+      "Logged 6 missed, abandoned, or ghosted targets (Reduce number of overseas subsidiaries within 3 to 6 months -> GHOSTED) [PAYTM:2025-01-20#1]."
+    ],
+    "red_flags": [
+      "Q3FY25 call (20 Jan 2025): \"Reduce number of overseas subsidiaries within 3 to 6 months\" resolved as GHOSTED (deadline 2025-09-30 passed; not mentioned on 4 later calls) [PAYTM:2025-01-20#1].",
+      "Q3FY25 call (20 Jan 2025): \"FY26 capex will stay below FY24 levels\" resolved as GHOSTED (deadline 2026-03-31 passed; not mentioned on 2 later calls) [PAYTM:2025-01-20#3].",
+      "Q4FY25 call (06 May 2025): \"Achieve PAT profitability from next quarter onwards\" resolved as GHOSTED (deadline 2025-09-30 passed; not mentioned on 4 later calls) [PAYTM:2025-05-06#5].",
+      "Q3FY26 call (30 Jan 2026): \"Promotional expenses to remain around Q3FY26 levels going forward\" resolved as MISSED (missed per Q1FY27 call (21 Jul 2026)) [PAYTM:2026-01-30#4]."
+    ],
+    "credit_where_due": [
+      "Q1FY26 call (22 Jul 2025): \"EBITDA margin to improve significantly from ~4% by end of FY26\" -> DELIVERED (guided 4 vs actual 5.9) [PAYTM:2025-07-22#3].",
+      "Q3FY26 call (30 Jan 2026): \"Offset at least 30-40% of PIDF impact in Q4FY26 via higher subscription and targeted sales\" -> DELIVERED (confirmed on Q4FY26 call (07 May 2026)) [PAYTM:2026-01-30#0].",
+      "Q3FY26 call (30 Jan 2026): \"Offset 30-40% of Rs 80 crores PIDF impact in Q4FY26, rest hits EBITDA\" -> DELIVERED (confirmed on Q4FY26 call (07 May 2026)) [PAYTM:2026-01-30#5].",
+      "Q2FY26 call (05 Nov 2025): \"UPI market share to have grown despite flat marketing spend, to be seen in NPCI announcement this month\" -> DELIVERED (confirmed on Q3FY26 call (30 Jan 2026)) [PAYTM:2025-11-05#3]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Increase share of device merchants with outstanding loan to 10-15% within 2-3 years\" (target horizon: FY27-FY28, category: other) [PAYTM:2025-01-20#0].",
+      "Monitor \"Capex savings from device refurbishment to continue for next 2-3 quarters\" (target horizon: H1FY26, category: capex) [PAYTM:2025-01-20#4].",
+      "Monitor \"Targeting 30-35% topline growth for next year and longer term\" (target horizon: FY27, category: revenue_growth) [PAYTM:2025-05-06#1].",
+      "Monitor \"Targeting 15-20% EBITDA margin over the next two to three years\" (target horizon: FY26-FY28, category: ebitda_margin) [PAYTM:2025-05-06#2].",
+      "Monitor \"Reach 15-20% EBITDA margin in about 2.5 to 3 years\" (target horizon: FY29-FY30, category: ebitda_margin) [PAYTM:2026-05-07#0]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "PRESTIGE": {
+    "ticker": "PRESTIGE",
+    "headline": "PRESTIGE exhibits chronic guidance misses, goalpost shifts, or ghosted targets (Say-Do 42/100, Grade F).",
+    "verdict": "Unreliable",
+    "patterns": [
+      "Delivered 17 verified commitments, anchored by revenue target execution (Achieve company revenue of Rs 10,000-12,000 crore in FY26 on project completions including Sarjapur) [PRESTIGE:2025-01-31#8].",
+      "Exhibits 20 delayed or partially met commitments where timelines or targets shifted (Achieve about Rs 2,500 crore presales from Southern Star and Suncrest in Q4FY25) [PRESTIGE:2025-01-31#4].",
+      "Logged 19 missed, abandoned, or ghosted targets (Achieve office exit rental income of around Rs 700+ crore by March 2025 -> GHOSTED) [PRESTIGE:2025-01-31#0]."
+    ],
+    "red_flags": [
+      "Q3FY25 call (31 Jan 2025): \"Achieve office exit rental income of around Rs 700+ crore by March 2025\" resolved as GHOSTED (deadline 2025-03-31 passed; not mentioned on 4 later calls) [PRESTIGE:2025-01-31#0].",
+      "Q3FY25 call (31 Jan 2025): \"Launch Rs 30,000 crore of inventory across 5 projects in Q4FY25\" resolved as MISSED (missed per Q4FY25 call (30 May 2025)) [PRESTIGE:2025-01-31#3].",
+      "Q3FY25 call (31 Jan 2025): \"Achieve Rs 2,000 crore presales from Nautilus Mumbai in Q4FY25\" resolved as GHOSTED (deadline 2025-03-31 passed; not mentioned on 4 later calls) [PRESTIGE:2025-01-31#5].",
+      "Q3FY25 call (31 Jan 2025): \"Lease remaining 700,000 sq ft Hyderabad office to reach 100% occupancy in next 2-3 quarters\" resolved as GHOSTED (deadline 2025-09-30 passed; not mentioned on 3 later calls) [PRESTIGE:2025-01-31#15]."
+    ],
+    "credit_where_due": [
+      "Q3FY25 call (31 Jan 2025): \"Achieve company revenue of Rs 10,000-12,000 crore in FY26 on project completions including Sarjapur\" -> DELIVERED (guided 10000-12000 vs actual 12685.0) [PRESTIGE:2025-01-31#8].",
+      "Q3FY25 call (31 Jan 2025): \"Achieve 30% EBITDA margin on FY26 completing projects\" -> DELIVERED (confirmed on Q4FY26 call (22 May 2026)) [PRESTIGE:2025-01-31#9].",
+      "Q3FY25 call (31 Jan 2025): \"Keep gearing ratio below 0.5x over the next 1-2 years\" -> DELIVERED (confirmed on Q4FY26 call (22 May 2026)) [PRESTIGE:2025-01-31#11].",
+      "Q2FY25 call (30 Oct 2024): \"Get OC for Prestige Mahalaxmi rehab and start handovers within ~1.5 months\" -> DELIVERED (confirmed on Q3FY25 call (31 Jan 2025)) [PRESTIGE:2024-10-30#8]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Complete Mahalakshmi tall towers in 2028\" (target horizon: 2028, category: commissioning) [PRESTIGE:2025-01-31#12].",
+      "Monitor \"Office exit rental projected to reach INR3,326 crores by FY28\" (target horizon: FY28, category: revenue_target) [PRESTIGE:2024-10-30#1].",
+      "Monitor \"Retail exit rental to reach nearly INR1,000 crores by FY29 with 13 additional malls\" (target horizon: FY29, category: revenue_target) [PRESTIGE:2024-10-30#2].",
+      "Monitor \"Commercial rental income from BKC and Mumbai assets targeted for FY28 and FY29\" (target horizon: FY28-FY29, category: revenue_target) [PRESTIGE:2024-10-30#9].",
+      "Monitor \"Fully deploy QIP land portion by December 2024 to March 2025\" (target horizon: 2024-12, category: capex) [PRESTIGE:2024-10-30#14]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "EIEL": {
+    "ticker": "EIEL",
+    "headline": "EIEL exhibits chronic guidance misses, goalpost shifts, or ghosted targets (Say-Do 41/100, Grade F).",
+    "verdict": "Unreliable",
+    "patterns": [
+      "Delivered 17 verified commitments, anchored by revenue target execution (Cross INR1,000 crores topline in FY25) [EIEL:2025-02-07#2].",
+      "Exhibits 5 delayed or partially met commitments where timelines or targets shifted (JJM receivables/pending funds to be released by end of FY25) [EIEL:2025-02-07#5].",
+      "Logged 28 missed, abandoned, or ghosted targets (Expect around Rs 2,000 crores of order inflow / L1 visibility in Q4FY25 -> GHOSTED) [EIEL:2025-02-07#10]."
+    ],
+    "red_flags": [
+      "Q3FY25 call (07 Feb 2025): \"Expect around Rs 2,000 crores of order inflow / L1 visibility in Q4FY25\" resolved as GHOSTED (deadline 2025-03-31 passed; not mentioned on 5 later calls) [EIEL:2025-02-07#10].",
+      "Q4FY25 call (29 May 2025): \"Deliver 35% to 40% revenue growth in FY26\" resolved as MISSED (guided 35-40 vs actual 7.5) [EIEL:2025-05-29#11].",
+      "Q1FY26 call (12 Aug 2025): \"Win Rs 2,500 crores of new orders in FY26\" resolved as MISSED (missed per Q1FY27 call (12 Aug 2026)) [EIEL:2025-08-12#2].",
+      "Q2FY25 call (18 Dec 2024): \"Win around INR2,000 crores of fresh orders in FY25\" resolved as GHOSTED (deadline 2025-03-31 passed; not mentioned on 5 later calls) [EIEL:2024-12-18#1]."
+    ],
+    "credit_where_due": [
+      "Q3FY25 call (07 Feb 2025): \"Cross INR1,000 crores topline in FY25\" -> DELIVERED (guided 1000 vs actual 1066.0) [EIEL:2025-02-07#2].",
+      "Q3FY25 call (07 Feb 2025): \"Maintain 24-25% EBITDA margin for FY25 as a whole\" -> DELIVERED (guided 24-25 vs actual 25.1) [EIEL:2025-02-07#4].",
+      "Q3FY25 call (07 Feb 2025): \"Start team building and generate revenue from green energy/solar segment in FY26\" -> DELIVERED (confirmed on Q1FY26 call (12 Aug 2025)) [EIEL:2025-02-07#8].",
+      "Q3FY25 call (07 Feb 2025): \"Enter new solar power segment in FY26\" -> DELIVERED (confirmed on Q1FY26 call (12 Aug 2025)) [EIEL:2025-02-07#9]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Maintain ~25% EBITDA margins for the next 2-3 years\" (target horizon: FY26-FY28, category: ebitda_margin) [EIEL:2025-02-07#3].",
+      "Monitor \"Execute entire Rs 1,687 crores order book by middle of FY27\" (target horizon: H1FY27, category: order_book) [EIEL:2025-02-07#7].",
+      "Monitor \"Achieve positive cash flow after tax in FY27\" (target horizon: FY27, category: other) [EIEL:2025-05-29#9].",
+      "Monitor \"O&M revenue to increase by INR 10-15 crores in FY26\" (target horizon: FY26, category: revenue_target) [EIEL:2025-05-29#13].",
+      "Monitor \"O&M revenue to reach INR 70-75 crores in 2 years\" (target horizon: FY28, category: revenue_target) [EIEL:2025-05-29#14]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "ADVAIT": {
+    "ticker": "ADVAIT",
+    "headline": "ADVAIT exhibits chronic guidance misses, goalpost shifts, or ghosted targets (Say-Do 32/100, Grade F).",
+    "verdict": "Unreliable",
+    "patterns": [
+      "Delivered 1 verified commitments, anchored by revenue growth execution (Deliver approximately 40% to 45% revenue growth in 2026) [ADVAIT:2026-02-12#0].",
+      "Exhibits 2 delayed or partially met commitments where timelines or targets shifted (First 10 MW electrolyzer manufacturing capacity to be ready by January 2026) [ADVAIT:2025-11-14#12].",
+      "Logged 6 missed, abandoned, or ghosted targets (No fresh capex in AETL in coming financial year beyond already tied-up FY26 capex -> ABANDONED) [ADVAIT:2025-11-14#9]."
+    ],
+    "red_flags": [
+      "Q2FY26 call (14 Nov 2025): \"No fresh capex in AETL in coming financial year beyond already tied-up FY26 capex\" resolved as ABANDONED (abandoned per Q3FY26 call (12 Feb 2026)) [ADVAIT:2025-11-14#9].",
+      "Q3FY25 call (14 Feb 2025): \"Build at least 100 MW of solar EPC credentials, with 30 MW to be completed in February 2025\" resolved as GHOSTED (deadline 2025-02-28 passed; not mentioned on 3 later calls) [ADVAIT:2025-02-14#1].",
+      "Q3FY25 call (14 Feb 2025): \"Execute Rs 273 crore PTS order book in next 9 months to Sep 2025\" resolved as GHOSTED (deadline 2025-09-30 passed; not mentioned on 2 later calls) [ADVAIT:2025-02-14#3].",
+      "Q3FY25 call (14 Feb 2025): \"Complete first 30 MW solar project in February 2025\" resolved as GHOSTED (deadline 2025-02-28 passed; not mentioned on 3 later calls) [ADVAIT:2025-02-14#4]."
+    ],
+    "credit_where_due": [
+      "Q3FY26 call (12 Feb 2026): \"Deliver approximately 40% to 45% revenue growth in 2026\" -> DELIVERED (guided 40-45 vs actual 79.6) [ADVAIT:2026-02-12#0]."
+    ],
+    "watch_next_call": [
+      "Monitor \"New ERS manufacturing facility to be ready by next month\" (target horizon: 2025-12, category: commissioning) [ADVAIT:2025-11-14#0].",
+      "Monitor \"All new manufacturing and expansion of existing units at Gangad integrated facility to be ready by July 2026\" (target horizon: 2026-07, category: commissioning) [ADVAIT:2025-11-14#1].",
+      "Monitor \"Deliver 1 MW green hydrogen project in Bharuch in Q3FY26\" (target horizon: Q3FY26, category: commissioning) [ADVAIT:2025-11-14#2].",
+      "Monitor \"Do first Rs 50-60 crore of BESS supplies in March and complete entire BESS order by June\" (target horizon: 2026-03, category: revenue_target) [ADVAIT:2025-11-14#4].",
+      "Monitor \"AGPL margins to match group margins in the coming year\" (target horizon: FY27, category: other) [ADVAIT:2025-11-14#7]."
+    ],
+    "model": "muse-wonder-1.0"
+  },
+  "VPRPL": {
+    "ticker": "VPRPL",
+    "headline": "VPRPL exhibits chronic guidance misses, goalpost shifts, or ghosted targets (Say-Do 32/100, Grade F).",
+    "verdict": "Unreliable",
+    "patterns": [
+      "Delivered 3 verified commitments, anchored by ebitda margin execution (Sustain EBITDA margin around 13% to 14% in FY25 and going forward) [VPRPL:2024-06-03#1].",
+      "Exhibits 2 delayed or partially met commitments where timelines or targets shifted (Maintain debt-equity ratio under 1x in FY25 without aggressive debt funding) [VPRPL:2024-06-03#4].",
+      "Logged 16 missed, abandoned, or ghosted targets (Maintain historic revenue growth of 15% to 20% in FY25 -> MISSED) [VPRPL:2024-06-03#2]."
+    ],
+    "red_flags": [
+      "Q4FY24 call (03 Jun 2024): \"Maintain historic revenue growth of 15% to 20% in FY25\" resolved as MISSED (guided 15-20 vs actual -16.1) [VPRPL:2024-06-03#2].",
+      "Q4FY25 call (30 May 2025): \"Deliver minimum 10% to 15% revenue growth in FY26 vs FY25\" resolved as MISSED (guided 10-15 vs actual -31.2) [VPRPL:2025-05-30#2].",
+      "Q1FY25 call (14 Aug 2024): \"Revenue to grow 15-20% in FY25\" resolved as MISSED (guided 15-20 vs actual -16.1) [VPRPL:2024-08-14#0].",
+      "Q1FY25 call (14 Aug 2024): \"Annual capex of around Rs 30 crore\" resolved as GHOSTED (deadline 2025-03-31 passed; not mentioned on 2 later calls) [VPRPL:2024-08-14#2]."
+    ],
+    "credit_where_due": [
+      "Q4FY24 call (03 Jun 2024): \"Sustain EBITDA margin around 13% to 14% in FY25 and going forward\" -> DELIVERED (guided 13-14 vs actual 12.6) [VPRPL:2024-06-03#1].",
+      "Q4FY24 call (03 Jun 2024): \"Maintain order book up to 3x of turnover in FY25\" -> DELIVERED (confirmed on Q4FY25 call (30 May 2025)) [VPRPL:2024-06-03#3].",
+      "Q1FY25 call (14 Aug 2024): \"Win 17-18% of Rs 5000 crore bidding pipeline as new orders in remaining FY25\" -> DELIVERED (confirmed on Q3FY25 call (04 Feb 2025)) [VPRPL:2024-08-14#5]."
+    ],
+    "watch_next_call": [
+      "Monitor \"Execute the Rs 5363 crore order book over the next three years\" (target horizon: FY26-FY28, category: order_book) [VPRPL:2025-05-30#0].",
+      "Monitor \"Deliver operating margin in FY26 better than FY25 and at historic percentage\" (target horizon: FY26, category: ebitda_margin) [VPRPL:2025-05-30#3].",
+      "Monitor \"Execute the INR 1,104 crores of new FY25 orders within 36 months\" (target horizon: 2027-09, category: other) [VPRPL:2024-11-11#0].",
+      "Monitor \"Top-line growth of 10% to 15% per year over the next 2 years (FY26-FY27)\" (target horizon: FY26-FY27, category: revenue_growth) [VPRPL:2024-11-11#7].",
+      "Monitor \"Expect results for around Rs 3000 crores bid pipeline in August and September 2025\" (target horizon: Q2FY26, category: order_inflow) [VPRPL:2025-08-14#4]."
+    ],
+    "model": "muse-wonder-1.0"
+  }
+}
