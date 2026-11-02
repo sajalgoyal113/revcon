@@ -124,7 +124,14 @@ def run_sample_predictions():
     print("• Architecture: Ensemble Stacking (Bayesian MAP Logistic Regression + Pure-NumPy HistGBDT)")
     print(f"• Out-of-Sample LOCO ROC AUC:  {loco.get('auc_model', 0):.3f} (90% CI {loco.get('auc_ci90')}) | Brier: {loco.get('brier_model', 0):.3f}")
     print(f"• Temporal Walk-Forward AUC:   {wf.get('auc_model', 0):.3f} (90% CI {wf.get('auc_ci90')}) | Brier: {wf.get('brier_model', 0):.3f}")
-    print(f"• Base Dataset Size:           {ev.get('n', 1121):,} resolved guidance promises across 35 companies")
+    stats_path = os.path.join(ROOT, "data", "out", "stats.json")
+    n_companies = 100
+    if os.path.exists(stats_path):
+        try:
+            n_companies = json.load(open(stats_path)).get("companies", 100)
+        except Exception:
+            pass
+    print(f"• Base Dataset Size:           {ev.get('n', 1121):,} resolved guidance promises across {n_companies} companies")
     print("=" * 70)
 
 

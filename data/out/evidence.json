@@ -112891,5 +112891,2225 @@
   "new_value": 40,
   "new_period": "Q1FY27",
   "note": "Group 40% govt, new hospitals <10%, restricting govt"
+ },
+ {
+  "promise_id": "AARTIIND:2026-05-05#0",
+  "call_id": "AARTIIND:2026-07-31",
+  "call_date": "2026-07-31",
+  "call_label": "Q1FY27 call (31 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "I will walk you through our financial and strategic performance for the quarter, alongside the key milestones achieved across our growth initiatives.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (31 Jul 2026)"
+ },
+ {
+  "promise_id": "AARTIIND:2026-05-05#1",
+  "call_id": "AARTIIND:2026-07-31",
+  "call_date": "2026-07-31",
+  "call_label": "Q1FY27 call (31 Jul 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "In line with our earlier guidance, FY27 CAPEX remains on track within the Rs.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q1FY27 call (31 Jul 2026)"
+ },
+ {
+  "promise_id": "ABB:2026-02-16#0",
+  "call_id": "ABB:2026-07-24",
+  "call_date": "2026-07-24",
+  "call_label": "Q1FY27 call (24 Jul 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "AMBER:2026-05-18#0",
+  "call_id": "AMBER:2026-06-20",
+  "call_date": "2026-06-20",
+  "call_label": "Q4FY26 call (20 Jun 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "AMBER:2026-05-18#1",
+  "call_id": "AMBER:2026-06-20",
+  "call_date": "2026-06-20",
+  "call_label": "Q4FY26 call (20 Jun 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "AMBER:2026-05-18#2",
+  "call_id": "AMBER:2026-06-20",
+  "call_date": "2026-06-20",
+  "call_label": "Q4FY26 call (20 Jun 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "AMBER:2026-05-18#0",
+  "call_id": "AMBER:2026-08-14",
+  "call_date": "2026-08-14",
+  "call_label": "Q1FY27 call (14 Aug 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "AMBER:2026-05-18#1",
+  "call_id": "AMBER:2026-08-14",
+  "call_date": "2026-08-14",
+  "call_label": "Q1FY27 call (14 Aug 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "AMBER:2026-05-18#2",
+  "call_id": "AMBER:2026-08-14",
+  "call_date": "2026-08-14",
+  "call_label": "Q1FY27 call (14 Aug 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "APOLLOHOSP:2026-02-11#0",
+  "call_id": "APOLLOHOSP:2026-05-21",
+  "call_date": "2026-05-21",
+  "call_label": "Q4FY26 call (21 May 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "AHLL delivered a margin of INR 75 crore, representing a strong 58% year-on- year growth with margins improving to 15.3% from 12% in Q4 last year.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (21 May 2026)"
+ },
+ {
+  "promise_id": "APOLLOHOSP:2026-02-11#0",
+  "call_id": "APOLLOHOSP:2026-08-13",
+  "call_date": "2026-08-13",
+  "call_label": "Q1FY27 call (13 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "We have delivered strong double -digit revenue growth across all 3 of our business verticals - Healthcare Services, Transcript of AHEL Q1 FY27 Earnings Call Page 2 of 18 Apollo HealthCo and AHLL - alongside continued improvement in profitability.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (13 Aug 2026)"
+ },
+ {
+  "promise_id": "APOLLOTYRE:2026-02-05#0",
+  "call_id": "APOLLOTYRE:2026-05-15",
+  "call_date": "2026-05-15",
+  "call_label": "Q4FY26 call (15 May 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "Growth across all product categories has been very encouraging, placing us firmly in line with and in some segments ahead of the market performance.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q4FY26 call (15 May 2026)"
+ },
+ {
+  "promise_id": "APOLLOTYRE:2026-02-05#1",
+  "call_id": "APOLLOTYRE:2026-05-15",
+  "call_date": "2026-05-15",
+  "call_label": "Q4FY26 call (15 May 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "Growth across all product categories has been very encouraging, placing us firmly in line with and in some segments ahead of the market performance.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q4FY26 call (15 May 2026)"
+ },
+ {
+  "promise_id": "APOLLOTYRE:2026-02-05#2",
+  "call_id": "APOLLOTYRE:2026-05-15",
+  "call_date": "2026-05-15",
+  "call_label": "Q4FY26 call (15 May 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "ASTRAL:2026-05-15#0",
+  "call_id": "ASTRAL:2026-08-12",
+  "call_date": "2026-08-12",
+  "call_label": "Q1FY27 call (12 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "And also we have delivered a 10% value growth with an 18.9% EBITDA, which is one of the highest in the industry.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (12 Aug 2026)"
+ },
+ {
+  "promise_id": "AUROPHARMA:2026-02-02#0",
+  "call_id": "AUROPHARMA:2026-08-06",
+  "call_date": "2026-08-06",
+  "call_label": "Q1FY27 call (06 Aug 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "Subramanian: All the growth market countries are driving growth in line with the normal.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q1FY27 call (06 Aug 2026)"
+ },
+ {
+  "promise_id": "AUROPHARMA:2026-02-02#1",
+  "call_id": "AUROPHARMA:2026-08-06",
+  "call_date": "2026-08-06",
+  "call_label": "Q1FY27 call (06 Aug 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "Subramanian: All the growth market countries are driving growth in line with the normal.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q1FY27 call (06 Aug 2026)"
+ },
+ {
+  "promise_id": "BAJAJ-AUTO:2026-05-06#0",
+  "call_id": "BAJAJ-AUTO:2026-07-21",
+  "call_date": "2026-07-21",
+  "call_label": "Q1FY27 call (21 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "While all the BUs delivered handsome growth, I would like to call out the super performance of exports and EVs.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (21 Jul 2026)"
+ },
+ {
+  "promise_id": "BAJAJ-AUTO:2026-05-06#1",
+  "call_id": "BAJAJ-AUTO:2026-07-21",
+  "call_date": "2026-07-21",
+  "call_label": "Q1FY27 call (21 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "While all the BUs delivered handsome growth, I would like to call out the super performance of exports and EVs.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (21 Jul 2026)"
+ },
+ {
+  "promise_id": "BAJAJ-AUTO:2026-05-06#0",
+  "call_id": "BAJAJ-AUTO:2026-10-27",
+  "call_date": "2026-10-27",
+  "call_label": "Q2FY27 call (27 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "In the largest market of Nigeria, retails were at 30,000 units AVPM level, which is a very big growth over the same period last year and delivered a record market share of almost 60%.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (27 Oct 2026)"
+ },
+ {
+  "promise_id": "BAJAJ-AUTO:2026-05-06#1",
+  "call_id": "BAJAJ-AUTO:2026-10-27",
+  "call_date": "2026-10-27",
+  "call_label": "Q2FY27 call (27 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "In the largest market of Nigeria, retails were at 30,000 units AVPM level, which is a very big growth over the same period last year and delivered a record market share of almost 60%.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (27 Oct 2026)"
+ },
+ {
+  "promise_id": "BAJAJ-AUTO:2026-07-21#0",
+  "call_id": "BAJAJ-AUTO:2026-10-27",
+  "call_date": "2026-10-27",
+  "call_label": "Q2FY27 call (27 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "In the largest market of Nigeria, retails were at 30,000 units AVPM level, which is a very big growth over the same period last year and delivered a record market share of almost 60%.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (27 Oct 2026)"
+ },
+ {
+  "promise_id": "BAJAJ-AUTO:2026-07-21#1",
+  "call_id": "BAJAJ-AUTO:2026-10-27",
+  "call_date": "2026-10-27",
+  "call_label": "Q2FY27 call (27 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "In the largest market of Nigeria, retails were at 30,000 units AVPM level, which is a very big growth over the same period last year and delivered a record market share of almost 60%.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (27 Oct 2026)"
+ },
+ {
+  "promise_id": "BHARATFORG:2026-05-07#0",
+  "call_id": "BHARATFORG:2026-08-10",
+  "call_date": "2026-08-10",
+  "call_label": "Q1FY27 call (10 Aug 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "BRITANNIA:2026-05-08#0",
+  "call_id": "BRITANNIA:2026-08-07",
+  "call_date": "2026-08-07",
+  "call_label": "Q1FY27 call (07 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "So the dairy portfolio also grew in double digits, while our adjacency business of cake, rusk and wafers delivered strong double -digit growth led by portfolio innovation.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (07 Aug 2026)"
+ },
+ {
+  "promise_id": "BRITANNIA:2026-05-08#1",
+  "call_id": "BRITANNIA:2026-08-07",
+  "call_date": "2026-08-07",
+  "call_label": "Q1FY27 call (07 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "So the dairy portfolio also grew in double digits, while our adjacency business of cake, rusk and wafers delivered strong double -digit growth led by portfolio innovation.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (07 Aug 2026)"
+ },
+ {
+  "promise_id": "BRITANNIA:2026-05-08#2",
+  "call_id": "BRITANNIA:2026-08-07",
+  "call_date": "2026-08-07",
+  "call_label": "Q1FY27 call (07 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "So the dairy portfolio also grew in double digits, while our adjacency business of cake, rusk and wafers delivered strong double -digit growth led by portfolio innovation.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (07 Aug 2026)"
+ },
+ {
+  "promise_id": "CEATLTD:2026-01-20#0",
+  "call_id": "CEATLTD:2026-04-29",
+  "call_date": "2026-04-29",
+  "call_label": "Q4FY26 call (29 Apr 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "During FY '26, the replacement business delivered a strong double -digit growth, while the international business came back strongly in the second half of the year, delivering high teens over the last year, and OEM registered a 20% plus kind of a growth, laying a healthy foundation for the future re",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (29 Apr 2026)"
+ },
+ {
+  "promise_id": "CEATLTD:2026-01-20#1",
+  "call_id": "CEATLTD:2026-04-29",
+  "call_date": "2026-04-29",
+  "call_label": "Q4FY26 call (29 Apr 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "The capex was higher in quarter 4, was to ensure that our capacity additions happened in line with our demand in the current year as our utilization levels are high.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q4FY26 call (29 Apr 2026)"
+ },
+ {
+  "promise_id": "CEATLTD:2026-01-20#0",
+  "call_id": "CEATLTD:2026-07-17",
+  "call_date": "2026-07-17",
+  "call_label": "Q1FY27 call (17 Jul 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "And further, when we handle it, we have some visibility of replacement growth coming back on track, not to the highest levels of which we witnessed 2 years back, but def initely on a positive move.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q1FY27 call (17 Jul 2026)"
+ },
+ {
+  "promise_id": "CEATLTD:2026-01-20#1",
+  "call_id": "CEATLTD:2026-07-17",
+  "call_date": "2026-07-17",
+  "call_label": "Q1FY27 call (17 Jul 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "CEATLTD:2026-04-29#0",
+  "call_id": "CEATLTD:2026-07-17",
+  "call_date": "2026-07-17",
+  "call_label": "Q1FY27 call (17 Jul 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "And further, when we handle it, we have some visibility of replacement growth coming back on track, not to the highest levels of which we witnessed 2 years back, but def initely on a positive move.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q1FY27 call (17 Jul 2026)"
+ },
+ {
+  "promise_id": "CEATLTD:2026-04-29#1",
+  "call_id": "CEATLTD:2026-07-17",
+  "call_date": "2026-07-17",
+  "call_label": "Q1FY27 call (17 Jul 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "And further, when we handle it, we have some visibility of replacement growth coming back on track, not to the highest levels of which we witnessed 2 years back, but def initely on a positive move.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q1FY27 call (17 Jul 2026)"
+ },
+ {
+  "promise_id": "CEATLTD:2026-04-29#2",
+  "call_id": "CEATLTD:2026-07-17",
+  "call_date": "2026-07-17",
+  "call_label": "Q1FY27 call (17 Jul 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "And further, when we handle it, we have some visibility of replacement growth coming back on track, not to the highest levels of which we witnessed 2 years back, but def initely on a positive move.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q1FY27 call (17 Jul 2026)"
+ },
+ {
+  "promise_id": "CEATLTD:2026-04-29#3",
+  "call_id": "CEATLTD:2026-07-17",
+  "call_date": "2026-07-17",
+  "call_label": "Q1FY27 call (17 Jul 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "And further, when we handle it, we have some visibility of replacement growth coming back on track, not to the highest levels of which we witnessed 2 years back, but def initely on a positive move.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q1FY27 call (17 Jul 2026)"
+ },
+ {
+  "promise_id": "CIPLA:2026-05-13#0",
+  "call_id": "CIPLA:2026-07-23",
+  "call_date": "2026-07-23",
+  "call_label": "Q1FY27 call (23 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Our One India business achieved its highest ever quarterly revenue with 12% Y-o-Y growth, reflecting a strong performance across key therapies and underscoring the strength of our franchise in the IPM.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (23 Jul 2026)"
+ },
+ {
+  "promise_id": "CIPLA:2026-05-13#1",
+  "call_id": "CIPLA:2026-07-23",
+  "call_date": "2026-07-23",
+  "call_label": "Q1FY27 call (23 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Our One India business achieved its highest ever quarterly revenue with 12% Y-o-Y growth, reflecting a strong performance across key therapies and underscoring the strength of our franchise in the IPM.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (23 Jul 2026)"
+ },
+ {
+  "promise_id": "CIPLA:2026-05-13#2",
+  "call_id": "CIPLA:2026-07-23",
+  "call_date": "2026-07-23",
+  "call_label": "Q1FY27 call (23 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Our One India business achieved its highest ever quarterly revenue with 12% Y-o-Y growth, reflecting a strong performance across key therapies and underscoring the strength of our franchise in the IPM.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (23 Jul 2026)"
+ },
+ {
+  "promise_id": "CIPLA:2026-05-13#3",
+  "call_id": "CIPLA:2026-07-23",
+  "call_date": "2026-07-23",
+  "call_label": "Q1FY27 call (23 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Our One India business achieved its highest ever quarterly revenue with 12% Y-o-Y growth, reflecting a strong performance across key therapies and underscoring the strength of our franchise in the IPM.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (23 Jul 2026)"
+ },
+ {
+  "promise_id": "CIPLA:2026-05-13#4",
+  "call_id": "CIPLA:2026-07-23",
+  "call_date": "2026-07-23",
+  "call_label": "Q1FY27 call (23 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Our One India business achieved its highest ever quarterly revenue with 12% Y-o-Y growth, reflecting a strong performance across key therapies and underscoring the strength of our franchise in the IPM.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (23 Jul 2026)"
+ },
+ {
+  "promise_id": "CIPLA:2026-05-13#0",
+  "call_id": "CIPLA:2026-10-27",
+  "call_date": "2026-10-27",
+  "call_label": "Q2FY27 call (27 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "One India delivered 12% Y -o-Y growth, sustaining its track record of consistent double -digit growth over the last few quarters, driven by strong execution across key therapies and the resilience of our franchise in the IPM.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (27 Oct 2026)"
+ },
+ {
+  "promise_id": "CIPLA:2026-05-13#1",
+  "call_id": "CIPLA:2026-10-27",
+  "call_date": "2026-10-27",
+  "call_label": "Q2FY27 call (27 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "One India delivered 12% Y -o-Y growth, sustaining its track record of consistent double -digit growth over the last few quarters, driven by strong execution across key therapies and the resilience of our franchise in the IPM.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (27 Oct 2026)"
+ },
+ {
+  "promise_id": "CIPLA:2026-05-13#2",
+  "call_id": "CIPLA:2026-10-27",
+  "call_date": "2026-10-27",
+  "call_label": "Q2FY27 call (27 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "One India delivered 12% Y -o-Y growth, sustaining its track record of consistent double -digit growth over the last few quarters, driven by strong execution across key therapies and the resilience of our franchise in the IPM.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (27 Oct 2026)"
+ },
+ {
+  "promise_id": "CIPLA:2026-05-13#3",
+  "call_id": "CIPLA:2026-10-27",
+  "call_date": "2026-10-27",
+  "call_label": "Q2FY27 call (27 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "One India delivered 12% Y -o-Y growth, sustaining its track record of consistent double -digit growth over the last few quarters, driven by strong execution across key therapies and the resilience of our franchise in the IPM.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (27 Oct 2026)"
+ },
+ {
+  "promise_id": "CIPLA:2026-05-13#4",
+  "call_id": "CIPLA:2026-10-27",
+  "call_date": "2026-10-27",
+  "call_label": "Q2FY27 call (27 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "One India delivered 12% Y -o-Y growth, sustaining its track record of consistent double -digit growth over the last few quarters, driven by strong execution across key therapies and the resilience of our franchise in the IPM.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (27 Oct 2026)"
+ },
+ {
+  "promise_id": "CIPLA:2026-07-23#0",
+  "call_id": "CIPLA:2026-10-27",
+  "call_date": "2026-10-27",
+  "call_label": "Q2FY27 call (27 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "One India delivered 12% Y -o-Y growth, sustaining its track record of consistent double -digit growth over the last few quarters, driven by strong execution across key therapies and the resilience of our franchise in the IPM.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (27 Oct 2026)"
+ },
+ {
+  "promise_id": "CIPLA:2026-07-23#1",
+  "call_id": "CIPLA:2026-10-27",
+  "call_date": "2026-10-27",
+  "call_label": "Q2FY27 call (27 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "One India delivered 12% Y -o-Y growth, sustaining its track record of consistent double -digit growth over the last few quarters, driven by strong execution across key therapies and the resilience of our franchise in the IPM.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (27 Oct 2026)"
+ },
+ {
+  "promise_id": "CIPLA:2026-07-23#2",
+  "call_id": "CIPLA:2026-10-27",
+  "call_date": "2026-10-27",
+  "call_label": "Q2FY27 call (27 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "One India delivered 12% Y -o-Y growth, sustaining its track record of consistent double -digit growth over the last few quarters, driven by strong execution across key therapies and the resilience of our franchise in the IPM.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (27 Oct 2026)"
+ },
+ {
+  "promise_id": "COCHINSHIP:2024-05-31#0",
+  "call_id": "COCHINSHIP:2025-08-19",
+  "call_date": "2025-08-19",
+  "call_label": "Q1FY26 call (19 Aug 2025)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "COCHINSHIP:2024-05-31#1",
+  "call_id": "COCHINSHIP:2025-08-19",
+  "call_date": "2025-08-19",
+  "call_label": "Q1FY26 call (19 Aug 2025)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "COCHINSHIP:2024-05-31#0",
+  "call_id": "COCHINSHIP:2026-09-10",
+  "call_date": "2026-09-10",
+  "call_label": "Q1FY27 call (10 Sep 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "COCHINSHIP:2024-05-31#1",
+  "call_id": "COCHINSHIP:2026-09-10",
+  "call_date": "2026-09-10",
+  "call_label": "Q1FY27 call (10 Sep 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "During the period, CSL delivered three vessels, including the third vessel in the series of eight Anti-Submarine Warfare Shallow Water Crafts being built for the Indian Navy; the second multipurpose vessel under the export order for our German client; the double-ended Ro-Ro ferry to Kochi Municipal ",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (10 Sep 2026)"
+ },
+ {
+  "promise_id": "COCHINSHIP:2025-08-19#0",
+  "call_id": "COCHINSHIP:2026-09-10",
+  "call_date": "2026-09-10",
+  "call_label": "Q1FY27 call (10 Sep 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "CROMPTON:2026-05-05#0",
+  "call_id": "CROMPTON:2026-08-06",
+  "call_date": "2026-08-06",
+  "call_label": "Q1FY27 call (06 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Crompton delivered a double-digit growth across all its business segments, driven by strong execution, successful product launches, and steady seasonal demand.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (06 Aug 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-01-29#0",
+  "call_id": "DABUR:2026-05-07",
+  "call_date": "2026-05-07",
+  "call_label": "Q4FY26 call (07 May 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The Home Care portfolio delivered a robust 24% growth, driven by strong double-digit growth across Odonil, Odomos and Sanifresh franchises.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (07 May 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-01-29#1",
+  "call_id": "DABUR:2026-05-07",
+  "call_date": "2026-05-07",
+  "call_label": "Q4FY26 call (07 May 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The Home Care portfolio delivered a robust 24% growth, driven by strong double-digit growth across Odonil, Odomos and Sanifresh franchises.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (07 May 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-01-29#2",
+  "call_id": "DABUR:2026-05-07",
+  "call_date": "2026-05-07",
+  "call_label": "Q4FY26 call (07 May 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The Home Care portfolio delivered a robust 24% growth, driven by strong double-digit growth across Odonil, Odomos and Sanifresh franchises.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (07 May 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-01-29#3",
+  "call_id": "DABUR:2026-05-07",
+  "call_date": "2026-05-07",
+  "call_label": "Q4FY26 call (07 May 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The Home Care portfolio delivered a robust 24% growth, driven by strong double-digit growth across Odonil, Odomos and Sanifresh franchises.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (07 May 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-01-29#4",
+  "call_id": "DABUR:2026-05-07",
+  "call_date": "2026-05-07",
+  "call_label": "Q4FY26 call (07 May 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The Home Care portfolio delivered a robust 24% growth, driven by strong double-digit growth across Odonil, Odomos and Sanifresh franchises.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (07 May 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-01-29#5",
+  "call_id": "DABUR:2026-05-07",
+  "call_date": "2026-05-07",
+  "call_label": "Q4FY26 call (07 May 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The Home Care portfolio delivered a robust 24% growth, driven by strong double-digit growth across Odonil, Odomos and Sanifresh franchises.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (07 May 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-01-29#6",
+  "call_id": "DABUR:2026-05-07",
+  "call_date": "2026-05-07",
+  "call_label": "Q4FY26 call (07 May 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The Home Care portfolio delivered a robust 24% growth, driven by strong double-digit growth across Odonil, Odomos and Sanifresh franchises.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (07 May 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-01-29#0",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-01-29#1",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-01-29#2",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-01-29#3",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-01-29#4",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-01-29#5",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-01-29#6",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-05-07#0",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-05-07#1",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-05-07#2",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-05-07#3",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-05-07#4",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-05-07#5",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-05-07#6",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-05-07#7",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-05-07#8",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-05-07#9",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-05-07#10",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-05-07#11",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DABUR:2026-05-07#12",
+  "call_id": "DABUR:2026-07-29",
+  "call_date": "2026-07-29",
+  "call_label": "Q1FY27 call (29 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite the challenging environment in the quarter, our international business delivered double-digit growth, supported by proactive market interventions and agile execution.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (29 Jul 2026)"
+ },
+ {
+  "promise_id": "DATAPATTNS:2025-11-10#0",
+  "call_id": "DATAPATTNS:2026-07-31",
+  "call_date": "2026-07-31",
+  "call_label": "Q1FY27 call (31 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The whole program has been stretched by more than 1.5 years because of which some of the contracts, we expect ed a lot of the programs, though negotiation is completed, order couldn't happen.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (31 Jul 2026)"
+ },
+ {
+  "promise_id": "DRREDDY:2026-01-21#0",
+  "call_id": "DRREDDY:2026-05-12",
+  "call_date": "2026-05-12",
+  "call_label": "Q4FY26 call (12 May 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The decline was primarily on account of lower lenalidomide sales, while the base business, excluding lenalidomide, delivered double-digit growth on year-over-year basis.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (12 May 2026)"
+ },
+ {
+  "promise_id": "DRREDDY:2026-01-21#0",
+  "call_id": "DRREDDY:2026-07-22",
+  "call_date": "2026-07-22",
+  "call_label": "Q1FY27 call (22 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The underlying base business delivered healthy double\u2011digit growth across all key geographies, including North America.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (22 Jul 2026)"
+ },
+ {
+  "promise_id": "DRREDDY:2026-05-12#0",
+  "call_id": "DRREDDY:2026-07-22",
+  "call_date": "2026-07-22",
+  "call_label": "Q1FY27 call (22 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The underlying base business delivered healthy double\u2011digit growth across all key geographies, including North America.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (22 Jul 2026)"
+ },
+ {
+  "promise_id": "DRREDDY:2026-05-12#1",
+  "call_id": "DRREDDY:2026-07-22",
+  "call_date": "2026-07-22",
+  "call_label": "Q1FY27 call (22 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The underlying base business delivered healthy double\u2011digit growth across all key geographies, including North America.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (22 Jul 2026)"
+ },
+ {
+  "promise_id": "DRREDDY:2026-05-12#2",
+  "call_id": "DRREDDY:2026-07-22",
+  "call_date": "2026-07-22",
+  "call_label": "Q1FY27 call (22 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The underlying base business delivered healthy double\u2011digit growth across all key geographies, including North America.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (22 Jul 2026)"
+ },
+ {
+  "promise_id": "DRREDDY:2026-05-12#3",
+  "call_id": "DRREDDY:2026-07-22",
+  "call_date": "2026-07-22",
+  "call_label": "Q1FY27 call (22 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The underlying base business delivered healthy double\u2011digit growth across all key geographies, including North America.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (22 Jul 2026)"
+ },
+ {
+  "promise_id": "ELECON:2026-04-16#0",
+  "call_id": "ELECON:2026-07-13",
+  "call_date": "2026-07-13",
+  "call_label": "Q1FY27 call (13 Jul 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "ELECON:2026-04-16#1",
+  "call_id": "ELECON:2026-07-13",
+  "call_date": "2026-07-13",
+  "call_label": "Q1FY27 call (13 Jul 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "ELECON:2026-04-16#0",
+  "call_id": "ELECON:2026-10-15",
+  "call_date": "2026-10-15",
+  "call_label": "Q2FY27 call (15 Oct 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "To conclude, our first half performance was in line with expectations and demonstrates Elecon's ability to deliver growth in a demanding environment.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q2FY27 call (15 Oct 2026)"
+ },
+ {
+  "promise_id": "ELECON:2026-04-16#1",
+  "call_id": "ELECON:2026-10-15",
+  "call_date": "2026-10-15",
+  "call_label": "Q2FY27 call (15 Oct 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "To conclude, our first half performance was in line with expectations and demonstrates Elecon's ability to deliver growth in a demanding environment.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q2FY27 call (15 Oct 2026)"
+ },
+ {
+  "promise_id": "ELECON:2026-07-13#0",
+  "call_id": "ELECON:2026-10-15",
+  "call_date": "2026-10-15",
+  "call_label": "Q2FY27 call (15 Oct 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "To conclude, our first half performance was in line with expectations and demonstrates Elecon's ability to deliver growth in a demanding environment.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q2FY27 call (15 Oct 2026)"
+ },
+ {
+  "promise_id": "ELECON:2026-07-13#1",
+  "call_id": "ELECON:2026-10-15",
+  "call_date": "2026-10-15",
+  "call_label": "Q2FY27 call (15 Oct 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "To conclude, our first half performance was in line with expectations and demonstrates Elecon's ability to deliver growth in a demanding environment.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q2FY27 call (15 Oct 2026)"
+ },
+ {
+  "promise_id": "ELECON:2026-07-13#2",
+  "call_id": "ELECON:2026-10-15",
+  "call_date": "2026-10-15",
+  "call_label": "Q2FY27 call (15 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "But out of the abundant caution, we have said that we will be ha ving a minimum EBITDA margin percentage what we achieved in FY '26 because what we have a visibility of the current orders that we have locked and back-to-back a lot of locking of the prices that we have done it.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (15 Oct 2026)"
+ },
+ {
+  "promise_id": "ELECON:2026-07-13#3",
+  "call_id": "ELECON:2026-10-15",
+  "call_date": "2026-10-15",
+  "call_label": "Q2FY27 call (15 Oct 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "To conclude, our first half performance was in line with expectations and demonstrates Elecon's ability to deliver growth in a demanding environment.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q2FY27 call (15 Oct 2026)"
+ },
+ {
+  "promise_id": "ELECON:2026-07-13#4",
+  "call_id": "ELECON:2026-10-15",
+  "call_date": "2026-10-15",
+  "call_label": "Q2FY27 call (15 Oct 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "To conclude, our first half performance was in line with expectations and demonstrates Elecon's ability to deliver growth in a demanding environment.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q2FY27 call (15 Oct 2026)"
+ },
+ {
+  "promise_id": "ELECON:2026-07-13#5",
+  "call_id": "ELECON:2026-10-15",
+  "call_date": "2026-10-15",
+  "call_label": "Q2FY27 call (15 Oct 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "To conclude, our first half performance was in line with expectations and demonstrates Elecon's ability to deliver growth in a demanding environment.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q2FY27 call (15 Oct 2026)"
+ },
+ {
+  "promise_id": "EXIDEIND:2025-11-17#0",
+  "call_id": "EXIDEIND:2026-02-03",
+  "call_date": "2026-02-03",
+  "call_label": "Q3FY26 call (03 Feb 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "EXIDEIND:2025-11-17#1",
+  "call_id": "EXIDEIND:2026-02-03",
+  "call_date": "2026-02-03",
+  "call_label": "Q3FY26 call (03 Feb 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "EXIDEIND:2025-11-17#0",
+  "call_id": "EXIDEIND:2026-08-03",
+  "call_date": "2026-08-03",
+  "call_label": "Q1FY27 call (03 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Home inverters and solar also delivered growth of over 20% year-on-year, aided by a strong summer season demand and focused market initiatives.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (03 Aug 2026)"
+ },
+ {
+  "promise_id": "EXIDEIND:2025-11-17#1",
+  "call_id": "EXIDEIND:2026-08-03",
+  "call_date": "2026-08-03",
+  "call_label": "Q1FY27 call (03 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Home inverters and solar also delivered growth of over 20% year-on-year, aided by a strong summer season demand and focused market initiatives.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (03 Aug 2026)"
+ },
+ {
+  "promise_id": "EXIDEIND:2026-02-03#0",
+  "call_id": "EXIDEIND:2026-08-03",
+  "call_date": "2026-08-03",
+  "call_label": "Q1FY27 call (03 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Home inverters and solar also delivered growth of over 20% year-on-year, aided by a strong summer season demand and focused market initiatives.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (03 Aug 2026)"
+ },
+ {
+  "promise_id": "EXIDEIND:2026-02-03#1",
+  "call_id": "EXIDEIND:2026-08-03",
+  "call_date": "2026-08-03",
+  "call_label": "Q1FY27 call (03 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Home inverters and solar also delivered growth of over 20% year-on-year, aided by a strong summer season demand and focused market initiatives.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (03 Aug 2026)"
+ },
+ {
+  "promise_id": "GODREJCP:2025-10-31#0",
+  "call_id": "GODREJCP:2026-01-23",
+  "call_date": "2026-01-23",
+  "call_label": "Q3FY26 call (23 Jan 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Our standalone India business delivered excellent performance, driven by high single -digit underlying volume growth of 9%.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q3FY26 call (23 Jan 2026)"
+ },
+ {
+  "promise_id": "GODREJCP:2025-10-31#0",
+  "call_id": "GODREJCP:2026-05-06",
+  "call_date": "2026-05-06",
+  "call_label": "Q4FY26 call (06 May 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Our standalone business delivered an excellent quarter, driven by 8% underlying volume growth and 10% sales growth.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (06 May 2026)"
+ },
+ {
+  "promise_id": "GRSE:2026-05-15#0",
+  "call_id": "GRSE:2026-08-06",
+  "call_date": "2026-08-06",
+  "call_label": "Q1FY27 call (06 Aug 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "HAL:2024-05-17#0",
+  "call_id": "HAL:2025-05-16",
+  "call_date": "2025-05-16",
+  "call_label": "Q4FY25 call (16 May 2025)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "HAL:2024-05-17#1",
+  "call_id": "HAL:2025-05-16",
+  "call_date": "2025-05-16",
+  "call_label": "Q4FY25 call (16 May 2025)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "HAL:2024-05-17#2",
+  "call_id": "HAL:2025-05-16",
+  "call_date": "2025-05-16",
+  "call_label": "Q4FY25 call (16 May 2025)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "HAL:2024-05-17#0",
+  "call_id": "HAL:2026-05-15",
+  "call_date": "2026-05-15",
+  "call_label": "Q4FY26 call (15 May 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "HAL:2024-05-17#1",
+  "call_id": "HAL:2026-05-15",
+  "call_date": "2026-05-15",
+  "call_label": "Q4FY26 call (15 May 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "HAL:2024-05-17#2",
+  "call_id": "HAL:2026-05-15",
+  "call_date": "2026-05-15",
+  "call_label": "Q4FY26 call (15 May 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "HAL:2025-05-16#0",
+  "call_id": "HAL:2026-05-15",
+  "call_date": "2026-05-15",
+  "call_label": "Q4FY26 call (15 May 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "HAL:2025-05-16#1",
+  "call_id": "HAL:2026-05-15",
+  "call_date": "2026-05-15",
+  "call_label": "Q4FY26 call (15 May 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "HAL:2025-05-16#2",
+  "call_id": "HAL:2026-05-15",
+  "call_date": "2026-05-15",
+  "call_label": "Q4FY26 call (15 May 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "HCLTECH:2026-01-12#0",
+  "call_id": "HCLTECH:2026-07-13",
+  "call_date": "2026-07-13",
+  "call_label": "Q1FY27 call (13 Jul 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "HFCL:2026-04-30#0",
+  "call_id": "HFCL:2026-07-22",
+  "call_date": "2026-07-22",
+  "call_label": "Q1FY27 call (22 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "I am pleased to inform that your Company has delivered remarkable performance during the first quarter of FY27 with highest ever Quarterly Revenue, Profitability and the Order book.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (22 Jul 2026)"
+ },
+ {
+  "promise_id": "HFCL:2026-04-30#1",
+  "call_id": "HFCL:2026-07-22",
+  "call_date": "2026-07-22",
+  "call_label": "Q1FY27 call (22 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Based on the progre ss achieved in the first quarter, healthy order inflows, favourable industry dynamics, expanding global opportunities and improving execution capabilities, we, to the best of our estimates, can raise our aspirations for FY27 to a revenue growth of 40% and above.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (22 Jul 2026)"
+ },
+ {
+  "promise_id": "HFCL:2026-04-30#2",
+  "call_id": "HFCL:2026-07-22",
+  "call_date": "2026-07-22",
+  "call_label": "Q1FY27 call (22 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Based on the progre ss achieved in the first quarter, healthy order inflows, favourable industry dynamics, expanding global opportunities and improving execution capabilities, we, to the best of our estimates, can raise our aspirations for FY27 to a revenue growth of 40% and above.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (22 Jul 2026)"
+ },
+ {
+  "promise_id": "HFCL:2026-04-30#3",
+  "call_id": "HFCL:2026-07-22",
+  "call_date": "2026-07-22",
+  "call_label": "Q1FY27 call (22 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Based on the progre ss achieved in the first quarter, healthy order inflows, favourable industry dynamics, expanding global opportunities and improving execution capabilities, we, to the best of our estimates, can raise our aspirations for FY27 to a revenue growth of 40% and above.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (22 Jul 2026)"
+ },
+ {
+  "promise_id": "HFCL:2026-04-30#0",
+  "call_id": "HFCL:2026-10-19",
+  "call_date": "2026-10-19",
+  "call_label": "Q2FY27 call (19 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "And this INR29,000 crores order book that you are talking about, this will be delivered by what time, sir, this will be delivered I mean, what is the timeframe to be delivered of this order book?",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (19 Oct 2026)"
+ },
+ {
+  "promise_id": "HFCL:2026-04-30#1",
+  "call_id": "HFCL:2026-10-19",
+  "call_date": "2026-10-19",
+  "call_label": "Q2FY27 call (19 Oct 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "I want to assure you that HFCL is on track to maintain its growth trajectory of revenue and profitability ahead.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q2FY27 call (19 Oct 2026)"
+ },
+ {
+  "promise_id": "HFCL:2026-04-30#2",
+  "call_id": "HFCL:2026-10-19",
+  "call_date": "2026-10-19",
+  "call_label": "Q2FY27 call (19 Oct 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "I want to assure you that HFCL is on track to maintain its growth trajectory of revenue and profitability ahead.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q2FY27 call (19 Oct 2026)"
+ },
+ {
+  "promise_id": "HFCL:2026-04-30#3",
+  "call_id": "HFCL:2026-10-19",
+  "call_date": "2026-10-19",
+  "call_label": "Q2FY27 call (19 Oct 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "I want to assure you that HFCL is on track to maintain its growth trajectory of revenue and profitability ahead.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q2FY27 call (19 Oct 2026)"
+ },
+ {
+  "promise_id": "HFCL:2026-07-22#0",
+  "call_id": "HFCL:2026-10-19",
+  "call_date": "2026-10-19",
+  "call_label": "Q2FY27 call (19 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "HFCL:2026-07-22#1",
+  "call_id": "HFCL:2026-10-19",
+  "call_date": "2026-10-19",
+  "call_label": "Q2FY27 call (19 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "INFY:2026-04-23#0",
+  "call_id": "INFY:2026-07-23",
+  "call_date": "2026-07-23",
+  "call_label": "Q1FY27 call (23 Jul 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "INFY:2026-04-23#1",
+  "call_id": "INFY:2026-07-23",
+  "call_date": "2026-07-23",
+  "call_label": "Q1FY27 call (23 Jul 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "INFY:2026-04-23#0",
+  "call_id": "INFY:2026-10-23",
+  "call_date": "2026-10-23",
+  "call_label": "Q2FY27 call (23 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "INFY:2026-04-23#1",
+  "call_id": "INFY:2026-10-23",
+  "call_date": "2026-10-23",
+  "call_label": "Q2FY27 call (23 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "INFY:2026-07-23#0",
+  "call_id": "INFY:2026-10-23",
+  "call_date": "2026-10-23",
+  "call_label": "Q2FY27 call (23 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "INFY:2026-07-23#1",
+  "call_id": "INFY:2026-10-23",
+  "call_date": "2026-10-23",
+  "call_label": "Q2FY27 call (23 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "INFY:2026-07-23#2",
+  "call_id": "INFY:2026-10-23",
+  "call_date": "2026-10-23",
+  "call_label": "Q2FY27 call (23 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "JBCHEPHARM:2025-11-12#0",
+  "call_id": "JBCHEPHARM:2026-01-19",
+  "call_date": "2026-01-19",
+  "call_label": "Q3FY26 call (19 Jan 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "JBCHEPHARM:2025-11-12#1",
+  "call_id": "JBCHEPHARM:2026-01-19",
+  "call_date": "2026-01-19",
+  "call_label": "Q3FY26 call (19 Jan 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "JBCHEPHARM:2025-11-12#0",
+  "call_id": "JBCHEPHARM:2026-05-12",
+  "call_date": "2026-05-12",
+  "call_label": "Q4FY26 call (12 May 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "JBCHEPHARM:2025-11-12#1",
+  "call_id": "JBCHEPHARM:2026-05-12",
+  "call_date": "2026-05-12",
+  "call_label": "Q4FY26 call (12 May 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "JBCHEPHARM:2026-01-19#0",
+  "call_id": "JBCHEPHARM:2026-05-12",
+  "call_date": "2026-05-12",
+  "call_label": "Q4FY26 call (12 May 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "JBCHEPHARM:2026-01-19#1",
+  "call_id": "JBCHEPHARM:2026-05-12",
+  "call_date": "2026-05-12",
+  "call_label": "Q4FY26 call (12 May 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "JBCHEPHARM:2026-01-19#2",
+  "call_id": "JBCHEPHARM:2026-05-12",
+  "call_date": "2026-05-12",
+  "call_label": "Q4FY26 call (12 May 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "JYOTHYLAB:2026-05-04#0",
+  "call_id": "JYOTHYLAB:2026-08-12",
+  "call_date": "2026-08-12",
+  "call_label": "Q1FY27 call (12 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "However, all other channels put together delivered impressive growth.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (12 Aug 2026)"
+ },
+ {
+  "promise_id": "KEC:2026-01-30#0",
+  "call_id": "KEC:2026-05-18",
+  "call_date": "2026-05-18",
+  "call_label": "Q4FY26 call (18 May 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "For the year, we achieved a record revenue of INR23,506 crores, reflecting a growth of 8%, driven primarily by the T&D and cables and conductors business.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (18 May 2026)"
+ },
+ {
+  "promise_id": "KEC:2026-01-30#1",
+  "call_id": "KEC:2026-05-18",
+  "call_date": "2026-05-18",
+  "call_label": "Q4FY26 call (18 May 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "We have achieved our highest ever revenues, profitability and order intake during the year , despite a challenging operating environment marked by geopolitical tensions in the Middle East, during Q4, labor shortages and subdued order inflows in India.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (18 May 2026)"
+ },
+ {
+  "promise_id": "KEC:2026-01-30#0",
+  "call_id": "KEC:2026-08-11",
+  "call_date": "2026-08-11",
+  "call_label": "Q1FY27 call (11 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite a challenging operating environment, we delivered a resilient performance by maintaining revenues, strengthening our order book, reducing debt and continuing to build a healthy pipeline for future growth.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (11 Aug 2026)"
+ },
+ {
+  "promise_id": "KEC:2026-01-30#1",
+  "call_id": "KEC:2026-08-11",
+  "call_date": "2026-08-11",
+  "call_label": "Q1FY27 call (11 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite a challenging operating environment, we delivered a resilient performance by maintaining revenues, strengthening our order book, reducing debt and continuing to build a healthy pipeline for future growth.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (11 Aug 2026)"
+ },
+ {
+  "promise_id": "KEC:2026-05-18#0",
+  "call_id": "KEC:2026-08-11",
+  "call_date": "2026-08-11",
+  "call_label": "Q1FY27 call (11 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite a challenging operating environment, we delivered a resilient performance by maintaining revenues, strengthening our order book, reducing debt and continuing to build a healthy pipeline for future growth.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (11 Aug 2026)"
+ },
+ {
+  "promise_id": "KEC:2026-05-18#1",
+  "call_id": "KEC:2026-08-11",
+  "call_date": "2026-08-11",
+  "call_label": "Q1FY27 call (11 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite a challenging operating environment, we delivered a resilient performance by maintaining revenues, strengthening our order book, reducing debt and continuing to build a healthy pipeline for future growth.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (11 Aug 2026)"
+ },
+ {
+  "promise_id": "KEC:2026-05-18#2",
+  "call_id": "KEC:2026-08-11",
+  "call_date": "2026-08-11",
+  "call_label": "Q1FY27 call (11 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite a challenging operating environment, we delivered a resilient performance by maintaining revenues, strengthening our order book, reducing debt and continuing to build a healthy pipeline for future growth.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (11 Aug 2026)"
+ },
+ {
+  "promise_id": "KEC:2026-05-18#3",
+  "call_id": "KEC:2026-08-11",
+  "call_date": "2026-08-11",
+  "call_label": "Q1FY27 call (11 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite a challenging operating environment, we delivered a resilient performance by maintaining revenues, strengthening our order book, reducing debt and continuing to build a healthy pipeline for future growth.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (11 Aug 2026)"
+ },
+ {
+  "promise_id": "KEI:2026-05-05#0",
+  "call_id": "KEI:2026-08-04",
+  "call_date": "2026-08-04",
+  "call_label": "Q1FY27 call (04 Aug 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "KEI:2026-05-05#1",
+  "call_id": "KEI:2026-08-04",
+  "call_date": "2026-08-04",
+  "call_label": "Q1FY27 call (04 Aug 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "KEI:2026-05-05#2",
+  "call_id": "KEI:2026-08-04",
+  "call_date": "2026-08-04",
+  "call_label": "Q1FY27 call (04 Aug 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "KEI:2026-05-05#3",
+  "call_id": "KEI:2026-08-04",
+  "call_date": "2026-08-04",
+  "call_label": "Q1FY27 call (04 Aug 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "KEI:2026-05-05#4",
+  "call_id": "KEI:2026-08-04",
+  "call_date": "2026-08-04",
+  "call_label": "Q1FY27 call (04 Aug 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "KEI:2026-05-05#5",
+  "call_id": "KEI:2026-08-04",
+  "call_date": "2026-08-04",
+  "call_label": "Q1FY27 call (04 Aug 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "KEI:2026-05-05#6",
+  "call_id": "KEI:2026-08-04",
+  "call_date": "2026-08-04",
+  "call_label": "Q1FY27 call (04 Aug 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "KEI:2026-05-05#0",
+  "call_id": "KEI:2026-10-22",
+  "call_date": "2026-10-22",
+  "call_label": "Q2FY27 call (22 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "So we have achieved a growth by 38.52%.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (22 Oct 2026)"
+ },
+ {
+  "promise_id": "KEI:2026-05-05#1",
+  "call_id": "KEI:2026-10-22",
+  "call_date": "2026-10-22",
+  "call_label": "Q2FY27 call (22 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "KEI:2026-05-05#2",
+  "call_id": "KEI:2026-10-22",
+  "call_date": "2026-10-22",
+  "call_label": "Q2FY27 call (22 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "KEI:2026-05-05#3",
+  "call_id": "KEI:2026-10-22",
+  "call_date": "2026-10-22",
+  "call_label": "Q2FY27 call (22 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "KEI:2026-05-05#4",
+  "call_id": "KEI:2026-10-22",
+  "call_date": "2026-10-22",
+  "call_label": "Q2FY27 call (22 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "KEI:2026-05-05#5",
+  "call_id": "KEI:2026-10-22",
+  "call_date": "2026-10-22",
+  "call_label": "Q2FY27 call (22 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "KEI:2026-05-05#6",
+  "call_id": "KEI:2026-10-22",
+  "call_date": "2026-10-22",
+  "call_label": "Q2FY27 call (22 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "KEI:2026-08-04#0",
+  "call_id": "KEI:2026-10-22",
+  "call_date": "2026-10-22",
+  "call_label": "Q2FY27 call (22 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "KEI:2026-08-04#1",
+  "call_id": "KEI:2026-10-22",
+  "call_date": "2026-10-22",
+  "call_label": "Q2FY27 call (22 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "KEI:2026-08-04#2",
+  "call_id": "KEI:2026-10-22",
+  "call_date": "2026-10-22",
+  "call_label": "Q2FY27 call (22 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "LT:2026-05-05#0",
+  "call_id": "LT:2026-07-28",
+  "call_date": "2026-07-28",
+  "call_label": "Q1FY27 call (28 Jul 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "Coming on to margin: In line with our Revenue growth guidance, we continue to target the margin of around 7.8% for FY '27 with respect to the PPM portfolio.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q1FY27 call (28 Jul 2026)"
+ },
+ {
+  "promise_id": "LT:2026-05-05#1",
+  "call_id": "LT:2026-07-28",
+  "call_date": "2026-07-28",
+  "call_label": "Q1FY27 call (28 Jul 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "Coming on to margin: In line with our Revenue growth guidance, we continue to target the margin of around 7.8% for FY '27 with respect to the PPM portfolio.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q1FY27 call (28 Jul 2026)"
+ },
+ {
+  "promise_id": "LT:2026-05-05#2",
+  "call_id": "LT:2026-07-28",
+  "call_date": "2026-07-28",
+  "call_label": "Q1FY27 call (28 Jul 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "Coming on to margin: In line with our Revenue growth guidance, we continue to target the margin of around 7.8% for FY '27 with respect to the PPM portfolio.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q1FY27 call (28 Jul 2026)"
+ },
+ {
+  "promise_id": "LUPIN:2026-04-23#0",
+  "call_id": "LUPIN:2026-07-22",
+  "call_date": "2026-07-22",
+  "call_label": "Q1FY27 call (22 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Emerging Markets delivered an impressive 52% YoY growth, led by Brazil, South Africa, and Philippines.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (22 Jul 2026)"
+ },
+ {
+  "promise_id": "LUPIN:2026-04-23#1",
+  "call_id": "LUPIN:2026-07-22",
+  "call_date": "2026-07-22",
+  "call_label": "Q1FY27 call (22 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Emerging Markets delivered an impressive 52% YoY growth, led by Brazil, South Africa, and Philippines.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (22 Jul 2026)"
+ },
+ {
+  "promise_id": "LUPIN:2026-04-23#2",
+  "call_id": "LUPIN:2026-07-22",
+  "call_date": "2026-07-22",
+  "call_label": "Q1FY27 call (22 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Emerging Markets delivered an impressive 52% YoY growth, led by Brazil, South Africa, and Philippines.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (22 Jul 2026)"
+ },
+ {
+  "promise_id": "LUPIN:2026-04-23#3",
+  "call_id": "LUPIN:2026-07-22",
+  "call_date": "2026-07-22",
+  "call_label": "Q1FY27 call (22 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Emerging Markets delivered an impressive 52% YoY growth, led by Brazil, South Africa, and Philippines.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (22 Jul 2026)"
+ },
+ {
+  "promise_id": "LUPIN:2026-04-23#4",
+  "call_id": "LUPIN:2026-07-22",
+  "call_date": "2026-07-22",
+  "call_label": "Q1FY27 call (22 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Emerging Markets delivered an impressive 52% YoY growth, led by Brazil, South Africa, and Philippines.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (22 Jul 2026)"
+ },
+ {
+  "promise_id": "LUPIN:2026-04-23#5",
+  "call_id": "LUPIN:2026-07-22",
+  "call_date": "2026-07-22",
+  "call_label": "Q1FY27 call (22 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Emerging Markets delivered an impressive 52% YoY growth, led by Brazil, South Africa, and Philippines.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (22 Jul 2026)"
+ },
+ {
+  "promise_id": "MARICO:2026-05-05#0",
+  "call_id": "MARICO:2026-08-04",
+  "call_date": "2026-08-04",
+  "call_label": "Q1FY27 call (04 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The India business delivered one of the strongest quarters in recent years with 11% volume growth and revenue growth of 21%, led by robust momentum in core business and continued scale-up of new growth engines.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (04 Aug 2026)"
+ },
+ {
+  "promise_id": "MARICO:2026-05-05#1",
+  "call_id": "MARICO:2026-08-04",
+  "call_date": "2026-08-04",
+  "call_label": "Q1FY27 call (04 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The India business delivered one of the strongest quarters in recent years with 11% volume growth and revenue growth of 21%, led by robust momentum in core business and continued scale-up of new growth engines.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (04 Aug 2026)"
+ },
+ {
+  "promise_id": "MARICO:2026-05-05#2",
+  "call_id": "MARICO:2026-08-04",
+  "call_date": "2026-08-04",
+  "call_label": "Q1FY27 call (04 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The India business delivered one of the strongest quarters in recent years with 11% volume growth and revenue growth of 21%, led by robust momentum in core business and continued scale-up of new growth engines.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (04 Aug 2026)"
+ },
+ {
+  "promise_id": "MAXHEALTH:2026-02-06#0",
+  "call_id": "MAXHEALTH:2026-05-22",
+  "call_date": "2026-05-22",
+  "call_label": "Q4FY26 call (22 May 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "With respect to the Q4 performance, the Network delivered its 22nd consecutive quarter of year-on-year growth, with the revenue increasing by 10% and operating EBITDA by 8%.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (22 May 2026)"
+ },
+ {
+  "promise_id": "MAXHEALTH:2026-02-06#0",
+  "call_id": "MAXHEALTH:2026-08-14",
+  "call_date": "2026-08-14",
+  "call_label": "Q1FY27 call (14 Aug 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "MAXHEALTH:2026-05-22#0",
+  "call_id": "MAXHEALTH:2026-08-14",
+  "call_date": "2026-08-14",
+  "call_label": "Q1FY27 call (14 Aug 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "MAZDOCK:2025-02-07#0",
+  "call_id": "MAZDOCK:2025-05-30",
+  "call_date": "2025-05-30",
+  "call_label": "Q4FY25 call (30 May 2025)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "MAZDOCK:2025-02-07#0",
+  "call_id": "MAZDOCK:2025-10-28",
+  "call_date": "2025-10-28",
+  "call_label": "Q2FY26 call (28 Oct 2025)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "MAZDOCK:2025-05-30#0",
+  "call_id": "MAZDOCK:2025-10-28",
+  "call_date": "2025-10-28",
+  "call_label": "Q2FY26 call (28 Oct 2025)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "MAZDOCK:2025-05-30#1",
+  "call_id": "MAZDOCK:2025-10-28",
+  "call_date": "2025-10-28",
+  "call_label": "Q2FY26 call (28 Oct 2025)",
+  "status": "DELIVERED",
+  "evidence_quote": "And sir, for the P75I, any indication of the time line by when the negotiations would be completed and the order could be placed on the company?",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY26 call (28 Oct 2025)"
+ },
+ {
+  "promise_id": "MAZDOCK:2025-05-30#2",
+  "call_id": "MAZDOCK:2025-10-28",
+  "call_date": "2025-10-28",
+  "call_label": "Q2FY26 call (28 Oct 2025)",
+  "status": "DELIVERED",
+  "evidence_quote": "And sir, for the P75I, any indication of the time line by when the negotiations would be completed and the order could be placed on the company?",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY26 call (28 Oct 2025)"
+ },
+ {
+  "promise_id": "MAZDOCK:2025-05-30#3",
+  "call_id": "MAZDOCK:2025-10-28",
+  "call_date": "2025-10-28",
+  "call_label": "Q2FY26 call (28 Oct 2025)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "MOTHERSON:2026-02-10#0",
+  "call_id": "MOTHERSON:2026-05-20",
+  "call_date": "2026-05-20",
+  "call_label": "Q4FY26 call (20 May 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "For the full year FY'26, we maintained capex discipline in line with the guidance , with investments largely directed towards future growth and new capabilities.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q4FY26 call (20 May 2026)"
+ },
+ {
+  "promise_id": "MOTHERSON:2026-02-10#0",
+  "call_id": "MOTHERSON:2026-08-06",
+  "call_date": "2026-08-06",
+  "call_label": "Q1FY27 call (06 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Our Aerospace business delivered revenue growth of over 20% year -on-year, while the order book grew by more than 17% since FY '26 end, giving us strong visibility on future growth.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (06 Aug 2026)"
+ },
+ {
+  "promise_id": "MOTHERSON:2026-05-20#0",
+  "call_id": "MOTHERSON:2026-08-06",
+  "call_date": "2026-08-06",
+  "call_label": "Q1FY27 call (06 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Our Aerospace business delivered revenue growth of over 20% year -on-year, while the order book grew by more than 17% since FY '26 end, giving us strong visibility on future growth.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (06 Aug 2026)"
+ },
+ {
+  "promise_id": "MOTHERSON:2026-05-20#1",
+  "call_id": "MOTHERSON:2026-08-06",
+  "call_date": "2026-08-06",
+  "call_label": "Q1FY27 call (06 Aug 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "NEWGEN:2026-07-16#0",
+  "call_id": "NEWGEN:2026-10-23",
+  "call_date": "2026-10-23",
+  "call_label": "Q2FY27 call (23 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "For the first half of the year, we achieved a growth rate of 8.8% to reach at INR779 crores.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (23 Oct 2026)"
+ },
+ {
+  "promise_id": "PIIND:2026-02-13#0",
+  "call_id": "PIIND:2026-05-20",
+  "call_date": "2026-05-20",
+  "call_label": "Q4FY26 call (20 May 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Our consolidated revenue for the full year FY26, w e have delivered revenue of \u20b9 67,137 million with healthy EBITDA margins of 25% and cash balance of INR 34,265 million enabling the company to pursue future strategic investments for long - term sustainable growth.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (20 May 2026)"
+ },
+ {
+  "promise_id": "PIIND:2026-02-13#0",
+  "call_id": "PIIND:2026-08-12",
+  "call_date": "2026-08-12",
+  "call_label": "Q1FY27 call (12 Aug 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Despite a challenging operating environment in the domestic market, we delivered a 12% volume growth in this quarter, translating into a 3% revenue growth.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (12 Aug 2026)"
+ },
+ {
+  "promise_id": "ROUTE:2026-02-10#0",
+  "call_id": "ROUTE:2026-05-08",
+  "call_date": "2026-05-08",
+  "call_label": "Q4FY26 call (08 May 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "ROUTE:2026-02-10#0",
+  "call_id": "ROUTE:2026-07-24",
+  "call_date": "2026-07-24",
+  "call_label": "Q1FY27 call (24 Jul 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "ROUTE:2026-05-08#0",
+  "call_id": "ROUTE:2026-07-24",
+  "call_date": "2026-07-24",
+  "call_label": "Q1FY27 call (24 Jul 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "SIEMENS:2025-12-12#0",
+  "call_id": "SIEMENS:2026-05-28",
+  "call_date": "2026-05-28",
+  "call_label": "Q4FY26 call (28 May 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "So, we delivered strong order intake and revenue growth despite global uncertainties.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (28 May 2026)"
+ },
+ {
+  "promise_id": "SIEMENS:2025-12-12#1",
+  "call_id": "SIEMENS:2026-05-28",
+  "call_date": "2026-05-28",
+  "call_label": "Q4FY26 call (28 May 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "So, we delivered strong order intake and revenue growth despite global uncertainties.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (28 May 2026)"
+ },
+ {
+  "promise_id": "SUPREMEIND:2026-04-27#0",
+  "call_id": "SUPREMEIND:2026-07-28",
+  "call_date": "2026-07-28",
+  "call_label": "Q1FY27 call (28 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The company sold 1,57,536 tons of plastic goods and achieved revenue from operation of INR2,718 crores during the first quarter of the current year against sales of 1,83,793 tons and revenue of INR2,609 crores in the corresponding quarter of previous year, resulting volume de-growth of around 14% an",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (28 Jul 2026)"
+ },
+ {
+  "promise_id": "SUPREMEIND:2026-04-27#1",
+  "call_id": "SUPREMEIND:2026-07-28",
+  "call_date": "2026-07-28",
+  "call_label": "Q1FY27 call (28 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The company sold 1,57,536 tons of plastic goods and achieved revenue from operation of INR2,718 crores during the first quarter of the current year against sales of 1,83,793 tons and revenue of INR2,609 crores in the corresponding quarter of previous year, resulting volume de-growth of around 14% an",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (28 Jul 2026)"
+ },
+ {
+  "promise_id": "SUPREMEIND:2026-04-27#0",
+  "call_id": "SUPREMEIND:2026-10-26",
+  "call_date": "2026-10-26",
+  "call_label": "Q2FY27 call (26 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "SUPREMEIND:2026-04-27#1",
+  "call_id": "SUPREMEIND:2026-10-26",
+  "call_date": "2026-10-26",
+  "call_label": "Q2FY27 call (26 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "SUPREMEIND:2026-07-28#0",
+  "call_id": "SUPREMEIND:2026-10-26",
+  "call_date": "2026-10-26",
+  "call_label": "Q2FY27 call (26 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "SUPREMEIND:2026-07-28#1",
+  "call_id": "SUPREMEIND:2026-10-26",
+  "call_date": "2026-10-26",
+  "call_label": "Q2FY27 call (26 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "SUPREMEIND:2026-07-28#2",
+  "call_id": "SUPREMEIND:2026-10-26",
+  "call_date": "2026-10-26",
+  "call_label": "Q2FY27 call (26 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "SUZLON:2026-02-05#0",
+  "call_id": "SUZLON:2026-05-25",
+  "call_date": "2026-05-25",
+  "call_label": "Q4FY26 call (25 May 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Suzlon commissioned 744 megawatts in FY '26And another 971 megawatt is erected, taking the number to 1,715 megawatt shows the trajectory of commissioning growth for the future.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (25 May 2026)"
+ },
+ {
+  "promise_id": "TATAELXSI:2026-04-21#0",
+  "call_id": "TATAELXSI:2026-07-14",
+  "call_date": "2026-07-14",
+  "call_label": "Q1FY27 call (14 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The media and communication business delivered robust growth of 4.7% quarter -on-quarter in natural currencies and 2.9% quarter -on-quarter in constant currencies, which translate to a year-on-year growth of 22.2% in natural currencies and 11.5% in constant currencies.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (14 Jul 2026)"
+ },
+ {
+  "promise_id": "TATAELXSI:2026-04-21#1",
+  "call_id": "TATAELXSI:2026-07-14",
+  "call_date": "2026-07-14",
+  "call_label": "Q1FY27 call (14 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The media and communication business delivered robust growth of 4.7% quarter -on-quarter in natural currencies and 2.9% quarter -on-quarter in constant currencies, which translate to a year-on-year growth of 22.2% in natural currencies and 11.5% in constant currencies.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (14 Jul 2026)"
+ },
+ {
+  "promise_id": "TATAELXSI:2026-04-21#0",
+  "call_id": "TATAELXSI:2026-10-13",
+  "call_date": "2026-10-13",
+  "call_label": "Q2FY27 call (13 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Overall, during the quarter, we delivered strong operational execution and resilient growth across customers and in all industry verticals.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (13 Oct 2026)"
+ },
+ {
+  "promise_id": "TATAELXSI:2026-04-21#1",
+  "call_id": "TATAELXSI:2026-10-13",
+  "call_date": "2026-10-13",
+  "call_label": "Q2FY27 call (13 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Overall, during the quarter, we delivered strong operational execution and resilient growth across customers and in all industry verticals.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (13 Oct 2026)"
+ },
+ {
+  "promise_id": "TCS:2026-04-09#0",
+  "call_id": "TCS:2026-07-09",
+  "call_date": "2026-07-09",
+  "call_label": "Q1FY27 call (09 Jul 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "TCS:2026-04-09#0",
+  "call_id": "TCS:2026-10-08",
+  "call_date": "2026-10-08",
+  "call_label": "Q2FY27 call (08 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "TECHM:2026-04-15#0",
+  "call_id": "TECHM:2026-07-16",
+  "call_date": "2026-07-16",
+  "call_label": "Q1FY27 call (16 Jul 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "Overall, every vertical delivered year-on-year growth during the quarter.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q1FY27 call (16 Jul 2026)"
+ },
+ {
+  "promise_id": "TEJASNET:2026-04-15#0",
+  "call_id": "TEJASNET:2026-07-28",
+  "call_date": "2026-07-28",
+  "call_label": "Q1FY27 call (28 Jul 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "TEJASNET:2026-04-15#1",
+  "call_id": "TEJASNET:2026-07-28",
+  "call_date": "2026-07-28",
+  "call_label": "Q1FY27 call (28 Jul 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "TEJASNET:2026-04-15#0",
+  "call_id": "TEJASNET:2026-10-16",
+  "call_date": "2026-10-16",
+  "call_label": "Q2FY27 call (16 Oct 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "TEJASNET:2026-04-15#1",
+  "call_id": "TEJASNET:2026-10-16",
+  "call_date": "2026-10-16",
+  "call_label": "Q2FY27 call (16 Oct 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "So with that and with the collection of the past from the initial order, a s I said, we've completed some of the important milestones and those are due, which whatever comes in, significant amount is going to come in.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q2FY27 call (16 Oct 2026)"
+ },
+ {
+  "promise_id": "TITAGARH:2026-02-16#0",
+  "call_id": "TITAGARH:2026-06-01",
+  "call_date": "2026-06-01",
+  "call_label": "Q4FY26 call (01 Jun 2026)",
+  "status": "DELIVERED",
+  "evidence_quote": "The 12 train orders from Pune that we have got will be -- and we had already given it in our press announcement when we got the order to be delivered in 2 years' time from the date of the order, and we'll be well on our track to do that.",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed delivered on Q4FY26 call (01 Jun 2026)"
+ },
+ {
+  "promise_id": "TITAGARH:2026-02-16#0",
+  "call_id": "TITAGARH:2026-08-14",
+  "call_date": "2026-08-14",
+  "call_label": "Q1FY27 call (14 Aug 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "TITAGARH:2026-06-01#0",
+  "call_id": "TITAGARH:2026-08-14",
+  "call_date": "2026-08-14",
+  "call_label": "Q1FY27 call (14 Aug 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "TITAGARH:2026-06-01#1",
+  "call_id": "TITAGARH:2026-08-14",
+  "call_date": "2026-08-14",
+  "call_label": "Q1FY27 call (14 Aug 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "TITAN:2026-02-11#0",
+  "call_id": "TITAN:2026-05-08",
+  "call_date": "2026-05-08",
+  "call_label": "Q4FY26 call (08 May 2026)",
+  "status": "NOT_MENTIONED",
+  "evidence_quote": null
+ },
+ {
+  "promise_id": "TITAN:2026-02-11#0",
+  "call_id": "TITAN:2026-08-07",
+  "call_date": "2026-08-07",
+  "call_label": "Q1FY27 call (07 Aug 2026)",
+  "status": "ON_TRACK",
+  "evidence_quote": "Is this buyer growth tracking in line with your expectations?",
+  "new_value": null,
+  "new_period": null,
+  "note": "Confirmed on_track on Q1FY27 call (07 Aug 2026)"
  }
 ]
