@@ -19,7 +19,7 @@ st.set_page_config(
     page_title="Concall · Guidance Accuracy Predictor",
     page_icon="🎯",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="collapsed"
 )
 
 # ---- design tokens (dark premium system) ----
@@ -40,19 +40,18 @@ ICON = {
 ORDER = ["DELIVERED", "PARTIAL", "LATE", "REVISED_DOWN", "MISSED", "ABANDONED", "GHOSTED"]
 FONT = dict(family="'Inter', system-ui, sans-serif", color=INK2, size=13)
 
-# ---- Institutional Typography & Design System CSS ----
+# ---- Clean, Aesthetic, Institutional Styling ----
 st.markdown("""
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
 
 <style>
 :root {
   --bg-main: #070a12;
-  --bg-surface: #111827;
-  --bg-card: rgba(17, 24, 39, 0.85);
+  --bg-card: #0d121f;
   --border-subtle: rgba(255, 255, 255, 0.08);
-  --border-card: #1e293b;
+  --border-hover: rgba(99, 102, 241, 0.4);
   --accent-primary: #6366f1;
   --accent-cyan: #00d2ff;
   --accent-emerald: #10b981;
@@ -62,164 +61,186 @@ st.markdown("""
   --text-secondary: #94a3b8;
   --text-tertiary: #64748b;
   --font-heading: 'Outfit', sans-serif;
-  --font-main: 'Inter', sans-serif;
+  --font-body: 'Inter', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
 }
 
-/* Global App Container */
+/* Global App */
 .stApp {
   background-color: var(--bg-main) !important;
   background-image: 
-    radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.15) 0%, transparent 55%),
-    radial-gradient(circle at 85% 15%, rgba(0, 210, 255, 0.08) 0%, transparent 45%),
-    radial-gradient(circle at 15% 35%, rgba(16, 185, 129, 0.06) 0%, transparent 45%) !important;
-  font-family: var(--font-main) !important;
+    radial-gradient(circle at 50% -10%, rgba(99, 102, 241, 0.14) 0%, transparent 60%),
+    radial-gradient(circle at 90% 15%, rgba(0, 210, 255, 0.06) 0%, transparent 45%) !important;
+  font-family: var(--font-body) !important;
   color: var(--text-primary) !important;
 }
 
-#MainMenu, footer, header { visibility: hidden !important; }
-.block-container { padding-top: 1.2rem !important; max-width: 1360px !important; }
+#MainMenu, footer { visibility: hidden !important; }
+header[data-testid="stHeader"] { background: transparent !important; }
+
+/* Page Headroom */
+.block-container {
+  padding-top: 1.8rem !important;
+  padding-bottom: 3rem !important;
+  max-width: 1340px !important;
+}
 
 /* Sidebar */
 section[data-testid="stSidebar"] {
-  background: rgba(10, 14, 23, 0.95) !important;
+  background: rgba(10, 14, 24, 0.96) !important;
   border-right: 1px solid var(--border-subtle) !important;
 }
 section[data-testid="stSidebar"] * {
-  font-family: var(--font-main) !important;
+  font-family: var(--font-body) !important;
 }
 
-/* Top Institutional Nav Banner */
-.top-nav {
+/* Unified Compact Header */
+.app-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 18px;
-  background: rgba(11, 16, 27, 0.85);
-  backdrop-filter: blur(12px);
+  padding: 14px 22px;
+  background: rgba(13, 18, 31, 0.85);
+  backdrop-filter: blur(16px);
   border: 1px solid var(--border-subtle);
-  border-radius: 14px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+  margin-bottom: 22px;
+  box-shadow: 0 4px 24px -2px rgba(0, 0, 0, 0.5);
+  flex-wrap: wrap;
+  gap: 14px;
 }
-.nav-tag {
+.brand-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.brand-logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 13px;
+  background: linear-gradient(135deg, #6366f1 0%, #00d2ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+  box-shadow: 0 0 24px rgba(99, 102, 241, 0.45);
+}
+.brand-title {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #fff;
+  line-height: 1.1;
+}
+.brand-sub {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  margin-top: 2px;
+}
+.header-stats {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.stat-pill {
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  padding: 6px 12px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-subtle);
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+}
+.stat-pill .k {
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.stat-pill .v {
+  color: #f8fafc;
+  font-weight: 700;
+}
+.live-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 13px;
+  border-radius: 10px;
+  background: rgba(99, 102, 241, 0.12);
+  border: 1px solid rgba(99, 102, 241, 0.35);
+  color: #818cf8 !important;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.live-link:hover {
+  background: rgba(99, 102, 241, 0.25);
+  border-color: rgba(99, 102, 241, 0.6);
+  color: #a5b4fc !important;
+}
+
+/* Card Boxes */
+.card-box {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 4px 24px -2px rgba(0, 0, 0, 0.45);
+  margin-bottom: 16px;
+  height: 100%;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+.card-title {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.meta-tag {
   font-family: var(--font-mono);
   font-size: 11px;
   font-weight: 700;
-  text-transform: uppercase;
   letter-spacing: 0.06em;
   padding: 3px 9px;
   border-radius: 6px;
-}
-.nav-tag.brand {
   background: rgba(99, 102, 241, 0.15);
   color: #818cf8;
   border: 1px solid rgba(99, 102, 241, 0.3);
 }
-.nav-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  padding: 4px 12px;
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  font-family: var(--font-mono);
-  font-size: 11.5px;
-  text-decoration: none;
-  transition: all 0.2s ease;
-}
-.nav-pill:hover {
-  background: rgba(255, 255, 255, 0.07);
-  border-color: rgba(99, 102, 241, 0.4);
-}
-
-/* Hero Section */
-.hero {
-  text-align: center;
-  padding: 24px 16px 20px;
-  max-width: 920px;
-  margin: 0 auto 12px;
-}
-.hero-badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 54px;
-  height: 54px;
-  border-radius: 16px;
-  background: linear-gradient(135deg, #6366f1 0%, #00d2ff 100%);
-  box-shadow: 0 0 32px rgba(99, 102, 241, 0.5);
-  font-size: 26px;
-  margin-bottom: 14px;
-}
-.hero-title {
-  font-family: var(--font-heading);
-  font-size: 2.85rem;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.1;
-  margin: 0;
-  background: linear-gradient(135deg, #ffffff 40%, #94a3b8 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.hero-sub {
-  font-size: 1.05rem;
-  color: #94a3b8;
-  font-weight: 400;
-  margin-top: 10px;
-  line-height: 1.55;
-  max-width: 760px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.hero-pills {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 16px;
-}
-.chip {
-  font-family: var(--font-mono);
-  font-size: 11.5px;
-  font-weight: 600;
-  color: #cbd5e1;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid var(--border-subtle);
-  border-radius: 20px;
-  padding: 4px 12px;
-}
-
-/* Glass Card System */
-.glass-card {
-  background: #111827;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 14px;
-  padding: 20px;
-  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5);
-  margin-bottom: 16px;
-}
 
 /* KPI Card */
 .kpi {
-  background: #111827;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
   border-radius: 14px;
   padding: 16px 18px;
-  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.4);
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   position: relative;
   overflow: hidden;
 }
 .kpi:hover {
   transform: translateY(-2px);
-  border-color: rgba(99, 102, 241, 0.35);
+  border-color: var(--border-hover);
   box-shadow: 0 8px 25px -4px rgba(0, 0, 0, 0.6);
 }
 .kpi .l {
@@ -228,7 +249,7 @@ section[data-testid="stSidebar"] * {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #94a3b8;
+  color: var(--text-secondary);
   margin-bottom: 6px;
 }
 .kpi .v {
@@ -241,11 +262,59 @@ section[data-testid="stSidebar"] * {
   line-height: 1.15;
 }
 .kpi .s {
-  font-family: var(--font-main);
+  font-family: var(--font-body);
   font-size: 0.74rem;
-  color: #64748b;
+  color: var(--text-tertiary);
   margin-top: 6px;
   font-weight: 500;
+}
+
+/* 2x2 Metric Grid */
+.stat-grid-2x2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 14px;
+}
+.mini-stat {
+  background: rgba(7, 10, 18, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+.mini-stat .k {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-tertiary);
+}
+.mini-stat .v {
+  font-family: var(--font-mono);
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #fff;
+  margin-top: 3px;
+  line-height: 1.1;
+}
+.mini-stat .s {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  margin-top: 3px;
+}
+
+/* Executive Verdict Banner */
+.verdict-banner {
+  border-radius: 16px;
+  padding: 18px 22px;
+  border: 1px solid;
+  margin: 18px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
 /* Glowing Border Utilities */
@@ -266,7 +335,7 @@ section[data-testid="stSidebar"] * {
   box-shadow: 0 0 25px -5px rgba(244, 63, 94, 0.25) !important;
 }
 
-/* Pulsing Dots */
+/* Pulsing Beacons */
 @keyframes beacon {
   0%, 100% { opacity: 1; transform: scale(1); }
   50% { opacity: 0.35; transform: scale(0.85); }
@@ -302,82 +371,6 @@ section[data-testid="stSidebar"] * {
   border-radius: 50%;
   background: #f43f5e;
   animation: beacon 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
-
-/* Section Title */
-.section-title {
-  font-family: var(--font-heading);
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: #f8fafc;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 12px;
-}
-
-/* Company Profile Dossier Card */
-.profile-card {
-  background: #111827;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 14px;
-  padding: 16px;
-  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.45);
-}
-.ticker-badge {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  font-weight: 800;
-  background: rgba(99, 102, 241, 0.15);
-  color: #818cf8;
-  border: 1px solid rgba(99, 102, 241, 0.3);
-  padding: 2px 8px;
-  border-radius: 6px;
-}
-.profile-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  margin-top: 12px;
-}
-.profile-stat {
-  background: rgba(15, 23, 42, 0.7);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 10px;
-  padding: 10px 12px;
-}
-.profile-stat .k {
-  font-family: var(--font-mono);
-  font-size: 10.5px;
-  color: var(--text-tertiary);
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-}
-.profile-stat .v {
-  font-family: var(--font-mono);
-  font-size: 1.25rem;
-  font-weight: 800;
-  color: #fff;
-  margin-top: 2px;
-}
-.profile-stat .s {
-  font-size: 11px;
-  color: #64748b;
-  margin-top: 2px;
-}
-
-/* Executive Verdict Banner */
-.verdict-banner {
-  border-radius: 16px;
-  padding: 18px 22px;
-  border: 1px solid;
-  margin: 18px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  flex-wrap: wrap;
 }
 
 /* Verbatim Quote Blocks */
@@ -419,82 +412,53 @@ section[data-testid="stSidebar"] * {
   line-height: 1.55;
 }
 
-/* Streamlit Native Component Modernization */
-.stTextInput > div > div > input, .stNumberInput input, .stTextArea textarea {
-  background: #0f172a !important;
-  border: 1px solid rgba(255, 255, 255, 0.12) !important;
-  border-radius: 12px !important;
-  color: #fff !important;
-  font-family: var(--font-main) !important;
-  padding: 0.6rem 0.85rem !important;
-}
-.stTextInput > div > div > input:focus, .stNumberInput input:focus, .stTextArea textarea:focus {
-  border-color: var(--accent-primary) !important;
-  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.3) !important;
-}
-
-.stButton > button {
-  background: #111827 !important;
-  border: 1px solid rgba(255, 255, 255, 0.12) !important;
-  border-radius: 12px !important;
-  color: var(--text-primary) !important;
-  font-weight: 600 !important;
-  font-family: var(--font-main) !important;
-  padding: 0.6rem 1.25rem !important;
-  transition: all 0.2s ease !important;
-}
-.stButton > button:hover {
-  background: #1e293b !important;
-  border-color: rgba(99, 102, 241, 0.5) !important;
-  color: #fff !important;
-  box-shadow: 0 4px 14px -2px rgba(99, 102, 241, 0.25) !important;
-  transform: translateY(-1px);
-}
-.stButton > button[kind="primary"] {
-  background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%) !important;
-  border: 1px solid rgba(255, 255, 255, 0.18) !important;
-  color: #fff !important;
-  box-shadow: 0 0 20px -2px rgba(99, 102, 241, 0.45) !important;
-}
-.stButton > button[kind="primary"]:hover {
-  background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%) !important;
-  box-shadow: 0 0 25px rgba(99, 102, 241, 0.65) !important;
-}
-
-/* Tabs */
+/* Streamlit Tabs */
 .stTabs [data-baseweb="tab-list"] {
   gap: 6px;
-  background: #0b1120;
+  background: rgba(13, 18, 31, 0.95);
   padding: 6px;
   border-radius: 14px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--border-subtle);
+  margin-bottom: 20px;
 }
 .stTabs [data-baseweb="tab"] {
   border-radius: 10px;
   color: var(--text-secondary);
   font-weight: 600;
-  font-size: 0.88rem;
-  font-family: var(--font-main);
+  font-size: 0.9rem;
+  font-family: var(--font-body);
   padding: 9px 18px;
   border: none !important;
   transition: all 0.2s ease;
 }
 .stTabs [aria-selected="true"] {
-  background: rgba(99, 102, 241, 0.18) !important;
+  background: rgba(99, 102, 241, 0.2) !important;
   color: #fff !important;
-  border: 1px solid rgba(99, 102, 241, 0.45) !important;
+  border: 1px solid rgba(99, 102, 241, 0.5) !important;
   box-shadow: 0 2px 10px -2px rgba(99, 102, 241, 0.3) !important;
 }
 
-div[data-baseweb="select"] > div {
-  background: #0f172a !important;
+/* Streamlit Inputs */
+.stTextInput > div > div > input, .stNumberInput input, .stTextArea textarea {
+  background: #070a12 !important;
   border: 1px solid rgba(255, 255, 255, 0.12) !important;
-  border-radius: 12px !important;
+  border-radius: 10px !important;
+  color: #fff !important;
+  font-family: var(--font-body) !important;
+}
+.stTextInput > div > div > input:focus, .stNumberInput input:focus, .stTextArea textarea:focus {
+  border-color: var(--accent-primary) !important;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.25) !important;
+}
+div[data-baseweb="select"] > div {
+  background: #070a12 !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 10px !important;
   color: #fff !important;
 }
 div[data-baseweb="select"] * {
   color: #fff !important;
-  font-family: var(--font-main) !important;
+  font-family: var(--font-body) !important;
 }
 div[data-baseweb="popover"] ul {
   background: #0b0f19 !important;
@@ -509,12 +473,43 @@ div[data-baseweb="popover"] li:hover {
   color: #fff !important;
 }
 
+/* Primary Button */
+.stButton > button {
+  background: #111827 !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 12px !important;
+  color: var(--text-primary) !important;
+  font-weight: 600 !important;
+  font-family: var(--font-body) !important;
+  padding: 0.6rem 1.25rem !important;
+  transition: all 0.2s ease !important;
+}
+.stButton > button:hover {
+  background: #1e293b !important;
+  border-color: rgba(99, 102, 241, 0.5) !important;
+  color: #fff !important;
+  box-shadow: 0 4px 14px -2px rgba(99, 102, 241, 0.25) !important;
+  transform: translateY(-1px);
+}
+.stButton > button[kind="primary"] {
+  background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  color: #fff !important;
+  border-radius: 12px !important;
+  font-weight: 700 !important;
+  box-shadow: 0 0 20px -2px rgba(99, 102, 241, 0.45) !important;
+  width: 100% !important;
+}
+.stButton > button[kind="primary"]:hover {
+  background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%) !important;
+  box-shadow: 0 0 25px rgba(99, 102, 241, 0.65) !important;
+}
+
 details {
   border: 1px solid var(--border-subtle) !important;
   border-radius: 12px !important;
-  background: #111827 !important;
+  background: var(--bg-card) !important;
   margin-bottom: 8px !important;
-  transition: border-color 0.2s ease;
 }
 details:hover {
   border-color: rgba(99, 102, 241, 0.3) !important;
@@ -523,15 +518,10 @@ details summary {
   padding: 12px 16px !important;
   font-weight: 600 !important;
   color: #f8fafc !important;
-  font-family: var(--font-main) !important;
 }
-
 code {
   font-family: var(--font-mono) !important;
   color: #a5b4fc !important;
-}
-.stAlert {
-  border-radius: 12px !important;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -574,9 +564,9 @@ if not scores or not resolved:
 by_t = {c["ticker"]: c for c in scores["companies"]}
 preds = (model or {}).get("predictions", {})
 
-# Sidebar: Model and Key Selection
+# Sidebar
 with st.sidebar:
-    st.markdown("### ⚙️ Engine Configuration")
+    st.markdown("### ⚙️ Engine Settings")
     st.markdown("**Frontier AI Provider:** Meta Muse (Active)")
 
     user_meta_key = st.text_input(
@@ -584,7 +574,7 @@ with st.sidebar:
         value=config.META_API_KEY,
         type="password",
         placeholder="metamodel_...",
-        help="Key from the Meta Model API for live concall parsing"
+        help="Key from Meta Model API for live concall parsing"
     )
     if user_meta_key:
         os.environ["META_MODEL_API_KEY"] = user_meta_key
@@ -592,47 +582,35 @@ with st.sidebar:
     elif config.META_API_KEY:
         st.success("🟢 Muse Active (.env)")
     else:
-        st.warning("⚠️ Enter Meta Model API Key to enable live concall parsing")
+        st.warning("⚠️ Enter Meta Model API Key for live concall parsing")
 
     st.markdown("---")
     st.markdown("**Predictive Architecture:**")
-    st.markdown("- **Ensemble Stacking**: HistGradientBoosting + Calibrated Logistic Regression")
-    st.markdown("- **Signals**: Category delivery history, ambition gap, ghosting propensity, goalpost tracking, speaker credibility")
-    st.markdown(f"- **LOCO AUC**: `{model['evaluation']['loco']['auc_model']:.3f}`")
+    st.markdown("- **Ensemble Stacking**: HistGBDT + Bayesian MAP Logistic Regression")
+    st.markdown(f"- **LOCO ROC AUC**: `{model['evaluation']['loco']['auc_model']:.3f}`")
     st.markdown(f"- **Walk-Forward AUC**: `{model['evaluation']['walk_forward']['auc_model']:.3f}`")
     st.markdown("---")
     st.markdown(f"**Live Web App:** [revcon.streamlit.app](https://revcon.streamlit.app/)")
 
 
-# Top Header Navigation Banner
+# Unified Compact Top Bar
 st.markdown(f"""
-<div class="top-nav">
-  <div style="display:flex;align-items:center;gap:10px;">
-    <span class="nav-tag brand">🎯 CONCALL ENGINE</span>
-    <span style="color:#475569">|</span>
-    <span style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#cbd5e1;font-weight:600;">INSTITUTIONAL GUIDANCE PREDICTOR</span>
+<div class="app-header">
+  <div class="brand-group">
+    <div class="brand-logo">🎯</div>
+    <div>
+      <div class="brand-title">Concall</div>
+      <div class="brand-sub">Management Guidance Accuracy &amp; Delivery Predictor</div>
+    </div>
   </div>
-  <div style="display:flex;align-items:center;gap:12px;">
-    <a href="https://revcon.streamlit.app/" target="_blank" class="nav-pill">
-      <span class="pulse-cyan"></span><span style="font-family:'JetBrains Mono',monospace;font-size:11.5px;color:#38bdf8;font-weight:700;">revcon.streamlit.app ↗</span>
+  <div class="header-stats">
+    <div class="stat-pill"><span class="k">Companies</span><span class="v">{stats['companies']}</span></div>
+    <div class="stat-pill"><span class="k">Calls</span><span class="v">{stats['calls']}</span></div>
+    <div class="stat-pill"><span class="k">Resolved</span><span class="v">{stats['scored']:,}</span></div>
+    <div class="stat-pill"><span class="k">LOCO AUC</span><span class="v">{model['evaluation']['loco']['auc_model']:.3f}</span></div>
+    <a href="https://revcon.streamlit.app/" target="_blank" class="live-link">
+      <span class="pulse-cyan"></span>revcon.streamlit.app ↗
     </a>
-    <span class="nav-pill">
-      <span class="pulse-emerald"></span><span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#10b981;font-weight:700;">MUSE ACTIVE</span>
-    </span>
-  </div>
-</div>
-
-<div class="hero">
-  <div class="hero-badge">🎯</div>
-  <div class="hero-title">Concall</div>
-  <div class="hero-sub">Management Guidance Accuracy &amp; Delivery Predictor.<br>
-  Keeping score on every promise — and forecasting which future guidance will hold.</div>
-  <div class="hero-pills">
-    <span class="chip">🏢 {stats['companies']} Companies</span>
-    <span class="chip">🎙️ {stats['calls']} Earnings Calls</span>
-    <span class="chip">📜 {stats['promises']:,} Verified Promises</span>
-    <span class="chip">⚡ LOCO AUC {model['evaluation']['loco']['auc_model']:.3f}</span>
-    <span class="chip">📅 As of {stats['today']}</span>
   </div>
 </div>
 """, unsafe_allow_html=True)
@@ -643,19 +621,23 @@ tab_pred, tab_board, tab_co, tab_live, tab_val = st.tabs([
 
 # =============================================================== Guidance Predictor Tab
 with tab_pred:
-    st.markdown("### 🔮 Predict Future Accuracy of Holding Management Guidance")
-    st.caption("Select a company and specify a management guidance statement. The model analyzes the company's "
-               "entire historical track record of guidance delivery to forecast the probability of management holding "
-               "to this future guidance, alongside a credibility-adjusted target.")
-
     tickers_list = sorted([c["ticker"] for c in scores["companies"]])
-    p_c1, p_c2 = st.columns([1, 2])
+    p_c1, p_c2 = st.columns([1, 2], gap="medium")
 
     with p_c1:
-        st.markdown('<div class="section-title">1 · Select Company</div>', unsafe_allow_html=True)
-        chosen_ticker = st.selectbox("Select Listed Company", tickers_list,
-                                     index=tickers_list.index("KAYNES") if "KAYNES" in tickers_list else 0,
-                                     label_visibility="collapsed")
+        st.markdown("""
+        <div class="card-header" style="margin-bottom:10px;padding-bottom:8px;">
+          <span class="card-title">🏢 Company Dossier</span>
+          <span class="meta-tag">TRACK RECORD</span>
+        </div>
+        """, unsafe_allow_html=True)
+
+        chosen_ticker = st.selectbox(
+            "Select Listed Company",
+            tickers_list,
+            index=tickers_list.index("KAYNES") if "KAYNES" in tickers_list else 0,
+            label_visibility="collapsed"
+        )
         co_record = history.guidance_track_record(resolved, chosen_ticker)
         co_score = by_t.get(chosen_ticker, {})
         grade = co_score.get("grade", "–")
@@ -666,50 +648,55 @@ with tab_pred:
         rev_factor = rev_info.get("median_accuracy_ratio", 1.0)
 
         st.markdown(f"""
-        <div class="profile-card">
-          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
+        <div class="card-box" style="margin-top:4px;">
+          <div style="display:flex;align-items:center;justify-content:space-between;">
             <div>
-              <span class="ticker-badge">{chosen_ticker}</span>
-              <span style="font-family:'Outfit',sans-serif;font-size:1.1rem;font-weight:700;color:#fff;margin-left:6px;">Delivery Profile</span>
+              <span style="font-family:'JetBrains Mono',monospace;font-size:1.1rem;font-weight:800;color:#fff;">{chosen_ticker}</span>
+              <span style="font-size:12px;color:#94a3b8;margin-left:6px;">Historical Audit</span>
             </div>
-            <div style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:8px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);">
-              <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#94a3b8;font-weight:700;">GRADE</span>
-              <span style="font-family:'Outfit',sans-serif;font-size:16px;font-weight:900;color:{grade_color};">{grade}</span>
+            <div style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:8px;background:{grade_color}15;border:1px solid {grade_color}40;">
+              <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#cbd5e1;font-weight:700;">GRADE</span>
+              <span style="font-family:'Outfit',sans-serif;font-size:15px;font-weight:900;color:{grade_color};">{grade}</span>
             </div>
           </div>
           
-          <div class="profile-grid">
-            <div class="profile-stat">
+          <div class="stat-grid-2x2">
+            <div class="mini-stat">
               <div class="k">Overall Kept</div>
               <div class="v">{co_record.get('delivery_rate', '–')}%</div>
               <div class="s">{co_score.get('n', 0)} resolved</div>
             </div>
-            <div class="profile-stat">
+            <div class="mini-stat">
               <div class="k">Top-Line Factor</div>
               <div class="v">{rev_factor:.2f}×</div>
               <div class="s">Actual ÷ Guided</div>
             </div>
-            <div class="profile-stat">
+            <div class="mini-stat">
               <div class="k">Ghost Rate</div>
               <div class="v" style="color:{'#f43f5e' if beh.get('ghost_rate_pct', 0) > 5 else '#cbd5e1'};">{beh.get('ghost_rate_pct', 0)}%</div>
               <div class="s">{beh.get('ghosted_count', 0)} dropped</div>
             </div>
-            <div class="profile-stat">
+            <div class="mini-stat">
               <div class="k">Goalpost Moves</div>
               <div class="v" style="color:{'#f59e0b' if beh.get('revision_rate_pct', 0) > 20 else '#cbd5e1'};">{beh.get('revision_rate_pct', 0)}%</div>
               <div class="s">Delayed or cut</div>
             </div>
           </div>
           
-          <div style="margin-top:12px;padding:8px 12px;border-radius:8px;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.06);font-size:11.5px;color:#94a3b8;">
-            Guidance Style: <strong style="color:#e2e8f0;">{co_record.get('style', '–')}</strong>
+          <div style="margin-top:14px;padding:9px 12px;border-radius:8px;background:rgba(8,12,20,0.6);border:1px solid rgba(255,255,255,0.06);font-size:11.5px;color:#94a3b8;">
+            Guidance Style: <strong style="color:#f1f5f9;">{co_record.get('style', '–')}</strong>
           </div>
         </div>
         """, unsafe_allow_html=True)
 
     with p_c2:
-        st.markdown('<div class="section-title">2 · Define Future Guidance Parameters</div>', unsafe_allow_html=True)
-        f1, f2, f3 = st.columns(3)
+        st.markdown("""
+        <div class="card-header" style="margin-bottom:10px;padding-bottom:8px;">
+          <span class="card-title">🔮 Evaluate Future Guidance</span>
+          <span class="meta-tag">PREDICTION ENGINE</span>
+        </div>
+        """, unsafe_allow_html=True)
+
         cat_map = {
             "Top-line Revenue Growth (%)": "revenue_growth",
             "EBITDA Margin (%)": "ebitda_margin",
@@ -718,31 +705,35 @@ with tab_pred:
             "Commercial / Order Inflow (₹ Cr)": "order_inflow",
             "Product Launch / Commissioning": "commissioning",
         }
+        f1, f2 = st.columns([3, 2])
         g_cat_label = f1.selectbox("Guidance Type", list(cat_map.keys()), index=0)
         g_cat = cat_map[g_cat_label]
 
         default_val = 30.0 if "Growth" in g_cat_label else (15.0 if "Margin" in g_cat_label else 250.0)
-        g_val = f2.number_input("Guided Value / Target", value=float(default_val), step=1.0)
+        unit_lbl = "%" if "Growth" in g_cat_label or "Margin" in g_cat_label else " Cr"
+        g_val = f2.number_input(f"Target Value ({unit_lbl})", value=float(default_val), step=1.0)
 
+        f3, f4 = st.columns([1, 1])
         g_horizon = f3.selectbox("Guidance Horizon", [
-            "Quarterly (3 months)", "Semi-Annual (6 months)", "Full Year (12 months)", "Multi-Year (24 months)"
-        ], index=2)
+            "Full Year (12 months)", "Quarterly (3 months)", "Semi-Annual (6 months)", "Multi-Year (24 months)"
+        ], index=0)
         h_months = 3 if "3" in g_horizon else (6 if "6" in g_horizon else (24 if "24" in g_horizon else 12))
 
-        f4, f5 = st.columns(2)
-        g_strength = f4.selectbox("Management Tone", [
+        g_speaker = f4.selectbox("Executive Speaker", [
+            "MD / Promoter CEO", "CFO / Finance Head", "Director / COO"
+        ], index=0)
+        spk_val = "MD" if "MD" in g_speaker else ("CFO" if "CFO" in g_speaker else "COO")
+
+        g_strength = st.selectbox("Management Tone Commitment", [
             "Firm Commitment ('We will achieve / Committed to')",
             "Aspirational / Hedged ('Aiming for / Subject to')"
         ], index=0)
         str_val = "firm" if "Firm" in g_strength else "aspirational"
 
-        g_speaker = f5.selectbox("Executive Speaker", ["MD / Promoter CEO", "CFO / Finance Head", "Director / COO"], index=0)
-        spk_val = "MD" if "MD" in g_speaker else ("CFO" if "CFO" in g_speaker else "COO")
-
         g_quote = st.text_area(
             "Verbatim Concall Quote (Optional)",
             value=f"We are guiding for {g_val:g}% in the coming year, backed by strong operational visibility and execution capabilities.",
-            height=65
+            height=60
         )
 
         calc_btn = st.button("🚀 Predict Guidance Holding Accuracy", type="primary")
@@ -764,25 +755,24 @@ with tab_pred:
         p_val = pred_res["p_kept"]
         grade_pred = pred_res.get("grade", "–")
 
-        # Conviction Verdict Determination (matching Institutional Research Report styling)
         if p_val >= 0.65:
             verdict_text = "HIGH CONVICTION DELIVERY (P ≥ 65%)"
             verdict_dot = "pulse-emerald"
             verdict_style = "background:rgba(16,185,129,0.1);border-color:rgba(16,185,129,0.35);color:#34d399;"
             verdict_glow = "glow-emerald"
-            commentary = f"Management has established a robust track record in {g_cat.replace('_', ' ')}. Guidance is statistically well-supported by historical execution."
+            commentary = f"Management has an established track record in {g_cat.replace('_', ' ')}. Guidance is statistically well-supported by past execution."
         elif p_val >= 0.50:
             verdict_text = "MODERATE / HURDLE CONSTRAINED (50% ≤ P < 65%)"
             verdict_dot = "pulse-amber"
             verdict_style = "background:rgba(245,158,11,0.1);border-color:rgba(245,158,11,0.35);color:#fbbf24;"
             verdict_glow = "glow-amber"
-            commentary = f"Target is within reach but sensitive to execution headwinds. Recommend anchoring analyst estimates to the Credibility-Adjusted target."
+            commentary = f"Target is achievable but susceptible to execution friction. Recommend anchoring analyst expectations to the Credibility-Adjusted target."
         else:
             verdict_text = "ELEVATED MISS / OVER-PROMISE RISK (P < 50%)"
             verdict_dot = "pulse-rose"
             verdict_style = "background:rgba(244,63,94,0.1);border-color:rgba(244,63,94,0.35);color:#fb7185;"
             verdict_glow = "glow-rose"
-            commentary = f"Target ambition exceeds historical run-rate or company category delivery factor. Elevated risk of goalpost movement or quiet abandonment."
+            commentary = f"Target ambition significantly exceeds historical run-rate or company category factor. Elevated probability of downward revision."
 
         st.markdown(f"""
         <div class="verdict-banner {verdict_glow}" style="{verdict_style}">
@@ -805,28 +795,28 @@ with tab_pred:
         """, unsafe_allow_html=True)
 
         res_cols = st.columns(4)
-        kpi(res_cols[0], f"{p_val:.0%}", f"P(Guidance Held in Full)", sub=f"Grade {grade_pred} · Out-of-Sample", glow="indigo" if p_val >= 0.5 else "rose")
+        kpi(res_cols[0], f"{p_val:.0%}", "P(Guidance Held)", sub=f"Grade {grade_pred} · Out-of-Sample", glow="indigo" if p_val >= 0.5 else "rose")
 
         if pred_res.get("guided_value") is not None and pred_res.get("adjusted_value") is not None:
             unit_str = "%" if "Growth" in g_cat_label or "Margin" in g_cat_label else " Cr"
             kpi(res_cols[1], f"{pred_res['guided_value']:g}{unit_str} → {pred_res['adjusted_value']:g}{unit_str}",
                 "Credibility-Adjusted Target", sub="Bias-corrected expectation", glow="emerald" if pred_res['adjustment_factor'] >= 1.0 else "amber")
-            kpi(res_cols[2], f"{pred_res['adjustment_factor']:.2f}×", "Historical Delivery Factor", sub="Historical ratio delivered", glow="brand")
+            kpi(res_cols[2], f"{pred_res['adjustment_factor']:.2f}×", "Historical Factor", sub="Historical ratio delivered", glow="brand")
         else:
             kpi(res_cols[1], "N/A", "Credibility-Adjusted Target", sub="Non-numeric category")
             kpi(res_cols[2], "N/A", "Adjustment Factor", sub="Baseline rate applied")
 
         diag = pred_res.get("diagnostics", {})
-        kpi(res_cols[3], f"{diag.get('consecutive_streak', 0)} consecutive", "Current Delivery Streak", sub=f"Base Category: {g_cat.replace('_', ' ')}")
+        kpi(res_cols[3], f"{diag.get('consecutive_streak', 0)} consecutive", "Current Streak", sub=f"Category: {g_cat.replace('_', ' ')}")
 
         if pred_res.get("risks"):
-            st.markdown("<div style='margin-top:14px;font-weight:600;font-size:13px;color:#cbd5e1;'>Management Guidance Diagnostics & Risks:</div>", unsafe_allow_html=True)
+            st.markdown("<div style='margin-top:14px;font-weight:600;font-size:13px;color:#cbd5e1;'>Guidance Diagnostics & Risks:</div>", unsafe_allow_html=True)
             for rk in pred_res["risks"]:
                 st.markdown(f'<div class="risk-box">⚠️ {rk}</div>', unsafe_allow_html=True)
 
         st.markdown("---")
-        st.markdown(f"#### 📈 Guidance Hurdle Curve & Sensitivity Simulator for `{chosen_ticker}`")
-        st.caption("How does P(Delivery) evolve as management raises guidance targets? Reveals the operational tipping point where ambition outstrips capacity.")
+        st.markdown(f"#### 📈 Hurdle Sensitivity & Tipping Points for `{chosen_ticker}`")
+        st.caption("How does P(Delivery) evolve as management raises guidance targets? Reveals operational thresholds where ambition outstrips capacity.")
 
         sim_data = predict.simulate_guidance_hurdle_curve(
             model=model, resolved=resolved, ticker=chosen_ticker,
@@ -834,7 +824,7 @@ with tab_pred:
             strength=str_val, role=spk_val
         )
 
-        sim_col1, sim_col2 = st.columns([3, 2])
+        sim_col1, sim_col2 = st.columns([3, 2], gap="medium")
         unit_lbl = "%" if "growth" in g_cat or "margin" in g_cat else " Cr"
         with sim_col1:
             x_vals = [pt["guided_value"] for pt in sim_data["points"]]
@@ -865,31 +855,31 @@ with tab_pred:
             st.plotly_chart(fig_h, width='stretch')
 
         with sim_col2:
-            st.markdown('<div class="section-title">Hurdle Analysis & Tipping Points</div>', unsafe_allow_html=True)
+            st.markdown('<div class="card-title" style="font-size:1.05rem;margin-bottom:12px;">Tipping Points Breakdown</div>', unsafe_allow_html=True)
             
             c_trail = f"{sim_data['benchmark_trailing']:g}{unit_lbl}"
-            c_high = f"{sim_data['high_confidence_ceiling']:g}{unit_lbl}" if sim_data.get("high_confidence_ceiling") is not None else "N/A (Conservative track)"
+            c_high = f"{sim_data['high_confidence_ceiling']:g}{unit_lbl}" if sim_data.get("high_confidence_ceiling") is not None else "N/A"
             c_viable = f"{sim_data['hurdle_50_ceiling']:g}{unit_lbl}" if sim_data.get("hurdle_50_ceiling") is not None else f"< {x_vals[0]:g}{unit_lbl}"
             c_break = f"> {sim_data['breakdown_risk_point']:g}{unit_lbl}" if sim_data.get("breakdown_risk_point") is not None else "Not reached"
 
             st.markdown(f"""
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
-              <div class="profile-stat">
+              <div class="mini-stat">
                 <div class="k">Trailing Run-Rate</div>
                 <div class="v">{c_trail}</div>
                 <div class="s">Historical benchmark</div>
               </div>
-              <div class="profile-stat glow-emerald">
+              <div class="mini-stat glow-emerald">
                 <div class="k" style="color:#10b981;">P ≥ 65% Ceiling</div>
                 <div class="v" style="color:#34d399;">{c_high}</div>
                 <div class="s">High confidence upper bound</div>
               </div>
-              <div class="profile-stat glow-amber">
+              <div class="mini-stat glow-amber">
                 <div class="k" style="color:#f59e0b;">P ≥ 50% Max Viable</div>
                 <div class="v" style="color:#fbbf24;">{c_viable}</div>
                 <div class="s">Hurdle threshold ceiling</div>
               </div>
-              <div class="profile-stat glow-rose">
+              <div class="mini-stat glow-rose">
                 <div class="k" style="color:#f43f5e;">P < 45% Breakdown</div>
                 <div class="v" style="color:#fb7185;">{c_break}</div>
                 <div class="s">Elevated miss cliff</div>
@@ -897,7 +887,7 @@ with tab_pred:
             </div>
             
             <div style="margin-top:12px;padding:12px;border-radius:10px;background:rgba(99,102,241,0.08);border:1px solid rgba(99,102,241,0.25);font-size:12px;line-height:1.5;color:#cbd5e1;">
-              💡 <strong>Institutional Takeaway:</strong> When guidance exceeds trailing run-rate by >15%, delivery probability drops non-linearly. Anchor forecasts to the <strong>Credibility-Adjusted Guidance</strong>.
+              💡 <strong>Takeaway:</strong> When guidance exceeds trailing run-rate by >15%, delivery probability drops non-linearly. Anchor estimates to the <strong>Credibility-Adjusted Guidance</strong>.
             </div>
             """, unsafe_allow_html=True)
 
@@ -948,13 +938,13 @@ with tab_board:
                   annotation_text=f"universe {scores['base_rate']:.0f}", annotation_font_color=MUTED)
     layout(fig, h=max(420, 22 * len(rows)), showlegend=False,
            xaxis_title="Say-Do score (dot) with 80% credible interval", xaxis_range=[0, 100])
-    c1, c2 = st.columns([3, 2])
+    c1, c2 = st.columns([3, 2], gap="medium")
     c1.markdown("**Management Credibility Ranking** · companies with ≥3 resolved promises")
     c1.plotly_chart(fig, width='stretch')
     with c2:
-        st.markdown('<div class="section-title">Methodology & Guardrails</div>', unsafe_allow_html=True)
+        st.markdown('<div class="card-title" style="font-size:1.05rem;margin-bottom:10px;">Methodology & Guardrails</div>', unsafe_allow_html=True)
         st.markdown("""
-        <div style="background:#111827;border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:16px;font-size:12.5px;line-height:1.6;color:#cbd5e1;">
+        <div style="background:#0d121f;border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:16px;font-size:12.5px;line-height:1.6;color:#cbd5e1;">
           <div style="margin-bottom:8px;"><strong>1 · SAY (Extraction)</strong>: Frontier models parse earnings transcripts to extract exact forward commitments with verbatim quote citations.</div>
           <div style="margin-bottom:8px;"><strong>2 · DO (Resolution)</strong>: Financial guidance is resolved against audited reported numbers; operational goals against later calls.</div>
           <div style="margin-bottom:8px;"><strong>3 · PREDICT (Machine Learning)</strong>: Pure-NumPy HistGBDT + Bayesian MAP Logistic Regression stack forecasts forward holding accuracy.</div>
@@ -987,7 +977,7 @@ with tab_co:
     kpi(k[4], f"{c['goalpost_moves']}", "Delayed / Cut", sub="Goalposts revised mid-stream", glow="rose" if c['goalpost_moves'] > 10 else "")
     st.write("")
 
-    g1, g2 = st.columns([3, 2])
+    g1, g2 = st.columns([3, 2], gap="medium")
     with g1:
         oc = c["outcomes"]
         fig = go.Figure()
@@ -1043,7 +1033,7 @@ with tab_live:
     st.markdown("### 🎙️ Live Concall Parser & Guidance Predictor")
     st.markdown("Drop in a brand-new earnings call transcript or audio recording. Frontier models extract each "
                 "forward-looking commitment; the ensemble predictor estimates which ones management will actually deliver.")
-    l1, l2 = st.columns([1, 2])
+    l1, l2 = st.columns([1, 2], gap="medium")
     lt = l1.text_input("Company Ticker", value="KAYNES").upper()
     ld = l1.date_input("Call Date", value=date.today())
     up = l1.file_uploader("Upload Transcript (.txt) or Audio (.mp3/.wav/.m4a)", type=["txt", "mp3", "wav", "m4a"])
@@ -1091,7 +1081,7 @@ with tab_val:
         kpi(k[3], f"{ev['n']}", "Resolved Promises", sub=f"{ev['kept_rate']:.0%} Kept Rate")
         st.write("")
 
-        v1, v2 = st.columns(2)
+        v1, v2 = st.columns(2, gap="medium")
         cal = ev.get("calibration", [])
         if cal:
             fig = go.Figure()
@@ -1121,7 +1111,7 @@ with tab_val:
     mk = market or {}
     cs, es = mk.get("cross_section", {}), mk.get("event_study", {})
     st.markdown("**3 · Market Reaction: Does Track Record Generate Alpha?** (Point-in-Time Excess Return)")
-    m1, m2 = st.columns(2)
+    m1, m2 = st.columns(2, gap="medium")
     if cs.get("spread_pct") is not None:
         fig = go.Figure(go.Bar(x=["Bottom Third Credibility", "Top Third Credibility"],
                                y=[cs["bottom_tercile_excess"], cs["top_tercile_excess"]],
