@@ -1,5 +1,11 @@
 # 🎯 Concall — Management Guidance Accuracy & Delivery Predictor
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://revcon.streamlit.app/)
+&nbsp;&nbsp;
+[![Live Demo](https://img.shields.io/badge/Live%20App-revcon.streamlit.app-6366f1?style=flat&logo=streamlit)](https://revcon.streamlit.app/)
+
+**Live Web Application:** [https://revcon.streamlit.app/](https://revcon.streamlit.app/)
+
 **Predicting the future accuracy of holding management guidance using a company's past concall track record.**
 
 Every earnings conference call is packed with management guidance: revenue growth targets, margin expansion projections, capex completion dates, and order pipeline estimates. Analysts routinely anchor on these numbers. Yet some managements guide 25% and consistently deliver 26%, while others guide 25% and deliver 12%, then quietly guide 25% again next quarter.
