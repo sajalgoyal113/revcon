@@ -379,9 +379,9 @@ def load_artifact(name):
     return json.load(open(p)) if os.path.exists(p) else None
 
 
-scores, resolved, model, market, stats, audit, visual_audits = (
+scores, resolved, model, market, stats, audit = (
     load_artifact(n)
-    for n in ("scores.json", "resolved.json", "model.json", "market.json", "stats.json", "audit.json", "visual_audits.json")
+    for n in ("scores.json", "resolved.json", "model.json", "market.json", "stats.json", "audit.json")
 )
 if not scores or not resolved:
     st.error("No pipeline output found in `data/out/`. Run `python -m saydo.pipeline all` to build artifacts.")
