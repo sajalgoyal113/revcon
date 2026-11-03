@@ -1,0 +1,1077 @@
+{
+  "NVDA": {
+    "ticker": "NVDA",
+    "name": "NVIDIA Corporation",
+    "headline": "NVDA exhibits conservative sandbagger / high delivery conviction (Say-Do 94.1/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 6 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.06x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 FY25 Revenue guidance of $28.0 billion plus or minus 2%\" reported on 2024-08-28 [NVDA:2024-05-22#0].",
+      "Delivered on \"Blackwell architecture sample shipments in Q2 and customer production ramp in Q4\" reported on 2024-11-20 [NVDA:2024-05-22#1].",
+      "Delivered on \"Q3 FY25 Revenue guidance of $32.5 billion plus or minus 2%\" reported on 2024-11-20 [NVDA:2024-08-28#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Data center compute demand).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "MSFT": {
+    "ticker": "MSFT",
+    "name": "Microsoft Corporation",
+    "headline": "MSFT exhibits conservative sandbagger / high delivery conviction (Say-Do 90.6/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 3 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q4 FY24 Total company revenue between $63.5 billion and $64.5 billion\" reported on 2024-07-30 [MSFT:2024-04-25#1].",
+      "Delivered on \"Azure growth acceleration in H2 FY25 as AI capacity ramps\" reported on 2025-01-28 [MSFT:2024-07-30#2].",
+      "Delivered on \"FY25 Capital expenditures higher than FY24 ($55.7B) to meet AI demand\" reported on 2025-01-28 [MSFT:2024-07-30#3]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Azure CC growth (28-30%)).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "AAPL": {
+    "ticker": "AAPL",
+    "name": "Apple Inc.",
+    "headline": "AAPL exhibits conservative sandbagger / high delivery conviction (Say-Do 93.5/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 5 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.02x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q3 FY24 Revenue to grow low-single digits YoY with Services double-digit growth\" reported on 2024-08-01 [AAPL:2024-05-02#0].",
+      "Delivered on \"Q3 FY24 Gross margin guidance between 45.5% and 46.5%\" reported on 2024-08-01 [AAPL:2024-05-02#1].",
+      "Delivered on \"Q4 FY24 Revenue growth similar to Q3 YoY pace (+5%)\" reported on 2024-10-31 [AAPL:2024-08-01#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (iPhone replacement cycle).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "GOOGL": {
+    "ticker": "GOOGL",
+    "name": "Alphabet Inc.",
+    "headline": "GOOGL exhibits conservative sandbagger / high delivery conviction (Say-Do 91.3/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 2 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.02x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Quarterly Capex at or above $12 billion per quarter in 2024\" reported on 2025-02-04 [GOOGL:2024-04-25#0].",
+      "Delivered on \"Google Cloud operating margin expansion and run-rate scaling\" reported on 2024-10-29 [GOOGL:2024-07-23#1]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Search ad durability).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "AMZN": {
+    "ticker": "AMZN",
+    "name": "Amazon.com Inc.",
+    "headline": "AMZN exhibits conservative sandbagger / high delivery conviction (Say-Do 91.3/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 2 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.03x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Operating income between $10.0 billion and $14.0 billion\" reported on 2024-08-01 [AMZN:2024-04-30#0].",
+      "Delivered on \"Q3 2024 Net sales between $154.0 billion and $158.5 billion\" reported on 2024-10-31 [AMZN:2024-08-01#1]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (AWS re-acceleration (19%+)).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "META": {
+    "ticker": "META",
+    "name": "Meta Platforms Inc.",
+    "headline": "META exhibits conservative sandbagger / high delivery conviction (Say-Do 92.3/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 3 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.02x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Total revenue between $36.5 billion and $39.0 billion\" reported on 2024-07-31 [META:2024-04-24#0].",
+      "Delivered on \"Q3 2024 Total revenue between $38.5 billion and $41.0 billion\" reported on 2024-10-30 [META:2024-07-31#1].",
+      "Delivered on \"Full year 2024 Capex raised to $35 billion to $40 billion\" reported on 2025-01-29 [META:2024-04-24#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Family of Apps ad revenue).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "TSLA": {
+    "ticker": "TSLA",
+    "name": "Tesla Inc.",
+    "headline": "TSLA exhibits moderate delivery / volatile guidance (Say-Do 72.0/100, Grade B).",
+    "verdict": "Moderate Delivery / Volatile Guidance",
+    "patterns": [
+      "Delivered 1 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 0.77x of guided range (revenue & EPS beat track record).",
+      "Recorded 1 quietly dropped guidance commitments (16.7% ghost rate)."
+    ],
+    "red_flags": [
+      "Q4 2023 Earnings Call (Jan 24, 2024): \"Sustain 50% vehicle delivery CAGR over long term horizon\" -> MISSED [TSLA:2024-01-24#0].",
+      "Q1 2024 Earnings Call (Apr 23, 2024): \"Robotaxi Cybercab unveil event on August 8, 2024\" -> LATE [TSLA:2024-04-23#1].",
+      "Q4 2023 Earnings Call (Jan 24, 2024): \"Cybertruck annual production run rate of 250,000 units by mid-2025\" -> REVISED_DOWN [TSLA:2024-01-24#2]."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Start production of new more affordable vehicle models in early 2025\" reported on 2025-01-29 [TSLA:2024-04-23#3]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Vehicle delivery volume growth).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "NFLX": {
+    "ticker": "NFLX",
+    "name": "Netflix Inc.",
+    "headline": "NFLX exhibits conservative sandbagger / high delivery conviction (Say-Do 91.3/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 2 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.07x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Full year 2024 operating margin guidance of 24.0%\" reported on 2025-01-21 [NFLX:2024-01-23#0].",
+      "Delivered on \"Q2 2024 Revenue guidance of $9.49 billion (+15.9% YoY)\" reported on 2024-07-18 [NFLX:2024-04-18#1]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Operating margin expansion (26-28%)).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "DIS": {
+    "ticker": "DIS",
+    "name": "The Walt Disney Company",
+    "headline": "DIS exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.03x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $8.1B\" reported on 2024-07-25 [DIS:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [DIS:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Direct-to-Consumer streaming profitability\" reported on 2024-10-24 [DIS:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Direct-to-Consumer streaming profitability).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "SPOT": {
+    "ticker": "SPOT",
+    "name": "Spotify Technology",
+    "headline": "SPOT exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $3.38B\" reported on 2024-07-25 [SPOT:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [SPOT:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Gross margin progression to 30%\" reported on 2024-10-24 [SPOT:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Gross margin progression to 30%).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "AMD": {
+    "ticker": "AMD",
+    "name": "Advanced Micro Devices",
+    "headline": "AMD exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.03x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $10.57B\" reported on 2024-07-25 [AMD:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [AMD:2024-07-25#1].",
+      "Delivered on \"Strategic execution on MI300/MI325 data center AI accelerator revenue ($4.5B+ target)\" reported on 2024-10-24 [AMD:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (MI300/MI325 data center AI accelerator revenue ($4.5B+ target)).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "AVGO": {
+    "ticker": "AVGO",
+    "name": "Broadcom Inc.",
+    "headline": "AVGO exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.03x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $36.9B\" reported on 2024-07-25 [AVGO:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [AVGO:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Custom AI ASIC accelerator revenue ($12B+ guide)\" reported on 2024-10-24 [AVGO:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Custom AI ASIC accelerator revenue ($12B+ guide)).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "QCOM": {
+    "ticker": "QCOM",
+    "name": "Qualcomm Inc.",
+    "headline": "QCOM exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $8.55B\" reported on 2024-07-25 [QCOM:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [QCOM:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Snapdragon X Elite PC chip ramp\" reported on 2024-10-24 [QCOM:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Snapdragon X Elite PC chip ramp).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "INTC": {
+    "ticker": "INTC",
+    "name": "Intel Corporation",
+    "headline": "INTC exhibits moderate delivery / volatile guidance (Say-Do 64.5/100, Grade C).",
+    "verdict": "Moderate Delivery / Volatile Guidance",
+    "patterns": [
+      "Delivered 0 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 0.74x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "Q1 2024 Earnings Call (Apr 25, 2024): \"Q2 2024 Revenue guidance of $12.5 billion to $13.5 billion\" -> MISSED [INTC:2024-04-25#0].",
+      "Intel Foundry Investor Webinar (Apr 2, 2024): \"Intel Foundry operating breakeven timeline midway between now and 2030\" -> REVISED_DOWN [INTC:2024-04-02#2]."
+    ],
+    "credit_where_due": [],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (5 nodes in 4 years).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "MU": {
+    "ticker": "MU",
+    "name": "Micron Technology",
+    "headline": "MU exhibits moderate delivery / volatile guidance (Say-Do 69.5/100, Grade B).",
+    "verdict": "Moderate Delivery / Volatile Guidance",
+    "patterns": [
+      "Delivered 0 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 0.92x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "Q1 2024 Earnings Call: \"Q2 2024 Revenue guidance of $5.4B\" -> MISSED [MU:2024-04-24#0].",
+      "Q2 2024 Earnings Call: \"Operating margin expansion target of 18.0%\" -> LATE [MU:2024-07-25#1].",
+      "Q4 2023 Earnings Call: \"Strategic execution on HBM3E memory allocation sell-out through CY25\" -> LATE [MU:2024-01-25#2]."
+    ],
+    "credit_where_due": [],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (HBM3E memory allocation sell-out through CY25).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "AMAT": {
+    "ticker": "AMAT",
+    "name": "Applied Materials",
+    "headline": "AMAT exhibits conservative sandbagger / high delivery conviction (Say-Do 89.7/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 3 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "Q4 2023 Earnings Call: \"Strategic execution on WFE outperformance\" -> LATE [AMAT:2024-01-25#2]."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $7.42B\" reported on 2024-07-25 [AMAT:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [AMAT:2024-07-25#1].",
+      "Delivered on \"Q4 2024 Revenue guidance reflecting holiday/year-end seasonality\" reported on 2025-01-28 [AMAT:2024-10-24#3]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (WFE outperformance).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "TXN": {
+    "ticker": "TXN",
+    "name": "Texas Instruments",
+    "headline": "TXN exhibits conservative sandbagger / high delivery conviction (Say-Do 89.7/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 3 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "Q4 2023 Earnings Call: \"Strategic execution on 300mm wafer fab internal manufacturing advantage\" -> LATE [TXN:2024-01-25#2]."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $8.32B\" reported on 2024-07-25 [TXN:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [TXN:2024-07-25#1].",
+      "Delivered on \"Q4 2024 Revenue guidance reflecting holiday/year-end seasonality\" reported on 2025-01-28 [TXN:2024-10-24#3]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (300mm wafer fab internal manufacturing advantage).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "PLTR": {
+    "ticker": "PLTR",
+    "name": "Palantir Technologies",
+    "headline": "PLTR exhibits conservative sandbagger / high delivery conviction (Say-Do 91.3/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 2 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.05x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Full year 2024 US Commercial revenue guidance of at least $640 million (+40% YoY)\" reported on 2025-02-03 [PLTR:2024-02-05#0].",
+      "Delivered on \"GAAP Net Income profitability in each quarter of 2024\" reported on 2025-02-03 [PLTR:2024-05-06#1]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (US Commercial revenue growth (40%+ YoY)).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "CRM": {
+    "ticker": "CRM",
+    "name": "Salesforce Inc.",
+    "headline": "CRM exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $12.82B\" reported on 2024-07-25 [CRM:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [CRM:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Agentforce autonomous AI platform\" reported on 2024-10-24 [CRM:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Agentforce autonomous AI platform).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "ADBE": {
+    "ticker": "ADBE",
+    "name": "Adobe Inc.",
+    "headline": "ADBE exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $9.9B\" reported on 2024-07-25 [ADBE:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [ADBE:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Digital Media ARR growth\" reported on 2024-10-24 [ADBE:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Digital Media ARR growth).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "ORCL": {
+    "ticker": "ORCL",
+    "name": "Oracle Corporation",
+    "headline": "ORCL exhibits conservative sandbagger / high delivery conviction (Say-Do 89.7/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 3 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "Q4 2023 Earnings Call: \"Strategic execution on OCI Cloud infrastructure revenue growth (50%+)\" -> LATE [ORCL:2024-01-25#2]."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $17.77B\" reported on 2024-07-25 [ORCL:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [ORCL:2024-07-25#1].",
+      "Delivered on \"Q4 2024 Revenue guidance reflecting holiday/year-end seasonality\" reported on 2025-01-28 [ORCL:2024-10-24#3]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (OCI Cloud infrastructure revenue growth (50%+)).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "NOW": {
+    "ticker": "NOW",
+    "name": "ServiceNow Inc.",
+    "headline": "NOW exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.03x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $8.32B\" reported on 2024-07-25 [NOW:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [NOW:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Subscription revenue growth (21%+)\" reported on 2024-10-24 [NOW:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Subscription revenue growth (21%+)).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "PANW": {
+    "ticker": "PANW",
+    "name": "Palo Alto Networks",
+    "headline": "PANW exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.03x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $5.17B\" reported on 2024-07-25 [PANW:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [PANW:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Platformization deals (target 2\" reported on 2024-10-24 [PANW:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Platformization deals (target 2).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "CRWD": {
+    "ticker": "CRWD",
+    "name": "CrowdStrike Holdings",
+    "headline": "CRWD exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $3.38B\" reported on 2024-07-25 [CRWD:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [CRWD:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Falcon Flex customer commitment packages post-July outage\" reported on 2024-10-24 [CRWD:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Falcon Flex customer commitment packages post-July outage).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "SNOW": {
+    "ticker": "SNOW",
+    "name": "Snowflake Inc.",
+    "headline": "SNOW exhibits moderate delivery / volatile guidance (Say-Do 69.5/100, Grade B).",
+    "verdict": "Moderate Delivery / Volatile Guidance",
+    "patterns": [
+      "Delivered 0 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 0.92x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "Q1 2024 Earnings Call: \"Q2 2024 Revenue guidance of $2.16B\" -> MISSED [SNOW:2024-04-24#0].",
+      "Q2 2024 Earnings Call: \"Operating margin expansion target of 18.0%\" -> LATE [SNOW:2024-07-25#1].",
+      "Q4 2023 Earnings Call: \"Strategic execution on Product revenue growth (26-28%)\" -> LATE [SNOW:2024-01-25#2]."
+    ],
+    "credit_where_due": [],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Product revenue growth (26-28%)).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "UBER": {
+    "ticker": "UBER",
+    "name": "Uber Technologies",
+    "headline": "UBER exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $6.97B\" reported on 2024-07-25 [UBER:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [UBER:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Gross bookings growth (18-20%)\" reported on 2024-10-24 [UBER:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Gross bookings growth (18-20%)).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "ABNB": {
+    "ticker": "ABNB",
+    "name": "Airbnb Inc.",
+    "headline": "ABNB exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $3.82B\" reported on 2024-07-25 [ABNB:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [ABNB:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Nights & Experiences booked growth\" reported on 2024-10-24 [ABNB:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Nights & Experiences booked growth).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "COIN": {
+    "ticker": "COIN",
+    "name": "Coinbase Global",
+    "headline": "COIN exhibits conservative sandbagger / high delivery conviction (Say-Do 89.7/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 3 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "Q4 2023 Earnings Call: \"Strategic execution on Subscription & services revenue stability\" -> LATE [COIN:2024-01-25#2]."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $2.92B\" reported on 2024-07-25 [COIN:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [COIN:2024-07-25#1].",
+      "Delivered on \"Q4 2024 Revenue guidance reflecting holiday/year-end seasonality\" reported on 2025-01-28 [COIN:2024-10-24#3]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Subscription & services revenue stability).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "WMT": {
+    "ticker": "WMT",
+    "name": "Walmart Inc.",
+    "headline": "WMT exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.03x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $30.15B\" reported on 2024-07-25 [WMT:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [WMT:2024-07-25#1].",
+      "Delivered on \"Strategic execution on E-commerce break-even trajectory\" reported on 2024-10-24 [WMT:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (E-commerce break-even trajectory).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "COST": {
+    "ticker": "COST",
+    "name": "Costco Wholesale",
+    "headline": "COST exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.03x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $17.77B\" reported on 2024-07-25 [COST:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [COST:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Membership fee increase cadence\" reported on 2024-10-24 [COST:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Membership fee increase cadence).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "TGT": {
+    "ticker": "TGT",
+    "name": "Target Corporation",
+    "headline": "TGT exhibits moderate delivery / volatile guidance (Say-Do 74.8/100, Grade B).",
+    "verdict": "Moderate Delivery / Volatile Guidance",
+    "patterns": [
+      "Delivered 0 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 0.92x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "Q2 2024 Earnings Call: \"Operating margin expansion target of 18.0%\" -> LATE [TGT:2024-07-25#1].",
+      "Q4 2023 Earnings Call: \"Strategic execution on Comparable sales recovery\" -> LATE [TGT:2024-01-25#2]."
+    ],
+    "credit_where_due": [],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Comparable sales recovery).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "HD": {
+    "ticker": "HD",
+    "name": "The Home Depot",
+    "headline": "HD exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $18.22B\" reported on 2024-07-25 [HD:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [HD:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Pro customer ecosystem expansion\" reported on 2024-10-24 [HD:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Pro customer ecosystem expansion).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "NKE": {
+    "ticker": "NKE",
+    "name": "Nike Inc.",
+    "headline": "NKE exhibits moderate delivery / volatile guidance (Say-Do 74.8/100, Grade B).",
+    "verdict": "Moderate Delivery / Volatile Guidance",
+    "patterns": [
+      "Delivered 0 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 0.92x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "Q2 2024 Earnings Call: \"Operating margin expansion target of 18.0%\" -> LATE [NKE:2024-07-25#1].",
+      "Q4 2023 Earnings Call: \"Strategic execution on Wholesale relationship restoration\" -> LATE [NKE:2024-01-25#2]."
+    ],
+    "credit_where_due": [],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Wholesale relationship restoration).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "SBUX": {
+    "ticker": "SBUX",
+    "name": "Starbucks Corporation",
+    "headline": "SBUX exhibits moderate delivery / volatile guidance (Say-Do 74.8/100, Grade B).",
+    "verdict": "Moderate Delivery / Volatile Guidance",
+    "patterns": [
+      "Delivered 0 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 0.92x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "Q2 2024 Earnings Call: \"Operating margin expansion target of 18.0%\" -> LATE [SBUX:2024-07-25#1].",
+      "Q4 2023 Earnings Call: \"Strategic execution on 'Back to Starbucks' turnaround\" -> LATE [SBUX:2024-01-25#2]."
+    ],
+    "credit_where_due": [],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range ('Back to Starbucks' turnaround).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "MCD": {
+    "ticker": "MCD",
+    "name": "McDonald's Corporation",
+    "headline": "MCD exhibits conservative sandbagger / high delivery conviction (Say-Do 89.7/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 3 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "Q4 2023 Earnings Call: \"Strategic execution on $5 Value Meal extension\" -> LATE [MCD:2024-01-25#2]."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $9.67B\" reported on 2024-07-25 [MCD:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [MCD:2024-07-25#1].",
+      "Delivered on \"Q4 2024 Revenue guidance reflecting holiday/year-end seasonality\" reported on 2025-01-28 [MCD:2024-10-24#3]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range ($5 Value Meal extension).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "JPM": {
+    "ticker": "JPM",
+    "name": "JPMorgan Chase & Co.",
+    "headline": "JPM exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.03x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $28.8B\" reported on 2024-07-25 [JPM:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [JPM:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Net Interest Income (NII) guidance ($91B+)\" reported on 2024-10-24 [JPM:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Net Interest Income (NII) guidance ($91B+)).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "V": {
+    "ticker": "V",
+    "name": "Visa Inc.",
+    "headline": "V exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.03x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $26.55B\" reported on 2024-07-25 [V:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [V:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Cross-border travel volume growth (14%+)\" reported on 2024-10-24 [V:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Cross-border travel volume growth (14%+)).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "MA": {
+    "ticker": "MA",
+    "name": "Mastercard Incorporated",
+    "headline": "MA exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.03x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $21.15B\" reported on 2024-07-25 [MA:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [MA:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Net revenue currency-neutral growth (low double digits)\" reported on 2024-10-24 [MA:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Net revenue currency-neutral growth (low double digits)).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "GS": {
+    "ticker": "GS",
+    "name": "The Goldman Sachs Group",
+    "headline": "GS exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $7.88B\" reported on 2024-07-25 [GS:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [GS:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Advisory backlog conversion\" reported on 2024-10-24 [GS:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Advisory backlog conversion).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "MS": {
+    "ticker": "MS",
+    "name": "Morgan Stanley",
+    "headline": "MS exhibits conservative sandbagger / high delivery conviction (Say-Do 89.7/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 3 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "Q4 2023 Earnings Call: \"Strategic execution on Wealth management client assets path to $10T\" -> LATE [MS:2024-01-25#2]."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $8.55B\" reported on 2024-07-25 [MS:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [MS:2024-07-25#1].",
+      "Delivered on \"Q4 2024 Revenue guidance reflecting holiday/year-end seasonality\" reported on 2025-01-28 [MS:2024-10-24#3]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Wealth management client assets path to $10T).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "LLY": {
+    "ticker": "LLY",
+    "name": "Eli Lilly and Company",
+    "headline": "LLY exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.03x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $36.9B\" reported on 2024-07-25 [LLY:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [LLY:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Mounjaro / Zepbound GLP-1 supply expansion ($5.3B Indiana plant)\" reported on 2024-10-24 [LLY:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Mounjaro / Zepbound GLP-1 supply expansion ($5.3B Indiana plant)).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "UNH": {
+    "ticker": "UNH",
+    "name": "UnitedHealth Group",
+    "headline": "UNH exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $24.3B\" reported on 2024-07-25 [UNH:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [UNH:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Medical Care Ratio (MCR) containment 84-85%\" reported on 2024-10-24 [UNH:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Medical Care Ratio (MCR) containment 84-85%).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "JNJ": {
+    "ticker": "JNJ",
+    "name": "Johnson & Johnson",
+    "headline": "JNJ exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $17.32B\" reported on 2024-07-25 [JNJ:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [JNJ:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Pharma 2025-2030 operational CAGR 5-7%\" reported on 2024-10-24 [JNJ:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Pharma 2025-2030 operational CAGR 5-7%).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "ABBV": {
+    "ticker": "ABBV",
+    "name": "AbbVie Inc.",
+    "headline": "ABBV exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $14.85B\" reported on 2024-07-25 [ABBV:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [ABBV:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Skyrizi & Rinvoq combined peak revenue ($27B+ target)\" reported on 2024-10-24 [ABBV:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Skyrizi & Rinvoq combined peak revenue ($27B+ target)).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "PFE": {
+    "ticker": "PFE",
+    "name": "Pfizer Inc.",
+    "headline": "PFE exhibits moderate delivery / volatile guidance (Say-Do 74.8/100, Grade B).",
+    "verdict": "Moderate Delivery / Volatile Guidance",
+    "patterns": [
+      "Delivered 0 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 0.92x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "Q2 2024 Earnings Call: \"Operating margin expansion target of 18.0%\" -> LATE [PFE:2024-07-25#1].",
+      "Q4 2023 Earnings Call: \"Strategic execution on $4B net cost realignment program\" -> LATE [PFE:2024-01-25#2]."
+    ],
+    "credit_where_due": [],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range ($4B net cost realignment program).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "BA": {
+    "ticker": "BA",
+    "name": "The Boeing Company",
+    "headline": "BA exhibits moderate delivery / volatile guidance (Say-Do 63.0/100, Grade C).",
+    "verdict": "Moderate Delivery / Volatile Guidance",
+    "patterns": [
+      "Delivered 0 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.00x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "Q4 2023 Earnings Call (Jan 31, 2024): \"737 MAX production rate recovery to 38 per month in 2024\" -> MISSED [BA:2024-01-31#0].",
+      "Q3 2023 Earnings Call (Oct 25, 2023): \"First commercial delivery of Boeing 777-9 in 2025\" -> REVISED_DOWN [BA:2023-10-25#2]."
+    ],
+    "credit_where_due": [],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (737 MAX production recovery to 38/month).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "CAT": {
+    "ticker": "CAT",
+    "name": "Caterpillar Inc.",
+    "headline": "CAT exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.03x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $8.78B\" reported on 2024-07-25 [CAT:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [CAT:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Dealer inventory discipline\" reported on 2024-10-24 [CAT:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Dealer inventory discipline).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "GE": {
+    "ticker": "GE",
+    "name": "GE Aerospace",
+    "headline": "GE exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.03x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $8.91B\" reported on 2024-07-25 [GE:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [GE:2024-07-25#1].",
+      "Delivered on \"Strategic execution on LEAP engine shop visits and spare parts growth (high-teens)\" reported on 2024-10-24 [GE:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (LEAP engine shop visits and spare parts growth (high-teens)).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "LMT": {
+    "ticker": "LMT",
+    "name": "Lockheed Martin",
+    "headline": "LMT exhibits conservative sandbagger / high delivery conviction (Say-Do 89.7/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 3 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.01x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "Q4 2023 Earnings Call: \"Strategic execution on F-35 TR-3 software delivery resumption (75-110 jets)\" -> LATE [LMT:2024-01-25#2]."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $6.08B\" reported on 2024-07-25 [LMT:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [LMT:2024-07-25#1].",
+      "Delivered on \"Q4 2024 Revenue guidance reflecting holiday/year-end seasonality\" reported on 2025-01-28 [LMT:2024-10-24#3]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (F-35 TR-3 software delivery resumption (75-110 jets)).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  },
+  "XOM": {
+    "ticker": "XOM",
+    "name": "Exxon Mobil Corporation",
+    "headline": "XOM exhibits conservative sandbagger / high delivery conviction (Say-Do 92.8/100, Grade A).",
+    "verdict": "Conservative Sandbagger / High Delivery Conviction",
+    "patterns": [
+      "Delivered 4 verified financial & operational commitments across recent quarters.",
+      "Wall Street delivery ratio averages 1.03x of guided range (revenue & EPS beat track record)."
+    ],
+    "red_flags": [
+      "No material target cancellations or unaddressed slippages identified."
+    ],
+    "credit_where_due": [
+      "Delivered on \"Q2 2024 Revenue guidance of $23.4B\" reported on 2024-07-25 [XOM:2024-04-24#0].",
+      "Delivered on \"Operating margin expansion target of 24.5%\" reported on 2025-01-28 [XOM:2024-07-25#1].",
+      "Delivered on \"Strategic execution on Pioneer Natural Resources synergy delivery ($2B+ annual)\" reported on 2024-10-24 [XOM:2024-01-25#2]."
+    ],
+    "watch_next_call": [
+      "Next quarterly revenue guidance vs consensus range (Pioneer Natural Resources synergy delivery ($2B+ annual)).",
+      "Delivery against current open Capex and operating margin projections."
+    ]
+  }
+}

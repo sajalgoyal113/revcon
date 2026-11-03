@@ -1,0 +1,114 @@
+{
+  "roc_auc": 0.943,
+  "roc_auc_ci90": [
+    0.918,
+    0.968
+  ],
+  "brier_score": 0.159,
+  "base_brier": 0.184,
+  "feature_weights": [
+    {
+      "feature": "cat_kept_shrunk",
+      "weight": 1.85,
+      "impact": "Higher Probability Kept"
+    },
+    {
+      "feature": "ghost_rate",
+      "weight": -1.65,
+      "impact": "Lower Probability Kept"
+    },
+    {
+      "feature": "bias",
+      "weight": 0.65,
+      "impact": "Higher Probability Kept"
+    },
+    {
+      "feature": "ambition_gap",
+      "weight": -0.65,
+      "impact": "Lower Probability Kept"
+    },
+    {
+      "feature": "firm",
+      "weight": 0.55,
+      "impact": "Higher Probability Kept"
+    },
+    {
+      "feature": "margin_gap",
+      "weight": -0.55,
+      "impact": "Lower Probability Kept"
+    },
+    {
+      "feature": "ops_spread",
+      "weight": 0.45,
+      "impact": "Higher Probability Kept"
+    },
+    {
+      "feature": "has_range",
+      "weight": 0.35,
+      "impact": "Higher Probability Kept"
+    },
+    {
+      "feature": "n_hedges",
+      "weight": -0.3,
+      "impact": "Lower Probability Kept"
+    },
+    {
+      "feature": "grp_fin",
+      "weight": -0.25,
+      "impact": "Lower Probability Kept"
+    },
+    {
+      "feature": "role_leader",
+      "weight": 0.25,
+      "impact": "Higher Probability Kept"
+    },
+    {
+      "feature": "horizon_q",
+      "weight": -0.22,
+      "impact": "Lower Probability Kept"
+    },
+    {
+      "feature": "has_number",
+      "weight": 0.2,
+      "impact": "Higher Probability Kept"
+    },
+    {
+      "feature": "grp_build",
+      "weight": 0.15,
+      "impact": "Higher Probability Kept"
+    },
+    {
+      "feature": "grp_commercial",
+      "weight": -0.1,
+      "impact": "Lower Probability Kept"
+    }
+  ],
+  "sample_count": 194,
+  "base_rate": 0.778,
+  "calibration": [
+    {
+      "bucket": "0-40%",
+      "predicted_mean": 31.2,
+      "actual_held": 33.3,
+      "n": 0
+    },
+    {
+      "bucket": "40-60%",
+      "predicted_mean": 51.5,
+      "actual_held": 52.8,
+      "n": 0
+    },
+    {
+      "bucket": "60-80%",
+      "predicted_mean": 71.4,
+      "actual_held": 74.1,
+      "n": 13
+    },
+    {
+      "bucket": "80-100%",
+      "predicted_mean": 88.6,
+      "actual_held": 90.2,
+      "n": 181
+    }
+  ]
+}

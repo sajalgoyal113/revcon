@@ -1,0 +1,1352 @@
+[
+  {
+    "ticker": "NVDA",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 4.8,
+    "excess_return_60d": 0.095,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "NVDA",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 6.9,
+    "excess_return_60d": 0.126,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "NVDA",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 5.6,
+    "excess_return_60d": 0.093,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "MSFT",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 0.3,
+    "excess_return_60d": 0.034,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "MSFT",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 2.0,
+    "excess_return_60d": 0.031,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "MSFT",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 1.7,
+    "excess_return_60d": 0.028,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "AAPL",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 1.4,
+    "excess_return_60d": 0.005,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "AAPL",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 1.6,
+    "excess_return_60d": 0.007,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "AAPL",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 0.1,
+    "excess_return_60d": 0.002,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "GOOGL",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 2.2,
+    "excess_return_60d": 0.003,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "GOOGL",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 0.8,
+    "excess_return_60d": 0.029,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "GOOGL",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 1.0,
+    "excess_return_60d": 0.031,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "AMZN",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 7.5,
+    "excess_return_60d": 0.122,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "AMZN",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 8.0,
+    "excess_return_60d": 0.087,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "AMZN",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 6.0,
+    "excess_return_60d": 0.107,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "META",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 7.5,
+    "excess_return_60d": 0.102,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "META",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 6.0,
+    "excess_return_60d": 0.127,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "META",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 5.3,
+    "excess_return_60d": 0.11,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "TSLA",
+    "date": "2024-04-25",
+    "day1_reaction_pct": -5.3,
+    "excess_return_60d": -0.07,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "TSLA",
+    "date": "2024-07-25",
+    "day1_reaction_pct": -6.3,
+    "excess_return_60d": -0.09,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "TSLA",
+    "date": "2024-10-24",
+    "day1_reaction_pct": -7.5,
+    "excess_return_60d": -0.112,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "NFLX",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 7.4,
+    "excess_return_60d": 0.121,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "NFLX",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 5.6,
+    "excess_return_60d": 0.093,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "NFLX",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 5.6,
+    "excess_return_60d": 0.103,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "DIS",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 0.5,
+    "excess_return_60d": 0.036,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "DIS",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 1.9,
+    "excess_return_60d": 0.01,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "DIS",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 2.4,
+    "excess_return_60d": 0.025,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "SPOT",
+    "date": "2024-04-25",
+    "day1_reaction_pct": -0.1,
+    "excess_return_60d": 0.03,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "SPOT",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 1.3,
+    "excess_return_60d": 0.004,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "SPOT",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 0.5,
+    "excess_return_60d": 0.026,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "AMD",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 0.6,
+    "excess_return_60d": 0.027,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "AMD",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 0.8,
+    "excess_return_60d": 0.009,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "AMD",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 2.4,
+    "excess_return_60d": 0.025,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "AVGO",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 4.9,
+    "excess_return_60d": 0.086,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "AVGO",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 5.2,
+    "excess_return_60d": 0.089,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "AVGO",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 6.4,
+    "excess_return_60d": 0.121,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "QCOM",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 1.6,
+    "excess_return_60d": 0.007,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "QCOM",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 2.5,
+    "excess_return_60d": 0.016,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "QCOM",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 1.4,
+    "excess_return_60d": 0.035,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "INTC",
+    "date": "2024-04-25",
+    "day1_reaction_pct": -7.3,
+    "excess_return_60d": -0.09,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "INTC",
+    "date": "2024-07-25",
+    "day1_reaction_pct": -4.8,
+    "excess_return_60d": -0.075,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "INTC",
+    "date": "2024-10-24",
+    "day1_reaction_pct": -3.9,
+    "excess_return_60d": -0.106,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "MU",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 0.2,
+    "excess_return_60d": 0.023,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "MU",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 2.5,
+    "excess_return_60d": 0.036,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "MU",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 2.1,
+    "excess_return_60d": 0.012,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "AMAT",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 1.9,
+    "excess_return_60d": 0.03,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "AMAT",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 0.0,
+    "excess_return_60d": 0.001,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "AMAT",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 1.7,
+    "excess_return_60d": 0.008,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "TXN",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 1.8,
+    "excess_return_60d": 0.019,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "TXN",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 1.4,
+    "excess_return_60d": 0.005,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "TXN",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 1.5,
+    "excess_return_60d": 0.006,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "PLTR",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 7.3,
+    "excess_return_60d": 0.12,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "PLTR",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 8.1,
+    "excess_return_60d": 0.118,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "PLTR",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 4.6,
+    "excess_return_60d": 0.083,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "CRM",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 1.4,
+    "excess_return_60d": 0.015,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "CRM",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 0.4,
+    "excess_return_60d": 0.015,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "CRM",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 1.9,
+    "excess_return_60d": 0.03,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "ADBE",
+    "date": "2024-04-25",
+    "day1_reaction_pct": -0.1,
+    "excess_return_60d": 0.03,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "ADBE",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 1.9,
+    "excess_return_60d": 0.03,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "ADBE",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 2.1,
+    "excess_return_60d": 0.022,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "ORCL",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 1.8,
+    "excess_return_60d": 0.029,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "ORCL",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 1.9,
+    "excess_return_60d": 0.02,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "ORCL",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 2.0,
+    "excess_return_60d": 0.031,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "NOW",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 0.9,
+    "excess_return_60d": 0.03,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "NOW",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 2.3,
+    "excess_return_60d": 0.004,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "NOW",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 2.2,
+    "excess_return_60d": 0.033,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "PANW",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 1.8,
+    "excess_return_60d": -0.001,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "PANW",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 0.6,
+    "excess_return_60d": 0.017,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "PANW",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 0.3,
+    "excess_return_60d": 0.024,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "CRWD",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 1.6,
+    "excess_return_60d": 0.037,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "CRWD",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 0.5,
+    "excess_return_60d": 0.036,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "CRWD",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 1.1,
+    "excess_return_60d": 0.022,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "SNOW",
+    "date": "2024-04-25",
+    "day1_reaction_pct": -6.9,
+    "excess_return_60d": -0.066,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "SNOW",
+    "date": "2024-07-25",
+    "day1_reaction_pct": -5.4,
+    "excess_return_60d": -0.111,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "SNOW",
+    "date": "2024-10-24",
+    "day1_reaction_pct": -4.5,
+    "excess_return_60d": -0.082,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "UBER",
+    "date": "2024-04-25",
+    "day1_reaction_pct": -0.1,
+    "excess_return_60d": 0.01,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "UBER",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 0.2,
+    "excess_return_60d": 0.003,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "UBER",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 1.9,
+    "excess_return_60d": 0.03,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "ABNB",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 0.7,
+    "excess_return_60d": 0.018,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "ABNB",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 1.5,
+    "excess_return_60d": 0.006,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "ABNB",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 1.9,
+    "excess_return_60d": 0.02,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "COIN",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 1.7,
+    "excess_return_60d": 0.018,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "COIN",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 0.7,
+    "excess_return_60d": -0.002,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "COIN",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 0.5,
+    "excess_return_60d": 0.036,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "WMT",
+    "date": "2024-04-25",
+    "day1_reaction_pct": -0.1,
+    "excess_return_60d": 0.03,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "WMT",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 0.4,
+    "excess_return_60d": 0.015,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "WMT",
+    "date": "2024-10-24",
+    "day1_reaction_pct": -0.3,
+    "excess_return_60d": -0.002,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "COST",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 7.7,
+    "excess_return_60d": 0.104,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "COST",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 5.9,
+    "excess_return_60d": 0.086,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "COST",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 6.0,
+    "excess_return_60d": 0.117,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "TGT",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 2.1,
+    "excess_return_60d": 0.022,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "TGT",
+    "date": "2024-07-25",
+    "day1_reaction_pct": -0.1,
+    "excess_return_60d": 0.02,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "TGT",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 0.4,
+    "excess_return_60d": 0.005,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "HD",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 1.6,
+    "excess_return_60d": 0.017,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "HD",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 1.5,
+    "excess_return_60d": 0.036,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "HD",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 2.2,
+    "excess_return_60d": 0.013,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "NKE",
+    "date": "2024-04-25",
+    "day1_reaction_pct": -6.6,
+    "excess_return_60d": -0.103,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "NKE",
+    "date": "2024-07-25",
+    "day1_reaction_pct": -5.8,
+    "excess_return_60d": -0.065,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "NKE",
+    "date": "2024-10-24",
+    "day1_reaction_pct": -7.0,
+    "excess_return_60d": -0.087,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "SBUX",
+    "date": "2024-04-25",
+    "day1_reaction_pct": -4.9,
+    "excess_return_60d": -0.086,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "SBUX",
+    "date": "2024-07-25",
+    "day1_reaction_pct": -4.9,
+    "excess_return_60d": -0.076,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "SBUX",
+    "date": "2024-10-24",
+    "day1_reaction_pct": -6.4,
+    "excess_return_60d": -0.091,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "MCD",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 1.2,
+    "excess_return_60d": 0.033,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "MCD",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 1.9,
+    "excess_return_60d": 0.03,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "MCD",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 0.2,
+    "excess_return_60d": 0.023,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "JPM",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 1.7,
+    "excess_return_60d": -0.002,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "JPM",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 1.9,
+    "excess_return_60d": 0.0,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "JPM",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 0.9,
+    "excess_return_60d": 0.02,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "V",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 0.8,
+    "excess_return_60d": -0.001,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "V",
+    "date": "2024-07-25",
+    "day1_reaction_pct": -0.2,
+    "excess_return_60d": 0.019,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "V",
+    "date": "2024-10-24",
+    "day1_reaction_pct": -0.3,
+    "excess_return_60d": 0.028,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "MA",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 1.2,
+    "excess_return_60d": 0.023,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "MA",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 0.2,
+    "excess_return_60d": 0.013,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "MA",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 1.2,
+    "excess_return_60d": 0.003,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "GS",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 2.6,
+    "excess_return_60d": 0.007,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "GS",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 1.3,
+    "excess_return_60d": 0.024,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "GS",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 0.8,
+    "excess_return_60d": 0.009,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "MS",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 1.1,
+    "excess_return_60d": 0.022,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "MS",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 1.2,
+    "excess_return_60d": 0.003,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "MS",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 1.2,
+    "excess_return_60d": 0.023,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "LLY",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 6.8,
+    "excess_return_60d": 0.105,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "LLY",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 6.9,
+    "excess_return_60d": 0.096,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "LLY",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 5.5,
+    "excess_return_60d": 0.082,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "UNH",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 2.2,
+    "excess_return_60d": 0.023,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "UNH",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 1.2,
+    "excess_return_60d": 0.013,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "UNH",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 1.7,
+    "excess_return_60d": -0.002,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "JNJ",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 1.5,
+    "excess_return_60d": 0.016,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "JNJ",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 2.3,
+    "excess_return_60d": 0.034,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "JNJ",
+    "date": "2024-10-24",
+    "day1_reaction_pct": -0.1,
+    "excess_return_60d": 0.03,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "ABBV",
+    "date": "2024-04-25",
+    "day1_reaction_pct": -0.2,
+    "excess_return_60d": 0.029,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "ABBV",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 2.6,
+    "excess_return_60d": 0.007,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "ABBV",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 0.1,
+    "excess_return_60d": 0.002,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "PFE",
+    "date": "2024-04-25",
+    "day1_reaction_pct": -6.1,
+    "excess_return_60d": -0.088,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "PFE",
+    "date": "2024-07-25",
+    "day1_reaction_pct": -7.5,
+    "excess_return_60d": -0.082,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "PFE",
+    "date": "2024-10-24",
+    "day1_reaction_pct": -7.4,
+    "excess_return_60d": -0.081,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "BA",
+    "date": "2024-04-25",
+    "day1_reaction_pct": -4.3,
+    "excess_return_60d": -0.07,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "BA",
+    "date": "2024-07-25",
+    "day1_reaction_pct": -6.0,
+    "excess_return_60d": -0.107,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "BA",
+    "date": "2024-10-24",
+    "day1_reaction_pct": -4.0,
+    "excess_return_60d": -0.087,
+    "beat_eps": false,
+    "beat_revenue": false,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "CAT",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 1.6,
+    "excess_return_60d": 0.027,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "CAT",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 0.2,
+    "excess_return_60d": 0.003,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "CAT",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 0.6,
+    "excess_return_60d": 0.017,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "GE",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 8.3,
+    "excess_return_60d": 0.11,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "GE",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 4.8,
+    "excess_return_60d": 0.125,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "GE",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 4.8,
+    "excess_return_60d": 0.105,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "LMT",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 1.3,
+    "excess_return_60d": 0.024,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "LMT",
+    "date": "2024-07-25",
+    "day1_reaction_pct": -0.3,
+    "excess_return_60d": -0.002,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "LMT",
+    "date": "2024-10-24",
+    "day1_reaction_pct": -0.1,
+    "excess_return_60d": 0.0,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  },
+  {
+    "ticker": "XOM",
+    "date": "2024-04-25",
+    "day1_reaction_pct": 0.8,
+    "excess_return_60d": 0.029,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q1"
+  },
+  {
+    "ticker": "XOM",
+    "date": "2024-07-25",
+    "day1_reaction_pct": 2.1,
+    "excess_return_60d": 0.022,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q2"
+  },
+  {
+    "ticker": "XOM",
+    "date": "2024-10-24",
+    "day1_reaction_pct": 0.4,
+    "excess_return_60d": 0.015,
+    "beat_eps": true,
+    "beat_revenue": true,
+    "quarter": "2024Q3"
+  }
+]
