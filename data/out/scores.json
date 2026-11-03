@@ -1,460 +1,149 @@
 {
- "asof": "2026-11-02",
- "base_rate": 79.5,
+ "asof": "2026-11-01",
+ "base_rate": 52.3,
  "companies": [
   {
-   "score": 96.4,
+   "score": 70.2,
    "ci80": [
-    92.6,
-    99.3
+    55.0,
+    84.3
    ],
-   "n": 46,
-   "effective_n": 36.8,
-   "ticker": "SJS",
-   "grade": "A",
+   "n": 13,
+   "effective_n": 9.4,
+   "ticker": "TATATECH",
+   "grade": "B",
    "financial": {
-    "score": 87.5,
+    "score": 55.5,
     "ci80": [
-     73.6,
-     97.9
+     35.9,
+     74.6
     ],
     "n": 6,
-    "effective_n": 3.9
+    "effective_n": 4.3
    },
    "operational": {
-    "score": 96.1,
+    "score": 74.1,
     "ci80": [
-     91.9,
-     99.2
+     56.7,
+     89.3
     ],
-    "n": 40,
-    "effective_n": 33.0
+    "n": 7,
+    "effective_n": 5.1
    },
    "outcomes": {
-    "DELIVERED": 45,
-    "LATE": 1
+    "DELIVERED": 10,
+    "MISSED": 2,
+    "GHOSTED": 1
    },
-   "promises_made": 132,
-   "pending": 86,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.242,
-   "revenue_delivery_ratio": 1.226,
-   "revenue_ratio_n": 1
+   "promises_made": 41,
+   "pending": 28,
+   "ghost_rate": 0.077,
+   "goalpost_moves": 2,
+   "goalpost_rate": 0.062,
+   "hedge_ratio": 0.268,
+   "revenue_delivery_ratio": 0.939,
+   "revenue_ratio_n": 2
   },
   {
-   "score": 95.2,
+   "score": 69.8,
    "ci80": [
-    91.4,
-    98.4
+    52.7,
+    85.3
    ],
-   "n": 57,
-   "effective_n": 49.9,
-   "ticker": "DEEPAKNTR",
-   "grade": "A",
-   "financial": {
-    "score": 84.3,
-    "ci80": [
-     67.1,
-     97.3
-    ],
-    "n": 2,
-    "effective_n": 1.9
-   },
-   "operational": {
-    "score": 95.1,
-    "ci80": [
-     91.1,
-     98.3
-    ],
-    "n": 55,
-    "effective_n": 48.0
-   },
-   "outcomes": {
-    "DELIVERED": 54,
-    "LATE": 3
-   },
-   "promises_made": 116,
-   "pending": 59,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.147,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 93.3,
-   "ci80": [
-    85.5,
-    98.9
-   ],
-   "n": 15,
-   "effective_n": 12.3,
+   "n": 7,
+   "effective_n": 6.3,
    "ticker": "EMMVEE",
-   "grade": "A",
+   "grade": "B",
    "financial": null,
    "operational": {
-    "score": 93.3,
+    "score": 69.8,
     "ci80": [
-     85.5,
-     98.9
+     52.7,
+     85.3
     ],
-    "n": 15,
-    "effective_n": 12.3
+    "n": 7,
+    "effective_n": 6.3
    },
    "outcomes": {
-    "DELIVERED": 15
+    "DELIVERED": 6,
+    "MISSED": 1
    },
    "promises_made": 52,
-   "pending": 37,
+   "pending": 45,
    "ghost_rate": 0.0,
-   "goalpost_moves": 1,
-   "goalpost_rate": 0.022,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
    "hedge_ratio": 0.135,
    "revenue_delivery_ratio": null,
    "revenue_ratio_n": 0
   },
   {
-   "score": 91.5,
+   "score": 69.7,
    "ci80": [
-    81.8,
-    98.6
+    59.6,
+    79.4
    ],
-   "n": 11,
-   "effective_n": 8.5,
-   "ticker": "POLYCAB",
-   "grade": "A",
-   "financial": {
-    "score": 82.4,
-    "ci80": [
-     63.3,
-     96.9
-    ],
-    "n": 1,
-    "effective_n": 1.0
-   },
-   "operational": {
-    "score": 90.9,
-    "ci80": [
-     80.5,
-     98.5
-    ],
-    "n": 10,
-    "effective_n": 7.5
-   },
-   "outcomes": {
-    "DELIVERED": 11
-   },
-   "promises_made": 84,
-   "pending": 73,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.107,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 91.3,
-   "ci80": [
-    85.5,
-    96.3
-   ],
-   "n": 42,
-   "effective_n": 35.3,
-   "ticker": "ADVAIT",
-   "grade": "A",
-   "financial": {
-    "score": 78.4,
-    "ci80": [
-     59.1,
-     94.0
-    ],
-    "n": 2,
-    "effective_n": 2.0
-   },
-   "operational": {
-    "score": 92.2,
-    "ci80": [
-     86.4,
-     97.0
-    ],
-    "n": 40,
-    "effective_n": 33.3
-   },
-   "outcomes": {
-    "DELIVERED": 37,
-    "LATE": 5
-   },
-   "promises_made": 87,
-   "pending": 45,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.207,
-   "revenue_delivery_ratio": 1.283,
-   "revenue_ratio_n": 1
-  },
-  {
-   "score": 91.3,
-   "ci80": [
-    85.6,
-    96.2
-   ],
-   "n": 47,
-   "effective_n": 37.1,
-   "ticker": "COFORGE",
-   "grade": "A",
-   "financial": {
-    "score": 89.1,
-    "ci80": [
-     76.9,
-     98.2
-    ],
-    "n": 7,
-    "effective_n": 5.3
-   },
-   "operational": {
-    "score": 90.1,
-    "ci80": [
-     83.7,
-     95.7
-    ],
-    "n": 40,
-    "effective_n": 31.7
-   },
-   "outcomes": {
-    "DELIVERED": 43,
-    "LATE": 3,
-    "GHOSTED": 1
-   },
-   "promises_made": 123,
-   "pending": 76,
-   "ghost_rate": 0.021,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.228,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 91.3,
-   "ci80": [
-    86.8,
-    95.2
-   ],
-   "n": 80,
-   "effective_n": 63.5,
-   "ticker": "YATHARTH",
-   "grade": "A",
-   "financial": {
-    "score": 85.4,
-    "ci80": [
-     73.5,
-     95.3
-    ],
-    "n": 13,
-    "effective_n": 9.3
-   },
-   "operational": {
-    "score": 91.6,
-    "ci80": [
-     86.9,
-     95.7
-    ],
-    "n": 67,
-    "effective_n": 54.2
-   },
-   "outcomes": {
-    "DELIVERED": 72,
-    "GHOSTED": 1,
-    "MISSED": 1,
-    "LATE": 6
-   },
-   "promises_made": 206,
-   "pending": 126,
-   "ghost_rate": 0.013,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.257,
-   "revenue_delivery_ratio": 1.048,
-   "revenue_ratio_n": 4
-  },
-  {
-   "score": 90.9,
-   "ci80": [
-    85.6,
-    95.7
-   ],
-   "n": 51,
-   "effective_n": 43.2,
+   "n": 35,
+   "effective_n": 28.3,
    "ticker": "SAMHI",
-   "grade": "A",
+   "grade": "B",
    "financial": {
-    "score": 78.7,
+    "score": 45.7,
     "ci80": [
-     62.0,
-     92.8
+     25.5,
+     65.9
     ],
-    "n": 5,
-    "effective_n": 4.5
+    "n": 4,
+    "effective_n": 3.6
    },
    "operational": {
-    "score": 92.3,
+    "score": 73.9,
     "ci80": [
-     87.0,
-     96.8
+     63.5,
+     83.6
     ],
-    "n": 46,
-    "effective_n": 38.8
+    "n": 31,
+    "effective_n": 24.7
    },
    "outcomes": {
-    "DELIVERED": 46,
-    "LATE": 3,
-    "GHOSTED": 1,
-    "MISSED": 1
+    "DELIVERED": 22,
+    "LATE": 6,
+    "MISSED": 4,
+    "REVISED_DOWN": 3
    },
    "promises_made": 158,
-   "pending": 107,
-   "ghost_rate": 0.02,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
+   "pending": 123,
+   "ghost_rate": 0.0,
+   "goalpost_moves": 17,
+   "goalpost_rate": 0.121,
    "hedge_ratio": 0.139,
    "revenue_delivery_ratio": 0.575,
    "revenue_ratio_n": 1
   },
   {
-   "score": 90.5,
+   "score": 67.1,
    "ci80": [
-    79.7,
-    98.4
-   ],
-   "n": 10,
-   "effective_n": 7.0,
-   "ticker": "CLEANMAX",
-   "grade": "A",
-   "financial": null,
-   "operational": {
-    "score": 90.5,
-    "ci80": [
-     79.7,
-     98.4
-    ],
-    "n": 10,
-    "effective_n": 7.0
-   },
-   "outcomes": {
-    "DELIVERED": 10
-   },
-   "promises_made": 25,
-   "pending": 15,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.12,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 90.3,
-   "ci80": [
-    84.8,
-    95.3
-   ],
-   "n": 53,
-   "effective_n": 42.7,
-   "ticker": "RAINBOW",
-   "grade": "A",
-   "financial": {
-    "score": 83.2,
-    "ci80": [
-     67.8,
-     95.5
-    ],
-    "n": 5,
-    "effective_n": 4.3
-   },
-   "operational": {
-    "score": 90.5,
-    "ci80": [
-     84.7,
-     95.6
-    ],
-    "n": 48,
-    "effective_n": 38.4
-   },
-   "outcomes": {
-    "LATE": 8,
-    "DELIVERED": 44,
-    "PARTIAL": 1
-   },
-   "promises_made": 144,
-   "pending": 91,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.222,
-   "revenue_delivery_ratio": 0.96,
-   "revenue_ratio_n": 1
-  },
-  {
-   "score": 88.0,
-   "ci80": [
-    74.6,
-    98.0
-   ],
-   "n": 5,
-   "effective_n": 4.3,
-   "ticker": "NYKAA",
-   "grade": "A",
-   "financial": null,
-   "operational": {
-    "score": 88.0,
-    "ci80": [
-     74.6,
-     98.0
-    ],
-    "n": 5,
-    "effective_n": 4.3
-   },
-   "outcomes": {
-    "DELIVERED": 5
-   },
-   "promises_made": 22,
-   "pending": 17,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 85.9,
-   "ci80": [
-    70.2,
-    97.6
+    45.9,
+    85.6
    ],
    "n": 3,
    "effective_n": 2.7,
    "ticker": "KEC",
-   "grade": "A",
+   "grade": "C",
    "financial": {
-    "score": 82.0,
+    "score": 58.2,
     "ci80": [
-     62.5,
-     96.8
+     34.1,
+     80.7
     ],
     "n": 1,
     "effective_n": 0.8
    },
    "operational": {
-    "score": 84.3,
+    "score": 63.5,
     "ci80": [
-     67.1,
-     97.3
+     41.0,
+     83.7
     ],
     "n": 2,
     "effective_n": 1.9
@@ -472,29 +161,29 @@
    "revenue_ratio_n": 1
   },
   {
-   "score": 85.8,
+   "score": 67.0,
    "ci80": [
-    70.2,
-    97.6
+    45.8,
+    85.6
    ],
    "n": 4,
    "effective_n": 2.7,
    "ticker": "MAZDOCK",
-   "grade": "A",
+   "grade": "C",
    "financial": {
-    "score": 84.0,
+    "score": 62.8,
     "ci80": [
-     66.4,
-     97.2
+     40.0,
+     83.4
     ],
     "n": 2,
     "effective_n": 1.7
    },
    "operational": {
-    "score": 82.4,
+    "score": 59.0,
     "ci80": [
-     63.2,
-     96.9
+     35.0,
+     81.1
     ],
     "n": 2,
     "effective_n": 1.0
@@ -512,396 +201,238 @@
    "revenue_ratio_n": 0
   },
   {
-   "score": 85.6,
+   "score": 64.7,
    "ci80": [
-    74.9,
-    94.5
+    54.7,
+    74.5
    ],
-   "n": 16,
-   "effective_n": 13.3,
-   "ticker": "MAPMYINDIA",
-   "grade": "A",
+   "n": 39,
+   "effective_n": 31.5,
+   "ticker": "COFORGE",
+   "grade": "C",
    "financial": {
-    "score": 78.9,
+    "score": 65.9,
     "ci80": [
-     61.4,
-     93.3
+     47.6,
+     82.9
+    ],
+    "n": 7,
+    "effective_n": 5.3
+   },
+   "operational": {
+    "score": 62.0,
+    "ci80": [
+     50.9,
+     72.7
+    ],
+    "n": 32,
+    "effective_n": 26.2
+   },
+   "outcomes": {
+    "DELIVERED": 22,
+    "LATE": 8,
+    "GHOSTED": 8,
+    "REVISED_DOWN": 1
+   },
+   "promises_made": 123,
+   "pending": 84,
+   "ghost_rate": 0.205,
+   "goalpost_moves": 3,
+   "goalpost_rate": 0.028,
+   "hedge_ratio": 0.228,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 64.3,
+   "ci80": [
+    44.0,
+    83.0
+   ],
+   "n": 4,
+   "effective_n": 3.4,
+   "ticker": "NYKAA",
+   "grade": "C",
+   "financial": null,
+   "operational": {
+    "score": 64.3,
+    "ci80": [
+     44.0,
+     83.0
+    ],
+    "n": 4,
+    "effective_n": 3.4
+   },
+   "outcomes": {
+    "DELIVERED": 3,
+    "LATE": 1
+   },
+   "promises_made": 22,
+   "pending": 18,
+   "ghost_rate": 0.0,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 63.8,
+   "ci80": [
+    50.9,
+    76.0
+   ],
+   "n": 22,
+   "effective_n": 17.6,
+   "ticker": "NETWEB",
+   "grade": "C",
+   "financial": {
+    "score": 66.4,
+    "ci80": [
+     48.1,
+     83.3
+    ],
+    "n": 6,
+    "effective_n": 5.3
+   },
+   "operational": {
+    "score": 58.4,
+    "ci80": [
+     43.7,
+     72.8
+    ],
+    "n": 16,
+    "effective_n": 12.3
+   },
+   "outcomes": {
+    "DELIVERED": 13,
+    "MISSED": 1,
+    "LATE": 1,
+    "GHOSTED": 3,
+    "PARTIAL": 2,
+    "REVISED_DOWN": 2
+   },
+   "promises_made": 90,
+   "pending": 68,
+   "ghost_rate": 0.136,
+   "goalpost_moves": 15,
+   "goalpost_rate": 0.227,
+   "hedge_ratio": 0.144,
+   "revenue_delivery_ratio": 1.408,
+   "revenue_ratio_n": 1
+  },
+  {
+   "score": 63.5,
+   "ci80": [
+    49.4,
+    76.9
+   ],
+   "n": 17,
+   "effective_n": 13.6,
+   "ticker": "MAPMYINDIA",
+   "grade": "C",
+   "financial": {
+    "score": 61.9,
+    "ci80": [
+     41.7,
+     80.7
     ],
     "n": 5,
     "effective_n": 3.6
    },
    "operational": {
-    "score": 87.3,
+    "score": 60.2,
     "ci80": [
-     76.1,
-     96.3
+     44.7,
+     75.5
     ],
-    "n": 11,
-    "effective_n": 9.7
+    "n": 12,
+    "effective_n": 10.0
    },
    "outcomes": {
-    "DELIVERED": 13,
+    "LATE": 1,
+    "REVISED_DOWN": 2,
+    "DELIVERED": 10,
     "PARTIAL": 2,
-    "REVISED_DOWN": 1
+    "GHOSTED": 2
    },
    "promises_made": 47,
-   "pending": 31,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 3,
-   "goalpost_rate": 0.075,
+   "pending": 30,
+   "ghost_rate": 0.118,
+   "goalpost_moves": 8,
+   "goalpost_rate": 0.2,
    "hedge_ratio": 0.255,
    "revenue_delivery_ratio": 0.977,
    "revenue_ratio_n": 1
   },
   {
-   "score": 85.4,
+   "score": 63.4,
    "ci80": [
-    69.3,
-    97.5
+    52.1,
+    74.4
    ],
-   "n": 3,
-   "effective_n": 2.4,
-   "ticker": "HCLTECH",
-   "grade": "A",
+   "n": 30,
+   "effective_n": 24.3,
+   "ticker": "RAINBOW",
+   "grade": "C",
    "financial": {
-    "score": 85.4,
+    "score": 64.4,
     "ci80": [
-     69.3,
-     97.5
+     44.2,
+     83.0
     ],
-    "n": 3,
-    "effective_n": 2.4
+    "n": 4,
+    "effective_n": 3.5
    },
-   "operational": null,
+   "operational": {
+    "score": 60.6,
+    "ci80": [
+     48.4,
+     72.3
+    ],
+    "n": 26,
+    "effective_n": 20.8
+   },
    "outcomes": {
-    "DELIVERED": 3
+    "DELIVERED": 14,
+    "LATE": 8,
+    "REVISED_DOWN": 6,
+    "MISSED": 1,
+    "PARTIAL": 1
    },
-   "promises_made": 4,
-   "pending": 1,
+   "promises_made": 144,
+   "pending": 114,
    "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": 1.09,
+   "goalpost_moves": 34,
+   "goalpost_rate": 0.258,
+   "hedge_ratio": 0.222,
+   "revenue_delivery_ratio": 0.96,
    "revenue_ratio_n": 1
   },
   {
-   "score": 85.4,
+   "score": 63.3,
    "ci80": [
-    69.2,
-    97.5
-   ],
-   "n": 8,
-   "effective_n": 2.4,
-   "ticker": "MAXHEALTH",
-   "grade": "A",
-   "financial": {
-    "score": 85.4,
-    "ci80": [
-     69.2,
-     97.5
-    ],
-    "n": 8,
-    "effective_n": 2.4
-   },
-   "operational": null,
-   "outcomes": {
-    "DELIVERED": 8
-   },
-   "promises_made": 11,
-   "pending": 3,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 85.2,
-   "ci80": [
-    68.9,
-    97.5
-   ],
-   "n": 4,
-   "effective_n": 2.3,
-   "ticker": "JBCHEPHARM",
-   "grade": "A",
-   "financial": {
-    "score": 85.2,
-    "ci80": [
-     68.9,
-     97.5
-    ],
-    "n": 4,
-    "effective_n": 2.3
-   },
-   "operational": null,
-   "outcomes": {
-    "DELIVERED": 4
-   },
-   "promises_made": 5,
-   "pending": 1,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 85.2,
-   "ci80": [
-    68.9,
-    97.5
-   ],
-   "n": 4,
-   "effective_n": 2.3,
-   "ticker": "SUZLON",
-   "grade": "A",
-   "financial": {
-    "score": 83.5,
-    "ci80": [
-     65.4,
-     97.1
-    ],
-    "n": 3,
-    "effective_n": 1.5
-   },
-   "operational": {
-    "score": 82.0,
-    "ci80": [
-     62.5,
-     96.8
-    ],
-    "n": 1,
-    "effective_n": 0.8
-   },
-   "outcomes": {
-    "DELIVERED": 4
-   },
-   "promises_made": 5,
-   "pending": 1,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 85.1,
-   "ci80": [
-    73.8,
-    94.5
-   ],
-   "n": 16,
-   "effective_n": 11.8,
-   "ticker": "PERSISTENT",
-   "grade": "A",
-   "financial": {
-    "score": 84.1,
-    "ci80": [
-     66.6,
-     97.2
-    ],
-    "n": 4,
-    "effective_n": 1.7
-   },
-   "operational": {
-    "score": 83.5,
-    "ci80": [
-     71.1,
-     93.8
-    ],
-    "n": 12,
-    "effective_n": 10.1
-   },
-   "outcomes": {
-    "DELIVERED": 13,
-    "LATE": 3
-   },
-   "promises_made": 56,
-   "pending": 40,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.375,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 85.0,
-   "ci80": [
-    68.4,
-    97.4
-   ],
-   "n": 3,
-   "effective_n": 2.2,
-   "ticker": "CERA",
-   "grade": "A",
-   "financial": {
-    "score": 85.0,
-    "ci80": [
-     68.4,
-     97.4
-    ],
-    "n": 3,
-    "effective_n": 2.2
-   },
-   "operational": null,
-   "outcomes": {
-    "DELIVERED": 3
-   },
-   "promises_made": 6,
-   "pending": 3,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 84.8,
-   "ci80": [
-    69.8,
-    96.5
-   ],
-   "n": 5,
-   "effective_n": 4.1,
-   "ticker": "IXIGO",
-   "grade": "A",
-   "financial": null,
-   "operational": {
-    "score": 84.8,
-    "ci80": [
-     69.8,
-     96.5
-    ],
-    "n": 5,
-    "effective_n": 4.1
-   },
-   "outcomes": {
-    "DELIVERED": 4,
-    "LATE": 1
-   },
-   "promises_made": 29,
-   "pending": 24,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.586,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 84.5,
-   "ci80": [
-    74.8,
-    92.9
-   ],
-   "n": 21,
-   "effective_n": 18.5,
-   "ticker": "SONACOMS",
-   "grade": "A",
-   "financial": {
-    "score": 75.8,
-    "ci80": [
-     54.2,
-     93.5
-    ],
-    "n": 1,
-    "effective_n": 0.8
-   },
-   "operational": {
-    "score": 85.7,
-    "ci80": [
-     76.1,
-     93.9
-    ],
-    "n": 20,
-    "effective_n": 17.6
-   },
-   "outcomes": {
-    "DELIVERED": 15,
-    "LATE": 6
-   },
-   "promises_made": 51,
-   "pending": 30,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.333,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 84.4,
-   "ci80": [
-    74.2,
-    93.2
-   ],
-   "n": 21,
-   "effective_n": 16.6,
-   "ticker": "POLICYBZR",
-   "grade": "A",
-   "financial": {
-    "score": 82.0,
-    "ci80": [
-     62.5,
-     96.8
-    ],
-    "n": 1,
-    "effective_n": 0.8
-   },
-   "operational": {
-    "score": 83.8,
-    "ci80": [
-     73.3,
-     92.9
-    ],
-    "n": 20,
-    "effective_n": 15.7
-   },
-   "outcomes": {
-    "DELIVERED": 17,
-    "LATE": 3,
-    "GHOSTED": 1
-   },
-   "promises_made": 49,
-   "pending": 28,
-   "ghost_rate": 0.048,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.408,
-   "revenue_delivery_ratio": 1.011,
-   "revenue_ratio_n": 1
-  },
-  {
-   "score": 84.2,
-   "ci80": [
-    66.9,
-    97.2
+    40.7,
+    83.6
    ],
    "n": 3,
    "effective_n": 1.8,
    "ticker": "HFCL",
-   "grade": "A",
+   "grade": "C",
    "financial": {
-    "score": 82.9,
+    "score": 60.3,
     "ci80": [
-     64.2,
-     97.0
+     36.6,
+     81.9
     ],
     "n": 2,
     "effective_n": 1.2
    },
    "operational": {
-    "score": 81.4,
+    "score": 56.6,
     "ci80": [
-     61.3,
-     96.6
+     32.1,
+     79.9
     ],
     "n": 1,
     "effective_n": 0.6
@@ -919,194 +450,110 @@
    "revenue_ratio_n": 2
   },
   {
-   "score": 84.2,
+   "score": 63.3,
    "ci80": [
-    77.8,
-    90.1
+    54.5,
+    71.9
    ],
-   "n": 63,
-   "effective_n": 49.7,
-   "ticker": "UTKARSHBNK",
-   "grade": "A",
-   "financial": null,
-   "operational": {
-    "score": 84.2,
-    "ci80": [
-     77.8,
-     90.1
-    ],
-    "n": 63,
-    "effective_n": 49.7
-   },
-   "outcomes": {
-    "LATE": 20,
-    "DELIVERED": 43
-   },
-   "promises_made": 113,
-   "pending": 50,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.283,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 84.0,
-   "ci80": [
-    66.4,
-    97.2
-   ],
-   "n": 4,
-   "effective_n": 1.7,
-   "ticker": "APARINDS",
-   "grade": "A",
+   "n": 54,
+   "effective_n": 43.2,
+   "ticker": "YATHARTH",
+   "grade": "C",
    "financial": {
-    "score": 84.0,
+    "score": 72.2,
     "ci80": [
-     66.4,
-     97.2
+     56.5,
+     86.6
     ],
-    "n": 4,
-    "effective_n": 1.7
+    "n": 11,
+    "effective_n": 7.9
    },
-   "operational": null,
+   "operational": {
+    "score": 58.7,
+    "ci80": [
+     48.8,
+     68.3
+    ],
+    "n": 43,
+    "effective_n": 35.3
+   },
    "outcomes": {
-    "DELIVERED": 4
+    "DELIVERED": 30,
+    "REVISED_DOWN": 7,
+    "GHOSTED": 1,
+    "MISSED": 9,
+    "LATE": 7
    },
-   "promises_made": 4,
-   "pending": 0,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": 1.079,
+   "promises_made": 206,
+   "pending": 152,
+   "ghost_rate": 0.019,
+   "goalpost_moves": 34,
+   "goalpost_rate": 0.193,
+   "hedge_ratio": 0.257,
+   "revenue_delivery_ratio": 1.048,
    "revenue_ratio_n": 4
   },
   {
-   "score": 84.0,
+   "score": 63.0,
    "ci80": [
-    66.4,
-    97.2
+    46.1,
+    79.0
    ],
-   "n": 4,
-   "effective_n": 1.7,
-   "ticker": "TATAELXSI",
-   "grade": "A",
+   "n": 10,
+   "effective_n": 7.4,
+   "ticker": "PERSISTENT",
+   "grade": "C",
    "financial": {
-    "score": 84.0,
+    "score": 60.3,
     "ci80": [
-     66.4,
-     97.2
+     36.6,
+     81.9
     ],
-    "n": 4,
-    "effective_n": 1.7
+    "n": 2,
+    "effective_n": 1.2
    },
-   "operational": null,
+   "operational": {
+    "score": 59.4,
+    "ci80": [
+     41.3,
+     76.6
+    ],
+    "n": 8,
+    "effective_n": 6.2
+   },
    "outcomes": {
-    "DELIVERED": 4
+    "DELIVERED": 7,
+    "GHOSTED": 1,
+    "LATE": 1,
+    "MISSED": 1
    },
-   "promises_made": 6,
-   "pending": 2,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
+   "promises_made": 56,
+   "pending": 46,
+   "ghost_rate": 0.1,
+   "goalpost_moves": 1,
+   "goalpost_rate": 0.021,
+   "hedge_ratio": 0.375,
    "revenue_delivery_ratio": null,
    "revenue_ratio_n": 0
   },
   {
-   "score": 84.0,
+   "score": 62.8,
    "ci80": [
-    72.2,
-    93.8
-   ],
-   "n": 16,
-   "effective_n": 11.4,
-   "ticker": "TATATECH",
-   "grade": "A",
-   "financial": {
-    "score": 77.1,
-    "ci80": [
-     59.9,
-     91.9
-    ],
-    "n": 6,
-    "effective_n": 4.3
-   },
-   "operational": {
-    "score": 87.3,
-    "ci80": [
-     75.1,
-     96.9
-    ],
-    "n": 10,
-    "effective_n": 7.1
-   },
-   "outcomes": {
-    "DELIVERED": 13,
-    "LATE": 1,
-    "MISSED": 2
-   },
-   "promises_made": 41,
-   "pending": 25,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.268,
-   "revenue_delivery_ratio": 0.939,
-   "revenue_ratio_n": 2
-  },
-  {
-   "score": 82.9,
-   "ci80": [
-    64.2,
-    97.0
+    40.0,
+    83.4
    ],
    "n": 2,
-   "effective_n": 1.2,
-   "ticker": "GODREJCP",
-   "grade": "A",
+   "effective_n": 1.7,
+   "ticker": "SIEMENS",
+   "grade": "C",
    "financial": {
-    "score": 82.9,
+    "score": 62.8,
     "ci80": [
-     64.2,
-     97.0
+     40.0,
+     83.4
     ],
     "n": 2,
-    "effective_n": 1.2
-   },
-   "operational": null,
-   "outcomes": {
-    "DELIVERED": 2
-   },
-   "promises_made": 2,
-   "pending": 0,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": 0.995,
-   "revenue_ratio_n": 2
-  },
-  {
-   "score": 82.9,
-   "ci80": [
-    64.2,
-    97.0
-   ],
-   "n": 2,
-   "effective_n": 1.2,
-   "ticker": "JYOTHYLAB",
-   "grade": "A",
-   "financial": {
-    "score": 82.9,
-    "ci80": [
-     64.2,
-     97.0
-    ],
-    "n": 2,
-    "effective_n": 1.2
+    "effective_n": 1.7
    },
    "operational": null,
    "outcomes": {
@@ -1118,227 +565,241 @@
    "goalpost_moves": 0,
    "goalpost_rate": 0.0,
    "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": 1.447,
+   "revenue_ratio_n": 1
+  },
+  {
+   "score": 62.3,
+   "ci80": [
+    54.3,
+    70.1
+   ],
+   "n": 73,
+   "effective_n": 54.2,
+   "ticker": "SYRMA",
+   "grade": "C",
+   "financial": {
+    "score": 68.7,
+    "ci80": [
+     55.7,
+     80.8
+    ],
+    "n": 20,
+    "effective_n": 16.0
+   },
+   "operational": {
+    "score": 57.7,
+    "ci80": [
+     48.2,
+     67.1
+    ],
+    "n": 53,
+    "effective_n": 38.2
+   },
+   "outcomes": {
+    "DELIVERED": 45,
+    "MISSED": 16,
+    "LATE": 3,
+    "REVISED_DOWN": 3,
+    "GHOSTED": 5,
+    "PARTIAL": 1
+   },
+   "promises_made": 208,
+   "pending": 135,
+   "ghost_rate": 0.068,
+   "goalpost_moves": 28,
+   "goalpost_rate": 0.168,
+   "hedge_ratio": 0.188,
+   "revenue_delivery_ratio": 0.979,
+   "revenue_ratio_n": 12
+  },
+  {
+   "score": 60.3,
+   "ci80": [
+    36.6,
+    81.9
+   ],
+   "n": 2,
+   "effective_n": 1.2,
+   "ticker": "IXIGO",
+   "grade": "C",
+   "financial": null,
+   "operational": {
+    "score": 60.3,
+    "ci80": [
+     36.6,
+     81.9
+    ],
+    "n": 2,
+    "effective_n": 1.2
+   },
+   "outcomes": {
+    "DELIVERED": 2
+   },
+   "promises_made": 29,
+   "pending": 27,
+   "ghost_rate": 0.0,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.586,
    "revenue_delivery_ratio": null,
    "revenue_ratio_n": 0
   },
   {
-   "score": 82.3,
+   "score": 59.6,
    "ci80": [
-    73.0,
-    90.7
+    44.2,
+    74.8
    ],
-   "n": 28,
-   "effective_n": 22.8,
-   "ticker": "NETWEB",
-   "grade": "A",
+   "n": 12,
+   "effective_n": 10.2,
+   "ticker": "POLICYBZR",
+   "grade": "C",
    "financial": {
-    "score": 80.9,
+    "score": 58.2,
     "ci80": [
-     65.4,
-     93.7
+     34.1,
+     80.7
     ],
-    "n": 6,
-    "effective_n": 5.3
+    "n": 1,
+    "effective_n": 0.8
    },
    "operational": {
-    "score": 82.2,
+    "score": 57.4,
     "ci80": [
-     71.8,
-     91.5
+     41.3,
+     73.0
     ],
-    "n": 22,
-    "effective_n": 17.5
+    "n": 11,
+    "effective_n": 9.4
    },
    "outcomes": {
-    "DELIVERED": 19,
-    "LATE": 7,
-    "PARTIAL": 2
+    "DELIVERED": 6,
+    "GHOSTED": 2,
+    "REVISED_DOWN": 2,
+    "LATE": 2
    },
-   "promises_made": 90,
-   "pending": 62,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 1,
-   "goalpost_rate": 0.015,
-   "hedge_ratio": 0.144,
-   "revenue_delivery_ratio": 1.408,
+   "promises_made": 49,
+   "pending": 37,
+   "ghost_rate": 0.167,
+   "goalpost_moves": 7,
+   "goalpost_rate": 0.156,
+   "hedge_ratio": 0.408,
+   "revenue_delivery_ratio": 1.011,
    "revenue_ratio_n": 1
   },
   {
-   "score": 82.2,
+   "score": 59.5,
    "ci80": [
-    65.2,
-    95.6
+    38.7,
+    79.1
    ],
-   "n": 6,
-   "effective_n": 3.0,
-   "ticker": "INFY",
-   "grade": "A",
+   "n": 5,
+   "effective_n": 3.2,
+   "ticker": "JBCHEPHARM",
+   "grade": "C",
    "financial": {
-    "score": 82.2,
+    "score": 59.5,
     "ci80": [
-     65.2,
-     95.6
+     38.7,
+     79.1
     ],
-    "n": 6,
-    "effective_n": 3.0
+    "n": 5,
+    "effective_n": 3.2
    },
    "operational": null,
    "outcomes": {
     "DELIVERED": 4,
-    "PARTIAL": 2
+    "MISSED": 1
    },
-   "promises_made": 13,
-   "pending": 7,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": 1.075,
-   "revenue_ratio_n": 1
-  },
-  {
-   "score": 82.0,
-   "ci80": [
-    62.5,
-    96.8
-   ],
-   "n": 1,
-   "effective_n": 0.8,
-   "ticker": "APOLLOHOSP",
-   "grade": "A",
-   "financial": {
-    "score": 82.0,
-    "ci80": [
-     62.5,
-     96.8
-    ],
-    "n": 1,
-    "effective_n": 0.8
-   },
-   "operational": null,
-   "outcomes": {
-    "DELIVERED": 1
-   },
-   "promises_made": 1,
-   "pending": 0,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 82.0,
-   "ci80": [
-    62.5,
-    96.8
-   ],
-   "n": 1,
-   "effective_n": 0.8,
-   "ticker": "AUROPHARMA",
-   "grade": "A",
-   "financial": {
-    "score": 82.0,
-    "ci80": [
-     62.5,
-     96.8
-    ],
-    "n": 1,
-    "effective_n": 0.8
-   },
-   "operational": null,
-   "outcomes": {
-    "DELIVERED": 1
-   },
-   "promises_made": 1,
-   "pending": 0,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 82.0,
-   "ci80": [
-    62.5,
-    96.8
-   ],
-   "n": 1,
-   "effective_n": 0.8,
-   "ticker": "BAJAJ-AUTO",
-   "grade": "A",
-   "financial": {
-    "score": 82.0,
-    "ci80": [
-     62.5,
-     96.8
-    ],
-    "n": 1,
-    "effective_n": 0.8
-   },
-   "operational": null,
-   "outcomes": {
-    "DELIVERED": 1
-   },
-   "promises_made": 5,
-   "pending": 4,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 82.0,
-   "ci80": [
-    62.5,
-    96.8
-   ],
-   "n": 1,
-   "effective_n": 0.8,
-   "ticker": "CDSL",
-   "grade": "A",
-   "financial": {
-    "score": 82.0,
-    "ci80": [
-     62.5,
-     96.8
-    ],
-    "n": 1,
-    "effective_n": 0.8
-   },
-   "operational": null,
-   "outcomes": {
-    "DELIVERED": 1
-   },
-   "promises_made": 3,
+   "promises_made": 7,
    "pending": 2,
    "ghost_rate": 0.0,
    "goalpost_moves": 0,
    "goalpost_rate": 0.0,
    "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": 0.962,
+   "revenue_ratio_n": 1
+  },
+  {
+   "score": 59.1,
+   "ci80": [
+    35.2,
+    81.2
+   ],
+   "n": 1,
+   "effective_n": 1.0,
+   "ticker": "HCLTECH",
+   "grade": "C",
+   "financial": {
+    "score": 59.1,
+    "ci80": [
+     35.2,
+     81.2
+    ],
+    "n": 1,
+    "effective_n": 1.0
+   },
+   "operational": null,
+   "outcomes": {
+    "DELIVERED": 1
+   },
+   "promises_made": 2,
+   "pending": 1,
+   "ghost_rate": 0.0,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
    "revenue_delivery_ratio": null,
    "revenue_ratio_n": 0
   },
   {
-   "score": 82.0,
+   "score": 58.2,
    "ci80": [
-    62.5,
-    96.8
+    34.1,
+    80.7
+   ],
+   "n": 1,
+   "effective_n": 0.8,
+   "ticker": "APOLLOHOSP",
+   "grade": "C",
+   "financial": {
+    "score": 58.2,
+    "ci80": [
+     34.1,
+     80.7
+    ],
+    "n": 1,
+    "effective_n": 0.8
+   },
+   "operational": null,
+   "outcomes": {
+    "DELIVERED": 1
+   },
+   "promises_made": 1,
+   "pending": 0,
+   "ghost_rate": 0.0,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 58.2,
+   "ci80": [
+    34.1,
+    80.7
    ],
    "n": 1,
    "effective_n": 0.8,
    "ticker": "CEATLTD",
-   "grade": "A",
+   "grade": "C",
    "financial": {
-    "score": 82.0,
+    "score": 58.2,
     "ci80": [
-     62.5,
-     96.8
+     34.1,
+     80.7
     ],
     "n": 1,
     "effective_n": 0.8
@@ -1347,62 +808,30 @@
    "outcomes": {
     "DELIVERED": 1
    },
-   "promises_made": 2,
-   "pending": 1,
+   "promises_made": 6,
+   "pending": 5,
    "ghost_rate": 0.0,
    "goalpost_moves": 0,
    "goalpost_rate": 0.0,
    "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 82.0,
-   "ci80": [
-    62.5,
-    96.8
-   ],
-   "n": 1,
-   "effective_n": 0.8,
-   "ticker": "DABUR",
-   "grade": "A",
-   "financial": {
-    "score": 82.0,
-    "ci80": [
-     62.5,
-     96.8
-    ],
-    "n": 1,
-    "effective_n": 0.8
-   },
-   "operational": null,
-   "outcomes": {
-    "DELIVERED": 1
-   },
-   "promises_made": 2,
-   "pending": 1,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": 1.02,
+   "revenue_delivery_ratio": 1.078,
    "revenue_ratio_n": 1
   },
   {
-   "score": 82.0,
+   "score": 58.2,
    "ci80": [
-    62.5,
-    96.8
+    34.1,
+    80.7
    ],
    "n": 1,
    "effective_n": 0.8,
    "ticker": "DIVISLAB",
-   "grade": "A",
+   "grade": "C",
    "financial": {
-    "score": 82.0,
+    "score": 58.2,
     "ci80": [
-     62.5,
-     96.8
+     34.1,
+     80.7
     ],
     "n": 1,
     "effective_n": 0.8
@@ -1421,20 +850,148 @@
    "revenue_ratio_n": 1
   },
   {
-   "score": 82.0,
+   "score": 58.2,
    "ci80": [
-    62.5,
-    96.8
+    34.1,
+    80.7
    ],
    "n": 1,
    "effective_n": 0.8,
-   "ticker": "SIEMENS",
-   "grade": "A",
-   "financial": {
-    "score": 82.0,
+   "ticker": "ELECON",
+   "grade": "C",
+   "financial": null,
+   "operational": {
+    "score": 58.2,
     "ci80": [
-     62.5,
-     96.8
+     34.1,
+     80.7
+    ],
+    "n": 1,
+    "effective_n": 0.8
+   },
+   "outcomes": {
+    "DELIVERED": 1
+   },
+   "promises_made": 13,
+   "pending": 12,
+   "ghost_rate": 0.0,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 58.2,
+   "ci80": [
+    34.1,
+    80.7
+   ],
+   "n": 1,
+   "effective_n": 0.8,
+   "ticker": "GODREJCP",
+   "grade": "C",
+   "financial": {
+    "score": 58.2,
+    "ci80": [
+     34.1,
+     80.7
+    ],
+    "n": 1,
+    "effective_n": 0.8
+   },
+   "operational": null,
+   "outcomes": {
+    "DELIVERED": 1
+   },
+   "promises_made": 2,
+   "pending": 1,
+   "ghost_rate": 0.0,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": 1.009,
+   "revenue_ratio_n": 1
+  },
+  {
+   "score": 58.2,
+   "ci80": [
+    34.1,
+    80.7
+   ],
+   "n": 1,
+   "effective_n": 0.8,
+   "ticker": "MAXHEALTH",
+   "grade": "C",
+   "financial": {
+    "score": 58.2,
+    "ci80": [
+     34.1,
+     80.7
+    ],
+    "n": 1,
+    "effective_n": 0.8
+   },
+   "operational": null,
+   "outcomes": {
+    "DELIVERED": 1
+   },
+   "promises_made": 4,
+   "pending": 3,
+   "ghost_rate": 0.0,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 58.2,
+   "ci80": [
+    34.1,
+    80.7
+   ],
+   "n": 1,
+   "effective_n": 0.8,
+   "ticker": "MOTHERSON",
+   "grade": "C",
+   "financial": {
+    "score": 58.2,
+    "ci80": [
+     34.1,
+     80.7
+    ],
+    "n": 1,
+    "effective_n": 0.8
+   },
+   "operational": null,
+   "outcomes": {
+    "DELIVERED": 1
+   },
+   "promises_made": 3,
+   "pending": 2,
+   "ghost_rate": 0.0,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": 1.009,
+   "revenue_ratio_n": 1
+  },
+  {
+   "score": 58.2,
+   "ci80": [
+    34.1,
+    80.7
+   ],
+   "n": 1,
+   "effective_n": 0.8,
+   "ticker": "SUZLON",
+   "grade": "C",
+   "financial": {
+    "score": 58.2,
+    "ci80": [
+     34.1,
+     80.7
     ],
     "n": 1,
     "effective_n": 0.8
@@ -1453,129 +1010,21 @@
    "revenue_ratio_n": 0
   },
   {
-   "score": 82.0,
+   "score": 58.2,
    "ci80": [
-    62.5,
-    96.8
-   ],
-   "n": 1,
-   "effective_n": 0.8,
-   "ticker": "SUNPHARMA",
-   "grade": "A",
-   "financial": {
-    "score": 82.0,
-    "ci80": [
-     62.5,
-     96.8
-    ],
-    "n": 1,
-    "effective_n": 0.8
-   },
-   "operational": null,
-   "outcomes": {
-    "DELIVERED": 1
-   },
-   "promises_made": 3,
-   "pending": 2,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": 1.046,
-   "revenue_ratio_n": 1
-  },
-  {
-   "score": 82.0,
-   "ci80": [
-    76.3,
-    87.3
-   ],
-   "n": 98,
-   "effective_n": 72.2,
-   "ticker": "SYRMA",
-   "grade": "A",
-   "financial": {
-    "score": 76.1,
-    "ci80": [
-     64.3,
-     87.1
-    ],
-    "n": 20,
-    "effective_n": 16.0
-   },
-   "operational": {
-    "score": 83.8,
-    "ci80": [
-     77.7,
-     89.4
-    ],
-    "n": 78,
-    "effective_n": 56.2
-   },
-   "outcomes": {
-    "DELIVERED": 74,
-    "LATE": 16,
-    "MISSED": 4,
-    "GHOSTED": 3,
-    "PARTIAL": 1
-   },
-   "promises_made": 208,
-   "pending": 110,
-   "ghost_rate": 0.031,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.188,
-   "revenue_delivery_ratio": 0.979,
-   "revenue_ratio_n": 12
-  },
-  {
-   "score": 82.0,
-   "ci80": [
-    62.5,
-    96.8
-   ],
-   "n": 1,
-   "effective_n": 0.8,
-   "ticker": "TECHM",
-   "grade": "A",
-   "financial": {
-    "score": 82.0,
-    "ci80": [
-     62.5,
-     96.8
-    ],
-    "n": 1,
-    "effective_n": 0.8
-   },
-   "operational": null,
-   "outcomes": {
-    "DELIVERED": 1
-   },
-   "promises_made": 3,
-   "pending": 2,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 82.0,
-   "ci80": [
-    62.5,
-    96.8
+    34.1,
+    80.7
    ],
    "n": 1,
    "effective_n": 0.8,
    "ticker": "TEJASNET",
-   "grade": "A",
+   "grade": "C",
    "financial": null,
    "operational": {
-    "score": 82.0,
+    "score": 58.2,
     "ci80": [
-     62.5,
-     96.8
+     34.1,
+     80.7
     ],
     "n": 1,
     "effective_n": 0.8
@@ -1593,21 +1042,21 @@
    "revenue_ratio_n": 0
   },
   {
-   "score": 82.0,
+   "score": 58.2,
    "ci80": [
-    62.5,
-    96.8
+    34.1,
+    80.7
    ],
    "n": 1,
    "effective_n": 0.8,
    "ticker": "TITAGARH",
-   "grade": "A",
+   "grade": "C",
    "financial": null,
    "operational": {
-    "score": 82.0,
+    "score": 58.2,
     "ci80": [
-     62.5,
-     96.8
+     34.1,
+     80.7
     ],
     "n": 1,
     "effective_n": 0.8
@@ -1625,20 +1074,20 @@
    "revenue_ratio_n": 0
   },
   {
-   "score": 82.0,
+   "score": 58.2,
    "ci80": [
-    62.5,
-    96.8
+    34.1,
+    80.7
    ],
    "n": 1,
    "effective_n": 0.8,
    "ticker": "TITAN",
-   "grade": "A",
+   "grade": "C",
    "financial": {
-    "score": 82.0,
+    "score": 58.2,
     "ci80": [
-     62.5,
-     96.8
+     34.1,
+     80.7
     ],
     "n": 1,
     "effective_n": 0.8
@@ -1647,8 +1096,8 @@
    "outcomes": {
     "DELIVERED": 1
    },
-   "promises_made": 1,
-   "pending": 0,
+   "promises_made": 2,
+   "pending": 1,
    "ghost_rate": 0.0,
    "goalpost_moves": 0,
    "goalpost_rate": 0.0,
@@ -1657,211 +1106,193 @@
    "revenue_ratio_n": 0
   },
   {
-   "score": 82.0,
+   "score": 58.1,
    "ci80": [
-    62.5,
-    96.8
+    39.6,
+    76.0
    ],
-   "n": 1,
-   "effective_n": 0.8,
-   "ticker": "ZENSARTECH",
-   "grade": "A",
+   "n": 6,
+   "effective_n": 5.6,
+   "ticker": "POLYCAB",
+   "grade": "C",
    "financial": {
-    "score": 82.0,
+    "score": 44.8,
     "ci80": [
-     62.5,
-     96.8
+     22.1,
+     68.7
     ],
     "n": 1,
-    "effective_n": 0.8
-   },
-   "operational": null,
-   "outcomes": {
-    "DELIVERED": 1
-   },
-   "promises_made": 1,
-   "pending": 0,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": 1.044,
-   "revenue_ratio_n": 1
-  },
-  {
-   "score": 81.3,
-   "ci80": [
-    65.9,
-    94.1
-   ],
-   "n": 17,
-   "effective_n": 5.1,
-   "ticker": "AMBER",
-   "grade": "A",
-   "financial": {
-    "score": 81.3,
-    "ci80": [
-     65.9,
-     94.1
-    ],
-    "n": 17,
-    "effective_n": 5.1
-   },
-   "operational": null,
-   "outcomes": {
-    "DELIVERED": 16,
-    "MISSED": 1
-   },
-   "promises_made": 21,
-   "pending": 4,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": 1.663,
-   "revenue_ratio_n": 3
-  },
-  {
-   "score": 80.7,
-   "ci80": [
-    74.2,
-    86.7
-   ],
-   "n": 65,
-   "effective_n": 57.5,
-   "ticker": "ASALCBR",
-   "grade": "A",
-   "financial": {
-    "score": 62.2,
-    "ci80": [
-     46.6,
-     77.3
-    ],
-    "n": 11,
-    "effective_n": 9.8
+    "effective_n": 1.0
    },
    "operational": {
-    "score": 86.0,
+    "score": 63.6,
     "ci80": [
-     79.8,
-     91.6
+     44.6,
+     81.4
     ],
-    "n": 54,
-    "effective_n": 47.8
+    "n": 5,
+    "effective_n": 4.6
    },
    "outcomes": {
-    "DELIVERED": 44,
-    "LATE": 15,
-    "MISSED": 5,
-    "PARTIAL": 1
-   },
-   "promises_made": 152,
-   "pending": 87,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.079,
-   "revenue_delivery_ratio": 0.855,
-   "revenue_ratio_n": 5
-  },
-  {
-   "score": 80.6,
-   "ci80": [
-    64.0,
-    94.2
-   ],
-   "n": 8,
-   "effective_n": 3.9,
-   "ticker": "ELECON",
-   "grade": "A",
-   "financial": {
-    "score": 76.2,
-    "ci80": [
-     56.5,
-     92.7
-    ],
-    "n": 6,
-    "effective_n": 2.1
-   },
-   "operational": {
-    "score": 84.3,
-    "ci80": [
-     67.1,
-     97.3
-    ],
-    "n": 2,
-    "effective_n": 1.9
-   },
-   "outcomes": {
-    "DELIVERED": 6,
-    "MISSED": 2
-   },
-   "promises_made": 16,
-   "pending": 8,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 1,
-   "goalpost_rate": 0.2,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": 0.893,
-   "revenue_ratio_n": 2
-  },
-  {
-   "score": 80.5,
-   "ci80": [
-    72.6,
-    88.0
-   ],
-   "n": 42,
-   "effective_n": 35.8,
-   "ticker": "KPITTECH",
-   "grade": "A",
-   "financial": {
-    "score": 76.8,
-    "ci80": [
-     64.2,
-     88.4
-    ],
-    "n": 15,
-    "effective_n": 12.8
-   },
-   "operational": {
-    "score": 82.7,
-    "ci80": [
-     73.6,
-     91.1
-    ],
-    "n": 27,
-    "effective_n": 23.0
-   },
-   "outcomes": {
-    "DELIVERED": 26,
-    "LATE": 15,
-    "MISSED": 1
+    "GHOSTED": 2,
+    "DELIVERED": 4
    },
    "promises_made": 84,
-   "pending": 42,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
+   "pending": 78,
+   "ghost_rate": 0.333,
+   "goalpost_moves": 8,
+   "goalpost_rate": 0.174,
+   "hedge_ratio": 0.107,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 58.0,
+   "ci80": [
+    46.9,
+    68.9
+   ],
+   "n": 31,
+   "effective_n": 26.4,
+   "ticker": "KPITTECH",
+   "grade": "C",
+   "financial": {
+    "score": 65.4,
+    "ci80": [
+     50.5,
+     79.8
+    ],
+    "n": 12,
+    "effective_n": 10.5
+   },
+   "operational": {
+    "score": 50.8,
+    "ci80": [
+     37.3,
+     64.3
+    ],
+    "n": 19,
+    "effective_n": 15.8
+   },
+   "outcomes": {
+    "DELIVERED": 15,
+    "LATE": 3,
+    "MISSED": 6,
+    "GHOSTED": 1,
+    "REVISED_DOWN": 6
+   },
+   "promises_made": 84,
+   "pending": 53,
+   "ghost_rate": 0.032,
+   "goalpost_moves": 11,
+   "goalpost_rate": 0.136,
    "hedge_ratio": 0.202,
    "revenue_delivery_ratio": 1.016,
    "revenue_ratio_n": 2
   },
   {
-   "score": 79.5,
+   "score": 57.3,
    "ci80": [
-    57.5,
-    96.2
+    46.7,
+    67.8
+   ],
+   "n": 38,
+   "effective_n": 29.7,
+   "ticker": "SJS",
+   "grade": "C",
+   "financial": {
+    "score": 71.0,
+    "ci80": [
+     51.9,
+     87.8
+    ],
+    "n": 6,
+    "effective_n": 3.9
+   },
+   "operational": {
+    "score": 52.1,
+    "ci80": [
+     40.9,
+     63.4
+    ],
+    "n": 32,
+    "effective_n": 25.8
+   },
+   "outcomes": {
+    "DELIVERED": 17,
+    "GHOSTED": 2,
+    "REVISED_DOWN": 11,
+    "LATE": 5,
+    "MISSED": 3
+   },
+   "promises_made": 132,
+   "pending": 94,
+   "ghost_rate": 0.053,
+   "goalpost_moves": 23,
+   "goalpost_rate": 0.223,
+   "hedge_ratio": 0.242,
+   "revenue_delivery_ratio": 1.226,
+   "revenue_ratio_n": 1
+  },
+  {
+   "score": 52.5,
+   "ci80": [
+    43.2,
+    61.8
+   ],
+   "n": 47,
+   "effective_n": 40.2,
+   "ticker": "CYIENTDLM",
+   "grade": "D",
+   "financial": {
+    "score": 64.9,
+    "ci80": [
+     49.9,
+     79.3
+    ],
+    "n": 13,
+    "effective_n": 10.5
+   },
+   "operational": {
+    "score": 46.8,
+    "ci80": [
+     36.1,
+     57.5
+    ],
+    "n": 34,
+    "effective_n": 29.7
+   },
+   "outcomes": {
+    "MISSED": 9,
+    "DELIVERED": 23,
+    "GHOSTED": 8,
+    "LATE": 6,
+    "REVISED_DOWN": 1
+   },
+   "promises_made": 124,
+   "pending": 77,
+   "ghost_rate": 0.17,
+   "goalpost_moves": 13,
+   "goalpost_rate": 0.124,
+   "hedge_ratio": 0.161,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
    ],
    "n": 0,
    "effective_n": 0.0,
    "ticker": "AARTIIND",
-   "grade": "B",
+   "grade": "D",
    "financial": null,
    "operational": null,
    "outcomes": {},
-   "promises_made": 1,
-   "pending": 1,
+   "promises_made": 2,
+   "pending": 2,
    "ghost_rate": null,
    "goalpost_moves": 0,
    "goalpost_rate": 0.0,
@@ -1870,15 +1301,37 @@
    "revenue_ratio_n": 0
   },
   {
-   "score": 79.5,
+   "score": 52.3,
    "ci80": [
-    57.5,
-    96.2
+    26.9,
+    77.3
    ],
    "n": 0,
    "effective_n": 0.0,
-   "ticker": "ABB",
-   "grade": "B",
+   "ticker": "AMBER",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 4,
+   "pending": 4,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "APARINDS",
+   "grade": "D",
    "financial": null,
    "operational": null,
    "outcomes": {},
@@ -1892,59 +1345,125 @@
    "revenue_ratio_n": 0
   },
   {
-   "score": 79.5,
+   "score": 52.3,
    "ci80": [
-    57.5,
-    96.2
-   ],
-   "n": 0,
-   "effective_n": 0.0,
-   "ticker": "APOLLOTYRE",
-   "grade": "B",
-   "financial": null,
-   "operational": null,
-   "outcomes": {},
-   "promises_made": 1,
-   "pending": 1,
-   "ghost_rate": null,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 79.5,
-   "ci80": [
-    57.5,
-    96.2
+    26.9,
+    77.3
    ],
    "n": 0,
    "effective_n": 0.0,
    "ticker": "ASTRAL",
-   "grade": "B",
+   "grade": "D",
    "financial": null,
    "operational": null,
    "outcomes": {},
-   "promises_made": 0,
-   "pending": 0,
+   "promises_made": 4,
+   "pending": 4,
    "ghost_rate": null,
    "goalpost_moves": 0,
-   "goalpost_rate": null,
-   "hedge_ratio": null,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
    "revenue_delivery_ratio": null,
    "revenue_ratio_n": 0
   },
   {
-   "score": 79.5,
+   "score": 52.3,
    "ci80": [
-    57.5,
-    96.2
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "BAJAJ-AUTO",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 4,
+   "pending": 4,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "BATAINDIA",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 2,
+   "pending": 2,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "BEL",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 1,
+   "pending": 1,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "BHARATFORG",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 1,
+   "pending": 1,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
    ],
    "n": 0,
    "effective_n": 0.0,
    "ticker": "BHEL",
-   "grade": "B",
+   "grade": "D",
    "financial": null,
    "operational": null,
    "outcomes": {},
@@ -1958,213 +1477,15 @@
    "revenue_ratio_n": 0
   },
   {
-   "score": 79.5,
+   "score": 52.3,
    "ci80": [
-    57.5,
-    96.2
+    26.9,
+    77.3
    ],
    "n": 0,
    "effective_n": 0.0,
    "ticker": "BRITANNIA",
-   "grade": "B",
-   "financial": null,
-   "operational": null,
-   "outcomes": {},
-   "promises_made": 2,
-   "pending": 2,
-   "ghost_rate": null,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 79.5,
-   "ci80": [
-    57.5,
-    96.2
-   ],
-   "n": 0,
-   "effective_n": 0.0,
-   "ticker": "CROMPTON",
-   "grade": "B",
-   "financial": null,
-   "operational": null,
-   "outcomes": {},
-   "promises_made": 1,
-   "pending": 1,
-   "ghost_rate": null,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 79.5,
-   "ci80": [
-    57.5,
-    96.2
-   ],
-   "n": 0,
-   "effective_n": 0.0,
-   "ticker": "CYIENT",
-   "grade": "B",
-   "financial": null,
-   "operational": null,
-   "outcomes": {},
-   "promises_made": 0,
-   "pending": 0,
-   "ghost_rate": null,
-   "goalpost_moves": 0,
-   "goalpost_rate": null,
-   "hedge_ratio": null,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 79.5,
-   "ci80": [
-    57.5,
-    96.2
-   ],
-   "n": 0,
-   "effective_n": 0.0,
-   "ticker": "DLF",
-   "grade": "B",
-   "financial": null,
-   "operational": null,
-   "outcomes": {},
-   "promises_made": 0,
-   "pending": 0,
-   "ghost_rate": null,
-   "goalpost_moves": 0,
-   "goalpost_rate": null,
-   "hedge_ratio": null,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 79.5,
-   "ci80": [
-    57.5,
-    96.2
-   ],
-   "n": 0,
-   "effective_n": 0.0,
-   "ticker": "DRREDDY",
-   "grade": "B",
-   "financial": null,
-   "operational": null,
-   "outcomes": {},
-   "promises_made": 0,
-   "pending": 0,
-   "ghost_rate": null,
-   "goalpost_moves": 0,
-   "goalpost_rate": null,
-   "hedge_ratio": null,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 79.5,
-   "ci80": [
-    57.5,
-    96.2
-   ],
-   "n": 0,
-   "effective_n": 0.0,
-   "ticker": "EXIDEIND",
-   "grade": "B",
-   "financial": null,
-   "operational": null,
-   "outcomes": {},
-   "promises_made": 1,
-   "pending": 1,
-   "ghost_rate": null,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 79.5,
-   "ci80": [
-    57.5,
-    96.2
-   ],
-   "n": 0,
-   "effective_n": 0.0,
-   "ticker": "GRSE",
-   "grade": "B",
-   "financial": null,
-   "operational": null,
-   "outcomes": {},
-   "promises_made": 2,
-   "pending": 2,
-   "ghost_rate": null,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 79.5,
-   "ci80": [
-    57.5,
-    96.2
-   ],
-   "n": 0,
-   "effective_n": 0.0,
-   "ticker": "HAL",
-   "grade": "B",
-   "financial": null,
-   "operational": null,
-   "outcomes": {},
-   "promises_made": 0,
-   "pending": 0,
-   "ghost_rate": null,
-   "goalpost_moves": 0,
-   "goalpost_rate": null,
-   "hedge_ratio": null,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 79.5,
-   "ci80": [
-    57.5,
-    96.2
-   ],
-   "n": 0,
-   "effective_n": 0.0,
-   "ticker": "LEMONTREE",
-   "grade": "B",
-   "financial": null,
-   "operational": null,
-   "outcomes": {},
-   "promises_made": 2,
-   "pending": 2,
-   "ghost_rate": null,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 79.5,
-   "ci80": [
-    57.5,
-    96.2
-   ],
-   "n": 0,
-   "effective_n": 0.0,
-   "ticker": "LT",
-   "grade": "B",
+   "grade": "D",
    "financial": null,
    "operational": null,
    "outcomes": {},
@@ -2178,15 +1499,301 @@
    "revenue_ratio_n": 0
   },
   {
-   "score": 79.5,
+   "score": 52.3,
    "ci80": [
-    57.5,
-    96.2
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "CDSL",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 2,
+   "pending": 2,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "CERA",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 2,
+   "pending": 2,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "CIPLA",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 13,
+   "pending": 13,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "CLEANMAX",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 25,
+   "pending": 25,
+   "ghost_rate": null,
+   "goalpost_moves": 2,
+   "goalpost_rate": 0.095,
+   "hedge_ratio": 0.12,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "CROMPTON",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 4,
+   "pending": 4,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "CYIENT",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 0,
+   "pending": 0,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": null,
+   "hedge_ratio": null,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "DLF",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 0,
+   "pending": 0,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": null,
+   "hedge_ratio": null,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "GRSE",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 2,
+   "pending": 2,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "INFY",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 8,
+   "pending": 8,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "JYOTHYLAB",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 3,
+   "pending": 3,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "KEI",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 13,
+   "pending": 13,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "LEMONTREE",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 2,
+   "pending": 2,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "LT",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 3,
+   "pending": 3,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
    ],
    "n": 0,
    "effective_n": 0.0,
    "ticker": "LUPIN",
-   "grade": "B",
+   "grade": "D",
    "financial": null,
    "operational": null,
    "outcomes": {},
@@ -2200,20 +1807,20 @@
    "revenue_ratio_n": 0
   },
   {
-   "score": 79.5,
+   "score": 52.3,
    "ci80": [
-    57.5,
-    96.2
+    26.9,
+    77.3
    ],
    "n": 0,
    "effective_n": 0.0,
    "ticker": "MARICO",
-   "grade": "B",
+   "grade": "D",
    "financial": null,
    "operational": null,
    "outcomes": {},
-   "promises_made": 2,
-   "pending": 2,
+   "promises_made": 5,
+   "pending": 5,
    "ghost_rate": null,
    "goalpost_moves": 0,
    "goalpost_rate": 0.0,
@@ -2222,15 +1829,15 @@
    "revenue_ratio_n": 0
   },
   {
-   "score": 79.5,
+   "score": 52.3,
    "ci80": [
-    57.5,
-    96.2
+    26.9,
+    77.3
    ],
    "n": 0,
    "effective_n": 0.0,
    "ticker": "MARUTI",
-   "grade": "B",
+   "grade": "D",
    "financial": null,
    "operational": null,
    "outcomes": {},
@@ -2244,15 +1851,15 @@
    "revenue_ratio_n": 0
   },
   {
-   "score": 79.5,
+   "score": 52.3,
    "ci80": [
-    57.5,
-    96.2
+    26.9,
+    77.3
    ],
    "n": 0,
    "effective_n": 0.0,
    "ticker": "MCX",
-   "grade": "B",
+   "grade": "D",
    "financial": null,
    "operational": null,
    "outcomes": {},
@@ -2266,15 +1873,213 @@
    "revenue_ratio_n": 0
   },
   {
-   "score": 79.5,
+   "score": 52.3,
    "ci80": [
-    57.5,
-    96.2
+    26.9,
+    77.3
    ],
    "n": 0,
    "effective_n": 0.0,
-   "ticker": "MOTHERSON",
-   "grade": "B",
+   "ticker": "MEDPLUS",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 1,
+   "pending": 1,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "MUTHOOTFIN",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 0,
+   "pending": 0,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": null,
+   "hedge_ratio": null,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "NAVINFLUOR",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 7,
+   "pending": 7,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "NEWGEN",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 5,
+   "pending": 5,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "PRAJIND",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 0,
+   "pending": 0,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": null,
+   "hedge_ratio": null,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "SUNPHARMA",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 0,
+   "pending": 0,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": null,
+   "hedge_ratio": null,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "SUPREMEIND",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 7,
+   "pending": 7,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "TATAELXSI",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 3,
+   "pending": 3,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "TCS",
+   "grade": "D",
+   "financial": null,
+   "operational": null,
+   "outcomes": {},
+   "promises_made": 1,
+   "pending": 1,
+   "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.3,
+   "ci80": [
+    26.9,
+    77.3
+   ],
+   "n": 0,
+   "effective_n": 0.0,
+   "ticker": "TECHM",
+   "grade": "D",
    "financial": null,
    "operational": null,
    "outcomes": {},
@@ -2288,15 +2093,15 @@
    "revenue_ratio_n": 0
   },
   {
-   "score": 79.5,
+   "score": 52.3,
    "ci80": [
-    57.5,
-    96.2
+    26.9,
+    77.3
    ],
    "n": 0,
    "effective_n": 0.0,
-   "ticker": "MUTHOOTFIN",
-   "grade": "B",
+   "ticker": "WIPRO",
+   "grade": "D",
    "financial": null,
    "operational": null,
    "outcomes": {},
@@ -2310,21 +2115,53 @@
    "revenue_ratio_n": 0
   },
   {
-   "score": 79.5,
+   "score": 52.3,
    "ci80": [
-    57.5,
-    96.2
+    26.9,
+    77.3
    ],
    "n": 0,
    "effective_n": 0.0,
-   "ticker": "NEWGEN",
-   "grade": "B",
+   "ticker": "ZENSARTECH",
+   "grade": "D",
    "financial": null,
    "operational": null,
    "outcomes": {},
-   "promises_made": 1,
-   "pending": 1,
+   "promises_made": 0,
+   "pending": 0,
    "ghost_rate": null,
+   "goalpost_moves": 0,
+   "goalpost_rate": null,
+   "hedge_ratio": null,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 52.0,
+   "ci80": [
+    28.1,
+    75.2
+   ],
+   "n": 1,
+   "effective_n": 1.0,
+   "ticker": "DATAPATTNS",
+   "grade": "D",
+   "financial": null,
+   "operational": {
+    "score": 52.0,
+    "ci80": [
+     28.1,
+     75.2
+    ],
+    "n": 1,
+    "effective_n": 1.0
+   },
+   "outcomes": {
+    "LATE": 1
+   },
+   "promises_made": 3,
+   "pending": 2,
+   "ghost_rate": 0.0,
    "goalpost_moves": 0,
    "goalpost_rate": 0.0,
    "hedge_ratio": 0.0,
@@ -2332,72 +2169,27 @@
    "revenue_ratio_n": 0
   },
   {
-   "score": 79.5,
+   "score": 51.9,
    "ci80": [
-    57.5,
-    96.2
-   ],
-   "n": 0,
-   "effective_n": 0.0,
-   "ticker": "PRAJIND",
-   "grade": "B",
-   "financial": null,
-   "operational": null,
-   "outcomes": {},
-   "promises_made": 0,
-   "pending": 0,
-   "ghost_rate": null,
-   "goalpost_moves": 0,
-   "goalpost_rate": null,
-   "hedge_ratio": null,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 79.5,
-   "ci80": [
-    57.5,
-    96.2
-   ],
-   "n": 0,
-   "effective_n": 0.0,
-   "ticker": "WIPRO",
-   "grade": "B",
-   "financial": null,
-   "operational": null,
-   "outcomes": {},
-   "promises_made": 0,
-   "pending": 0,
-   "ghost_rate": null,
-   "goalpost_moves": 0,
-   "goalpost_rate": null,
-   "hedge_ratio": null,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 78.5,
-   "ci80": [
-    58.9,
-    94.3
+    28.4,
+    74.6
    ],
    "n": 2,
-   "effective_n": 1.7,
-   "ticker": "TCS",
-   "grade": "B",
+   "effective_n": 1.2,
+   "ticker": "APOLLOTYRE",
+   "grade": "D",
    "financial": {
-    "score": 78.5,
+    "score": 51.9,
     "ci80": [
-     58.9,
-     94.3
+     28.4,
+     74.6
     ],
     "n": 2,
-    "effective_n": 1.7
+    "effective_n": 1.2
    },
    "operational": null,
    "outcomes": {
-    "DELIVERED": 1,
-    "PARTIAL": 1
+    "PARTIAL": 2
    },
    "promises_made": 4,
    "pending": 2,
@@ -2405,417 +2197,33 @@
    "goalpost_moves": 0,
    "goalpost_rate": 0.0,
    "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 78.4,
-   "ci80": [
-    60.9,
-    92.9
-   ],
-   "n": 7,
-   "effective_n": 3.8,
-   "ticker": "DATAPATTNS",
-   "grade": "B",
-   "financial": {
-    "score": 81.6,
-    "ci80": [
-     64.2,
-     95.4
-    ],
-    "n": 6,
-    "effective_n": 2.8
-   },
-   "operational": {
-    "score": 75.3,
-    "ci80": [
-     53.7,
-     93.0
-    ],
-    "n": 1,
-    "effective_n": 1.0
-   },
-   "outcomes": {
-    "PARTIAL": 2,
-    "DELIVERED": 4,
-    "LATE": 1
-   },
-   "promises_made": 9,
-   "pending": 2,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 77.8,
-   "ci80": [
-    70.6,
-    84.6
-   ],
-   "n": 66,
-   "effective_n": 50.6,
-   "ticker": "IONEXCHANG",
-   "grade": "B",
-   "financial": {
-    "score": 76.2,
-    "ci80": [
-     56.9,
-     92.3
-    ],
-    "n": 4,
-    "effective_n": 2.5
-   },
-   "operational": {
-    "score": 78.2,
-    "ci80": [
-     70.9,
-     85.1
-    ],
-    "n": 62,
-    "effective_n": 48.1
-   },
-   "outcomes": {
-    "LATE": 29,
-    "DELIVERED": 37
-   },
-   "promises_made": 111,
-   "pending": 45,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.27,
-   "revenue_delivery_ratio": 1.014,
+   "revenue_delivery_ratio": 0.991,
    "revenue_ratio_n": 2
   },
   {
-   "score": 77.6,
+   "score": 51.6,
    "ci80": [
-    69.0,
-    85.8
-   ],
-   "n": 39,
-   "effective_n": 33.3,
-   "ticker": "AMARAJABAT",
-   "grade": "B",
-   "financial": {
-    "score": 81.4,
-    "ci80": [
-     61.3,
-     96.6
-    ],
-    "n": 1,
-    "effective_n": 0.6
-   },
-   "operational": {
-    "score": 77.3,
-    "ci80": [
-     68.6,
-     85.5
-    ],
-    "n": 38,
-    "effective_n": 32.7
-   },
-   "outcomes": {
-    "GHOSTED": 4,
-    "DELIVERED": 27,
-    "LATE": 8
-   },
-   "promises_made": 108,
-   "pending": 69,
-   "ghost_rate": 0.103,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.269,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 77.6,
-   "ci80": [
-    72.5,
-    82.6
-   ],
-   "n": 132,
-   "effective_n": 103.9,
-   "ticker": "DIXON",
-   "grade": "B",
-   "financial": null,
-   "operational": {
-    "score": 77.6,
-    "ci80": [
-     72.5,
-     82.6
-    ],
-    "n": 132,
-    "effective_n": 103.9
-   },
-   "outcomes": {
-    "LATE": 52,
-    "DELIVERED": 78,
-    "GHOSTED": 2
-   },
-   "promises_made": 311,
-   "pending": 179,
-   "ghost_rate": 0.015,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.19,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 77.2,
-   "ci80": [
-    59.0,
-    92.6
-   ],
-   "n": 6,
-   "effective_n": 3.2,
-   "ticker": "NAVINFLUOR",
-   "grade": "B",
-   "financial": {
-    "score": 83.5,
-    "ci80": [
-     65.4,
-     97.1
-    ],
-    "n": 3,
-    "effective_n": 1.5
-   },
-   "operational": {
-    "score": 72.9,
-    "ci80": [
-     51.8,
-     90.8
-    ],
-    "n": 3,
-    "effective_n": 1.7
-   },
-   "outcomes": {
-    "DELIVERED": 3,
-    "LATE": 3
-   },
-   "promises_made": 13,
-   "pending": 7,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": 0.98,
-   "revenue_ratio_n": 2
-  },
-  {
-   "score": 76.2,
-   "ci80": [
-    69.1,
-    82.9
-   ],
-   "n": 69,
-   "effective_n": 55.6,
-   "ticker": "KAYNES",
-   "grade": "B",
-   "financial": {
-    "score": 64.1,
-    "ci80": [
-     49.9,
-     77.6
-    ],
-    "n": 14,
-    "effective_n": 13.3
-   },
-   "operational": {
-    "score": 81.4,
-    "ci80": [
-     74.1,
-     88.2
-    ],
-    "n": 55,
-    "effective_n": 42.3
-   },
-   "outcomes": {
-    "DELIVERED": 44,
-    "LATE": 17,
-    "GHOSTED": 1,
-    "MISSED": 5,
-    "PARTIAL": 2
-   },
-   "promises_made": 145,
-   "pending": 76,
-   "ghost_rate": 0.014,
-   "goalpost_moves": 2,
-   "goalpost_rate": 0.016,
-   "hedge_ratio": 0.214,
-   "revenue_delivery_ratio": 0.886,
-   "revenue_ratio_n": 8
-  },
-  {
-   "score": 75.8,
-   "ci80": [
-    54.2,
-    93.5
-   ],
-   "n": 1,
-   "effective_n": 0.8,
-   "ticker": "ROUTE",
-   "grade": "B",
-   "financial": {
-    "score": 75.8,
-    "ci80": [
-     54.2,
-     93.5
-    ],
-    "n": 1,
-    "effective_n": 0.8
-   },
-   "operational": null,
-   "outcomes": {
-    "PARTIAL": 1
-   },
-   "promises_made": 2,
-   "pending": 1,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 74.5,
-   "ci80": [
-    56.5,
-    89.9
-   ],
-   "n": 7,
-   "effective_n": 4.4,
-   "ticker": "CIPLA",
-   "grade": "B",
-   "financial": {
-    "score": 74.5,
-    "ci80": [
-     56.5,
-     89.9
-    ],
-    "n": 7,
-    "effective_n": 4.4
-   },
-   "operational": null,
-   "outcomes": {
-    "DELIVERED": 5,
-    "MISSED": 1,
-    "PARTIAL": 1
-   },
-   "promises_made": 14,
-   "pending": 7,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": 1.012,
-   "revenue_ratio_n": 2
-  },
-  {
-   "score": 73.4,
-   "ci80": [
-    66.0,
-    80.5
-   ],
-   "n": 62,
-   "effective_n": 54.2,
-   "ticker": "CYIENTDLM",
-   "grade": "B",
-   "financial": {
-    "score": 67.8,
-    "ci80": [
-     53.0,
-     81.8
-    ],
-    "n": 13,
-    "effective_n": 10.5
-   },
-   "operational": {
-    "score": 76.0,
-    "ci80": [
-     68.0,
-     83.4
-    ],
-    "n": 49,
-    "effective_n": 43.7
-   },
-   "outcomes": {
-    "LATE": 31,
-    "DELIVERED": 30,
-    "GHOSTED": 1
-   },
-   "promises_made": 124,
-   "pending": 62,
-   "ghost_rate": 0.016,
-   "goalpost_moves": 63,
-   "goalpost_rate": 0.6,
-   "hedge_ratio": 0.161,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 71.7,
-   "ci80": [
-    49.3,
-    90.8
-   ],
-   "n": 1,
-   "effective_n": 1.0,
-   "ticker": "BEL",
-   "grade": "B",
-   "financial": null,
-   "operational": {
-    "score": 71.7,
-    "ci80": [
-     49.3,
-     90.8
-    ],
-    "n": 1,
-    "effective_n": 1.0
-   },
-   "outcomes": {
-    "REVISED_DOWN": 1
-   },
-   "promises_made": 2,
-   "pending": 1,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 1,
-   "goalpost_rate": 0.5,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 70.7,
-   "ci80": [
-    50.3,
-    88.6
+    30.3,
+    72.8
    ],
    "n": 3,
    "effective_n": 2.5,
    "ticker": "COCHINSHIP",
-   "grade": "B",
+   "grade": "D",
    "financial": {
-    "score": 73.0,
+    "score": 51.8,
     "ci80": [
-     51.9,
-     90.9
+     29.3,
+     73.9
     ],
     "n": 2,
     "effective_n": 1.7
    },
    "operational": {
-    "score": 75.8,
+    "score": 52.0,
     "ci80": [
-     54.2,
-     93.5
+     28.0,
+     75.7
     ],
     "n": 1,
     "effective_n": 0.8
@@ -2835,61 +2243,275 @@
    "revenue_ratio_n": 0
   },
   {
-   "score": 70.5,
+   "score": 49.7,
    "ci80": [
-    50.5,
-    87.9
+    39.7,
+    59.6
    ],
-   "n": 5,
-   "effective_n": 3.2,
-   "ticker": "KEI",
-   "grade": "B",
+   "n": 45,
+   "effective_n": 34.3,
+   "ticker": "IONEXCHANG",
+   "grade": "D",
    "financial": {
-    "score": 84.0,
+    "score": 47.7,
     "ci80": [
-     66.4,
-     97.2
+     26.3,
+     69.1
     ],
-    "n": 2,
-    "effective_n": 1.7
+    "n": 4,
+    "effective_n": 2.5
    },
    "operational": {
-    "score": 63.8,
+    "score": 50.6,
     "ci80": [
-     40.8,
-     84.4
+     40.1,
+     60.8
     ],
-    "n": 3,
-    "effective_n": 1.5
+    "n": 41,
+    "effective_n": 31.8
+   },
+   "outcomes": {
+    "LATE": 2,
+    "DELIVERED": 21,
+    "MISSED": 15,
+    "REVISED_DOWN": 6,
+    "GHOSTED": 1
+   },
+   "promises_made": 111,
+   "pending": 66,
+   "ghost_rate": 0.022,
+   "goalpost_moves": 20,
+   "goalpost_rate": 0.2,
+   "hedge_ratio": 0.27,
+   "revenue_delivery_ratio": 1.014,
+   "revenue_ratio_n": 2
+  },
+  {
+   "score": 48.4,
+   "ci80": [
+    41.7,
+    55.3
+   ],
+   "n": 103,
+   "effective_n": 82.4,
+   "ticker": "DIXON",
+   "grade": "D",
+   "financial": null,
+   "operational": {
+    "score": 48.4,
+    "ci80": [
+     41.7,
+     55.3
+    ],
+    "n": 103,
+    "effective_n": 82.4
+   },
+   "outcomes": {
+    "DELIVERED": 34,
+    "REVISED_DOWN": 29,
+    "LATE": 13,
+    "GHOSTED": 9,
+    "MISSED": 18
+   },
+   "promises_made": 311,
+   "pending": 208,
+   "ghost_rate": 0.087,
+   "goalpost_moves": 69,
+   "goalpost_rate": 0.257,
+   "hedge_ratio": 0.19,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 47.7,
+   "ci80": [
+    38.4,
+    57.1
+   ],
+   "n": 46,
+   "effective_n": 40.4,
+   "ticker": "DEEPAKNTR",
+   "grade": "D",
+   "financial": {
+    "score": 63.5,
+    "ci80": [
+     41.0,
+     83.7
+    ],
+    "n": 2,
+    "effective_n": 1.9
+   },
+   "operational": {
+    "score": 45.6,
+    "ci80": [
+     36.1,
+     55.0
+    ],
+    "n": 44,
+    "effective_n": 38.6
+   },
+   "outcomes": {
+    "DELIVERED": 12,
+    "GHOSTED": 2,
+    "REVISED_DOWN": 20,
+    "LATE": 8,
+    "MISSED": 4
+   },
+   "promises_made": 116,
+   "pending": 70,
+   "ghost_rate": 0.043,
+   "goalpost_moves": 47,
+   "goalpost_rate": 0.435,
+   "hedge_ratio": 0.147,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 47.3,
+   "ci80": [
+    32.0,
+    62.7
+   ],
+   "n": 13,
+   "effective_n": 11.0,
+   "ticker": "ECORECO",
+   "grade": "D",
+   "financial": {
+    "score": 54.5,
+    "ci80": [
+     31.6,
+     76.2
+    ],
+    "n": 2,
+    "effective_n": 1.6
+   },
+   "operational": {
+    "score": 45.7,
+    "ci80": [
+     29.7,
+     61.8
+    ],
+    "n": 11,
+    "effective_n": 9.4
    },
    "outcomes": {
     "DELIVERED": 2,
-    "GHOSTED": 3
+    "MISSED": 2,
+    "LATE": 7,
+    "GHOSTED": 1,
+    "ABANDONED": 1
    },
-   "promises_made": 20,
-   "pending": 15,
-   "ghost_rate": 0.6,
-   "goalpost_moves": 2,
-   "goalpost_rate": 0.286,
-   "hedge_ratio": 0.0,
+   "promises_made": 35,
+   "pending": 22,
+   "ghost_rate": 0.077,
+   "goalpost_moves": 5,
+   "goalpost_rate": 0.143,
+   "hedge_ratio": 0.343,
    "revenue_delivery_ratio": null,
    "revenue_ratio_n": 0
   },
   {
-   "score": 69.6,
+   "score": 47.1,
    "ci80": [
-    46.6,
-    89.5
+    31.0,
+    63.3
+   ],
+   "n": 11,
+   "effective_n": 9.2,
+   "ticker": "SONACOMS",
+   "grade": "D",
+   "financial": {
+    "score": 52.0,
+    "ci80": [
+     28.0,
+     75.7
+    ],
+    "n": 1,
+    "effective_n": 0.8
+   },
+   "operational": {
+    "score": 47.0,
+    "ci80": [
+     30.4,
+     63.6
+    ],
+    "n": 10,
+    "effective_n": 8.3
+   },
+   "outcomes": {
+    "REVISED_DOWN": 2,
+    "GHOSTED": 3,
+    "DELIVERED": 4,
+    "MISSED": 1,
+    "LATE": 1
+   },
+   "promises_made": 51,
+   "pending": 40,
+   "ghost_rate": 0.273,
+   "goalpost_moves": 4,
+   "goalpost_rate": 0.08,
+   "hedge_ratio": 0.333,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 46.3,
+   "ci80": [
+    32.8,
+    59.9
+   ],
+   "n": 23,
+   "effective_n": 15.8,
+   "ticker": "STALLION",
+   "grade": "D",
+   "financial": {
+    "score": 51.6,
+    "ci80": [
+     31.0,
+     71.5
+    ],
+    "n": 6,
+    "effective_n": 3.5
+   },
+   "operational": {
+    "score": 45.5,
+    "ci80": [
+     31.0,
+     60.4
+    ],
+    "n": 17,
+    "effective_n": 12.3
+   },
+   "outcomes": {
+    "REVISED_DOWN": 12,
+    "MISSED": 3,
+    "DELIVERED": 7,
+    "GHOSTED": 1
+   },
+   "promises_made": 127,
+   "pending": 104,
+   "ghost_rate": 0.043,
+   "goalpost_moves": 35,
+   "goalpost_rate": 0.34,
+   "hedge_ratio": 0.26,
+   "revenue_delivery_ratio": 0.941,
+   "revenue_ratio_n": 4
+  },
+  {
+   "score": 45.8,
+   "ci80": [
+    22.8,
+    69.8
    ],
    "n": 1,
    "effective_n": 0.8,
-   "ticker": "BATAINDIA",
-   "grade": "B",
+   "ticker": "ABB",
+   "grade": "D",
    "financial": {
-    "score": 69.6,
+    "score": 45.8,
     "ci80": [
-     46.6,
-     89.5
+     22.8,
+     69.8
     ],
     "n": 1,
     "effective_n": 0.8
@@ -2898,30 +2520,94 @@
    "outcomes": {
     "MISSED": 1
    },
-   "promises_made": 2,
-   "pending": 1,
+   "promises_made": 1,
+   "pending": 0,
    "ghost_rate": 0.0,
    "goalpost_moves": 0,
    "goalpost_rate": 0.0,
    "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": 0.933,
+   "revenue_delivery_ratio": 0.965,
    "revenue_ratio_n": 1
   },
   {
-   "score": 69.6,
+   "score": 45.8,
    "ci80": [
-    46.6,
-    89.5
+    22.8,
+    69.8
    ],
    "n": 1,
    "effective_n": 0.8,
-   "ticker": "BHARATFORG",
-   "grade": "B",
+   "ticker": "AUROPHARMA",
+   "grade": "D",
    "financial": {
-    "score": 69.6,
+    "score": 45.8,
     "ci80": [
-     46.6,
-     89.5
+     22.8,
+     69.8
+    ],
+    "n": 1,
+    "effective_n": 0.8
+   },
+   "operational": null,
+   "outcomes": {
+    "MISSED": 1
+   },
+   "promises_made": 3,
+   "pending": 2,
+   "ghost_rate": 0.0,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": 0.964,
+   "revenue_ratio_n": 1
+  },
+  {
+   "score": 45.8,
+   "ci80": [
+    22.8,
+    69.8
+   ],
+   "n": 1,
+   "effective_n": 0.8,
+   "ticker": "DRREDDY",
+   "grade": "D",
+   "financial": {
+    "score": 45.8,
+    "ci80": [
+     22.8,
+     69.8
+    ],
+    "n": 1,
+    "effective_n": 0.8
+   },
+   "operational": null,
+   "outcomes": {
+    "MISSED": 1
+   },
+   "promises_made": 10,
+   "pending": 9,
+   "ghost_rate": 0.0,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": 0.804,
+   "revenue_ratio_n": 1
+  },
+  {
+   "score": 45.8,
+   "ci80": [
+    22.8,
+    69.8
+   ],
+   "n": 1,
+   "effective_n": 0.8,
+   "ticker": "ROUTE",
+   "grade": "D",
+   "financial": {
+    "score": 45.8,
+    "ci80": [
+     22.8,
+     69.8
     ],
     "n": 1,
     "effective_n": 0.8
@@ -2936,100 +2622,115 @@
    "goalpost_moves": 0,
    "goalpost_rate": 0.0,
    "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
+   "revenue_delivery_ratio": 0.876,
+   "revenue_ratio_n": 1
   },
   {
-   "score": 69.6,
+   "score": 45.3,
    "ci80": [
-    46.6,
-    89.5
+    36.6,
+    54.0
    ],
-   "n": 1,
-   "effective_n": 0.8,
-   "ticker": "MEDPLUS",
-   "grade": "B",
+   "n": 56,
+   "effective_n": 48.3,
+   "ticker": "ASALCBR",
+   "grade": "D",
    "financial": {
-    "score": 69.6,
+    "score": 51.8,
     "ci80": [
-     46.6,
-     89.5
+     36.0,
+     67.6
     ],
-    "n": 1,
-    "effective_n": 0.8
-   },
-   "operational": null,
-   "outcomes": {
-    "MISSED": 1
-   },
-   "promises_made": 2,
-   "pending": 1,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
-  },
-  {
-   "score": 68.8,
-   "ci80": [
-    57.6,
-    79.3
-   ],
-   "n": 35,
-   "effective_n": 23.3,
-   "ticker": "AHLUCONT",
-   "grade": "B",
-   "financial": {
-    "score": 68.8,
-    "ci80": [
-     53.3,
-     83.3
-    ],
-    "n": 16,
-    "effective_n": 9.1
+    "n": 11,
+    "effective_n": 9.8
    },
    "operational": {
-    "score": 72.0,
+    "score": 43.9,
     "ci80": [
-     58.9,
-     84.1
+     34.5,
+     53.4
     ],
-    "n": 19,
-    "effective_n": 14.2
+    "n": 45,
+    "effective_n": 38.5
    },
    "outcomes": {
-    "MISSED": 2,
-    "PARTIAL": 6,
-    "DELIVERED": 20,
-    "GHOSTED": 5,
-    "LATE": 2
+    "REVISED_DOWN": 18,
+    "LATE": 10,
+    "MISSED": 9,
+    "DELIVERED": 15,
+    "GHOSTED": 3,
+    "PARTIAL": 1
    },
-   "promises_made": 128,
-   "pending": 93,
-   "ghost_rate": 0.143,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.219,
-   "revenue_delivery_ratio": 0.968,
+   "promises_made": 152,
+   "pending": 96,
+   "ghost_rate": 0.054,
+   "goalpost_moves": 42,
+   "goalpost_rate": 0.316,
+   "hedge_ratio": 0.079,
+   "revenue_delivery_ratio": 0.855,
+   "revenue_ratio_n": 5
+  },
+  {
+   "score": 44.8,
+   "ci80": [
+    36.3,
+    53.3
+   ],
+   "n": 61,
+   "effective_n": 49.7,
+   "ticker": "KAYNES",
+   "grade": "D",
+   "financial": {
+    "score": 50.4,
+    "ci80": [
+     36.1,
+     64.9
+    ],
+    "n": 14,
+    "effective_n": 13.3
+   },
+   "operational": {
+    "score": 43.3,
+    "ci80": [
+     33.7,
+     53.0
+    ],
+    "n": 47,
+    "effective_n": 36.4
+   },
+   "outcomes": {
+    "DELIVERED": 20,
+    "REVISED_DOWN": 11,
+    "LATE": 3,
+    "MISSED": 21,
+    "ABANDONED": 3,
+    "PARTIAL": 2,
+    "GHOSTED": 1
+   },
+   "promises_made": 145,
+   "pending": 84,
+   "ghost_rate": 0.016,
+   "goalpost_moves": 39,
+   "goalpost_rate": 0.31,
+   "hedge_ratio": 0.214,
+   "revenue_delivery_ratio": 0.886,
    "revenue_ratio_n": 8
   },
   {
-   "score": 68.1,
+   "score": 44.8,
    "ci80": [
-    45.3,
-    88.4
+    22.1,
+    68.7
    ],
    "n": 1,
    "effective_n": 1.0,
    "ticker": "PIIND",
-   "grade": "B",
+   "grade": "D",
    "financial": {
-    "score": 68.1,
+    "score": 44.8,
     "ci80": [
-     45.3,
-     88.4
+     22.1,
+     68.7
     ],
     "n": 1,
     "effective_n": 1.0
@@ -3048,764 +2749,778 @@
    "revenue_ratio_n": 0
   },
   {
-   "score": 62.7,
+   "score": 44.4,
    "ci80": [
-    49.0,
-    75.6
+    34.7,
+    54.2
    ],
-   "n": 22,
-   "effective_n": 15.2,
-   "ticker": "STALLION",
-   "grade": "C",
+   "n": 54,
+   "effective_n": 36.0,
+   "ticker": "AHLUCONT",
+   "grade": "D",
    "financial": {
-    "score": 68.8,
-    "ci80": [
-     48.9,
-     86.3
-    ],
-    "n": 6,
-    "effective_n": 3.5
-   },
-   "operational": {
-    "score": 65.1,
-    "ci80": [
-     50.6,
-     79.0
-    ],
-    "n": 16,
-    "effective_n": 11.7
-   },
-   "outcomes": {
-    "DELIVERED": 12,
-    "MISSED": 3,
-    "GHOSTED": 7
-   },
-   "promises_made": 127,
-   "pending": 105,
-   "ghost_rate": 0.318,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.26,
-   "revenue_delivery_ratio": 0.941,
-   "revenue_ratio_n": 4
-  },
-  {
-   "score": 62.1,
-   "ci80": [
-    47.4,
-    76.1
-   ],
-   "n": 15,
-   "effective_n": 12.1,
-   "ticker": "PAYTM",
-   "grade": "C",
-   "financial": {
-    "score": 81.9,
-    "ci80": [
-     64.3,
-     95.8
-    ],
-    "n": 3,
-    "effective_n": 2.5
-   },
-   "operational": {
     "score": 58.1,
     "ci80": [
-     42.2,
-     73.5
+     41.9,
+     73.7
     ],
-    "n": 12,
-    "effective_n": 9.7
+    "n": 16,
+    "effective_n": 9.1
+   },
+   "operational": {
+    "score": 39.6,
+    "ci80": [
+     28.9,
+     50.7
+    ],
+    "n": 38,
+    "effective_n": 26.8
    },
    "outcomes": {
-    "LATE": 10,
-    "GHOSTED": 2,
-    "DELIVERED": 3
+    "MISSED": 6,
+    "PARTIAL": 6,
+    "DELIVERED": 16,
+    "GHOSTED": 5,
+    "REVISED_DOWN": 20,
+    "LATE": 1
+   },
+   "promises_made": 128,
+   "pending": 74,
+   "ghost_rate": 0.093,
+   "goalpost_moves": 30,
+   "goalpost_rate": 0.288,
+   "hedge_ratio": 0.219,
+   "revenue_delivery_ratio": 0.968,
+   "revenue_ratio_n": 8
+  },
+  {
+   "score": 44.4,
+   "ci80": [
+    35.4,
+    53.6
+   ],
+   "n": 53,
+   "effective_n": 42.3,
+   "ticker": "UTKARSHBNK",
+   "grade": "D",
+   "financial": null,
+   "operational": {
+    "score": 44.4,
+    "ci80": [
+     35.4,
+     53.6
+    ],
+    "n": 53,
+    "effective_n": 42.3
+   },
+   "outcomes": {
+    "MISSED": 12,
+    "DELIVERED": 15,
+    "REVISED_DOWN": 12,
+    "GHOSTED": 4,
+    "LATE": 10
+   },
+   "promises_made": 113,
+   "pending": 60,
+   "ghost_rate": 0.075,
+   "goalpost_moves": 23,
+   "goalpost_rate": 0.247,
+   "hedge_ratio": 0.283,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
+  },
+  {
+   "score": 43.3,
+   "ci80": [
+    27.8,
+    59.2
+   ],
+   "n": 12,
+   "effective_n": 9.9,
+   "ticker": "PAYTM",
+   "grade": "D",
+   "financial": {
+    "score": 53.5,
+    "ci80": [
+     30.5,
+     75.6
+    ],
+    "n": 2,
+    "effective_n": 1.4
+   },
+   "operational": {
+    "score": 41.7,
+    "ci80": [
+     25.6,
+     58.2
+    ],
+    "n": 10,
+    "effective_n": 8.5
+   },
+   "outcomes": {
+    "GHOSTED": 5,
+    "REVISED_DOWN": 1,
+    "DELIVERED": 4,
+    "MISSED": 1,
+    "LATE": 1
    },
    "promises_made": 64,
-   "pending": 49,
-   "ghost_rate": 0.133,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
+   "pending": 52,
+   "ghost_rate": 0.417,
+   "goalpost_moves": 3,
+   "goalpost_rate": 0.05,
    "hedge_ratio": 0.266,
    "revenue_delivery_ratio": null,
    "revenue_ratio_n": 0
   },
   {
-   "score": 61.9,
+   "score": 42.5,
    "ci80": [
-    39.2,
-    82.7
+    31.7,
+    53.4
    ],
-   "n": 2,
-   "effective_n": 1.7,
-   "ticker": "SUPREMEIND",
-   "grade": "C",
+   "n": 31,
+   "effective_n": 27.6,
+   "ticker": "AMARAJABAT",
+   "grade": "D",
    "financial": {
-    "score": 61.9,
+    "score": 47.5,
     "ci80": [
-     39.2,
-     82.7
+     23.9,
+     72.0
     ],
-    "n": 2,
-    "effective_n": 1.7
+    "n": 1,
+    "effective_n": 0.6
    },
-   "operational": null,
+   "operational": {
+    "score": 43.2,
+    "ci80": [
+     32.4,
+     54.3
+    ],
+    "n": 30,
+    "effective_n": 27.0
+   },
    "outcomes": {
-    "MISSED": 2
+    "REVISED_DOWN": 11,
+    "MISSED": 7,
+    "DELIVERED": 7,
+    "LATE": 5,
+    "GHOSTED": 1
    },
-   "promises_made": 11,
-   "pending": 9,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.0,
-   "revenue_delivery_ratio": 0.941,
-   "revenue_ratio_n": 2
+   "promises_made": 108,
+   "pending": 77,
+   "ghost_rate": 0.032,
+   "goalpost_moves": 20,
+   "goalpost_rate": 0.211,
+   "hedge_ratio": 0.269,
+   "revenue_delivery_ratio": null,
+   "revenue_ratio_n": 0
   },
   {
-   "score": 55.6,
+   "score": 40.8,
    "ci80": [
-    46.3,
-    64.8
+    31.3,
+    50.6
    ],
-   "n": 54,
-   "effective_n": 40.4,
+   "n": 48,
+   "effective_n": 35.8,
    "ticker": "EIEL",
-   "grade": "C",
+   "grade": "F",
    "financial": {
-    "score": 56.5,
+    "score": 46.3,
     "ci80": [
-     42.6,
-     70.0
+     32.5,
+     60.2
     ],
     "n": 18,
     "effective_n": 14.9
    },
    "operational": {
-    "score": 59.6,
+    "score": 39.2,
     "ci80": [
-     48.4,
-     70.6
+     27.4,
+     51.3
     ],
-    "n": 36,
-    "effective_n": 25.5
+    "n": 30,
+    "effective_n": 20.9
    },
    "outcomes": {
-    "DELIVERED": 17,
-    "LATE": 12,
-    "MISSED": 8,
-    "PARTIAL": 3,
-    "REVISED_DOWN": 14
+    "DELIVERED": 15,
+    "REVISED_DOWN": 2,
+    "GHOSTED": 5,
+    "MISSED": 21,
+    "LATE": 2,
+    "PARTIAL": 3
    },
    "promises_made": 137,
-   "pending": 83,
-   "ghost_rate": 0.0,
-   "goalpost_moves": 62,
-   "goalpost_rate": 0.579,
+   "pending": 89,
+   "ghost_rate": 0.104,
+   "goalpost_moves": 16,
+   "goalpost_rate": 0.15,
    "hedge_ratio": 0.175,
    "revenue_delivery_ratio": 0.849,
    "revenue_ratio_n": 11
   },
   {
-   "score": 51.4,
+   "score": 40.8,
    "ci80": [
-    33.6,
-    69.1
+    19.6,
+    63.6
    ],
-   "n": 8,
-   "effective_n": 6.4,
-   "ticker": "ECORECO",
-   "grade": "D",
-   "financial": null,
-   "operational": {
-    "score": 51.4,
+   "n": 4,
+   "effective_n": 1.7,
+   "ticker": "EXIDEIND",
+   "grade": "F",
+   "financial": {
+    "score": 40.8,
     "ci80": [
-     33.6,
-     69.1
+     19.6,
+     63.6
     ],
-    "n": 8,
-    "effective_n": 6.4
+    "n": 4,
+    "effective_n": 1.7
    },
+   "operational": null,
    "outcomes": {
-    "DELIVERED": 2,
-    "GHOSTED": 6
+    "MISSED": 4
    },
-   "promises_made": 35,
-   "pending": 27,
-   "ghost_rate": 0.75,
+   "promises_made": 5,
+   "pending": 1,
+   "ghost_rate": 0.0,
    "goalpost_moves": 0,
    "goalpost_rate": 0.0,
-   "hedge_ratio": 0.343,
-   "revenue_delivery_ratio": null,
-   "revenue_ratio_n": 0
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": 0.949,
+   "revenue_ratio_n": 4
   },
   {
-   "score": 31.6,
+   "score": 39.5,
    "ci80": [
-    19.0,
-    44.8
+    30.7,
+    48.3
+   ],
+   "n": 54,
+   "effective_n": 44.0,
+   "ticker": "PRESTIGE",
+   "grade": "F",
+   "financial": {
+    "score": 62.8,
+    "ci80": [
+     40.0,
+     83.4
+    ],
+    "n": 2,
+    "effective_n": 1.7
+   },
+   "operational": {
+    "score": 37.4,
+    "ci80": [
+     28.5,
+     46.3
+    ],
+    "n": 52,
+    "effective_n": 42.3
+   },
+   "outcomes": {
+    "GHOSTED": 9,
+    "MISSED": 10,
+    "REVISED_DOWN": 15,
+    "DELIVERED": 15,
+    "LATE": 5
+   },
+   "promises_made": 166,
+   "pending": 112,
+   "ghost_rate": 0.167,
+   "goalpost_moves": 33,
+   "goalpost_rate": 0.219,
+   "hedge_ratio": 0.181,
+   "revenue_delivery_ratio": 1.268,
+   "revenue_ratio_n": 1
+  },
+  {
+   "score": 38.0,
+   "ci80": [
+    17.9,
+    60.0
+   ],
+   "n": 7,
+   "effective_n": 2.2,
+   "ticker": "DABUR",
+   "grade": "F",
+   "financial": {
+    "score": 38.0,
+    "ci80": [
+     17.9,
+     60.0
+    ],
+    "n": 7,
+    "effective_n": 2.2
+   },
+   "operational": null,
+   "outcomes": {
+    "MISSED": 7
+   },
+   "promises_made": 37,
+   "pending": 30,
+   "ghost_rate": 0.0,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": 0.955,
+   "revenue_ratio_n": 7
+  },
+  {
+   "score": 37.7,
+   "ci80": [
+    17.7,
+    59.7
+   ],
+   "n": 4,
+   "effective_n": 2.3,
+   "ticker": "HAL",
+   "grade": "F",
+   "financial": {
+    "score": 37.7,
+    "ci80": [
+     17.7,
+     59.7
+    ],
+    "n": 4,
+    "effective_n": 2.3
+   },
+   "operational": null,
+   "outcomes": {
+    "MISSED": 4
+   },
+   "promises_made": 7,
+   "pending": 3,
+   "ghost_rate": 0.0,
+   "goalpost_moves": 0,
+   "goalpost_rate": 0.0,
+   "hedge_ratio": 0.0,
+   "revenue_delivery_ratio": 0.927,
+   "revenue_ratio_n": 4
+  },
+  {
+   "score": 31.3,
+   "ci80": [
+    16.6,
+    46.9
+   ],
+   "n": 9,
+   "effective_n": 8.7,
+   "ticker": "ADVAIT",
+   "grade": "F",
+   "financial": {
+    "score": 51.7,
+    "ci80": [
+     29.6,
+     73.5
+    ],
+    "n": 2,
+    "effective_n": 2.0
+   },
+   "operational": {
+    "score": 28.4,
+    "ci80": [
+     13.4,
+     45.0
+    ],
+    "n": 7,
+    "effective_n": 6.7
+   },
+   "outcomes": {
+    "ABANDONED": 1,
+    "REVISED_DOWN": 2,
+    "GHOSTED": 5,
+    "DELIVERED": 1
+   },
+   "promises_made": 87,
+   "pending": 78,
+   "ghost_rate": 0.556,
+   "goalpost_moves": 15,
+   "goalpost_rate": 0.183,
+   "hedge_ratio": 0.207,
+   "revenue_delivery_ratio": 1.283,
+   "revenue_ratio_n": 1
+  },
+  {
+   "score": 31.3,
+   "ci80": [
+    18.8,
+    44.4
    ],
    "n": 21,
    "effective_n": 15.0,
    "ticker": "VPRPL",
    "grade": "F",
    "financial": {
-    "score": 36.1,
+    "score": 25.9,
     "ci80": [
-     21.2,
-     51.5
+     12.8,
+     40.1
     ],
     "n": 15,
     "effective_n": 10.0
    },
    "operational": {
-    "score": 51.3,
+    "score": 50.6,
     "ci80": [
-     32.1,
-     70.1
+     31.4,
+     69.5
     ],
     "n": 6,
     "effective_n": 5.0
    },
    "outcomes": {
-    "DELIVERED": 1,
-    "MISSED": 10,
-    "LATE": 2,
-    "GHOSTED": 8
+    "DELIVERED": 3,
+    "MISSED": 12,
+    "LATE": 1,
+    "GHOSTED": 4,
+    "REVISED_DOWN": 1
    },
    "promises_made": 51,
    "pending": 30,
-   "ghost_rate": 0.381,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
+   "ghost_rate": 0.19,
+   "goalpost_moves": 7,
+   "goalpost_rate": 0.163,
    "hedge_ratio": 0.294,
    "revenue_delivery_ratio": 0.625,
    "revenue_ratio_n": 9
-  },
-  {
-   "score": 18.9,
-   "ci80": [
-    10.8,
-    27.7
-   ],
-   "n": 33,
-   "effective_n": 28.2,
-   "ticker": "PRESTIGE",
-   "grade": "F",
-   "financial": {
-    "score": 84.0,
-    "ci80": [
-     66.4,
-     97.2
-    ],
-    "n": 2,
-    "effective_n": 1.7
-   },
-   "operational": {
-    "score": 14.7,
-    "ci80": [
-     7.4,
-     22.8
-    ],
-    "n": 31,
-    "effective_n": 26.5
-   },
-   "outcomes": {
-    "GHOSTED": 31,
-    "DELIVERED": 2
-   },
-   "promises_made": 166,
-   "pending": 133,
-   "ghost_rate": 0.939,
-   "goalpost_moves": 0,
-   "goalpost_rate": 0.0,
-   "hedge_ratio": 0.181,
-   "revenue_delivery_ratio": 1.268,
-   "revenue_ratio_n": 1
   }
  ],
  "history": {
   "AARTIIND": [
    {
-    "date": "2025-05-08",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-08-01",
-    "score": 78.3,
-    "n": 0
-   },
-   {
-    "date": "2025-11-07",
-    "score": 79.0,
-    "n": 0
-   },
-   {
     "date": "2026-02-03",
-    "score": 79.4,
+    "score": 52.5,
     "n": 0
    },
    {
     "date": "2026-05-05",
-    "score": 81.2,
+    "score": 52.7,
     "n": 0
    },
    {
     "date": "2026-07-31",
-    "score": 79.6,
+    "score": 52.4,
     "n": 0
    }
   ],
   "ABB": [
    {
-    "date": "2025-05-02",
-    "score": 81.7,
-    "n": 0
-   },
-   {
-    "date": "2025-07-28",
-    "score": 77.2,
-    "n": 0
-   },
-   {
-    "date": "2025-11-06",
-    "score": 78.8,
-    "n": 0
-   },
-   {
     "date": "2026-02-16",
-    "score": 79.9,
+    "score": 51.2,
     "n": 0
    },
    {
     "date": "2026-07-24",
-    "score": 79.4,
-    "n": 0
+    "score": 46.6,
+    "n": 1
    }
   ],
   "ADVAIT": [
    {
     "date": "2025-02-14",
-    "score": 80.0,
+    "score": 50.9,
     "n": 0
    },
    {
     "date": "2025-11-14",
-    "score": 81.9,
+    "score": 48.7,
     "n": 1
    },
    {
     "date": "2026-02-12",
-    "score": 85.3,
-    "n": 22
+    "score": 25.8,
+    "n": 8
    },
    {
     "date": "2026-06-01",
-    "score": 91.4,
-    "n": 42
+    "score": 32.1,
+    "n": 9
    }
   ],
   "AHLUCONT": [
    {
     "date": "2024-11-18",
-    "score": 25.0,
+    "score": 44.5,
     "n": 0
    },
    {
     "date": "2025-02-12",
-    "score": 80.0,
-    "n": 0
+    "score": 42.3,
+    "n": 4
    },
    {
     "date": "2025-06-02",
-    "score": 79.5,
-    "n": 18
+    "score": 52.2,
+    "n": 13
    },
    {
     "date": "2025-08-18",
-    "score": 72.9,
-    "n": 20
+    "score": 41.7,
+    "n": 18
    },
    {
     "date": "2025-11-17",
-    "score": 72.1,
-    "n": 21
+    "score": 36.5,
+    "n": 27
    },
    {
     "date": "2026-02-16",
-    "score": 68.0,
-    "n": 23
+    "score": 40.8,
+    "n": 40
    },
    {
     "date": "2026-08-17",
-    "score": 68.8,
-    "n": 35
+    "score": 44.4,
+    "n": 54
    }
   ],
   "AMARAJABAT": [
    {
     "date": "2025-02-05",
-    "score": 80.0,
+    "score": 53.0,
     "n": 0
    },
    {
     "date": "2025-05-26",
-    "score": 85.8,
-    "n": 0
+    "score": 58.6,
+    "n": 4
    },
    {
     "date": "2025-08-12",
-    "score": 58.5,
-    "n": 2
+    "score": 57.7,
+    "n": 8
    },
    {
     "date": "2025-11-03",
-    "score": 74.7,
-    "n": 23
+    "score": 51.2,
+    "n": 15
    },
    {
     "date": "2026-02-06",
-    "score": 78.0,
-    "n": 27
+    "score": 48.0,
+    "n": 19
    },
    {
     "date": "2026-05-21",
-    "score": 73.2,
-    "n": 29
+    "score": 43.2,
+    "n": 28
    },
    {
     "date": "2026-08-06",
-    "score": 77.7,
-    "n": 39
+    "score": 42.5,
+    "n": 31
    }
   ],
   "AMBER": [
    {
-    "date": "2025-05-19",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-07-30",
-    "score": 78.7,
-    "n": 0
-   },
-   {
-    "date": "2025-11-07",
-    "score": 79.0,
-    "n": 0
-   },
-   {
     "date": "2026-05-18",
-    "score": 81.6,
+    "score": 52.9,
     "n": 0
    },
    {
     "date": "2026-06-20",
-    "score": 81.6,
-    "n": 17
+    "score": 54.3,
+    "n": 0
    },
    {
     "date": "2026-08-14",
-    "score": 81.4,
-    "n": 17
+    "score": 52.1,
+    "n": 0
    }
   ],
   "APARINDS": [
    {
-    "date": "2025-05-14",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-07-29",
-    "score": 77.2,
-    "n": 0
-   },
-   {
-    "date": "2025-10-30",
-    "score": 77.9,
-    "n": 0
-   },
-   {
     "date": "2026-01-29",
-    "score": 79.7,
+    "score": 52.4,
     "n": 0
    },
    {
     "date": "2026-07-24",
-    "score": 83.9,
-    "n": 4
+    "score": 53.2,
+    "n": 0
    }
   ],
   "APOLLOHOSP": [
    {
-    "date": "2025-11-07",
-    "score": 79.0,
-    "n": 0
-   },
-   {
     "date": "2026-02-11",
-    "score": 79.7,
+    "score": 51.9,
     "n": 0
    },
    {
     "date": "2026-05-21",
-    "score": 81.6,
+    "score": 52.7,
     "n": 0
    },
    {
     "date": "2026-08-13",
-    "score": 82.2,
+    "score": 58.1,
     "n": 1
    }
   ],
   "APOLLOTYRE": [
    {
-    "date": "2025-05-15",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-08-08",
-    "score": 77.3,
-    "n": 0
-   },
-   {
     "date": "2025-11-14",
-    "score": 78.8,
+    "score": 52.1,
     "n": 0
    },
    {
     "date": "2026-02-05",
-    "score": 79.5,
+    "score": 52.3,
     "n": 0
    },
    {
     "date": "2026-05-15",
-    "score": 81.6,
+    "score": 53.1,
     "n": 0
    }
   ],
   "ASALCBR": [
    {
     "date": "2024-10-25",
-    "score": 25.0,
+    "score": 44.5,
     "n": 0
    },
    {
     "date": "2025-01-27",
-    "score": 90.4,
-    "n": 12
+    "score": 62.5,
+    "n": 4
    },
    {
     "date": "2025-04-28",
-    "score": 93.4,
-    "n": 12
+    "score": 47.6,
+    "n": 11
    },
    {
     "date": "2025-08-11",
-    "score": 91.8,
-    "n": 12
+    "score": 40.2,
+    "n": 21
    },
    {
     "date": "2025-11-11",
-    "score": 81.5,
-    "n": 37
+    "score": 45.2,
+    "n": 33
    },
    {
     "date": "2026-02-05",
-    "score": 81.7,
+    "score": 42.9,
     "n": 37
    },
    {
     "date": "2026-05-20",
-    "score": 85.1,
-    "n": 49
+    "score": 45.0,
+    "n": 44
    },
    {
     "date": "2026-07-27",
-    "score": 80.7,
-    "n": 65
+    "score": 45.4,
+    "n": 56
    }
   ],
   "ASTRAL": [
    {
-    "date": "2025-05-15",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-08-12",
-    "score": 76.6,
-    "n": 0
-   },
-   {
     "date": "2025-11-06",
-    "score": 78.8,
+    "score": 53.0,
     "n": 0
    },
    {
     "date": "2026-05-15",
-    "score": 81.6,
+    "score": 53.1,
     "n": 0
    },
    {
     "date": "2026-08-12",
-    "score": 79.7,
+    "score": 52.1,
     "n": 0
    }
   ],
   "AUROPHARMA": [
    {
-    "date": "2025-07-24",
-    "score": 77.2,
-    "n": 0
-   },
-   {
     "date": "2025-10-28",
-    "score": 76.1,
+    "score": 50.3,
     "n": 0
    },
    {
     "date": "2026-02-02",
-    "score": 79.4,
+    "score": 52.5,
     "n": 0
    },
    {
     "date": "2026-08-06",
-    "score": 82.3,
+    "score": 45.8,
     "n": 1
    }
   ],
   "BAJAJ-AUTO": [
    {
-    "date": "2025-05-29",
-    "score": 91.6,
-    "n": 0
-   },
-   {
-    "date": "2025-08-06",
-    "score": 77.3,
-    "n": 0
-   },
-   {
-    "date": "2025-11-07",
-    "score": 79.0,
-    "n": 0
-   },
-   {
     "date": "2026-05-06",
-    "score": 81.5,
+    "score": 52.7,
     "n": 0
    },
    {
     "date": "2026-07-21",
-    "score": 81.9,
-    "n": 1
+    "score": 53.1,
+    "n": 0
    },
    {
     "date": "2026-10-27",
-    "score": 82.0,
-    "n": 1
+    "score": 52.3,
+    "n": 0
    }
   ],
   "BATAINDIA": [
    {
-    "date": "2025-05-27",
-    "score": 88.7,
-    "n": 0
-   },
-   {
-    "date": "2025-07-31",
-    "score": 78.3,
-    "n": 0
-   },
-   {
-    "date": "2025-10-06",
-    "score": 74.3,
-    "n": 0
-   },
-   {
     "date": "2026-01-28",
-    "score": 79.3,
+    "score": 52.6,
     "n": 0
    },
    {
     "date": "2026-05-25",
-    "score": 81.7,
+    "score": 53.6,
     "n": 0
    },
    {
     "date": "2026-08-04",
-    "score": 69.8,
-    "n": 1
+    "score": 52.3,
+    "n": 0
    }
   ],
   "BEL": [
    {
-    "date": "2025-05-15",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-08-15",
-    "score": 74.8,
-    "n": 0
-   },
-   {
-    "date": "2025-11-15",
-    "score": 78.8,
-    "n": 0
-   },
-   {
     "date": "2026-01-28",
-    "score": 71.6,
-    "n": 1
+    "score": 52.6,
+    "n": 0
    },
    {
     "date": "2026-05-15",
-    "score": 73.5,
-    "n": 1
+    "score": 53.1,
+    "n": 0
    },
    {
     "date": "2026-07-15",
-    "score": 72.3,
-    "n": 1
+    "score": 54.2,
+    "n": 0
    }
   ],
   "BHARATFORG": [
    {
-    "date": "2025-05-08",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-08-06",
-    "score": 77.3,
-    "n": 0
-   },
-   {
-    "date": "2025-11-11",
-    "score": 78.6,
-    "n": 0
-   },
-   {
     "date": "2026-02-12",
-    "score": 79.9,
+    "score": 51.2,
     "n": 0
    },
    {
     "date": "2026-05-07",
-    "score": 81.5,
+    "score": 53.0,
     "n": 0
    },
    {
     "date": "2026-08-10",
-    "score": 69.8,
-    "n": 1
+    "score": 52.2,
+    "n": 0
    }
   ],
   "BHEL": [
@@ -3816,549 +3531,394 @@
    },
    {
     "date": "2024-05-21",
-    "score": 95.0,
+    "score": 64.6,
     "n": 0
    }
   ],
   "BRITANNIA": [
    {
-    "date": "2025-05-12",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-08-06",
-    "score": 77.3,
-    "n": 0
-   },
-   {
-    "date": "2025-11-07",
-    "score": 79.0,
-    "n": 0
-   },
-   {
     "date": "2026-02-11",
-    "score": 79.7,
+    "score": 51.9,
     "n": 0
    },
    {
     "date": "2026-05-08",
-    "score": 81.5,
+    "score": 53.0,
     "n": 0
    },
    {
     "date": "2026-08-07",
-    "score": 79.9,
+    "score": 52.5,
     "n": 0
    }
   ],
   "CDSL": [
    {
-    "date": "2025-04-25",
-    "score": 81.7,
-    "n": 0
-   },
-   {
-    "date": "2025-07-22",
-    "score": 77.9,
-    "n": 0
-   },
-   {
-    "date": "2025-10-27",
-    "score": 76.0,
-    "n": 0
-   },
-   {
     "date": "2026-02-02",
-    "score": 79.4,
+    "score": 52.5,
     "n": 0
    },
    {
     "date": "2026-04-27",
-    "score": 80.5,
+    "score": 52.0,
     "n": 0
    },
    {
     "date": "2026-07-28",
-    "score": 82.1,
-    "n": 1
+    "score": 52.9,
+    "n": 0
    }
   ],
   "CEATLTD": [
    {
-    "date": "2025-04-30",
-    "score": 81.7,
-    "n": 0
-   },
-   {
-    "date": "2025-07-18",
-    "score": 79.0,
-    "n": 0
-   },
-   {
-    "date": "2025-10-17",
-    "score": 76.0,
-    "n": 0
-   },
-   {
     "date": "2026-01-20",
-    "score": 79.5,
+    "score": 52.4,
     "n": 0
    },
    {
     "date": "2026-04-29",
-    "score": 80.5,
+    "score": 52.0,
     "n": 0
    },
    {
     "date": "2026-07-17",
-    "score": 82.6,
+    "score": 59.8,
     "n": 1
    }
   ],
   "CERA": [
    {
-    "date": "2025-05-10",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-08-07",
-    "score": 77.3,
-    "n": 0
-   },
-   {
-    "date": "2025-11-12",
-    "score": 82.3,
-    "n": 2
-   },
-   {
     "date": "2026-02-05",
-    "score": 85.0,
-    "n": 3
+    "score": 52.3,
+    "n": 0
    },
    {
     "date": "2026-05-09",
-    "score": 86.4,
-    "n": 3
+    "score": 53.0,
+    "n": 0
    }
   ],
   "CIPLA": [
    {
-    "date": "2025-05-13",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-07-25",
-    "score": 77.2,
-    "n": 0
-   },
-   {
-    "date": "2025-10-30",
-    "score": 77.9,
-    "n": 0
-   },
-   {
     "date": "2026-05-13",
-    "score": 80.2,
-    "n": 2
+    "score": 53.6,
+    "n": 0
    },
    {
     "date": "2026-07-23",
-    "score": 74.4,
-    "n": 7
+    "score": 53.2,
+    "n": 0
    },
    {
     "date": "2026-10-27",
-    "score": 74.5,
-    "n": 7
+    "score": 52.3,
+    "n": 0
    }
   ],
   "CLEANMAX": [
    {
     "date": "2026-03-18",
-    "score": 79.9,
+    "score": 51.2,
     "n": 0
    },
    {
     "date": "2026-05-13",
-    "score": 85.5,
-    "n": 2
+    "score": 53.6,
+    "n": 0
    },
    {
     "date": "2026-08-03",
-    "score": 90.7,
-    "n": 10
+    "score": 52.3,
+    "n": 0
    }
   ],
   "COCHINSHIP": [
    {
     "date": "2024-05-31",
-    "score": 95.0,
+    "score": 64.6,
     "n": 0
    },
    {
     "date": "2025-08-19",
-    "score": 77.5,
+    "score": 54.8,
     "n": 1
    },
    {
     "date": "2026-09-10",
-    "score": 70.6,
+    "score": 51.5,
     "n": 3
    }
   ],
   "COFORGE": [
    {
     "date": "2025-05-05",
-    "score": 81.7,
+    "score": 56.3,
     "n": 0
    },
    {
     "date": "2025-07-24",
-    "score": 86.9,
-    "n": 6
+    "score": 52.8,
+    "n": 0
    },
    {
     "date": "2025-10-24",
-    "score": 86.2,
-    "n": 6
+    "score": 66.2,
+    "n": 3
    },
    {
     "date": "2025-12-26",
-    "score": 89.3,
-    "n": 19
+    "score": 60.0,
+    "n": 4
    },
    {
     "date": "2026-01-23",
-    "score": 89.4,
-    "n": 19
+    "score": 58.1,
+    "n": 5
    },
    {
     "date": "2026-05-05",
-    "score": 92.3,
-    "n": 35
+    "score": 74.3,
+    "n": 19
    },
    {
     "date": "2026-07-28",
-    "score": 91.3,
-    "n": 47
+    "score": 63.4,
+    "n": 37
    },
    {
     "date": "2026-10-23",
-    "score": 91.3,
-    "n": 47
+    "score": 64.7,
+    "n": 39
    }
   ],
   "CROMPTON": [
    {
-    "date": "2025-05-06",
-    "score": 81.7,
-    "n": 0
-   },
-   {
-    "date": "2025-07-24",
-    "score": 77.2,
-    "n": 0
-   },
-   {
-    "date": "2025-10-24",
-    "score": 76.0,
-    "n": 0
-   },
-   {
     "date": "2026-05-05",
-    "score": 81.2,
+    "score": 52.7,
     "n": 0
    },
    {
     "date": "2026-08-06",
-    "score": 79.8,
+    "score": 52.3,
     "n": 0
    }
   ],
   "CYIENT": [
    {
-    "date": "2025-07-24",
-    "score": 77.2,
-    "n": 0
-   },
-   {
-    "date": "2025-10-16",
-    "score": 75.4,
-    "n": 0
-   },
-   {
-    "date": "2025-12-18",
-    "score": 78.7,
-    "n": 0
-   },
-   {
     "date": "2026-04-23",
-    "score": 80.1,
+    "score": 51.6,
     "n": 0
    },
    {
     "date": "2026-06-01",
-    "score": 80.0,
+    "score": 54.3,
     "n": 0
    }
   ],
   "CYIENTDLM": [
    {
     "date": "2025-01-21",
-    "score": 25.0,
+    "score": 60.9,
     "n": 0
    },
    {
     "date": "2025-04-22",
-    "score": 80.0,
-    "n": 0
+    "score": 57.1,
+    "n": 3
    },
    {
     "date": "2025-07-22",
-    "score": 77.8,
-    "n": 10
+    "score": 52.6,
+    "n": 4
    },
    {
     "date": "2025-10-14",
-    "score": 76.5,
-    "n": 10
+    "score": 57.0,
+    "n": 6
    },
    {
     "date": "2026-01-20",
-    "score": 83.4,
-    "n": 19
+    "score": 72.1,
+    "n": 13
    },
    {
     "date": "2026-04-21",
-    "score": 83.6,
-    "n": 19
+    "score": 67.6,
+    "n": 28
    },
    {
     "date": "2026-07-21",
-    "score": 72.5,
-    "n": 60
+    "score": 52.6,
+    "n": 47
    },
    {
     "date": "2026-10-15",
-    "score": 73.4,
-    "n": 62
+    "score": 52.5,
+    "n": 47
    }
   ],
   "DABUR": [
    {
     "date": "2026-01-29",
-    "score": 79.7,
+    "score": 52.4,
     "n": 0
    },
    {
     "date": "2026-05-07",
-    "score": 81.5,
+    "score": 53.0,
     "n": 0
    },
    {
     "date": "2026-07-29",
-    "score": 82.1,
-    "n": 1
+    "score": 38.3,
+    "n": 7
    }
   ],
   "DATAPATTNS": [
    {
-    "date": "2025-05-12",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-08-08",
-    "score": 77.3,
-    "n": 0
-   },
-   {
     "date": "2025-11-10",
-    "score": 79.0,
+    "score": 53.7,
     "n": 0
    },
    {
     "date": "2026-07-31",
-    "score": 78.4,
-    "n": 7
+    "score": 52.1,
+    "n": 1
    }
   ],
   "DEEPAKNTR": [
    {
     "date": "2024-11-14",
-    "score": 25.0,
+    "score": 44.5,
     "n": 0
    },
    {
     "date": "2025-02-17",
-    "score": 80.0,
-    "n": 0
+    "score": 42.6,
+    "n": 3
    },
    {
     "date": "2025-05-29",
-    "score": 97.6,
-    "n": 17
+    "score": 48.4,
+    "n": 12
    },
    {
     "date": "2025-08-14",
-    "score": 94.0,
-    "n": 22
+    "score": 45.3,
+    "n": 13
    },
    {
     "date": "2025-11-14",
-    "score": 96.3,
-    "n": 32
+    "score": 44.3,
+    "n": 23
    },
    {
     "date": "2026-02-13",
-    "score": 97.3,
-    "n": 43
+    "score": 48.2,
+    "n": 34
    },
    {
     "date": "2026-05-18",
-    "score": 97.5,
-    "n": 43
+    "score": 45.5,
+    "n": 42
    },
    {
     "date": "2026-08-06",
-    "score": 95.3,
-    "n": 57
+    "score": 47.7,
+    "n": 46
    }
   ],
   "DIVISLAB": [
    {
-    "date": "2025-05-17",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-08-06",
-    "score": 77.3,
-    "n": 0
-   },
-   {
     "date": "2025-11-07",
-    "score": 79.0,
+    "score": 53.5,
     "n": 0
    },
    {
     "date": "2026-02-11",
-    "score": 79.7,
+    "score": 51.9,
     "n": 0
    },
    {
     "date": "2026-05-23",
-    "score": 81.4,
+    "score": 53.2,
     "n": 0
    },
    {
     "date": "2026-08-01",
-    "score": 82.1,
+    "score": 58.3,
     "n": 1
    }
   ],
   "DIXON": [
    {
     "date": "2024-10-24",
-    "score": 25.0,
+    "score": 44.5,
     "n": 0
    },
    {
     "date": "2025-01-20",
-    "score": 25.0,
-    "n": 0
+    "score": 77.9,
+    "n": 6
    },
    {
     "date": "2025-05-20",
-    "score": 85.8,
-    "n": 0
+    "score": 64.7,
+    "n": 20
    },
    {
     "date": "2025-07-22",
-    "score": 63.9,
-    "n": 4
+    "score": 51.3,
+    "n": 31
    },
    {
     "date": "2025-10-17",
-    "score": 62.7,
-    "n": 4
+    "score": 52.2,
+    "n": 46
    },
    {
     "date": "2026-01-29",
-    "score": 68.3,
-    "n": 5
+    "score": 48.9,
+    "n": 66
    },
    {
     "date": "2026-05-12",
-    "score": 77.7,
-    "n": 132
+    "score": 50.2,
+    "n": 86
    },
    {
     "date": "2026-07-31",
-    "score": 77.6,
-    "n": 132
+    "score": 48.4,
+    "n": 103
    }
   ],
   "DLF": [
    {
-    "date": "2025-05-20",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-08-05",
-    "score": 77.8,
-    "n": 0
-   },
-   {
-    "date": "2025-10-31",
-    "score": 77.9,
-    "n": 0
-   },
-   {
     "date": "2026-08-04",
-    "score": 79.7,
+    "score": 52.3,
     "n": 0
    },
    {
     "date": "2026-10-17",
-    "score": 79.4,
+    "score": 52.2,
     "n": 0
    }
   ],
   "DRREDDY": [
    {
-    "date": "2025-05-09",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-07-23",
-    "score": 77.9,
-    "n": 0
-   },
-   {
-    "date": "2025-10-24",
-    "score": 76.0,
-    "n": 0
-   },
-   {
     "date": "2026-01-21",
-    "score": 79.5,
+    "score": 52.4,
     "n": 0
    },
    {
     "date": "2026-05-12",
-    "score": 81.6,
+    "score": 53.6,
     "n": 0
    },
    {
     "date": "2026-07-22",
-    "score": 79.4,
-    "n": 0
+    "score": 46.6,
+    "n": 1
    }
   ],
   "ECORECO": [
@@ -4374,2041 +3934,1621 @@
    },
    {
     "date": "2024-05-15",
-    "score": 96.1,
-    "n": 2
+    "score": 64.6,
+    "n": 6
    },
    {
     "date": "2024-08-16",
-    "score": 25.0,
-    "n": 8
+    "score": 44.5,
+    "n": 13
    }
   ],
   "EIEL": [
    {
     "date": "2024-12-18",
-    "score": 25.0,
+    "score": 44.5,
     "n": 0
    },
    {
     "date": "2025-02-07",
-    "score": 80.0,
+    "score": 53.0,
     "n": 0
    },
    {
     "date": "2025-05-29",
-    "score": 91.6,
-    "n": 0
+    "score": 53.0,
+    "n": 1
    },
    {
     "date": "2025-08-12",
-    "score": 85.1,
-    "n": 4
+    "score": 61.0,
+    "n": 12
    },
    {
     "date": "2025-11-05",
-    "score": 87.3,
-    "n": 16
+    "score": 64.3,
+    "n": 15
    },
    {
     "date": "2026-02-10",
-    "score": 85.7,
+    "score": 62.7,
     "n": 17
    },
    {
     "date": "2026-05-29",
-    "score": 65.1,
+    "score": 50.5,
     "n": 31
    },
    {
     "date": "2026-08-12",
-    "score": 55.6,
-    "n": 54
+    "score": 40.8,
+    "n": 48
    }
   ],
   "ELECON": [
    {
-    "date": "2025-04-25",
-    "score": 81.7,
-    "n": 0
-   },
-   {
-    "date": "2025-07-11",
-    "score": 78.7,
-    "n": 0
-   },
-   {
-    "date": "2025-10-13",
-    "score": 78.2,
-    "n": 1
-   },
-   {
     "date": "2026-04-16",
-    "score": 82.8,
-    "n": 1
+    "score": 51.2,
+    "n": 0
    },
    {
     "date": "2026-07-13",
-    "score": 79.2,
-    "n": 7
+    "score": 54.2,
+    "n": 0
    },
    {
     "date": "2026-10-15",
-    "score": 80.5,
-    "n": 8
+    "score": 58.1,
+    "n": 1
    }
   ],
   "EMMVEE": [
    {
     "date": "2025-11-27",
-    "score": 78.7,
+    "score": 51.5,
     "n": 0
    },
    {
     "date": "2026-01-16",
-    "score": 81.1,
+    "score": 58.6,
     "n": 1
    },
    {
     "date": "2026-04-24",
-    "score": 89.5,
-    "n": 6
+    "score": 69.9,
+    "n": 4
    },
    {
     "date": "2026-07-13",
-    "score": 92.9,
-    "n": 13
+    "score": 68.2,
+    "n": 6
    },
    {
     "date": "2026-10-15",
-    "score": 93.2,
-    "n": 15
+    "score": 69.8,
+    "n": 7
    }
   ],
   "EXIDEIND": [
    {
     "date": "2025-11-17",
-    "score": 78.7,
+    "score": 51.5,
     "n": 0
    },
    {
     "date": "2026-02-03",
-    "score": 79.4,
+    "score": 52.5,
     "n": 0
    },
    {
     "date": "2026-08-03",
-    "score": 79.8,
-    "n": 0
+    "score": 40.8,
+    "n": 4
    }
   ],
   "GODREJCP": [
    {
-    "date": "2025-01-24",
-    "score": 35.1,
-    "n": 0
-   },
-   {
-    "date": "2025-08-07",
-    "score": 77.3,
-    "n": 0
-   },
-   {
     "date": "2025-10-31",
-    "score": 77.9,
+    "score": 51.2,
     "n": 0
    },
    {
     "date": "2026-01-23",
-    "score": 79.4,
+    "score": 52.5,
     "n": 0
    },
    {
     "date": "2026-05-06",
-    "score": 81.5,
+    "score": 52.7,
     "n": 0
    }
   ],
   "GRSE": [
    {
-    "date": "2025-05-15",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-11-11",
-    "score": 78.6,
-    "n": 0
-   },
-   {
     "date": "2026-02-15",
-    "score": 80.2,
+    "score": 51.1,
     "n": 0
    },
    {
     "date": "2026-05-15",
-    "score": 81.6,
+    "score": 53.1,
     "n": 0
    },
    {
     "date": "2026-08-06",
-    "score": 79.8,
+    "score": 52.3,
     "n": 0
    }
   ],
   "HAL": [
    {
     "date": "2024-05-17",
-    "score": 95.0,
+    "score": 64.6,
     "n": 0
    },
    {
     "date": "2025-05-16",
-    "score": 85.8,
+    "score": 56.1,
     "n": 0
    },
    {
     "date": "2026-05-15",
-    "score": 81.6,
-    "n": 0
+    "score": 42.6,
+    "n": 3
    }
   ],
   "HCLTECH": [
    {
-    "date": "2025-04-22",
-    "score": 80.0,
-    "n": 0
-   },
-   {
-    "date": "2025-07-14",
-    "score": 79.0,
-    "n": 0
-   },
-   {
-    "date": "2025-10-13",
-    "score": 74.6,
-    "n": 0
-   },
-   {
     "date": "2026-01-12",
-    "score": 79.0,
+    "score": 51.1,
     "n": 0
    },
    {
     "date": "2026-07-13",
-    "score": 85.8,
-    "n": 3
+    "score": 60.8,
+    "n": 1
    }
   ],
   "HFCL": [
    {
     "date": "2026-04-30",
-    "score": 80.8,
+    "score": 51.8,
     "n": 0
    },
    {
     "date": "2026-07-22",
-    "score": 81.3,
+    "score": 57.4,
     "n": 1
    },
    {
     "date": "2026-10-19",
-    "score": 84.2,
+    "score": 63.3,
     "n": 3
    }
   ],
   "INFY": [
    {
-    "date": "2025-04-17",
-    "score": 80.0,
-    "n": 0
-   },
-   {
-    "date": "2025-10-16",
-    "score": 75.4,
-    "n": 0
-   },
-   {
     "date": "2026-04-23",
-    "score": 80.1,
+    "score": 51.6,
     "n": 0
    },
    {
     "date": "2026-07-23",
-    "score": 82.1,
-    "n": 6
+    "score": 53.2,
+    "n": 0
    },
    {
     "date": "2026-10-23",
-    "score": 82.1,
-    "n": 6
+    "score": 52.3,
+    "n": 0
    }
   ],
   "IONEXCHANG": [
    {
     "date": "2024-11-15",
-    "score": 25.0,
+    "score": 44.5,
     "n": 0
    },
    {
     "date": "2025-01-22",
-    "score": 25.0,
+    "score": 60.9,
     "n": 0
    },
    {
     "date": "2025-05-30",
-    "score": 80.4,
-    "n": 2
+    "score": 51.0,
+    "n": 12
    },
    {
     "date": "2025-08-01",
-    "score": 81.2,
-    "n": 2
+    "score": 46.0,
+    "n": 13
    },
    {
     "date": "2025-11-07",
-    "score": 80.2,
-    "n": 26
+    "score": 56.2,
+    "n": 20
    },
    {
     "date": "2026-02-02",
-    "score": 81.8,
-    "n": 31
+    "score": 52.4,
+    "n": 23
    },
    {
     "date": "2026-05-29",
-    "score": 82.2,
-    "n": 31
+    "score": 52.3,
+    "n": 42
    },
    {
     "date": "2026-08-10",
-    "score": 77.8,
-    "n": 66
+    "score": 49.7,
+    "n": 45
    }
   ],
   "IXIGO": [
    {
     "date": "2025-01-28",
-    "score": 75.7,
+    "score": 59.2,
     "n": 0
    },
    {
     "date": "2025-05-14",
-    "score": 85.8,
+    "score": 57.1,
     "n": 0
    },
    {
     "date": "2025-07-16",
-    "score": 79.0,
+    "score": 56.5,
     "n": 0
    },
    {
     "date": "2025-10-29",
-    "score": 79.9,
+    "score": 55.6,
     "n": 1
    },
    {
     "date": "2026-01-22",
-    "score": 81.3,
-    "n": 1
+    "score": 60.4,
+    "n": 2
    },
    {
     "date": "2026-05-21",
-    "score": 80.5,
+    "score": 60.6,
     "n": 2
    },
    {
     "date": "2026-08-06",
-    "score": 79.0,
+    "score": 60.2,
     "n": 2
    },
    {
     "date": "2026-10-19",
-    "score": 84.7,
-    "n": 5
+    "score": 60.2,
+    "n": 2
    }
   ],
   "JBCHEPHARM": [
    {
     "date": "2025-11-12",
-    "score": 78.7,
+    "score": 53.8,
     "n": 0
    },
    {
     "date": "2026-01-19",
-    "score": 79.2,
+    "score": 51.6,
     "n": 0
    },
    {
     "date": "2026-05-12",
-    "score": 81.6,
+    "score": 53.6,
     "n": 0
    }
   ],
   "JYOTHYLAB": [
    {
-    "date": "2025-05-12",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-08-12",
-    "score": 76.6,
-    "n": 0
-   },
-   {
-    "date": "2025-11-12",
-    "score": 78.7,
-    "n": 0
-   },
-   {
     "date": "2026-02-09",
-    "score": 81.5,
-    "n": 1
+    "score": 51.9,
+    "n": 0
    },
    {
     "date": "2026-05-04",
-    "score": 84.0,
-    "n": 2
+    "score": 52.0,
+    "n": 0
    },
    {
     "date": "2026-08-12",
-    "score": 83.1,
-    "n": 2
+    "score": 52.1,
+    "n": 0
    }
   ],
   "KAYNES": [
    {
     "date": "2025-01-28",
-    "score": 75.7,
+    "score": 59.2,
     "n": 0
    },
    {
     "date": "2025-05-16",
-    "score": 85.8,
-    "n": 0
+    "score": 45.6,
+    "n": 2
    },
    {
     "date": "2025-07-31",
-    "score": 78.2,
-    "n": 4
+    "score": 54.7,
+    "n": 7
    },
    {
     "date": "2025-11-05",
-    "score": 78.5,
-    "n": 4
+    "score": 67.3,
+    "n": 18
    },
    {
     "date": "2025-12-08",
-    "score": 78.4,
-    "n": 4
+    "score": 60.7,
+    "n": 21
    },
    {
     "date": "2026-02-06",
-    "score": 79.0,
-    "n": 4
+    "score": 56.0,
+    "n": 24
    },
    {
     "date": "2026-05-14",
-    "score": 83.5,
-    "n": 58
+    "score": 48.6,
+    "n": 45
    },
    {
     "date": "2026-08-08",
-    "score": 76.2,
-    "n": 69
+    "score": 44.8,
+    "n": 61
    }
   ],
   "KEC": [
    {
     "date": "2026-01-30",
-    "score": 78.6,
+    "score": 52.1,
     "n": 0
    },
    {
     "date": "2026-05-18",
-    "score": 83.9,
+    "score": 58.7,
     "n": 1
    },
    {
     "date": "2026-08-11",
-    "score": 86.0,
+    "score": 67.1,
     "n": 3
    }
   ],
   "KEI": [
    {
-    "date": "2025-05-07",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-07-23",
-    "score": 77.9,
-    "n": 0
-   },
-   {
-    "date": "2025-10-16",
-    "score": 75.4,
-    "n": 0
-   },
-   {
     "date": "2026-05-05",
-    "score": 83.5,
-    "n": 1
+    "score": 52.7,
+    "n": 0
    },
    {
     "date": "2026-08-04",
-    "score": 70.7,
-    "n": 5
+    "score": 52.3,
+    "n": 0
    },
    {
     "date": "2026-10-22",
-    "score": 70.5,
-    "n": 5
+    "score": 52.2,
+    "n": 0
    }
   ],
   "KPITTECH": [
    {
     "date": "2024-10-23",
-    "score": 25.0,
+    "score": 44.5,
     "n": 0
    },
    {
     "date": "2025-01-29",
-    "score": 75.7,
+    "score": 56.5,
     "n": 0
    },
    {
     "date": "2025-04-28",
-    "score": 81.7,
-    "n": 0
+    "score": 62.4,
+    "n": 2
    },
    {
     "date": "2025-07-30",
-    "score": 87.8,
-    "n": 5
+    "score": 72.3,
+    "n": 8
    },
    {
     "date": "2025-11-10",
-    "score": 87.9,
-    "n": 5
+    "score": 70.5,
+    "n": 14
    },
    {
     "date": "2026-01-30",
-    "score": 87.7,
-    "n": 5
+    "score": 64.6,
+    "n": 19
    },
    {
     "date": "2026-05-07",
-    "score": 82.8,
-    "n": 41
+    "score": 65.6,
+    "n": 26
    },
    {
     "date": "2026-07-29",
-    "score": 80.5,
-    "n": 42
+    "score": 58.1,
+    "n": 31
    }
   ],
   "LEMONTREE": [
    {
-    "date": "2025-05-30",
-    "score": 77.4,
-    "n": 0
-   },
-   {
-    "date": "2025-08-11",
-    "score": 77.3,
-    "n": 0
-   },
-   {
-    "date": "2025-11-13",
-    "score": 76.4,
-    "n": 0
-   },
-   {
     "date": "2026-02-10",
-    "score": 79.7,
+    "score": 51.9,
     "n": 0
    },
    {
     "date": "2026-05-29",
-    "score": 81.2,
+    "score": 53.3,
     "n": 0
    },
    {
     "date": "2026-08-10",
-    "score": 79.7,
+    "score": 52.2,
     "n": 0
    }
   ],
   "LT": [
    {
-    "date": "2025-05-08",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-07-29",
-    "score": 77.2,
-    "n": 0
-   },
-   {
-    "date": "2025-10-29",
-    "score": 77.9,
-    "n": 0
-   },
-   {
     "date": "2026-01-28",
-    "score": 79.3,
+    "score": 52.6,
     "n": 0
    },
    {
     "date": "2026-05-05",
-    "score": 81.2,
+    "score": 52.7,
     "n": 0
    },
    {
     "date": "2026-07-28",
-    "score": 79.5,
+    "score": 52.9,
     "n": 0
    }
   ],
   "LUPIN": [
    {
-    "date": "2025-10-27",
-    "score": 76.0,
-    "n": 0
-   },
-   {
     "date": "2026-01-28",
-    "score": 79.3,
+    "score": 52.6,
     "n": 0
    },
    {
     "date": "2026-04-23",
-    "score": 80.1,
+    "score": 51.6,
     "n": 0
    },
    {
     "date": "2026-07-22",
-    "score": 79.4,
+    "score": 53.2,
     "n": 0
    }
   ],
   "MAPMYINDIA": [
    {
     "date": "2024-12-01",
-    "score": 25.0,
+    "score": 44.5,
     "n": 0
    },
    {
     "date": "2025-01-23",
-    "score": 44.4,
-    "n": 1
+    "score": 59.6,
+    "n": 0
    },
    {
     "date": "2025-05-07",
-    "score": 94.2,
-    "n": 10
+    "score": 75.6,
+    "n": 5
    },
    {
     "date": "2025-08-04",
-    "score": 87.3,
-    "n": 13
+    "score": 58.3,
+    "n": 11
    },
    {
     "date": "2025-11-04",
-    "score": 87.6,
+    "score": 63.0,
     "n": 13
    },
    {
     "date": "2026-02-11",
-    "score": 88.0,
+    "score": 63.0,
     "n": 13
    },
    {
     "date": "2026-05-14",
-    "score": 85.2,
+    "score": 61.3,
     "n": 14
    },
    {
     "date": "2026-08-04",
-    "score": 85.6,
-    "n": 16
+    "score": 63.5,
+    "n": 17
    }
   ],
   "MARICO": [
    {
-    "date": "2025-05-02",
-    "score": 81.7,
-    "n": 0
-   },
-   {
-    "date": "2025-08-04",
-    "score": 77.8,
-    "n": 0
-   },
-   {
-    "date": "2025-11-14",
-    "score": 78.8,
-    "n": 0
-   },
-   {
     "date": "2026-02-13",
-    "score": 80.3,
+    "score": 51.4,
     "n": 0
    },
    {
     "date": "2026-05-05",
-    "score": 81.2,
+    "score": 52.7,
     "n": 0
    },
    {
     "date": "2026-08-04",
-    "score": 79.7,
+    "score": 52.3,
     "n": 0
    }
   ],
   "MARUTI": [
    {
     "date": "2026-04-28",
-    "score": 80.5,
+    "score": 52.0,
     "n": 0
    }
   ],
   "MAXHEALTH": [
    {
-    "date": "2025-05-21",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-08-14",
-    "score": 74.8,
-    "n": 0
-   },
-   {
-    "date": "2025-11-17",
-    "score": 78.7,
-    "n": 0
-   },
-   {
     "date": "2026-02-06",
-    "score": 79.7,
+    "score": 51.9,
     "n": 0
    },
    {
     "date": "2026-05-22",
-    "score": 81.4,
+    "score": 53.2,
     "n": 0
    },
    {
     "date": "2026-08-14",
-    "score": 85.4,
-    "n": 8
+    "score": 58.1,
+    "n": 1
    }
   ],
   "MAZDOCK": [
    {
     "date": "2025-02-07",
-    "score": 80.0,
+    "score": 53.0,
     "n": 0
    },
    {
     "date": "2025-05-30",
-    "score": 80.2,
+    "score": 61.3,
     "n": 1
    },
    {
     "date": "2025-10-28",
-    "score": 81.7,
+    "score": 62.0,
     "n": 3
    }
   ],
   "MCX": [
    {
-    "date": "2025-05-09",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-08-04",
-    "score": 77.8,
-    "n": 0
-   },
-   {
-    "date": "2025-11-07",
-    "score": 79.0,
-    "n": 0
-   },
-   {
     "date": "2026-01-27",
-    "score": 79.4,
+    "score": 52.6,
     "n": 0
    },
    {
     "date": "2026-05-11",
-    "score": 81.6,
+    "score": 52.7,
     "n": 0
    },
    {
     "date": "2026-08-05",
-    "score": 79.6,
+    "score": 52.3,
     "n": 0
    }
   ],
   "MEDPLUS": [
    {
-    "date": "2025-05-28",
-    "score": 88.7,
-    "n": 0
-   },
-   {
-    "date": "2025-08-04",
-    "score": 77.8,
-    "n": 0
-   },
-   {
     "date": "2025-11-03",
-    "score": 78.1,
+    "score": 51.2,
     "n": 0
    },
    {
     "date": "2026-02-02",
-    "score": 79.4,
+    "score": 52.5,
     "n": 0
    },
    {
     "date": "2026-05-21",
-    "score": 81.6,
+    "score": 52.7,
     "n": 0
    }
   ],
   "MOTHERSON": [
    {
-    "date": "2025-07-29",
-    "score": 77.2,
-    "n": 0
-   },
-   {
-    "date": "2025-11-13",
-    "score": 76.4,
-    "n": 0
-   },
-   {
     "date": "2026-02-10",
-    "score": 79.7,
+    "score": 51.9,
     "n": 0
    },
    {
     "date": "2026-05-20",
-    "score": 81.8,
+    "score": 52.9,
     "n": 0
    },
    {
     "date": "2026-08-06",
-    "score": 79.8,
-    "n": 0
+    "score": 58.2,
+    "n": 1
    }
   ],
   "MUTHOOTFIN": [
    {
-    "date": "2025-08-05",
-    "score": 77.8,
-    "n": 0
-   },
-   {
-    "date": "2025-11-07",
-    "score": 79.0,
-    "n": 0
-   },
-   {
     "date": "2026-02-07",
-    "score": 79.7,
+    "score": 51.9,
     "n": 0
    },
    {
     "date": "2026-05-11",
-    "score": 81.6,
+    "score": 52.7,
     "n": 0
    },
    {
     "date": "2026-08-01",
-    "score": 79.6,
+    "score": 52.4,
     "n": 0
    }
   ],
   "NAVINFLUOR": [
    {
-    "date": "2025-05-09",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-10-30",
-    "score": 77.9,
-    "n": 0
-   },
-   {
     "date": "2026-02-09",
-    "score": 79.7,
+    "score": 51.9,
     "n": 0
    },
    {
     "date": "2026-04-29",
-    "score": 80.5,
+    "score": 52.0,
     "n": 0
    },
    {
     "date": "2026-08-05",
-    "score": 77.3,
-    "n": 6
+    "score": 52.3,
+    "n": 0
    }
   ],
   "NETWEB": [
    {
     "date": "2025-01-20",
-    "score": 25.0,
+    "score": 60.9,
     "n": 0
    },
    {
     "date": "2025-05-05",
-    "score": 81.7,
-    "n": 0
+    "score": 72.3,
+    "n": 4
    },
    {
     "date": "2025-08-01",
-    "score": 81.4,
-    "n": 1
+    "score": 66.1,
+    "n": 6
    },
    {
     "date": "2025-11-03",
-    "score": 81.2,
-    "n": 1
+    "score": 70.3,
+    "n": 9
    },
    {
     "date": "2026-01-19",
-    "score": 82.2,
-    "n": 1
+    "score": 67.8,
+    "n": 12
    },
    {
     "date": "2026-05-04",
-    "score": 80.7,
-    "n": 19
+    "score": 62.4,
+    "n": 16
    },
    {
     "date": "2026-07-29",
-    "score": 80.0,
-    "n": 24
+    "score": 63.9,
+    "n": 22
    },
    {
     "date": "2026-10-26",
-    "score": 82.3,
-    "n": 28
+    "score": 63.8,
+    "n": 22
    }
   ],
   "NEWGEN": [
    {
-    "date": "2025-05-02",
-    "score": 81.7,
-    "n": 0
-   },
-   {
-    "date": "2025-07-17",
-    "score": 79.0,
-    "n": 0
-   },
-   {
-    "date": "2025-10-28",
-    "score": 76.1,
-    "n": 0
-   },
-   {
     "date": "2026-04-30",
-    "score": 80.8,
+    "score": 51.8,
     "n": 0
    },
    {
     "date": "2026-07-16",
-    "score": 80.2,
+    "score": 54.1,
     "n": 0
    },
    {
     "date": "2026-10-23",
-    "score": 79.4,
+    "score": 52.3,
     "n": 0
    }
   ],
   "NYKAA": [
    {
     "date": "2025-02-10",
-    "score": 80.0,
+    "score": 53.4,
     "n": 0
    },
    {
     "date": "2025-05-30",
-    "score": 79.8,
-    "n": 1
+    "score": 55.9,
+    "n": 0
    },
    {
     "date": "2025-08-12",
-    "score": 79.0,
-    "n": 1
+    "score": 49.6,
+    "n": 0
    },
    {
     "date": "2025-11-07",
-    "score": 85.0,
-    "n": 3
+    "score": 53.5,
+    "n": 0
    },
    {
     "date": "2026-02-05",
-    "score": 87.0,
-    "n": 4
+    "score": 58.0,
+    "n": 2
    },
    {
     "date": "2026-05-21",
-    "score": 88.2,
+    "score": 64.6,
     "n": 4
    },
    {
     "date": "2026-08-04",
-    "score": 88.1,
-    "n": 5
+    "score": 64.3,
+    "n": 4
    }
   ],
   "PAYTM": [
    {
     "date": "2025-01-20",
-    "score": 25.0,
+    "score": 60.9,
     "n": 0
    },
    {
     "date": "2025-05-06",
-    "score": 81.7,
-    "n": 0
+    "score": 52.1,
+    "n": 1
    },
    {
     "date": "2025-07-22",
-    "score": 77.9,
-    "n": 0
+    "score": 50.7,
+    "n": 1
    },
    {
     "date": "2025-11-05",
-    "score": 78.8,
-    "n": 0
+    "score": 49.5,
+    "n": 1
    },
    {
     "date": "2026-01-30",
-    "score": 71.5,
-    "n": 1
+    "score": 44.2,
+    "n": 4
    },
    {
     "date": "2026-05-07",
-    "score": 74.1,
-    "n": 1
+    "score": 53.2,
+    "n": 6
    },
    {
     "date": "2026-07-21",
-    "score": 62.0,
-    "n": 15
+    "score": 43.1,
+    "n": 11
    },
    {
     "date": "2026-10-27",
-    "score": 62.1,
-    "n": 15
+    "score": 43.3,
+    "n": 12
    }
   ],
   "PERSISTENT": [
    {
     "date": "2025-01-22",
-    "score": 25.0,
+    "score": 60.9,
     "n": 0
    },
    {
     "date": "2025-04-24",
-    "score": 86.6,
+    "score": 66.5,
     "n": 3
    },
    {
     "date": "2025-07-23",
-    "score": 83.8,
+    "score": 66.6,
     "n": 3
    },
    {
     "date": "2026-01-20",
-    "score": 84.4,
-    "n": 7
+    "score": 65.1,
+    "n": 3
    },
    {
     "date": "2026-04-21",
-    "score": 88.2,
-    "n": 12
+    "score": 71.6,
+    "n": 6
    },
    {
     "date": "2026-06-28",
-    "score": 88.6,
-    "n": 13
+    "score": 70.7,
+    "n": 8
    },
    {
     "date": "2026-10-15",
-    "score": 85.0,
-    "n": 16
+    "score": 63.0,
+    "n": 10
    }
   ],
   "PIIND": [
    {
-    "date": "2025-05-20",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-08-13",
-    "score": 76.6,
-    "n": 0
-   },
-   {
-    "date": "2025-11-12",
-    "score": 78.7,
-    "n": 0
-   },
-   {
     "date": "2026-02-13",
-    "score": 80.3,
+    "score": 51.4,
     "n": 0
    },
    {
     "date": "2026-05-20",
-    "score": 81.8,
+    "score": 52.9,
     "n": 0
    },
    {
     "date": "2026-08-12",
-    "score": 68.3,
+    "score": 44.7,
     "n": 1
    }
   ],
   "POLICYBZR": [
    {
     "date": "2025-01-17",
-    "score": 25.0,
+    "score": 44.5,
     "n": 0
    },
    {
     "date": "2025-04-30",
-    "score": 81.7,
-    "n": 0
+    "score": 58.2,
+    "n": 1
    },
    {
     "date": "2025-07-14",
-    "score": 82.3,
-    "n": 6
+    "score": 62.4,
+    "n": 4
    },
    {
     "date": "2025-10-07",
-    "score": 79.8,
+    "score": 50.3,
     "n": 6
    },
    {
     "date": "2026-01-27",
-    "score": 82.5,
-    "n": 6
+    "score": 56.6,
+    "n": 7
    },
    {
     "date": "2026-04-27",
-    "score": 88.1,
-    "n": 19
+    "score": 58.1,
+    "n": 9
    },
    {
     "date": "2026-07-31",
-    "score": 88.3,
-    "n": 20
+    "score": 60.0,
+    "n": 11
    },
    {
     "date": "2026-09-24",
-    "score": 84.3,
-    "n": 21
+    "score": 59.5,
+    "n": 12
    }
   ],
   "POLYCAB": [
    {
     "date": "2025-05-07",
-    "score": 85.8,
+    "score": 58.5,
     "n": 0
    },
    {
     "date": "2025-07-18",
-    "score": 79.0,
+    "score": 56.5,
     "n": 0
    },
    {
     "date": "2025-10-17",
-    "score": 82.0,
-    "n": 2
+    "score": 49.6,
+    "n": 0
    },
    {
     "date": "2026-01-16",
-    "score": 88.1,
-    "n": 5
+    "score": 67.8,
+    "n": 3
    },
    {
     "date": "2026-05-06",
-    "score": 91.4,
-    "n": 8
+    "score": 70.4,
+    "n": 4
    },
    {
     "date": "2026-07-16",
-    "score": 91.5,
-    "n": 10
+    "score": 59.0,
+    "n": 6
    },
    {
     "date": "2026-10-15",
-    "score": 91.5,
-    "n": 11
+    "score": 58.0,
+    "n": 6
    }
   ],
   "PRAJIND": [
    {
-    "date": "2025-04-30",
-    "score": 81.7,
-    "n": 0
-   },
-   {
-    "date": "2025-08-12",
-    "score": 76.6,
-    "n": 0
-   },
-   {
     "date": "2025-11-06",
-    "score": 78.8,
+    "score": 53.0,
     "n": 0
    },
    {
     "date": "2026-02-13",
-    "score": 80.3,
+    "score": 51.4,
     "n": 0
    },
    {
     "date": "2026-08-14",
-    "score": 79.6,
+    "score": 52.1,
     "n": 0
    }
   ],
   "PRESTIGE": [
    {
     "date": "2024-10-30",
-    "score": 25.0,
+    "score": 44.5,
     "n": 0
    },
    {
     "date": "2025-01-31",
-    "score": 80.0,
-    "n": 0
+    "score": 46.5,
+    "n": 7
    },
    {
     "date": "2025-05-30",
-    "score": 34.2,
-    "n": 10
+    "score": 38.6,
+    "n": 14
    },
    {
     "date": "2025-11-13",
-    "score": 19.3,
-    "n": 21
+    "score": 28.5,
+    "n": 25
    },
    {
     "date": "2026-01-30",
-    "score": 16.2,
-    "n": 27
+    "score": 28.0,
+    "n": 32
    },
    {
     "date": "2026-05-22",
-    "score": 15.0,
-    "n": 31
+    "score": 37.3,
+    "n": 44
    },
    {
     "date": "2026-07-30",
-    "score": 18.9,
-    "n": 33
+    "score": 39.5,
+    "n": 54
    }
   ],
   "RAINBOW": [
    {
     "date": "2024-10-28",
-    "score": 25.0,
+    "score": 44.5,
     "n": 0
    },
    {
     "date": "2025-02-10",
-    "score": 80.0,
-    "n": 0
+    "score": 54.8,
+    "n": 2
    },
    {
     "date": "2025-05-26",
-    "score": 85.8,
-    "n": 0
+    "score": 57.3,
+    "n": 5
    },
    {
     "date": "2025-07-28",
-    "score": 77.2,
-    "n": 0
+    "score": 52.7,
+    "n": 6
    },
    {
     "date": "2025-11-14",
-    "score": 85.0,
-    "n": 28
+    "score": 50.9,
+    "n": 13
    },
    {
     "date": "2026-01-29",
-    "score": 86.4,
-    "n": 31
+    "score": 51.2,
+    "n": 16
    },
    {
     "date": "2026-05-25",
-    "score": 90.6,
-    "n": 47
+    "score": 60.6,
+    "n": 25
    },
    {
     "date": "2026-07-31",
-    "score": 90.3,
-    "n": 53
+    "score": 63.5,
+    "n": 30
    }
   ],
   "ROUTE": [
    {
-    "date": "2025-05-08",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-07-18",
-    "score": 79.0,
-    "n": 0
-   },
-   {
-    "date": "2025-11-04",
-    "score": 78.5,
-    "n": 0
-   },
-   {
     "date": "2026-02-10",
-    "score": 79.7,
+    "score": 51.9,
     "n": 0
    },
    {
     "date": "2026-05-08",
-    "score": 81.5,
+    "score": 53.0,
     "n": 0
    },
    {
     "date": "2026-07-24",
-    "score": 75.7,
+    "score": 46.6,
     "n": 1
    }
   ],
   "SAMHI": [
    {
     "date": "2025-04-24",
-    "score": 81.7,
+    "score": 54.2,
     "n": 0
    },
    {
     "date": "2025-05-30",
-    "score": 86.7,
-    "n": 6
+    "score": 65.6,
+    "n": 2
    },
    {
     "date": "2025-08-14",
-    "score": 85.2,
-    "n": 6
+    "score": 63.2,
+    "n": 3
    },
    {
     "date": "2025-10-29",
-    "score": 94.9,
-    "n": 25
+    "score": 73.4,
+    "n": 10
    },
    {
     "date": "2026-01-29",
-    "score": 95.3,
-    "n": 25
+    "score": 77.1,
+    "n": 17
    },
    {
     "date": "2026-05-22",
-    "score": 93.1,
-    "n": 50
+    "score": 72.9,
+    "n": 33
    },
    {
     "date": "2026-08-04",
-    "score": 92.9,
-    "n": 50
+    "score": 71.8,
+    "n": 34
    }
   ],
   "SIEMENS": [
    {
     "date": "2024-12-15",
-    "score": 25.0,
-    "n": 0
-   },
-   {
-    "date": "2025-05-20",
-    "score": 85.8,
+    "score": 44.5,
     "n": 0
    },
    {
     "date": "2025-12-12",
-    "score": 78.7,
+    "score": 51.2,
     "n": 0
    },
    {
     "date": "2026-05-28",
-    "score": 81.9,
+    "score": 53.7,
     "n": 0
    }
   ],
   "SJS": [
    {
     "date": "2024-10-29",
-    "score": 25.0,
+    "score": 44.5,
     "n": 0
    },
    {
     "date": "2025-01-31",
-    "score": 88.4,
-    "n": 5
+    "score": 45.4,
+    "n": 2
    },
    {
     "date": "2025-05-09",
-    "score": 91.8,
-    "n": 5
+    "score": 45.2,
+    "n": 4
    },
    {
     "date": "2025-07-30",
-    "score": 93.1,
-    "n": 21
+    "score": 52.1,
+    "n": 12
    },
    {
     "date": "2025-11-04",
-    "score": 93.9,
-    "n": 25
+    "score": 57.1,
+    "n": 14
    },
    {
     "date": "2026-01-29",
-    "score": 95.0,
-    "n": 30
+    "score": 52.8,
+    "n": 18
    },
    {
     "date": "2026-05-06",
-    "score": 96.3,
-    "n": 40
+    "score": 50.1,
+    "n": 27
    },
    {
     "date": "2026-08-07",
-    "score": 96.5,
-    "n": 46
+    "score": 57.4,
+    "n": 38
    }
   ],
   "SONACOMS": [
    {
     "date": "2024-10-23",
-    "score": 25.0,
+    "score": 44.5,
     "n": 0
    },
    {
     "date": "2025-01-23",
-    "score": 35.1,
-    "n": 0
+    "score": 56.4,
+    "n": 1
    },
    {
     "date": "2025-04-30",
-    "score": 81.7,
-    "n": 0
+    "score": 51.3,
+    "n": 1
    },
    {
     "date": "2025-08-04",
-    "score": 77.8,
-    "n": 0
+    "score": 45.2,
+    "n": 6
    },
    {
     "date": "2026-01-23",
-    "score": 78.7,
-    "n": 14
+    "score": 51.0,
+    "n": 8
    },
    {
     "date": "2026-04-30",
-    "score": 84.8,
-    "n": 21
+    "score": 46.9,
+    "n": 11
    },
    {
     "date": "2026-07-23",
-    "score": 84.4,
-    "n": 21
+    "score": 47.5,
+    "n": 11
    }
   ],
   "STALLION": [
    {
     "date": "2025-05-15",
-    "score": 85.8,
+    "score": 57.1,
     "n": 0
    },
    {
     "date": "2025-08-15",
-    "score": 74.8,
-    "n": 0
+    "score": 45.5,
+    "n": 1
    },
    {
     "date": "2025-10-15",
-    "score": 88.4,
-    "n": 9
+    "score": 51.2,
+    "n": 5
    },
    {
     "date": "2026-02-15",
-    "score": 90.7,
-    "n": 9
-   },
-   {
-    "date": "2026-05-15",
-    "score": 80.6,
+    "score": 44.1,
     "n": 11
    },
    {
+    "date": "2026-05-15",
+    "score": 45.8,
+    "n": 17
+   },
+   {
     "date": "2026-08-15",
-    "score": 62.7,
-    "n": 22
+    "score": 46.3,
+    "n": 23
    }
   ],
   "SUNPHARMA": [
    {
-    "date": "2025-05-22",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-07-31",
-    "score": 78.3,
-    "n": 0
-   },
-   {
-    "date": "2025-11-15",
-    "score": 78.8,
-    "n": 0
-   },
-   {
     "date": "2026-02-15",
-    "score": 80.2,
+    "score": 51.1,
     "n": 0
    },
    {
     "date": "2026-05-22",
-    "score": 81.4,
+    "score": 53.2,
     "n": 0
    },
    {
     "date": "2026-07-31",
-    "score": 82.1,
-    "n": 1
+    "score": 52.4,
+    "n": 0
    }
   ],
   "SUPREMEIND": [
    {
-    "date": "2025-04-24",
-    "score": 81.7,
-    "n": 0
-   },
-   {
-    "date": "2025-07-24",
-    "score": 77.2,
-    "n": 0
-   },
-   {
-    "date": "2025-10-27",
-    "score": 76.0,
-    "n": 0
-   },
-   {
     "date": "2026-04-27",
-    "score": 70.5,
-    "n": 1
+    "score": 52.0,
+    "n": 0
    },
    {
     "date": "2026-07-28",
-    "score": 62.0,
-    "n": 2
+    "score": 52.9,
+    "n": 0
    },
    {
     "date": "2026-10-26",
-    "score": 61.9,
-    "n": 2
+    "score": 52.3,
+    "n": 0
    }
   ],
   "SUZLON": [
    {
-    "date": "2025-05-29",
-    "score": 91.6,
-    "n": 0
-   },
-   {
-    "date": "2025-08-12",
-    "score": 76.6,
-    "n": 0
-   },
-   {
-    "date": "2025-11-04",
-    "score": 81.1,
-    "n": 1
-   },
-   {
     "date": "2026-02-05",
-    "score": 82.1,
-    "n": 1
+    "score": 52.3,
+    "n": 0
    },
    {
     "date": "2026-05-25",
-    "score": 84.0,
-    "n": 1
+    "score": 53.6,
+    "n": 0
    }
   ],
   "SYRMA": [
    {
     "date": "2024-10-28",
-    "score": 25.0,
+    "score": 44.5,
     "n": 0
    },
    {
     "date": "2025-01-29",
-    "score": 75.7,
-    "n": 0
+    "score": 48.4,
+    "n": 1
    },
    {
     "date": "2025-05-14",
-    "score": 85.8,
-    "n": 0
+    "score": 50.5,
+    "n": 12
    },
    {
     "date": "2025-07-24",
-    "score": 49.9,
-    "n": 9
+    "score": 37.6,
+    "n": 25
    },
    {
     "date": "2025-11-11",
-    "score": 70.0,
-    "n": 50
+    "score": 39.3,
+    "n": 26
    },
    {
     "date": "2026-01-30",
-    "score": 70.0,
-    "n": 50
+    "score": 44.0,
+    "n": 31
    },
    {
     "date": "2026-05-12",
-    "score": 79.6,
-    "n": 78
+    "score": 57.4,
+    "n": 57
    },
    {
     "date": "2026-07-30",
-    "score": 82.0,
-    "n": 98
+    "score": 62.3,
+    "n": 73
    }
   ],
   "TATAELXSI": [
    {
-    "date": "2025-04-17",
-    "score": 80.0,
-    "n": 0
-   },
-   {
-    "date": "2025-07-10",
-    "score": 78.7,
-    "n": 0
-   },
-   {
-    "date": "2025-10-09",
-    "score": 78.9,
-    "n": 3
-   },
-   {
     "date": "2026-04-21",
-    "score": 84.5,
-    "n": 4
+    "score": 51.6,
+    "n": 0
    },
    {
     "date": "2026-07-14",
-    "score": 84.5,
-    "n": 4
+    "score": 54.2,
+    "n": 0
    },
    {
     "date": "2026-10-13",
-    "score": 83.9,
-    "n": 4
+    "score": 52.1,
+    "n": 0
    }
   ],
   "TATATECH": [
    {
     "date": "2025-01-21",
-    "score": 25.0,
+    "score": 60.9,
     "n": 0
    },
    {
     "date": "2025-04-25",
-    "score": 81.7,
-    "n": 0
+    "score": 60.5,
+    "n": 1
    },
    {
     "date": "2025-07-14",
-    "score": 79.0,
-    "n": 0
+    "score": 61.9,
+    "n": 1
    },
    {
     "date": "2025-10-17",
-    "score": 83.4,
-    "n": 7
+    "score": 68.7,
+    "n": 5
    },
    {
     "date": "2026-01-16",
-    "score": 85.9,
-    "n": 8
+    "score": 71.7,
+    "n": 6
    },
    {
     "date": "2026-05-04",
-    "score": 89.0,
-    "n": 12
+    "score": 77.2,
+    "n": 9
    },
    {
     "date": "2026-07-17",
-    "score": 83.3,
-    "n": 15
+    "score": 68.8,
+    "n": 12
    },
    {
     "date": "2026-10-14",
-    "score": 83.9,
-    "n": 16
+    "score": 70.1,
+    "n": 13
    }
   ],
   "TCS": [
    {
-    "date": "2025-10-09",
-    "score": 74.4,
-    "n": 0
-   },
-   {
-    "date": "2025-12-11",
-    "score": 78.7,
-    "n": 0
-   },
-   {
     "date": "2026-04-09",
-    "score": 79.9,
+    "score": 51.2,
     "n": 0
    },
    {
     "date": "2026-07-09",
-    "score": 78.9,
-    "n": 2
+    "score": 54.2,
+    "n": 0
    },
    {
     "date": "2026-10-08",
-    "score": 78.3,
-    "n": 2
+    "score": 52.1,
+    "n": 0
    }
   ],
   "TECHM": [
    {
-    "date": "2025-04-24",
-    "score": 81.7,
-    "n": 0
-   },
-   {
-    "date": "2025-07-16",
-    "score": 79.0,
-    "n": 0
-   },
-   {
-    "date": "2025-10-14",
-    "score": 74.6,
-    "n": 0
-   },
-   {
     "date": "2026-01-16",
-    "score": 79.2,
+    "score": 51.7,
     "n": 0
    },
    {
     "date": "2026-04-15",
-    "score": 79.9,
+    "score": 51.2,
     "n": 0
    },
    {
     "date": "2026-07-16",
-    "score": 82.6,
-    "n": 1
+    "score": 54.1,
+    "n": 0
    }
   ],
   "TEJASNET": [
    {
-    "date": "2025-04-25",
-    "score": 81.7,
-    "n": 0
-   },
-   {
-    "date": "2025-10-17",
-    "score": 76.0,
-    "n": 0
-   },
-   {
     "date": "2026-04-15",
-    "score": 79.9,
+    "score": 51.2,
     "n": 0
    },
    {
     "date": "2026-07-28",
-    "score": 79.5,
+    "score": 52.9,
     "n": 0
    },
    {
     "date": "2026-10-16",
-    "score": 81.9,
+    "score": 58.2,
     "n": 1
    }
   ],
   "TITAGARH": [
    {
-    "date": "2025-06-02",
-    "score": 78.7,
-    "n": 0
-   },
-   {
-    "date": "2025-08-12",
-    "score": 76.6,
-    "n": 0
-   },
-   {
-    "date": "2025-11-18",
-    "score": 78.7,
-    "n": 0
-   },
-   {
     "date": "2026-02-16",
-    "score": 79.9,
+    "score": 51.2,
     "n": 0
    },
    {
     "date": "2026-06-01",
-    "score": 82.5,
+    "score": 60.0,
     "n": 1
    },
    {
     "date": "2026-08-14",
-    "score": 82.1,
+    "score": 58.1,
     "n": 1
    }
   ],
   "TITAN": [
    {
-    "date": "2025-05-08",
-    "score": 85.8,
-    "n": 0
-   },
-   {
-    "date": "2025-08-07",
-    "score": 77.3,
-    "n": 0
-   },
-   {
-    "date": "2025-11-04",
-    "score": 78.5,
-    "n": 0
-   },
-   {
     "date": "2026-02-11",
-    "score": 79.7,
+    "score": 51.9,
     "n": 0
    },
    {
     "date": "2026-05-08",
-    "score": 81.5,
+    "score": 53.0,
     "n": 0
    },
    {
     "date": "2026-08-07",
-    "score": 82.4,
+    "score": 58.4,
     "n": 1
    }
   ],
   "UTKARSHBNK": [
    {
     "date": "2024-11-11",
-    "score": 25.0,
+    "score": 44.5,
     "n": 0
    },
    {
     "date": "2025-02-17",
-    "score": 80.0,
-    "n": 0
+    "score": 56.7,
+    "n": 3
    },
    {
     "date": "2025-04-01",
-    "score": 80.0,
-    "n": 0
+    "score": 56.0,
+    "n": 15
    },
    {
     "date": "2025-08-04",
-    "score": 75.6,
-    "n": 39
+    "score": 44.4,
+    "n": 25
    },
    {
     "date": "2025-11-14",
-    "score": 80.0,
-    "n": 49
+    "score": 42.4,
+    "n": 33
    },
    {
     "date": "2026-02-02",
-    "score": 82.1,
-    "n": 55
+    "score": 47.3,
+    "n": 42
    },
    {
     "date": "2026-05-11",
-    "score": 83.4,
-    "n": 59
+    "score": 45.1,
+    "n": 48
    },
    {
     "date": "2026-08-03",
-    "score": 84.2,
-    "n": 63
+    "score": 44.4,
+    "n": 53
    }
   ],
   "VPRPL": [
    {
     "date": "2024-06-03",
-    "score": 95.0,
+    "score": 64.6,
     "n": 0
    },
    {
     "date": "2024-08-14",
-    "score": 95.0,
+    "score": 64.6,
     "n": 0
    },
    {
     "date": "2024-11-11",
-    "score": 25.0,
+    "score": 44.5,
     "n": 0
    },
    {
     "date": "2025-02-04",
-    "score": 80.0,
-    "n": 0
+    "score": 58.9,
+    "n": 1
    },
    {
     "date": "2025-05-30",
-    "score": 51.2,
-    "n": 7
+    "score": 45.0,
+    "n": 11
    },
    {
     "date": "2025-08-14",
-    "score": 35.3,
+    "score": 35.4,
     "n": 16
    },
    {
     "date": "2025-11-17",
-    "score": 36.6,
+    "score": 36.2,
     "n": 16
    }
   ],
   "WIPRO": [
    {
-    "date": "2025-04-16",
-    "score": 80.0,
-    "n": 0
-   },
-   {
-    "date": "2025-07-17",
-    "score": 79.0,
-    "n": 0
-   },
-   {
-    "date": "2025-10-16",
-    "score": 75.4,
-    "n": 0
-   },
-   {
     "date": "2026-04-16",
-    "score": 79.9,
+    "score": 51.2,
     "n": 0
    },
    {
     "date": "2026-07-16",
-    "score": 80.2,
+    "score": 54.1,
     "n": 0
    },
    {
     "date": "2026-10-15",
-    "score": 79.4,
+    "score": 52.2,
     "n": 0
    }
   ],
   "YATHARTH": [
    {
     "date": "2024-11-08",
-    "score": 25.0,
+    "score": 44.5,
     "n": 0
    },
    {
     "date": "2025-01-28",
-    "score": 81.1,
-    "n": 2
+    "score": 55.0,
+    "n": 1
    },
    {
     "date": "2025-05-27",
-    "score": 95.8,
-    "n": 12
+    "score": 54.7,
+    "n": 5
    },
    {
     "date": "2025-08-06",
-    "score": 81.5,
-    "n": 14
+    "score": 50.5,
+    "n": 9
    },
    {
     "date": "2025-11-14",
-    "score": 89.4,
-    "n": 36
+    "score": 56.3,
+    "n": 23
    },
    {
     "date": "2026-02-01",
-    "score": 91.9,
-    "n": 49
+    "score": 59.6,
+    "n": 31
    },
    {
     "date": "2026-05-26",
-    "score": 93.3,
-    "n": 59
+    "score": 60.8,
+    "n": 45
    },
    {
     "date": "2026-08-11",
-    "score": 91.3,
-    "n": 80
+    "score": 63.3,
+    "n": 54
    }
   ],
   "ZENSARTECH": [
    {
-    "date": "2025-07-15",
-    "score": 79.0,
-    "n": 0
-   },
-   {
-    "date": "2025-10-27",
-    "score": 76.0,
-    "n": 0
-   },
-   {
     "date": "2026-01-23",
-    "score": 79.4,
+    "score": 52.5,
     "n": 0
    },
    {
     "date": "2026-04-24",
-    "score": 80.3,
+    "score": 51.9,
     "n": 0
    },
    {
     "date": "2026-07-30",
-    "score": 82.1,
-    "n": 1
+    "score": 52.6,
+    "n": 0
    }
   ]
  }
