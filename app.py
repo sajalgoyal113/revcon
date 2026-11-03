@@ -198,7 +198,9 @@ st.markdown(
     border-radius: 14px;
     padding: 16px 18px;
     box-shadow: 0 1px 2px rgba(15, 23, 42, 0.03);
-    height: 100%;
+    height: auto;
+    min-height: 85px;
+    box-sizing: border-box;
     transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 .kpi-card:hover {
@@ -234,8 +236,12 @@ st.markdown(
     border: 1px solid #E2E8F0;
     border-radius: 14px;
     padding: 18px 20px;
-    margin-bottom: 14px;
+    margin-bottom: 20px;
     box-shadow: 0 1px 2px rgba(15, 23, 42, 0.02);
+    clear: both;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
 }
 .section-title {
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -304,14 +310,18 @@ st.markdown(
     color: #064E3B;
 }
 
-/* Memo Quadrant Cards */
+/* Memo Quadrant Cards - Direct 2x2 Grid */
 .memo-quad {
     background: #FFFFFF;
     border: 1px solid #E2E8F0;
     border-radius: 12px;
-    padding: 15px 17px;
-    height: 100%;
-    margin-bottom: 10px;
+    padding: 16px 18px;
+    height: auto;
+    min-height: 110px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 .memo-quad h5 {
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -319,6 +329,26 @@ st.markdown(
     font-weight: 700;
     margin: 0 0 8px 0;
     color: #0F172A;
+}
+.memo-quad ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+.memo-quad li {
+    position: relative;
+    padding-left: 14px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: #334155;
+    line-height: 1.45;
+}
+.memo-quad li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #64748B;
+    font-size: 14px;
 }
 </style>
 """,
@@ -1169,28 +1199,36 @@ with tab_co:
             unsafe_allow_html=True,
         )
 
-        mq1, mq2 = st.columns(2, gap="medium")
-        with mq1:
-            st.markdown('<div class="memo-quad"><h5>🔁 Behavioral & Execution Patterns</h5>', unsafe_allow_html=True)
-            for s in m_data.get("patterns", []) or ["No recurring pattern flagged."]:
-                st.markdown(f"- {s}")
-            st.markdown("</div>", unsafe_allow_html=True)
+        def _render_memo_list(items, fallback):
+            actual = items or [fallback]
+            return "".join(f"<li>{s}</li>" for s in actual)
 
-            st.markdown('<div class="memo-quad"><h5>✅ Credit Where Due (Verified Deliveries)</h5>', unsafe_allow_html=True)
-            for s in m_data.get("credit_where_due", []) or ["No completed on-time deliveries logged yet."]:
-                st.markdown(f"- {s}")
-            st.markdown("</div>", unsafe_allow_html=True)
+        pat_html = _render_memo_list(m_data.get("patterns"), "No recurring pattern flagged.")
+        red_html = _render_memo_list(m_data.get("red_flags"), "Zero missed or ghosted commitments on record.")
+        crd_html = _render_memo_list(m_data.get("credit_where_due"), "No completed on-time deliveries logged yet.")
+        wat_html = _render_memo_list(m_data.get("watch_next_call"), "No open near-term deadlines.")
 
-        with mq2:
-            st.markdown('<div class="memo-quad"><h5>🚩 Forensic Red Flags & Goalpost Shifts</h5>', unsafe_allow_html=True)
-            for s in m_data.get("red_flags", []) or ["Zero missed or ghosted commitments on record."]:
-                st.markdown(f"- {s}")
-            st.markdown("</div>", unsafe_allow_html=True)
-
-            st.markdown('<div class="memo-quad"><h5>👀 Watch on the Next Earnings Call</h5>', unsafe_allow_html=True)
-            for s in m_data.get("watch_next_call", []) or ["No open near-term deadlines."]:
-                st.markdown(f"- {s}")
-            st.markdown("</div>", unsafe_allow_html=True)
+        grid_html = f"""
+        <div style="display:grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-top: 14px;">
+            <div class="memo-quad">
+                <h5>🔁 Behavioral &amp; Execution Patterns</h5>
+                <ul>{pat_html}</ul>
+            </div>
+            <div class="memo-quad">
+                <h5>🚩 Forensic Red Flags &amp; Goalpost Shifts</h5>
+                <ul>{red_html}</ul>
+            </div>
+            <div class="memo-quad">
+                <h5>✅ Credit Where Due (Verified Deliveries)</h5>
+                <ul>{crd_html}</ul>
+            </div>
+            <div class="memo-quad">
+                <h5>👀 Watch on the Next Earnings Call</h5>
+                <ul>{wat_html}</ul>
+            </div>
+        </div>
+        """
+        st.markdown(grid_html, unsafe_allow_html=True)
     st.markdown("</div>", unsafe_allow_html=True)
 
     # Verbatim SAID -> DID Ledger
